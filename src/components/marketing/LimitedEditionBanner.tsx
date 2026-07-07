@@ -12,9 +12,9 @@ export function LimitedEditionBanner() {
       <div className="container-site">
         <div className="mc-panel relative overflow-hidden p-8 md:p-12">
           <div
-            className="pointer-events-none absolute inset-0 opacity-20"
+            className="pointer-events-none absolute inset-0 opacity-15"
             style={{
-              backgroundImage: "url(/images/hero/blocks-texture.jpg)",
+              backgroundImage: "url(/images/hero/minecraft-caves.jpg)",
               backgroundSize: "cover",
             }}
             aria-hidden

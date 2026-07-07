@@ -25,9 +25,9 @@ export function WhyCollectSection() {
   return (
     <section className="section-padding relative overflow-hidden bg-surface">
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.04]"
+        className="pointer-events-none absolute inset-0 opacity-[0.12]"
         style={{
-          backgroundImage: "url(/images/hero/blocks-texture.jpg)",
+          backgroundImage: "url(/images/hero/minecraft-caves.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
