@@ -4,19 +4,19 @@ import { SiteHeader } from "@/components/layout/SiteHeader";
 import { StickyMobileCart } from "@/components/commerce/StickyMobileCart";
 
 export default function ShopLayout({
-  children,
+ children,
 }: {
-  children: React.ReactNode;
+ children: React.ReactNode;
 }) {
-  return (
-    <>
-      <AnnouncementBar />
-      <SiteHeader />
-      <main id="main-content" className="flex-1">
-        {children}
-      </main>
-      <SiteFooter />
-      <StickyMobileCart />
-    </>
-  );
+ return (
+ <>
+ <AnnouncementBar />
+ <SiteHeader />
+ <main id="main-content" className="flex-1">
+ {children}
+ </main>
+ <SiteFooter />
+ <StickyMobileCart />
+ </>
+ );
 }
