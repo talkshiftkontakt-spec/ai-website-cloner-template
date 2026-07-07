@@ -26,8 +26,9 @@ export default function RegulaminPage() {
 
         <h2>§2 Produkty</h2>
         <p>
-          HeadCraft oferuje fizyczne kolekcjonerskie główki Minecraft wykonane z
-          żywicy premium. Produkty personalizowane wytwarzane są na zamówienie na
+          HeadCraft oferuje personalizowane obrazy na płótnie ze skinami
+          Minecraft. Z twarzy główki skina powstaje płaski kwadratowy canvas.
+          Produkty personalizowane wytwarzane są na zamówienie na
           podstawie pliku skina dostarczonego przez Klienta.
         </p>
 

@@ -42,13 +42,13 @@ export function SiteHeader() {
           href="/"
           className="flex items-center gap-2.5 font-display text-xl font-extrabold tracking-tight text-foreground"
         >
-          <span className="relative flex size-9 shrink-0 items-center justify-center overflow-hidden rounded-sm border-2 border-grass-dark bg-surface-elevated">
+          <span className="relative flex size-9 shrink-0 items-center justify-center overflow-hidden rounded-sm border-2 border-grass-dark bg-white">
             <Image
-              src="/images/heads/steve.png"
+              src="/images/products/twojskinek/product-closeup.png"
               alt=""
-              width={28}
-              height={28}
-              className="object-contain"
+              width={32}
+              height={32}
+              className="object-cover"
               aria-hidden
             />
           </span>
@@ -177,7 +177,7 @@ export function SiteHeader() {
                 className="mc-button mb-3 justify-center"
               >
                 <Upload className="size-4" aria-hidden />
-                Stwórz swoją główkę
+                Stwórz swój obrazek
               </Link>
               {navLinks.flatMap((link) =>
                 link.children

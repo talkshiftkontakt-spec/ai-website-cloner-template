@@ -13,6 +13,7 @@ import {
   TestimonialsSection,
   UGCGallery,
 } from "@/components/marketing/TestimonialsSection";
+import { ProductCanvasGallery } from "@/components/marketing/ProductCanvasGallery";
 import { PaymentBadges, TrustStrip } from "@/components/marketing/TrustStrip";
 import { WhyCollectSection } from "@/components/marketing/WhyCollectSection";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -54,6 +55,7 @@ export default function HomePage() {
       />
 
       <HeroSection />
+      <ProductCanvasGallery />
       <WhyCollectSection />
       <HowItWorksSection />
 

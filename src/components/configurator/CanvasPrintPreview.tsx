@@ -27,7 +27,6 @@ async function toHeadFaceDataUrl(source: string): Promise<string> {
 
       ctx.imageSmoothingEnabled = false;
 
-      // Full skin texture — crop head front (8,8,8,8 on 64×64 grid)
       if (img.width >= 64 && img.height >= 64) {
         const unit = img.width / 64;
         ctx.drawImage(
@@ -42,7 +41,6 @@ async function toHeadFaceDataUrl(source: string): Promise<string> {
           size,
         );
       } else {
-        // Already a head/avatar render
         ctx.drawImage(img, 0, 0, size, size);
       }
 
@@ -51,6 +49,76 @@ async function toHeadFaceDataUrl(source: string): Promise<string> {
     img.onerror = () => reject(new Error("Image load failed"));
     img.src = source;
   });
+}
+
+function CanvasPanel({
+  faceUrl,
+  variant,
+}: {
+  faceUrl: string;
+  variant: "front" | "iso";
+}) {
+  if (variant === "front") {
+    return (
+      <div className="flex flex-col items-center gap-3">
+        <div
+          className="relative w-full max-w-[200px] bg-white p-6"
+          style={{ aspectRatio: "1 / 1" }}
+        >
+          <div className="relative h-full w-full shadow-[0_24px_48px_rgba(0,0,0,0.18)]">
+            <div className="absolute inset-0 border border-neutral-200 bg-[#f7f4ee]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={faceUrl}
+                alt="Widok z przodu — płaski obraz na płótnie"
+                className="h-full w-full object-cover"
+                style={{ imageRendering: "pixelated" }}
+              />
+            </div>
+          </div>
+        </div>
+        <p className="text-xs text-muted-foreground">Widok z przodu</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex flex-col items-center gap-3">
+      <div className="flex w-full max-w-[200px] items-center justify-center bg-white p-6">
+        <div
+          className="relative h-36 w-36"
+          style={{
+            transform: "rotateX(52deg) rotateZ(-38deg)",
+            transformStyle: "preserve-3d",
+          }}
+        >
+          <div
+            className="absolute inset-0 border border-neutral-300 bg-[#f7f4ee]"
+            style={{ transform: "translateZ(12px)" }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={faceUrl}
+              alt="Widok 3/4 — cienki canvas na podramie"
+              className="h-full w-full object-cover"
+              style={{ imageRendering: "pixelated" }}
+            />
+          </div>
+          <div
+            className="absolute bottom-0 left-0 h-3 w-full bg-[#d4cbb8]"
+            style={{ transform: "rotateX(-90deg) translateZ(0)" }}
+            aria-hidden
+          />
+          <div
+            className="absolute top-0 right-0 h-full w-3 bg-[#e0d6c4]"
+            style={{ transform: "rotateY(90deg) translateZ(144px)" }}
+            aria-hidden
+          />
+        </div>
+      </div>
+      <p className="text-xs text-muted-foreground">Płaski panel — nie kostka 3D</p>
+    </div>
+  );
 }
 
 export function CanvasPrintPreview({
@@ -97,39 +165,25 @@ export function CanvasPrintPreview({
   }
 
   return (
-    <div className={cn("space-y-3", className)}>
-      <p className="pixel-label text-grass text-center">Podgląd obrazu · {sizeLabel}</p>
-      <div className="relative mx-auto flex max-w-xs justify-center py-6">
-        {/* Flat canvas panel — jak na twojskinek.pl */}
-        <div
-          className="relative w-[min(100%,240px)] shadow-[0_20px_40px_rgba(0,0,0,0.45)]"
-          style={{ aspectRatio: "1 / 1" }}
-        >
-          <div className="absolute -inset-1 bg-stone/40" aria-hidden />
-          <div className="relative h-full w-full overflow-hidden border-4 border-[#e8e0d0] bg-[#f5f0e6]">
-            {faceUrl && !error ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={faceUrl}
-                alt="Podgląd twarzy główki na obrazie"
-                className="h-full w-full object-cover"
-                style={{ imageRendering: "pixelated" }}
-              />
-            ) : (
-              <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
-                Ładowanie podglądu…
-              </div>
-            )}
-          </div>
-          {/* Cienka krawędź „płótna” */}
-          <div
-            className="absolute -bottom-2 left-2 right-2 h-2 bg-black/25 blur-sm"
-            aria-hidden
-          />
+    <div className={cn("space-y-4", className)}>
+      <p className="pixel-label text-grass text-center">
+        Podgląd obrazu · {sizeLabel}
+      </p>
+
+      {faceUrl && !error ? (
+        <div className="grid gap-4 rounded-xl border border-border bg-white/95 p-4 sm:grid-cols-2">
+          <CanvasPanel faceUrl={faceUrl} variant="front" />
+          <CanvasPanel faceUrl={faceUrl} variant="iso" />
         </div>
-      </div>
-      <p className="text-center text-xs text-muted-foreground">
-        Płaski obraz na płótnie — twarz główki ze skina, gotowy do powieszenia
+      ) : (
+        <div className="flex h-48 items-center justify-center rounded-xl border border-border bg-surface text-sm text-muted-foreground">
+          {error ? "Nie udało się wygenerować podglądu" : "Ładowanie podglądu…"}
+        </div>
+      )}
+
+      <p className="text-center text-xs text-muted-foreground text-pretty">
+        Z główki skina powstaje <strong>płaski kwadratowy obraz</strong> na
+        płótnie — dokładnie jak na twojskinek.pl
       </p>
     </div>
   );

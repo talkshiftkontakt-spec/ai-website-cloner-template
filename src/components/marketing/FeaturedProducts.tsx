@@ -17,10 +17,10 @@ export function FeaturedProducts() {
           <div>
             <p className="pixel-label text-grass">Sklep</p>
             <h2 className="mt-2 font-display text-3xl font-extrabold text-white md:text-4xl">
-              Wyróżnione główki
+              Wyróżnione obrazy
             </h2>
             <p className="mt-2 text-muted-foreground">
-              Gotowe modele — lub stwórz własną w konfiguratorze
+              Gotowe wzory na płótnie — lub wgraj własny skin
             </p>
           </div>
           <Link
@@ -41,10 +41,26 @@ export function FeaturedProducts() {
 
 export function CollectionShowcase() {
   const collections = [
-    { slug: "personalizowane", name: "Personalizowane", image: "/images/heads/dream.png", head: true },
-    { slug: "ikony-minecraft", name: "Ikony", image: "/images/heads/creeper.png", head: true },
-    { slug: "tworcy", name: "Twórcy", image: "/images/heads/techno.png", head: true },
-    { slug: "limitowane", name: "Limitowane", image: "/images/hero/blocks-texture.jpg", head: false },
+    {
+      slug: "personalizowane",
+      name: "Personalizowane",
+      image: "/images/products/twojskinek/product-steve-skin.png",
+    },
+    {
+      slug: "ikony-minecraft",
+      name: "Ikony",
+      image: "/images/products/twojskinek/product-closeup.png",
+    },
+    {
+      slug: "tworcy",
+      name: "Twórcy",
+      image: "/images/products/twojskinek/product-dog-skin.png",
+    },
+    {
+      slug: "limitowane",
+      name: "Limitowane",
+      image: "/images/products/twojskinek/product-in-living-room.png",
+    },
   ];
 
   return (
@@ -52,38 +68,24 @@ export function CollectionShowcase() {
       <div className="container-site">
         <p className="pixel-label text-grass">Kolekcje</p>
         <h2 className="mt-2 font-display text-3xl font-extrabold text-white md:text-4xl">
-          Wybierz swoją ścieżkę
+          Wybierz swój obraz
         </h2>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {collections.map((col) => (
             <Link
               key={col.slug}
               href={`/kolekcje/${col.slug}`}
-              className="group mc-panel overflow-hidden transition-colors hover:border-grass/50"
+              className="group overflow-hidden rounded-xl border-2 border-border bg-white shadow-md transition-transform hover:scale-[1.02]"
             >
-              <div className="relative aspect-[4/3] bg-surface-elevated">
-                {col.head ? (
-                  <div className="absolute inset-0 flex items-center justify-center p-8">
-                    <div className="relative size-24 transition-transform group-hover:scale-110 md:size-28">
-                      <Image
-                        src={col.image}
-                        alt=""
-                        fill
-                        sizes="112px"
-                        className="object-contain drop-shadow-lg"
-                      />
-                    </div>
-                  </div>
-                ) : (
-                  <Image
-                    src={col.image}
-                    alt=""
-                    fill
-                    sizes="280px"
-                    className="object-cover opacity-60 transition-opacity group-hover:opacity-80"
-                  />
-                )}
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background to-transparent p-4">
+              <div className="relative aspect-[4/5]">
+                <Image
+                  src={col.image}
+                  alt=""
+                  fill
+                  sizes="280px"
+                  className="object-cover"
+                />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                   <p className="font-display text-lg font-bold text-white">
                     {col.name}
                   </p>
