@@ -10,7 +10,7 @@ export function AboutCoach() {
         <div className="relative mx-auto aspect-[3/4] w-full max-w-[280px] overflow-hidden bg-canvas-raised lg:mx-0">
           <Image
             src={COACH.image}
-            alt={`${COACH.name} — coach LekkiStart`}
+            alt={`${COACH.name}, coach LekkiStart`}
             fill
             sizes="280px"
             className="object-cover"
@@ -33,7 +33,7 @@ export function AboutCoach() {
           <ul className="mt-8 space-y-2 border-t border-border pt-6">
             {COACH.credentials.map((credential) => (
               <li key={credential} className="text-sm text-secondary">
-                — {credential}
+                · {credential}
               </li>
             ))}
           </ul>

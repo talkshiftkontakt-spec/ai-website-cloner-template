@@ -8,7 +8,7 @@ export function TransformationGallery() {
     <Section id="transformacje">
       <p className="text-label text-secondary">Codzienne życie</p>
       <h2 className="text-display mt-3 max-w-3xl text-primary">
-        Nie „przed i po”. Normalne życie — tylko lżejsze.
+        Nie „przed i po”. Normalne życie, tylko lżejsze.
       </h2>
 
       <div className="mt-10 grid gap-2 sm:grid-cols-2 lg:grid-cols-12">

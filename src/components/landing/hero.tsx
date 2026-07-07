@@ -5,7 +5,7 @@ import { Container } from "@/components/layout/container";
 
 const STATS = [
   { value: "1:1", label: "Coach na stałe" },
-  { value: "7 dni", label: "Check-in co tydzień" },
+  { value: "7 dni", label: "Kontrola co tydzień" },
   { value: "399 zł", label: "Od / miesiąc" },
 ] as const;
 
@@ -24,7 +24,7 @@ export function Hero() {
               na serio.
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-secondary md:text-lg">
-              Trening, żywienie i cotygodniowe wsparcie trenera — dla osób z nadwagą
+              Trening, żywienie i cotygodniowe wsparcie trenera dla osób z nadwagą
               i otyłością. Bez cudownych diet. Bez kultury siłowni.
             </p>
 
@@ -58,7 +58,7 @@ export function Hero() {
           <div className="relative min-h-[280px] lg:min-h-[420px]">
             <Image
               src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
-              alt="Osoba spacerująca w parku — spokojna aktywność na co dzień"
+              alt="Osoba spacerująca w parku, spokojna aktywność na co dzień"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 45vw"
@@ -68,7 +68,7 @@ export function Hero() {
             <div className="absolute bottom-4 left-4 right-4 border border-border/80 bg-canvas/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">
               <p className="text-label text-secondary">Dla kogo</p>
               <p className="mt-1 text-sm font-medium leading-snug text-primary">
-                BMI 27+. Osoby, które chcą realnej zmiany — nie kolejnej diety z Instagrama.
+                BMI 27+. Osoby, które chcą realnej zmiany, a nie kolejnej diety z Instagrama.
               </p>
             </div>
           </div>

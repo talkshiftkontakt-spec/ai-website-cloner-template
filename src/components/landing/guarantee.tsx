@@ -4,7 +4,7 @@ const GUARANTEES = [
   {
     title: "14 dni gwarancji",
     description:
-      "Po pierwszej konsultacji i planie — jeśli to nie dla Ciebie, zwracamy pierwszy miesiąc.",
+      "Po pierwszej konsultacji i planie, jeśli to nie dla Ciebie, zwracamy pierwszy miesiąc.",
   },
   {
     title: "Bez ukrytych opłat",
@@ -12,7 +12,7 @@ const GUARANTEES = [
   },
   {
     title: "Bez rocznej blokady",
-    description: "Po minimum — wypowiedzenie miesięczne. Bez pułapek umownych.",
+    description: "Po minimum wypowiedzenie miesięczne. Bez pułapek umownych.",
   },
 ] as const;
 

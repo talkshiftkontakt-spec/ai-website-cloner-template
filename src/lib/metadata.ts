@@ -39,7 +39,7 @@ export function createMetadata({
 }
 
 export const siteMetadata = createMetadata({
-  title: "LekkiStart — Premium Coaching Odchudzania dla Osób z Nadwagą i Otyłością",
+  title: "LekkiStart | Premium Coaching Odchudzania dla Osób z Nadwagą i Otyłością",
   description:
     "Indywidualny trening, żywienie i cotygodniowe wsparcie. Od 399 zł/mies. Złóż aplikację i zacznij realną zmianę.",
 });

@@ -26,9 +26,9 @@ const CONTACT_OPTIONS = [
 ] as const;
 
 const TIER_OPTIONS = [
-  { value: "starter", label: "Starter — 399 zł/mies." },
-  { value: "standard", label: "Standard — 699 zł/mies." },
-  { value: "premium", label: "Premium — 1 199 zł/mies." },
+  { value: "starter", label: "Starter, 399 zł/mies." },
+  { value: "standard", label: "Standard, 699 zł/mies." },
+  { value: "premium", label: "Premium, 1 199 zł/mies." },
 ] as const;
 
 function Field({
@@ -98,7 +98,7 @@ export function ApplicationForm() {
           <p className="text-label text-tertiary">Aplikacja</p>
           <h2 className="text-display mt-3 text-light-text">Zacznij współpracę</h2>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            Krótki formularz — oddzwonimy w 24 godziny.
+            Krótki formularz. Oddzwonimy w 24 godziny.
           </p>
         </div>
 

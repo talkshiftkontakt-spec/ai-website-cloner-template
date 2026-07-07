@@ -3,7 +3,7 @@ import { Section } from "@/components/layout/section";
 const TRACKING_ITEMS = [
   {
     title: "Waga i pomiary",
-    description: "Opcjonalnie — Ty decydujesz, co śledzimy i jak często.",
+    description: "Opcjonalnie. Ty decydujesz, co śledzimy i jak często.",
   },
   {
     title: "Energia, sen, samopoczucie",

@@ -19,7 +19,7 @@ export function professionalServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "LekkiStart — Coaching Odchudzania",
+    name: "LekkiStart | Coaching Odchudzania",
     description:
       "Indywidualny coaching treningowy i żywieniowy dla osób z nadwagą i otyłością.",
     provider: { "@id": `${SITE_URL}/#organization` },

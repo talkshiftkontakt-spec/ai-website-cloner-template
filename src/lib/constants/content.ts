@@ -3,23 +3,23 @@ export const HOW_IT_WORKS_STEPS = [
     step: "01",
     title: "Aplikacja",
     description:
-      "Wypełniasz krótki formularz — poznajemy Twój cel, sytuację i największe wyzwania.",
+      "Wypełniasz krótki formularz. Poznajemy Twój cel, sytuację i największe wyzwania.",
   },
   {
     step: "02",
     title: "Konsultacja",
     description:
-      "45-minutowa rozmowa wideo z trenerem. Ustalamy plan dopasowany do Twojego życia.",
+      "Rozmowa wideo z trenerem trwa 45 minut. Ustalamy plan dopasowany do Twojego życia.",
   },
   {
     step: "03",
     title: "Plan",
     description:
-      "Indywidualny trening i żywienie — bez szablonów z internetu, bez drastycznych restrykcji.",
+      "Indywidualny trening i żywienie, bez szablonów z internetu i bez drastycznych restrykcji.",
   },
   {
     step: "04",
-    title: "Check-iny",
+    title: "Kontrole",
     description:
       "Regularne spotkania, analiza postępów i korekty planu. Jesteśmy z Tobą na co dzień.",
   },
@@ -27,7 +27,7 @@ export const HOW_IT_WORKS_STEPS = [
     step: "05",
     title: "Edukacja",
     description:
-      "Materiały o nawykach, śnie, stresie i relacji z jedzeniem — żeby zmiana została na lata.",
+      "Materiały o nawykach, śnie, stresie i relacji z jedzeniem, żeby zmiana została na lata.",
   },
 ] as const;
 
@@ -36,15 +36,15 @@ export const CLIENT_STORIES = [
     name: "Anna",
     duration: "8 miesięcy",
     quote:
-      "Po raz pierwszy ktoś nie mówił mi, żebym jadła mniej. Pomogło mi zrozumieć, dlaczego podjadałam — i co z tym robić.",
+      "Po raz pierwszy ktoś nie mówił mi, żebym jadła mniej. Pomogło mi zrozumieć, dlaczego podjadałam i co z tym robić.",
     excerpt:
-      "Pracowałam na zmiany, siedziałam dużo i próbowałam już wszystkiego. LekkiStart dał mi strukturę bez poczucia, że zawiodłam. Spacery, proste posiłki i cotygodniowe rozmowy — to wystarczyło, żeby ruszyć z miejsca.",
+      "Pracowałam na zmiany, siedziałam dużo i próbowałam już wszystkiego. LekkiStart dał mi strukturę bez poczucia, że zawiodłam. Spacery, proste posiłki i cotygodniowe rozmowy. To wystarczyło, żeby ruszyć z miejsca.",
   },
   {
     name: "Tomasz",
     duration: "11 miesięcy",
     quote:
-      "Nie musiałem od razu iść na siłownię. Zaczęliśmy od spacerów i ćwiczeń w domu — i to działało.",
+      "Nie musiałem od razu iść na siłownię. Zaczęliśmy od spacerów i ćwiczeń w domu. I to działało.",
     excerpt:
       "Miałem 118 kg i zero motywacji po kolejnych dietach. Coaching dał mi kogoś, kto pilnował postępów bez oceniania. Dziś mam więcej energii i nawyki, które trzymam bez „poniedziałku od nowa”.",
   },
@@ -54,26 +54,26 @@ export const CLIENT_STORIES = [
     quote:
       "W końcu przestałam myśleć o jedzeniu jak o wrogu. To była największa zmiana.",
     excerpt:
-      "Emocjonalne jedzenie było moim tematem od lat. Trener pomógł mi zbudować plan, który nie wykluczał ulubionych potraw — tylko uczył mnie jeść świadomie. Bez wstydu, bez presji.",
+      "Emocjonalne jedzenie było moim tematem od lat. Trener pomógł mi zbudować plan, który nie wykluczał ulubionych potraw, tylko uczył mnie jeść świadomie. Bez wstydu, bez presji.",
   },
 ] as const;
 
 export const TESTIMONIALS = [
   {
     quote:
-      "Wreszcie ktoś traktuje mnie poważnie — nie jak klienta, który „nie ma silnej woli”.",
+      "Wreszcie ktoś traktuje mnie poważnie, nie jak klienta, który „nie ma silnej woli”.",
     author: "Katarzyna",
     duration: "5 miesięcy",
   },
   {
     quote:
-      "Cotygodniowe check-iny to dla mnie game changer. Wiedziałem, że ktoś na mnie czeka.",
+      "Cotygodniowe kontrole to dla mnie game changer. Wiedziałem, że ktoś na mnie czeka.",
     author: "Piotr",
     duration: "9 miesięcy",
   },
   {
     quote:
-      "Plan treningowy w domu bez sprzętu — i naprawdę widzę postępy w kondycji.",
+      "Plan treningowy w domu bez sprzętu. I naprawdę widzę postępy w kondycji.",
     author: "Joanna",
     duration: "4 miesiące",
   },
@@ -122,9 +122,9 @@ export const COACH = {
   name: "Trener LekkiStart",
   title: "Coach zdrowia i odchudzania",
   bio: [
-    "Od ponad dekady pomagam osobom z nadwagą i otyłością budować trwałe nawyki — bez drastycznych diet i bez kultury siłowni.",
+    "Od ponad dekady pomagam osobom z nadwagą i otyłością budować trwałe nawyki, bez drastycznych diet i bez kultury siłowni.",
     "Wierzę, że skuteczna zmiana zaczyna się od zrozumienia Twojego życia: pracy, rodziny, snu, stresu i relacji z jedzeniem. Dopiero potem trening i żywienie.",
-    "Moje podejście łączy dowody naukowe z empatią. Nie obiecuję cudów — obiecuję obecność, uczciwość i plan, który da się utrzymać.",
+    "Moje podejście łączy dowody naukowe z empatią. Nie obiecuję cudów. Obiecuję obecność, uczciwość i plan, który da się utrzymać.",
   ],
   credentials: [
     "Certyfikowany trener personalny",

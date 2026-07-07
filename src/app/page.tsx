@@ -26,7 +26,7 @@ export default function Home() {
         label="Plan treningowy"
         title="Ruch dopasowany do Twojego ciała i życia"
         paragraphs={[
-          "Nie zaczynamy od ciężkiej siłowni, jeśli to nie jest dla Ciebie. Plan budujemy od Twoich możliwości — spacer, dom, siłownia lub mix.",
+          "Nie zaczynamy od ciężkiej siłowni, jeśli to nie jest dla Ciebie. Plan budujemy od Twoich możliwości: spacer, dom, siłownia lub mix.",
           "Przy nadwadze i otyłości priorytetem jest bezpieczeństwo, regularność i budowanie kondycji. Intensywność rośnie wtedy, gdy jesteś gotowy.",
         ]}
         image={{
@@ -40,7 +40,7 @@ export default function Home() {
         label="Plan żywieniowy"
         title="Jedzenie bez wojny z samym sobą"
         paragraphs={[
-          "Tworzymy plan, który pasuje do Twojego budżetu, czasu i preferencji — bez eliminacji całych grup produktów bez powodu.",
+          "Tworzymy plan, który pasuje do Twojego budżetu, czasu i preferencji, bez eliminacji całych grup produktów bez powodu.",
           "Uczymy struktury posiłków, białka i nawyków. Nie narzucamy restrykcyjnych diet, które wracają jak bumerang.",
         ]}
         image={{
@@ -55,8 +55,8 @@ export default function Home() {
         label="Wsparcie i accountability"
         title="Nie jesteś w tym sam"
         paragraphs={[
-          "Coaching to relacja. Regularne check-iny, korekty planu i kontakt między spotkaniami — żebyś nie wracał do starych schematów w ciszy.",
-          "Trzymamy Cię w procesie bez poczucia winy. Gdy coś nie działa — zmieniamy podejście, nie Twoją wartość.",
+          "Coaching to relacja. Regularne kontrole, korekty planu i kontakt między spotkaniami, żebyś nie wracał do starych schematów w ciszy.",
+          "Trzymamy Cię w procesie bez poczucia winy. Gdy coś nie działa, zmieniamy podejście, nie Twoją wartość.",
         ]}
         image={{
           src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=80",
