@@ -3,41 +3,67 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useMotionValueEvent, useScroll } from "motion/react";
 import { CaretDownIcon } from "@/components/icons";
 import { images, navLinks } from "@/lib/site-data";
 import { cn } from "@/lib/utils";
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    setScrolled(latest > 24);
+  });
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-[#2a3532] text-white shadow-md">
-      <div className="mx-auto flex max-w-[1325px] items-center justify-between px-6 py-3 lg:px-12">
-        <Link href="/" className="shrink-0">
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
+        scrolled
+          ? "border-b border-white/10 bg-[#1f2b28]/95 shadow-lg backdrop-blur-md"
+          : "bg-[#1f2b28]"
+      )}
+    >
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-6 lg:px-8">
+        <Link href="/" className="flex shrink-0 items-center gap-3">
           <Image
             src={images.logo}
             alt="Gabinety Pomorska"
-            width={56}
-            height={56}
-            className="h-12 w-12 object-contain md:h-14 md:w-14"
+            width={48}
+            height={48}
+            className="h-11 w-11 object-contain"
             priority
           />
+          <span className="hidden font-[family-name:var(--font-heading)] text-sm font-bold tracking-wide text-white sm:block">
+            Gabinety Pomorska
+          </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Menu główne">
-          {navLinks.map((link) => (
-            <NavItem key={link.label} link={link} />
-          ))}
+        <nav className="hidden items-center lg:flex" aria-label="Menu główne">
+          <ul className="flex items-center">
+            {navLinks.map((link) => (
+              <li key={link.label}>
+                <NavItem link={link} />
+              </li>
+            ))}
+          </ul>
         </nav>
+
+        <div className="hidden items-center gap-3 lg:flex">
+          <Link href="#formularz-kontaktowy" className="gp-btn gp-btn-primary text-sm">
+            Formularz kontaktowy
+          </Link>
+        </div>
 
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center rounded lg:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded text-white lg:hidden"
           aria-label="Menu"
           aria-expanded={mobileOpen}
           onClick={() => setMobileOpen((o) => !o)}
         >
-          <span className="sr-only">Menu</span>
           <svg className="h-6 w-6" viewBox="0 0 1000 1000" fill="currentColor" aria-hidden>
             {mobileOpen ? (
               <path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z" />
@@ -49,7 +75,7 @@ export function SiteHeader() {
       </div>
 
       {mobileOpen && (
-        <nav className="border-t border-white/10 bg-[#2a3532] px-6 py-4 lg:hidden" aria-label="Menu mobilne">
+        <nav className="border-t border-white/10 bg-[#1f2b28] px-6 py-4 lg:hidden" aria-label="Menu mobilne">
           <ul className="flex flex-col gap-1">
             {navLinks.map((link) => (
               <li key={link.label}>
@@ -57,6 +83,13 @@ export function SiteHeader() {
               </li>
             ))}
           </ul>
+          <Link
+            href="#formularz-kontaktowy"
+            className="gp-btn gp-btn-primary mt-4 w-full"
+            onClick={() => setMobileOpen(false)}
+          >
+            Formularz kontaktowy
+          </Link>
         </nav>
       )}
     </header>
@@ -73,8 +106,8 @@ function NavItem({ link }: { link: NavLink }) {
       <Link
         href={link.href}
         className={cn(
-          "px-4 py-2 text-[15px] capitalize text-white/90 transition hover:text-white",
-          link.label === "strona główna" && "text-white underline underline-offset-4"
+          "whitespace-nowrap px-3 py-2 text-sm capitalize text-white/85 transition hover:text-white",
+          link.label === "strona główna" && "text-white"
         )}
       >
         {link.label}
@@ -86,20 +119,25 @@ function NavItem({ link }: { link: NavLink }) {
     <div className="group relative">
       <Link
         href={link.href}
-        className="flex items-center gap-1 px-4 py-2 text-[15px] capitalize text-white/90 transition hover:text-white"
+        className="flex items-center gap-1 whitespace-nowrap px-3 py-2 text-sm capitalize text-white/85 transition hover:text-white"
       >
         {link.label}
         <CaretDownIcon className="h-3 w-3 opacity-70" />
       </Link>
-      <div className="invisible absolute left-0 top-full min-w-[220px] pt-1 opacity-0 transition group-hover:visible group-hover:opacity-100">
-        <ul className="rounded bg-white py-2 text-[#333] shadow-lg">
+      <div className="invisible absolute left-0 top-full z-50 min-w-[240px] pt-2 opacity-0 transition group-hover:visible group-hover:opacity-100">
+        <ul className="rounded-xl border border-[#134340]/10 bg-white py-2 shadow-xl">
           {link.children.map((group) => (
             <li key={group.label}>
-              <span className="block px-4 py-2 text-sm font-medium text-[#134340]">{group.label}</span>
+              <span className="block px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[#134340]/70">
+                {group.label}
+              </span>
               <ul>
                 {group.children.map((item) => (
                   <li key={item.label}>
-                    <Link href={item.href} className="block px-6 py-1.5 text-sm text-[#333] hover:text-[#879d91]">
+                    <Link
+                      href={item.href}
+                      className="block px-4 py-2 text-sm text-[#333] transition hover:bg-[#f8faf9] hover:text-[#134340]"
+                    >
                       {item.label}
                     </Link>
                   </li>
@@ -118,22 +156,18 @@ function MobileNavItem({ link, onNavigate }: { link: NavLink; onNavigate: () => 
 
   return (
     <div>
-      <Link
-        href={link.href}
-        className="block py-2 capitalize text-white/90 hover:text-white"
-        onClick={onNavigate}
-      >
+      <Link href={link.href} className="block py-2 capitalize text-white/90" onClick={onNavigate}>
         {link.label}
       </Link>
       {hasChildren &&
         link.children.map((group) => (
-          <div key={group.label} className="ml-4 border-l border-white/20 pl-3">
-            <p className="py-1 text-sm text-white/60">{group.label}</p>
+          <div key={group.label} className="ml-3 border-l border-white/15 pl-3">
+            <p className="py-1 text-xs uppercase tracking-wide text-white/50">{group.label}</p>
             {group.children.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className="block py-1 text-sm text-white/80 hover:text-white"
+                className="block py-1.5 text-sm text-white/80"
                 onClick={onNavigate}
               >
                 {item.label}

@@ -1,50 +1,62 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { motion, useReducedMotion } from "motion/react";
+import { SectionReveal } from "@/components/SectionReveal";
 import { specialists } from "@/lib/site-data";
 
 export function TeamSection() {
-  return (
-    <section className="bg-white py-12 lg:py-20">
-      <div className="mx-auto max-w-[1325px] px-6 lg:px-12">
-        <h2 className="gp-section-title text-center">Nasz zespół</h2>
-        <p className="mx-auto mb-10 max-w-2xl text-center text-[17px] text-[#333]">
-          Zespół Gabinetów Pomorska tworzą specjaliści z wieloletnim doświadczeniem:
-        </p>
+  const reduce = useReducedMotion();
 
-        <div className="grid grid-cols-1 gap-7 px-0 sm:grid-cols-2 lg:px-[50px]">
-          {specialists.map((spec) => (
-            <Link
-              key={spec.name}
-              href={spec.href}
-              className="group flex items-center gap-3.5 rounded-[14px] p-3.5 transition duration-[180ms] hover:-translate-y-0.5 hover:bg-white hover:shadow-[0_10px_30px_rgba(19,67,64,0.12)]"
-            >
-              <Image
-                src={spec.image}
-                alt={spec.name}
-                width={88}
-                height={88}
-                className="h-[88px] w-[88px] shrink-0 rounded-full object-cover"
-              />
-              <div>
-                <p className="mb-2 font-[family-name:var(--font-montserrat)] text-base leading-[1.6] text-[#134340]">
-                  {spec.role}
-                </p>
-                <p className="font-[family-name:var(--font-heading)] text-base font-black capitalize tracking-wide text-[#879d91]">
-                  {spec.name}
-                </p>
-              </div>
-            </Link>
+  return (
+    <section className="bg-white py-20 lg:py-28">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <SectionReveal>
+          <div className="mx-auto mb-14 max-w-3xl text-center">
+            <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight text-[#134340] md:text-4xl">
+              Nasz zespół
+            </h2>
+            <p className="mt-4 text-[17px] leading-relaxed text-[#3d4a47]">
+              Zespół Gabinetów Pomorska tworzą specjaliści z wieloletnim doświadczeniem:
+            </p>
+          </div>
+        </SectionReveal>
+
+        <div className="grid gap-5 sm:grid-cols-2">
+          {specialists.map((spec, index) => (
+            <SectionReveal key={spec.name} delay={index * 0.03}>
+              <motion.div whileHover={reduce ? undefined : { y: -3 }} transition={{ duration: 0.2 }}>
+                <Link
+                  href={spec.href}
+                  className="flex items-center gap-4 rounded-2xl border border-[#134340]/8 bg-[#f8faf9] p-4 transition hover:border-[#879d91]/40 hover:bg-white hover:shadow-[0_12px_32px_rgba(19,67,64,0.08)]"
+                >
+                  <Image
+                    src={spec.image}
+                    alt={spec.name}
+                    width={88}
+                    height={88}
+                    className="h-[88px] w-[88px] shrink-0 rounded-full object-cover ring-2 ring-white"
+                  />
+                  <div className="min-w-0">
+                    <p className="font-[family-name:var(--font-montserrat)] text-sm leading-relaxed text-[#134340]">
+                      {spec.role}
+                    </p>
+                    <p className="mt-1 font-[family-name:var(--font-heading)] text-base font-black capitalize tracking-wide text-[#879d91]">
+                      {spec.name}
+                    </p>
+                  </div>
+                </Link>
+              </motion.div>
+            </SectionReveal>
           ))}
         </div>
 
-        <div className="mt-10 text-center">
-          <Link
-            href="https://www.gabinetpomorska.pl/index.php/specjalisci/"
-            className="gp-btn gp-btn-outline"
-          >
+        <SectionReveal className="mt-12 text-center">
+          <Link href="https://www.gabinetpomorska.pl/index.php/specjalisci/" className="gp-btn gp-btn-outline">
             Dowiedz się więcej
           </Link>
-        </div>
+        </SectionReveal>
       </div>
     </section>
   );

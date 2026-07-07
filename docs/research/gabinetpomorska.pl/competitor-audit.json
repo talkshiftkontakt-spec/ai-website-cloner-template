@@ -1,0 +1,249 @@
+{
+  "gabinetyrozwoju": {
+    "title": "Psychiatra Kraków, Psychoterapia Kraków - GabinetyRozwoju.pl",
+    "h1": "Gabinety Rozwoju - psychiatra i psychoterapia w jednym miejscu w Krakowie",
+    "h2s": [],
+    "sectionCount": 15,
+    "body": {
+      "color": "rgb(51, 51, 51)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "fontFamily": "Lato, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400"
+    },
+    "h1Style": {
+      "color": "rgb(155, 81, 224)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Lato, sans-serif",
+      "fontSize": "25px",
+      "fontWeight": "400"
+    },
+    "h2Style": null,
+    "navLinkCount": 19,
+    "hasPricing": true,
+    "hasTeam": true,
+    "hasOnlineBooking": false,
+    "ctas": [
+      {
+        "text": "Kontakt",
+        "tag": "A",
+        "href": "https://www.gabinetyrozwoju.pl/kontakt/"
+      },
+      {
+        "text": "Kontakt",
+        "tag": "A",
+        "href": "https://www.gabinetyrozwoju.pl/kontakt/"
+      },
+      {
+        "text": "Dane kontaktowe",
+        "tag": "A",
+        "href": "https://www.gabinetyrozwoju.pl/dane-kontaktowe/"
+      }
+    ],
+    "fonts": [
+      "Lato, sans-serif"
+    ]
+  },
+  "przyladekrownowagi": {
+    "title": "Centrum Terapii i Rozwoju Kraków - Przylądek Równowagi",
+    "h1": "Centrum Terapii i Rozwoju",
+    "h2s": [
+      "Terapia – kompleksowe wsparcie dla dzieci, młodzieży i dorosłych",
+      "Diagnozy i konsultacje specjalistyczne – dla dzieci, młodzieży i dorosłych",
+      "Specjalizacje – wsparcie dla dzieci i dorosłych w różnych obszarach",
+      "Zaburzenia – kompleksowa pomoc w różnych trudnościach",
+      "Przylądek Równowagi — bezpieczna przystań w sercu Krakowa",
+      "Zrozum problem, znajdź rozwiązanie",
+      "Dlaczego warto wybrać nasze Centrum Terapii  i Rozwoju  w Krakowie?",
+      "Najczęściej zadawane pytania (FAQ)"
+    ],
+    "sectionCount": 0,
+    "body": {
+      "color": "rgb(37, 37, 37)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Quicksand",
+      "fontSize": "16px",
+      "fontWeight": "400"
+    },
+    "h1Style": {
+      "color": "rgb(37, 37, 37)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Montserrat, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "500"
+    },
+    "h2Style": {
+      "color": "rgb(37, 37, 37)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Montserrat",
+      "fontSize": "50px",
+      "fontWeight": "600"
+    },
+    "navLinkCount": 58,
+    "hasPricing": true,
+    "hasTeam": true,
+    "hasOnlineBooking": true,
+    "ctas": [
+      {
+        "text": "Zapisz moje preferencje",
+        "tag": "BUTTON",
+        "href": null
+      },
+      {
+        "text": "Kontakt",
+        "tag": "A",
+        "href": "https://przyladekrownowagi.pl/kontakt/"
+      },
+      {
+        "text": "Umów wizytę",
+        "tag": "A",
+        "href": "https://przyladekrownowagi.pl/umow-wizyte/"
+      },
+      {
+        "text": "Umów wizytę",
+        "tag": "A",
+        "href": "https://przyladekrownowagi.pl/umow-wizyte/"
+      },
+      {
+        "text": "Umów bezpłatną konsultację",
+        "tag": "A",
+        "href": "https://przyladekrownowagi.pl/bezplatna-konsultacja/"
+      },
+      {
+        "text": "„Umów wizytę”",
+        "tag": "A",
+        "href": "https://przyladekrownowagi.pl/umow-wizyte/#umowdiagnoze"
+      },
+      {
+        "text": "WhatsApp - kontakt z recepcją",
+        "tag": "A",
+        "href": "https://wa.me/48575570566"
+      },
+      {
+        "text": "Umawianie wizyt",
+        "tag": "A",
+        "href": "https://przyladekrownowagi.pl/umow-wizyte/"
+      }
+    ],
+    "fonts": [
+      "Quicksand",
+      "Montserrat"
+    ]
+  },
+  "psychomedic": {
+    "title": "Poradnia zdrowia psychicznego Warszawa | Psycholog - PsychoMedic.pl",
+    "h1": "Poradnia zdrowia psychicznego Psychomedic - polecani psychiatrzy i psychologowie z licznymi wyróżnieniami i nagrodami",
+    "h2s": [
+      "Znajdź najszybsze terminy wizyt - na dziś lub jutro",
+      "Dlaczego zaufało nam tysiące Pacjentów?",
+      "Polecani specjaliści PsychoMedic",
+      "POMOCY JAKIEGO SPECJALISTY POTRZEBUJESZ?",
+      "ZABURZENIA PSYCHICZNE I PROBLEMY, W KTÓRYCH POMAGAMY",
+      "JAK MOŻEMY CI POMÓC?",
+      "Eksperci Psychomedic w mediach",
+      "PORADNIK PACJENTA - DOWIEDZ SIĘ WIĘCEY O NASZEJ POMOCY"
+    ],
+    "sectionCount": 0,
+    "body": {
+      "color": "rgb(87, 87, 86)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "fontFamily": "Inter, sans-serif",
+      "fontSize": "17px",
+      "fontWeight": "400"
+    },
+    "h1Style": {
+      "color": "rgb(87, 87, 86)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "25.5px",
+      "fontWeight": "700"
+    },
+    "h2Style": {
+      "color": "rgb(87, 87, 86)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Poppins, sans-serif",
+      "fontSize": "26px",
+      "fontWeight": "700"
+    },
+    "navLinkCount": 964,
+    "hasPricing": true,
+    "hasTeam": true,
+    "hasOnlineBooking": true,
+    "ctas": [
+      {
+        "text": "Wizyty domowe",
+        "tag": "A",
+        "href": "https://psychomedic.pl/wizyty-domowe-psychiatra/"
+      },
+      {
+        "text": "Kontakt",
+        "tag": "A",
+        "href": "https://psychomedic.pl/#"
+      },
+      {
+        "text": "Kontakt dla mediów",
+        "tag": "A",
+        "href": "https://psychomedic.pl/kontakt-dla-mediow/"
+      },
+      {
+        "text": "UMÓW WIZYTĘ",
+        "tag": "A",
+        "href": "https://psychomedic.pl/"
+      },
+      {
+        "text": "Wizyty domowe",
+        "tag": "A",
+        "href": "https://psychomedic.pl/wizyty-domowe-psychiatra/"
+      },
+      {
+        "text": "Kontakt",
+        "tag": "A",
+        "href": "https://psychomedic.pl/#"
+      },
+      {
+        "text": "Kontakt dla mediów",
+        "tag": "A",
+        "href": "https://psychomedic.pl/kontakt-dla-mediow/"
+      },
+      {
+        "text": "UMÓW WIZYTĘ",
+        "tag": "A",
+        "href": "https://psychomedic.pl/"
+      }
+    ],
+    "fonts": [
+      "Inter, sans-serif"
+    ]
+  },
+  "mindhealth": {
+    "title": "Error 403",
+    "h2s": [
+      "block"
+    ],
+    "sectionCount": 0,
+    "body": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "fontFamily": "Verdana, Arial, sans-serif",
+      "fontSize": "13.3333px",
+      "fontWeight": "400"
+    },
+    "h1Style": null,
+    "h2Style": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Verdana, Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": "700"
+    },
+    "navLinkCount": 0,
+    "hasPricing": false,
+    "hasTeam": false,
+    "hasOnlineBooking": false,
+    "ctas": [],
+    "fonts": [
+      "Lato",
+      "Verdana, Arial, sans-serif"
+    ]
+  }
+}

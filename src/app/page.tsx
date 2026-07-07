@@ -7,6 +7,7 @@ import { ServicesSection } from "@/components/ServicesSection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { TeamSection } from "@/components/TeamSection";
+import { TrustStrip } from "@/components/TrustStrip";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SiteHeader />
       <main>
         <HeroSection />
+        <TrustStrip />
         <AboutSection />
         <ServicesSection />
         <TeamSection />

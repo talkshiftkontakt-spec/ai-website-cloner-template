@@ -1,35 +1,39 @@
 import Link from "next/link";
+import { SectionReveal } from "@/components/SectionReveal";
 import { pricingItems } from "@/lib/site-data";
 
 export function PricingSection() {
   return (
-    <section className="bg-[#f8f6f2] py-12 lg:py-20">
-      <div className="mx-auto max-w-[900px] px-6 lg:px-12">
-        <ul className="divide-y divide-[#879d91]/30">
-          {pricingItems.map((item) => (
-            <li key={item.title} className="py-6">
-              <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <span className="font-[family-name:var(--font-heading)] text-lg font-medium text-[#134340]">
-                  {item.title}
-                </span>
-                <span className="hidden flex-1 border-b border-dotted border-[#879d91]/40 mx-4 sm:block" />
-                <span className="font-[family-name:var(--font-heading)] text-lg font-bold text-[#134340]">
-                  {item.price}
-                </span>
-              </div>
-              <p className="mt-2 text-[15px] leading-relaxed text-[#555]">{item.description}</p>
-            </li>
+    <section className="bg-[#134340] py-20 text-white lg:py-28">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <SectionReveal>
+          <div className="grid gap-5 md:grid-cols-2">
+          {pricingItems.map((item, index) => (
+            <SectionReveal key={item.title} delay={index * 0.05}>
+              <article className="flex h-full flex-col rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="font-[family-name:var(--font-heading)] text-lg font-semibold leading-snug text-white">
+                    {item.title}
+                  </h3>
+                  <p className="shrink-0 font-[family-name:var(--font-heading)] text-xl font-bold text-[#b8cfc0]">
+                    {item.price}
+                  </p>
+                </div>
+                <p className="mt-4 text-sm leading-relaxed text-white/75">{item.description}</p>
+              </article>
+            </SectionReveal>
           ))}
-        </ul>
+          </div>
+        </SectionReveal>
 
-        <div className="mt-10 text-center">
+        <SectionReveal className="mt-12 text-center">
           <Link
             href="https://www.gabinetpomorska.pl/index.php/cennik/"
-            className="gp-btn gp-btn-outline"
+            className="gp-btn border border-white/30 bg-white text-[#134340] hover:bg-white/90"
           >
             Pełny cennik
           </Link>
-        </div>
+        </SectionReveal>
       </div>
     </section>
   );

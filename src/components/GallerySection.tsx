@@ -1,22 +1,30 @@
 import Image from "next/image";
+import { SectionReveal } from "@/components/SectionReveal";
 import { images } from "@/lib/site-data";
 
 export function GallerySection() {
   return (
-    <section className="bg-white py-12 lg:py-20">
-      <div className="mx-auto max-w-[1325px] px-6 text-center lg:px-12">
-        <h2 className="gp-section-title">Gabinety Lekarsko-Psychologiczne Pomorska</h2>
-        <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3 lg:gap-[75px]">
-          {images.gallery.map((src) => (
-            <div key={src} className="relative aspect-[4/3] overflow-hidden">
-              <Image
-                src={src}
-                alt="Wnętrze gabinetu"
-                fill
-                className="object-cover transition duration-300 hover:scale-[1.02]"
-                sizes="(max-width: 640px) 100vw, 33vw"
-              />
-            </div>
+    <section className="overflow-hidden bg-[#f8faf9] py-20 lg:py-28">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <SectionReveal>
+          <h2 className="text-center font-[family-name:var(--font-heading)] text-3xl font-bold tracking-tight text-[#134340] md:text-4xl">
+            Gabinety Lekarsko-Psychologiczne Pomorska
+          </h2>
+        </SectionReveal>
+
+        <div className="mt-12 grid gap-6 lg:grid-cols-3 lg:gap-8">
+          {images.gallery.map((src, index) => (
+            <SectionReveal key={src} delay={index * 0.08}>
+              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-[0_20px_50px_rgba(19,67,64,0.1)]">
+                <Image
+                  src={src}
+                  alt="Wnętrze gabinetu Gabinety Pomorska"
+                  fill
+                  className="object-cover transition duration-500 hover:scale-[1.03]"
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                />
+              </div>
+            </SectionReveal>
           ))}
         </div>
       </div>
