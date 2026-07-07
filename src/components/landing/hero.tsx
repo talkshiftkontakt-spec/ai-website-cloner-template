@@ -55,14 +55,14 @@ export function Hero() {
             </dl>
           </div>
 
-          <div className="relative min-h-[280px] lg:min-h-[420px]">
+          <div className="relative aspect-[4/3] w-full overflow-hidden bg-canvas-raised lg:aspect-auto lg:min-h-[420px]">
             <Image
               src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
               alt="Osoba spacerująca w parku, spokojna aktywność na co dzień"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 45vw"
-              className="object-cover"
+              className="object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/20 to-transparent lg:bg-gradient-to-r lg:from-canvas lg:via-transparent lg:to-transparent" />
             <div className="absolute bottom-4 left-4 right-4 border border-border/80 bg-canvas/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">

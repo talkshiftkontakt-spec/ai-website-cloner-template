@@ -31,7 +31,7 @@
     "build": "next build",
     "postbuild": "cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
     "start": "next start",
-    "start:standalone": "node .next/standalone/server.js",
+    "start:standalone": "cd .next/standalone && node server.js",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "check": "npm run lint && npm run typecheck && npm run build"
