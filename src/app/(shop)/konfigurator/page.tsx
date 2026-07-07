@@ -16,9 +16,7 @@ const customProduct = getProductBySlug("twoj-skin")!;
 
 export default function ConfiguratorPage() {
   const [textureUrl, setTextureUrl] = useState<string | null>(null);
-  const [selectedVariantId, setSelectedVariantId] = useState(
-    customProduct.variants[1]?.id ?? customProduct.variants[0]!.id,
-  );
+  const [selectedVariantId, setSelectedVariantId] = useState("v-30x30");
   const addItem = useCartStore((s) => s.addItem);
   const router = useRouter();
 
@@ -53,31 +51,44 @@ export default function ConfiguratorPage() {
       />
 
       <div className="mx-auto max-w-3xl">
-        <h1 className="font-display text-4xl font-bold">Stwórz swoją główkę</h1>
-        <p className="mt-4 text-muted-foreground">
-          Wgraj plik PNG skina lub wpisz nick Minecraft. Zobacz podgląd 3D i
-          zamów unikalną główkę.
+        <h1 className="font-display text-4xl font-extrabold">
+          Zamów swój obrazek
+        </h1>
+        <p className="mt-4 text-muted-foreground text-pretty">
+          Wgraj plik PNG skina lub wpisz nick Minecraft. Zobacz podgląd{" "}
+          <strong>płaskiego obrazu na płótnie</strong> — twarz główki ze skina,
+          gotowa do powieszenia na ścianie.
         </p>
 
         <div className="mt-10 space-y-8">
           <SkinUploader onTextureChange={setTextureUrl} />
 
           <div>
-            <p className="mb-3 text-sm font-medium">Wybierz wariant</p>
-            <div className="grid gap-2">
+            <p className="mb-3 font-display font-semibold">Wybierz format</p>
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
               {customProduct.variants.map((variant) => (
                 <button
                   key={variant.id}
                   type="button"
                   onClick={() => setSelectedVariantId(variant.id)}
                   className={cn(
-                    "rounded-lg border px-4 py-3 text-left text-sm transition-colors",
+                    "rounded-lg border-2 px-4 py-5 text-center transition-colors",
                     selectedVariantId === variant.id
-                      ? "border-primary bg-primary/10"
-                      : "border-border hover:border-muted-foreground",
+                      ? "border-grass bg-grass/10"
+                      : "border-border hover:border-grass/50",
                   )}
                 >
-                  {variant.name} — {formatPrice(variant.price)}
+                  <p className="font-display text-xl font-bold">{variant.name}</p>
+                  <p className="mt-1 flex items-center justify-center gap-2">
+                    {variant.compareAtPrice && (
+                      <span className="text-sm text-muted-foreground line-through">
+                        {formatPrice(variant.compareAtPrice)}
+                      </span>
+                    )}
+                    <span className="text-lg font-semibold text-grass">
+                      {formatPrice(variant.price)}
+                    </span>
+                  </p>
                 </button>
               ))}
             </div>

@@ -133,7 +133,7 @@ export function SiteHeader() {
 
           <Link href="/konfigurator" className="mc-button hidden !py-2 !px-4 !text-sm sm:inline-flex">
             <Upload className="size-4" aria-hidden />
-            Stwórz główkę
+            Zamów obrazek
           </Link>
 
           <Link

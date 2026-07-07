@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "HeadCraft",
   legalName: "HeadCraft Polska",
-  tagline: "Twoja historia. Na półce.",
+  tagline: "Twój skin. Na ścianie.",
   description:
-    "Personalizowane i kolekcjonerskie fizyczne główki Minecraft. Wgraj swój skin — odbierz główkę na półkę. Produkcja w Polsce.",
+    "Personalizowane obrazy ze skinami Minecraft. Druk główki Twojego skina na płótnie premium — płaski canvas do powieszenia na ścianie.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://headcraft.pl",
   email: "kontakt@headcraft.pl",
   phone: "+48 123 456 789",
@@ -19,5 +19,11 @@ export const siteConfig = {
     rating: 4.9,
     reviewCount: 127,
     collectors: 500,
+    shippingDays: "3–5 dni roboczych",
+    shippingCost: 1500,
+  },
+  promo: {
+    label: "TRWA PROMOCJA –25% NA WSZYSTKIE FORMATY!",
+    active: true,
   },
 } as const;

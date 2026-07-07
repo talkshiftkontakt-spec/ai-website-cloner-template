@@ -1,7 +1,7 @@
 export type EditionType = "standard" | "limited" | "custom";
 export type ProductBadge = "nowosc" | "limitowana" | "bestseller" | "wysylka-24h";
-export type FinishType = "matte" | "gloss";
-export type SizeType = "S" | "M" | "L";
+export type FinishType = "matte" | "gloss" | "canvas";
+export type SizeType = "S" | "M" | "L" | "20x20" | "30x30" | "40x40";
 export type BaseType = "none" | "oak";
 
 export interface ProductImage {

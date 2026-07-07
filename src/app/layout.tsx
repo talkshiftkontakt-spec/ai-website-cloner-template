@@ -33,7 +33,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Personalizowane główki Minecraft`,
+    default: `${siteConfig.name} — Obraz ze skina Minecraft na ścianie`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,

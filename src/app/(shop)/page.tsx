@@ -7,6 +7,7 @@ import {
 } from "@/components/marketing/FeaturedProducts";
 import { FaqAccordion } from "@/components/marketing/FaqAccordion";
 import { HeroSection } from "@/components/marketing/HeroSection";
+import { HowItWorksSection } from "@/components/marketing/HowItWorksSection";
 import { LimitedEditionBanner } from "@/components/marketing/LimitedEditionBanner";
 import {
   TestimonialsSection,
@@ -54,8 +55,9 @@ export default function HomePage() {
 
       <HeroSection />
       <WhyCollectSection />
+      <HowItWorksSection />
 
-      {/* Personalized heads spotlight — secondary hero */}
+      {/* Personalized canvas spotlight */}
       <section className="section-padding relative overflow-hidden">
         <Image
           src="/images/hero/minecraft-overworld.jpg"
@@ -71,12 +73,12 @@ export default function HomePage() {
             <div className="order-2 space-y-6 lg:order-1">
               <p className="pixel-label text-grass">Główny produkt</p>
               <h2 className="font-display text-3xl font-extrabold text-white md:text-4xl text-balance">
-                Personalizowana główka ze skina
+                Personalizowany obraz ze skina
               </h2>
               <p className="text-lg text-white/80 text-pretty">
-                To nasz flagowy produkt. Wgrywasz skin, widzisz podgląd 3D i
-                zamawiasz fizyczną główkę wykonaną ręcznie w Polsce — idealna na
-                prezent lub własną kolekcję.
+                Wgrywasz PNG skina, widzisz podgląd płaskiego obrazu na
+                płótnie i zamawiasz canvas na ścianę — dokładnie tak, jak na
+                twojskinek.pl.
               </p>
               <ul className="space-y-2 text-sm text-white/70">
                 <li className="flex items-center gap-2">
@@ -91,7 +93,7 @@ export default function HomePage() {
                     className="inline-block h-2 w-2 shrink-0 rounded-sm bg-grass"
                     aria-hidden
                   />
-                  Podgląd 3D w konfiguratorze przed zakupem
+                  Podgląd obrazu na płótnie przed zamówieniem
                 </li>
                 <li className="flex items-center gap-2">
                   <span
@@ -102,36 +104,42 @@ export default function HomePage() {
                 </li>
               </ul>
               <Link href="/konfigurator" className="mc-button inline-flex">
-                Rozpocznij personalizację
+                Zamów personalizowany obraz
               </Link>
             </div>
 
             <div className="order-1 lg:order-2">
-              <div className="mc-panel mx-auto max-w-md p-6 md:p-8">
-                <p className="pixel-label text-grass">Przykłady personalizacji</p>
-                <div className="mt-6 flex items-end justify-center gap-5 sm:gap-8">
-                  {[
-                    { src: "/images/heads/notch.png", alt: "Główka Notch", size: "h-20 w-20 sm:h-24 sm:w-24" },
-                    { src: "/images/heads/dream.png", alt: "Główka Dream", size: "h-28 w-28 sm:h-32 sm:w-32" },
-                    { src: "/images/heads/alex.png", alt: "Główka Alex", size: "h-20 w-20 sm:h-24 sm:w-24" },
-                  ].map((head) => (
-                    <div
-                      key={head.src}
-                      className={`relative shrink-0 ${head.size}`}
-                    >
-                      <Image
-                        src={head.src}
-                        alt={head.alt}
-                        fill
-                        sizes="128px"
-                        className="object-contain drop-shadow-2xl"
-                      />
-                    </div>
-                  ))}
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="mc-panel overflow-hidden sm:col-span-2">
+                  <Image
+                    src="/images/products/twojskinek/product-closeup.png"
+                    alt="Zbliżenie na obraz ze skinem Minecraft na płótnie"
+                    width={800}
+                    height={600}
+                    className="h-auto w-full"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
                 </div>
-                <p className="mt-6 text-center text-sm text-white/65">
-                  Każda główka drukowana 1:1 z Twojego pliku skina
-                </p>
+                <div className="mc-panel overflow-hidden">
+                  <Image
+                    src="/images/products/twojskinek/product-3d-view.png"
+                    alt="Płaski obraz na płótnie — widok z boku"
+                    width={400}
+                    height={400}
+                    className="h-auto w-full"
+                    sizes="240px"
+                  />
+                </div>
+                <div className="mc-panel overflow-hidden">
+                  <Image
+                    src="/images/products/twojskinek/product-in-living-room.png"
+                    alt="Obraz ze skinem w salonie"
+                    width={400}
+                    height={400}
+                    className="h-auto w-full"
+                    sizes="240px"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -160,15 +168,14 @@ export default function HomePage() {
           <TrustStrip className="mb-10" />
           <PaymentBadges className="mb-10 justify-center" />
           <h2 className="font-display text-3xl font-extrabold text-white">
-            Gotowy na swoją główkę?
+            Gotowy na obraz na ścianie?
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-muted-foreground">
-            Dołącz do {siteConfig.stats.collectors}+ kolekcjonerów. Wgraj skin i
-            zobacz, jak wygląda na półce.
+            Wgraj skin i zobacz, jak wygląda na płótnie — zanim zamówisz.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link href="/konfigurator" className="mc-button">
-              Stwórz personalizowaną główkę
+              Zamów swój obrazek
             </Link>
             <Link href="/kolekcje/wszystkie" className="mc-button-outline">
               Przeglądaj kolekcję

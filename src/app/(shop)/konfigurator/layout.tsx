@@ -1,9 +1,9 @@
 import { createPageMetadata } from "@/lib/seo/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Konfigurator — personalizowana główka",
+  title: "Konfigurator — personalizowany obraz",
   description:
-    "Wgraj skin Minecraft lub wpisz nick. Zobacz podgląd 3D i zamów unikalną fizyczną główkę.",
+    "Wgraj skin Minecraft lub wpisz nick. Zobacz podgląd obrazu na płótnie i zamów canvas na ścianę.",
   path: "/konfigurator",
 });
 

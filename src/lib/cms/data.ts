@@ -7,7 +7,7 @@ const defaultReviews: ProductReview[] = [
     rating: 5,
     date: "2026-05-12",
     content:
-      "Jakość wykonania przerosła moje oczekiwania. Główka Steve'a wygląda jak z muzeum na mojej półce z figurkami.",
+      "Obraz ze skinem syna wygląda idealnie nad biurkiem. Dokładnie taki płaski canvas jak na zdjęciu — super jakość druku.",
     verified: true,
   },
   {
@@ -25,85 +25,80 @@ const defaultReviews: ProductReview[] = [
     rating: 5,
     date: "2026-06-01",
     content:
-      "Wgrałem własny skin przez konfigurator — podgląd 3D pomógł, a finalny produkt jest identyczny.",
+      "Wgrałem skin — podgląd obrazu na płótnie był dokładny. Na ścianie wygląda kozacko.",
     verified: true,
   },
 ];
 
-function makeVariants(
-  basePrice: number,
-  compareAt?: number,
+function makeCanvasVariants(
+  promoPrice20: number,
+  promoPrice30: number,
+  promoPrice40: number,
+  compare20?: number,
+  compare30?: number,
+  compare40?: number,
 ): Product["variants"] {
   return [
     {
-      id: "v-s-matte",
-      sku: "HC-S-M",
-      name: "Standard 12 cm — Mat",
-      price: basePrice,
-      compareAtPrice: compareAt,
-      stock: 24,
-      attributes: { size: "S", finish: "matte", base: "none" },
+      id: "v-20x20",
+      sku: "HC-CANVAS-20",
+      name: "20×20 cm",
+      price: promoPrice20,
+      compareAtPrice: compare20,
+      stock: 99,
+      attributes: { size: "20x20", finish: "canvas", base: "none" },
     },
     {
-      id: "v-m-matte",
-      sku: "HC-M-M",
-      name: "Kolekcjonerska 15 cm — Mat",
-      price: basePrice + 5000,
-      compareAtPrice: compareAt ? compareAt + 5000 : undefined,
-      stock: 18,
-      attributes: { size: "M", finish: "matte", base: "none" },
+      id: "v-30x30",
+      sku: "HC-CANVAS-30",
+      name: "30×30 cm",
+      price: promoPrice30,
+      compareAtPrice: compare30,
+      stock: 99,
+      attributes: { size: "30x30", finish: "canvas", base: "none" },
     },
     {
-      id: "v-m-oak",
-      sku: "HC-M-O",
-      name: "Kolekcjonerska 15 cm + Podstawa dębowa",
-      price: basePrice + 12000,
-      compareAtPrice: compareAt ? compareAt + 12000 : undefined,
-      stock: 12,
-      attributes: { size: "M", finish: "matte", base: "oak" },
-    },
-    {
-      id: "v-l-gloss",
-      sku: "HC-L-G",
-      name: "Premium 18 cm — Połysk",
-      price: basePrice + 18000,
-      compareAtPrice: compareAt ? compareAt + 18000 : undefined,
-      stock: 8,
-      attributes: { size: "L", finish: "gloss", base: "none" },
+      id: "v-40x40",
+      sku: "HC-CANVAS-40",
+      name: "40×40 cm",
+      price: promoPrice40,
+      compareAtPrice: compare40,
+      stock: 99,
+      attributes: { size: "40x40", finish: "canvas", base: "none" },
     },
   ];
 }
 
 const defaultMaterials = [
-  { name: "Materiał", value: "Żywica premium + pigmenty UV" },
-  { name: "Wykończenie", value: "Ręczna obróbka i lakier ochronny" },
-  { name: "Podstawa", value: "Opcjonalna — lite drewno dębowe" },
-  { name: "Trwałość", value: "Odporność na blaknięcie i wilgoć" },
+  { name: "Materiał", value: "Płótno premium + podrama" },
+  { name: "Druk", value: "Wysokiej jakości druk z żywymi kolorami" },
+  { name: "Forma", value: "Płaski kwadratowy obraz — twarz główki ze skina" },
+  { name: "Montaż", value: "Gotowy do powieszenia na ścianie" },
 ];
 
 const defaultDimensions = {
-  heightMm: 150,
-  widthMm: 150,
-  depthMm: 150,
-  weightG: 280,
-  boxSize: "18 × 18 × 20 cm",
+  heightMm: 300,
+  widthMm: 300,
+  depthMm: 20,
+  weightG: 350,
+  boxSize: "35 × 35 × 5 cm",
 };
 
 export const collections: CollectionCategory[] = [
   {
     slug: "wszystkie",
-    name: "Wszystkie główki",
-    description: "Pełna kolekcja kolekcjonerskich główek Minecraft.",
+    name: "Wszystkie obrazy",
+    description: "Pełna kolekcja obrazów ze skinami Minecraft.",
     seoDescription:
-      "Przeglądaj pełną kolekcję fizycznych główek Minecraft od HeadCraft. Ikony, limitowane edycje i personalizowane skiny.",
+      "Przeglądaj personalizowane obrazy ze skinami Minecraft. Druk na płótnie, formaty 20–40 cm.",
     image: "/images/collections/all.svg", // wszystkie
   },
   {
     slug: "ikony-minecraft",
     name: "Ikony Minecraft",
-    description: "Steve, Creeper, Enderman i inne klasyki.",
+    description: "Steve, Creeper, Enderman — gotowe obrazy na płótnie.",
     seoDescription:
-      "Kolekcjonerskie główki ikonicznych postaci Minecraft. Idealne na półkę gamingową lub jako prezent.",
+      "Obrazy na płótnie z ikonicznymi postaciami Minecraft. Idealne na ścianę pokoju gracza.",
     image: "/images/collections/icons.svg",
   },
   {
@@ -125,9 +120,9 @@ export const collections: CollectionCategory[] = [
   {
     slug: "personalizowane",
     name: "Personalizowane",
-    description: "Twoja główka ze własnego skina.",
+    description: "Twój skin jako obraz na ścianie.",
     seoDescription:
-      "Zamów fizyczną główkę ze swojego skina Minecraft. Wgraj PNG lub wpisz nick.",
+      "Zamów personalizowany obraz ze swojego skina Minecraft. Wgraj PNG lub wpisz nick.",
     image: "/images/collections/custom.svg",
   },
 ];
@@ -137,9 +132,9 @@ export const products: Product[] = [
     id: "p1",
     slug: "steve-klasyk",
     name: "Steve — Klasyk",
-    shortDescription: "Ikoniczna główka Steve'a. Fundament każdej kolekcji.",
+    shortDescription: "Ikoniczny Steve na płótnie. Klasyk na ścianę.",
     description:
-      "Steve to początek każdej przygody w Minecraft. Ta kolekcjonerska główka oddaje każdy piksel oryginalnej tekstury — od niebieskiej koszuli po charakterystyczne fioletowe spodnie. Wykonana z żywicy premium, ręcznie wykańczana w naszej pracowni we Wrocławiu.",
+      "Obraz na płótnie z twarzą główki Steve'a — płaski kwadratowy canvas, nie 3D kostka. Profesjonalny druk z żywymi kolorami, gotowy do powieszenia w pokoju gracza.",
     categorySlug: "ikony-minecraft",
     categoryName: "Ikony Minecraft",
     tags: ["steve", "klasyk", "ikona"],
@@ -149,9 +144,9 @@ export const products: Product[] = [
       { url: "/images/products/steve-lifestyle.svg", alt: "Steve na półce gamingowej", type: "lifestyle" },
     ],
     badge: "bestseller",
-    priceFrom: 14900,
-    compareAtPrice: 17900,
-    variants: makeVariants(14900, 17900),
+    priceFrom: 5900,
+    compareAtPrice: 7900,
+    variants: makeCanvasVariants(5900, 6900, 7900, 7900, 8900, 9900),
     materials: defaultMaterials,
     dimensions: defaultDimensions,
     editionType: "standard",
@@ -166,9 +161,9 @@ export const products: Product[] = [
     id: "p2",
     slug: "creeper-zielony",
     name: "Creeper — Zielony",
-    shortDescription: "Sssss... Kultowa główka Creepera na Twoją półkę.",
+    shortDescription: "Kultowy Creeper na płótnie — płaski obraz na ścianę.",
     description:
-      "Creeper to najbardziej rozpoznawalny mob w Minecraft. Zielona, pikselowa faktura i charakterystyczna mina — ta główka to must-have dla każdego fana. Idealna na półkę obok konsoli lub monitora.",
+      "Obraz na płótnie z twarzą Creepera. Płaski canvas z pikselową grafiką główki — idealny na ścianę pokoju Minecraft.",
     categorySlug: "ikony-minecraft",
     categoryName: "Ikony Minecraft",
     tags: ["creeper", "mob", "ikona"],
@@ -178,8 +173,8 @@ export const products: Product[] = [
       { url: "/images/products/creeper-lifestyle.svg", alt: "Creeper na biurku", type: "lifestyle" },
     ],
     badge: "bestseller",
-    priceFrom: 14900,
-    variants: makeVariants(14900),
+    priceFrom: 5900,
+    variants: makeCanvasVariants(5900, 6900, 7900, 7900, 8900, 9900),
     materials: defaultMaterials,
     dimensions: defaultDimensions,
     editionType: "standard",
@@ -193,9 +188,9 @@ export const products: Product[] = [
     id: "p3",
     slug: "enderman-mroczny",
     name: "Enderman — Mroczny",
-    shortDescription: "Wysoka, mroczna sylwetka Endermana w premium wydaniu.",
+    shortDescription: "Mroczny Enderman na płótnie premium.",
     description:
-      "Enderman z fioletowymi oczami i gładką czarną teksturą — jedna z najbardziej pożądanych główek w naszej kolekcji. Większy format 18 cm dostępny w wersji połyskowej.",
+      "Obraz na płótnie z główką Endermana — fioletowe oczy i czarna tekstura w formie płaskiego canvasu na ścianę.",
     categorySlug: "ikony-minecraft",
     categoryName: "Ikony Minecraft",
     tags: ["enderman", "end", "ikona"],
@@ -205,8 +200,8 @@ export const products: Product[] = [
       { url: "/images/products/enderman-lifestyle.svg", alt: "Enderman w setupie", type: "lifestyle" },
     ],
     badge: "nowosc",
-    priceFrom: 16900,
-    variants: makeVariants(16900),
+    priceFrom: 6900,
+    variants: makeCanvasVariants(5900, 6900, 7900, 7900, 8900, 9900),
     materials: defaultMaterials,
     dimensions: { ...defaultDimensions, heightMm: 180 },
     editionType: "standard",
@@ -234,7 +229,7 @@ export const products: Product[] = [
     badge: "limitowana",
     priceFrom: 39900,
     compareAtPrice: 44900,
-    variants: makeVariants(39900, 44900),
+    variants: makeCanvasVariants(7900, 8900, 9900, 9900, 10900, 11900),
     materials: [
       ...defaultMaterials,
       { name: "Edycja", value: "Numerowana / certyfikat" },
@@ -267,7 +262,7 @@ export const products: Product[] = [
     ],
     badge: "limitowana",
     priceFrom: 24900,
-    variants: makeVariants(24900),
+    variants: makeCanvasVariants(6900, 7900, 8900, 8900, 9900, 10900),
     materials: defaultMaterials,
     dimensions: defaultDimensions,
     editionType: "limited",
@@ -283,21 +278,21 @@ export const products: Product[] = [
   {
     id: "p6",
     slug: "twoj-skin",
-    name: "Twoja Główka — Personalizowana",
-    shortDescription: "Wgraj skin lub wpisz nick — stworzymy Twoją unikalną główkę.",
+    name: "Twoja Główka — Obraz personalizowany",
+    shortDescription: "Wgraj skin — drukujemy obraz z główką na płótnie.",
     description:
-      "Twój skin, Twoja historia. Wgraj plik PNG (64×64 lub 128×128) lub wpisz nick Minecraft, aby zobaczyć podgląd 3D. Każda główka jest drukowana i wykańczana indywidualnie w naszej pracowni.",
+      "Twój skin jako obraz na ścianie. Wgraj PNG (64×64 lub 128×128) lub wpisz nick — zobaczysz podgląd płaskiego canvasu z twarzą główki. Druk na płótnie premium, wysyłka w 3–5 dni.",
     categorySlug: "personalizowane",
     categoryName: "Personalizowane",
     tags: ["personalizacja", "skin", "custom"],
     images: [
       { url: "/images/products/custom-front.svg", alt: "Personalizowana główka Minecraft", type: "front" },
-      { url: "/images/products/custom-preview.svg", alt: "Podgląd 3D skina", type: "angle" },
+      { url: "/images/products/twojskinek/product-3d-view.png", alt: "Widok płaskiego obrazu na płótnie", type: "angle" },
       { url: "/images/products/custom-lifestyle.svg", alt: "Personalizowana główka na biurku", type: "lifestyle" },
     ],
     badge: "nowosc",
-    priceFrom: 19900,
-    variants: makeVariants(19900),
+    priceFrom: 5900,
+    variants: makeCanvasVariants(5900, 6900, 7900, 7900, 8900, 9900),
     materials: defaultMaterials,
     dimensions: defaultDimensions,
     editionType: "custom",
@@ -436,14 +431,14 @@ export const testimonials = [
 
 export const faqItems = [
   {
-    question: "Z czego wykonane są główki HeadCraft?",
+    question: "Czym jest produkt HeadCraft?",
     answer:
-      "Każda główka jest wytwarzana z żywicy premium, ręcznie wykańczana i lakierowana. Opcjonalna podstawa wykonana jest z litego drewna dębowego.",
+      "To płaski obraz na płótnie z wydrukowaną twarzą główki ze skina Minecraft — kwadratowy canvas do powieszenia na ścianie. To nie jest 3D kostka ani figurka.",
   },
   {
-    question: "Jak zamówić główkę ze swojego skina?",
+    question: "Jak zamówić obraz ze swojego skina?",
     answer:
-      "Przejdź do Konfiguratora, wgraj plik PNG (64×64 lub 128×128 px) lub wpisz swój nick Minecraft. Zobaczysz podgląd 3D przed złożeniem zamówienia.",
+      "Przejdź do Konfiguratora, wgraj plik PNG (64×64 lub 128×128 px) lub wpisz nick Minecraft. Zobaczysz podgląd obrazu na płótnie przed zamówieniem.",
   },
   {
     question: "Ile trwa realizacja i wysyłka?",

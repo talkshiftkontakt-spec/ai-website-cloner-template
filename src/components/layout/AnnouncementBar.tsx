@@ -3,6 +3,8 @@
 import { useSyncExternalStore, useState } from "react";
 import { X } from "lucide-react";
 
+import { siteConfig } from "@/lib/site";
+
 const STORAGE_KEY = "headcraft-announcement-dismissed";
 
 function subscribe() {
@@ -25,13 +27,12 @@ export function AnnouncementBar() {
   );
   const [dismissed, setDismissed] = useState(storedDismissed);
 
-  if (dismissed || storedDismissed) return null;
+  if (!siteConfig.promo.active || dismissed || storedDismissed) return null;
 
   return (
-    <div className="relative border-b-2 border-grass-dark bg-grass px-4 py-2.5 text-center text-sm font-semibold text-primary-foreground">
-      <p className="font-display">
-        <span className="pixel-label mr-2 text-primary-foreground/80">Nowość</span>
-        Personalizowana główka ze skina — darmowa wysyłka od 300 zł
+    <div className="relative overflow-hidden border-b-2 border-grass-dark bg-grass px-4 py-2.5 text-center text-sm font-semibold text-primary-foreground">
+      <p className="font-display animate-pulse">
+        {siteConfig.promo.label}
       </p>
       <button
         type="button"

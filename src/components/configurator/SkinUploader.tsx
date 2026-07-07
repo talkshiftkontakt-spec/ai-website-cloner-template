@@ -3,7 +3,7 @@
 import { useCallback, useState } from "react";
 import { Upload } from "lucide-react";
 
-import { HeadPreview3D } from "@/components/configurator/HeadPreview3D";
+import { CanvasPrintPreview } from "@/components/configurator/CanvasPrintPreview";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -108,7 +108,7 @@ export function SkinUploader({ onTextureChange, className }: SkinUploaderProps) 
         </div>
       </div>
 
-      <HeadPreview3D textureUrl={textureUrl} />
+      <CanvasPrintPreview textureUrl={textureUrl} />
     </div>
   );
 }
