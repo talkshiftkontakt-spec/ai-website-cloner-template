@@ -1,0 +1,22 @@
+{
+  "slug": "diagnostyka-doroslych",
+  "url": "https://www.gabinetpomorska.pl/diagnostyka-doroslych/",
+  "title": "Diagnostyka dorosłych - Gabinety Pomorska",
+  "metaDescription": "Dorośli zgłaszają się na diagnostykę z różnych powodów. Czasem są to długo utrzymujące się trudności emocjonalne lub poznawcze, czasem poczucie, że „coś nie",
+  "h1": "Diagnostyka dorosłych | Gabinety Pomorska w Krakowie",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Jeśli rozważasz diagnostykę, ale nie masz pewności, od czego zacząć, konsultacja diagnostyczna może być pierwszym, bezpiecznym etapem. Pozwala ona wspólnie ocenić, czy i w jakim zakresie diagnostyka ma sens w Twojej sytuacji."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapraszamy do kontaktu, aby spokojnie omówić możliwe dalsze kroki."
+    }
+  ],
+  "specialists": [],
+  "pricingRows": [],
+  "faq": [],
+  "images": [],
+  "hasPriceTables": false
+}

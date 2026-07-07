@@ -1,0 +1,229 @@
+{
+  "slug": "oferta",
+  "url": "https://www.gabinetpomorska.pl/oferta/",
+  "title": "Oferta - Gabinety Pomorska",
+  "metaDescription": "Nasza oferta",
+  "h1": "Oferta",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Oferta"
+    },
+    {
+      "type": "image",
+      "src": "https://www.gabinetpomorska.pl/wp-content/uploads/2025/06/adult-woman-in-a-psychology-studio-2023-11-27-05-30-42-utc-1024x683.jpg",
+      "alt": "",
+      "local": "/images/gabinetpomorska/adult-woman-in-a-psychology-studio-2023--d589737067.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasza oferta"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Zobacz, co możemy dla Ciebie zrobić"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nasz gabinet terapeutyczny zapewnia współpracę ze specjalistami różnych dziedzin, w tym psychiatrii. Oferujemy całościową diagnostykę psychologiczną dzieci, młodzieży i dorosłych oraz psychoterapię indywidualną, grupową, rodzinną i dla par. Uzupełnieniem jest poradnictwo dietetyczne. Leczymy m.in. zaburzenia depresyjne, lękowe, obsesyjno-kompulsyjne, odżywiania, ADHD, autyzm, zespół Aspergera i deficyty intelektualne. Zapewniamy też interwencję kryzysową oraz wsparcie rozwoju osobistego."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dlaczego warto zarezerwować wizytę?"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Zintegrowana opieka specjalistów"
+    },
+    {
+      "type": "paragraph",
+      "text": "współpraca psychiatrów, psychoterapeutów i dietetyków pozwala na całościowe podejście do problemów"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Różnorodne formy terapii"
+    },
+    {
+      "type": "paragraph",
+      "text": "indywidualna, grupowa, rodzinna i dla par dają możliwość dopasowania modelu pracy do potrzeb Pacjenta"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wszechstronna diagnostyka psychologiczna"
+    },
+    {
+      "type": "paragraph",
+      "text": "badania obejmujące dzieci, młodzież i dorosłych umożliwiają dokładne rozpoznanie trudności"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Kompleksowe wsparcie"
+    },
+    {
+      "type": "paragraph",
+      "text": "oprócz leczenia zaburzeń dostępna jest interwencja kryzysowa, poradnictwo dietetyczne oraz pomoc w rozwoju osobistym"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wielospecjalistyczna współpraca"
+    },
+    {
+      "type": "paragraph",
+      "text": "Łączymy wiedzę lekarzy różnych dziedzin, w tym psychiatrii, by zapewnić pełne wsparcie."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Trafna diagnoza"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dzięki konsultacjom ze specjalistami skracamy czas rozpoznania i rozpoczynamy leczenie na wczesnym etapie."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Indywidualnie Dobrane Leczenie"
+    },
+    {
+      "type": "paragraph",
+      "text": "Każdy pacjent otrzymuje spersonalizowany plan terapeutyczny, dostosowany do jego potrzeb i stanu zdrowia."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Psychiatria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kompleksowa opieka lekarska w ramach współpracy lekarzy różnych specjalności"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Wnikliwa ocena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tworzymy precyzyjny obraz trudności pacjenta, co pozwala skutecznie zaplanować dalsze kroki terapeutyczne."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Dopasowane narzędzia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wykorzystujemy sprawdzone testy i metody badawcze, aby uzyskać rzetelne wyniki dla wszystkich grup wiekowych."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Kompleksowa Perspektywa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uwzględniamy sferę emocjonalną, poznawczą i społeczną, dając pełniejszy wgląd w potrzeby Pacjenta."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Diagnostyka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Całościowa diagnostyka psychologiczna dzieci, młodzieży i dorosłych"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Szeroki zakres wsparcia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oferujemy pomoc przy różnorodnych problemach, od zaburzeń psychotycznych po ADHD i spektrum autyzmu."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Spersonalizowane metody leczenia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dobieramy indywidualne podejście terapeutyczne, dostosowane do konkretnych trudności każdego Pacjenta."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Poprawa Jakości Życia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Celujemy w trwałe zmiany, pozwalające Pacjentom funkcjonować lepiej zarówno w życiu osobistym, jak i społecznym."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Leczenie"
+    },
+    {
+      "type": "paragraph",
+      "text": "– zaburzenia psychotyczne– zaburzenia depresyjne– zaburzenia lękowe– zaburzenia adaptacyjne– zaburzenia obsesyjno- kompulsywne– tiki– zaburzenia odżywiania– nadpobudliwość psycho-ruchowa– całościowe zaburzenia rozwoju, zespól Aspergera– deficytyi intelektualne– zaburzenia uwagi u dorosłych i dzieci– zakradzenia pamięci i uwagi"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Interwencja Kryzysowa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dajemy wsparcie w nagłych trudnych momentach, pomagając odzyskać równowagę emocjonalną i poczucie bezpieczeństwa."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Rozwój Osobisty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pomagamy odkrywać i wzmacniać Twoje mocne strony, byś mógł realizować cele i czerpać większą satysfakcję z życia."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Kompleksowe Podejście"
+    },
+    {
+      "type": "paragraph",
+      "text": "Łączymy pracę nad konkretnymi problemami z długofalowym rozwojem, zapewniając kompleksowe wsparcie na każdym etapie zmian."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Interwencja i rozwój"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapewniamy wsparcie w sytuacjach kryzysowych i towarzyszymy w rozwoju osobistym."
+    }
+  ],
+  "specialists": [],
+  "pricingRows": [],
+  "faq": [],
+  "images": [
+    {
+      "src": "https://www.gabinetpomorska.pl/wp-content/uploads/2025/06/adult-woman-in-a-psychology-studio-2023-11-27-05-30-42-utc-1024x683.jpg",
+      "alt": "",
+      "local": "/images/gabinetpomorska/adult-woman-in-a-psychology-studio-2023--d589737067.jpg"
+    }
+  ],
+  "hasPriceTables": false
+}

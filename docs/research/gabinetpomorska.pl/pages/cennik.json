@@ -1,0 +1,209 @@
+{
+  "slug": "cennik",
+  "url": "https://www.gabinetpomorska.pl/cennik/",
+  "title": "Cennik Gabinety Pomorska - cennik psycholog psychiatra Kraków",
+  "metaDescription": "Aktualny cennik konsultacji i usług diagnostycznych w Gabinetach Pomorska w Krakowie. Zakres i liczba spotkań jest ustalana indywidualnie.",
+  "h1": "Cennik",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cennik"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aktualny cennik konsultacji i usług diagnostycznych w Gabinetach Pomorska w Krakowie. Zakres i liczba spotkań jest ustalana indywidualnie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prosimy o odwoływanie wizyt najpóźniej 24 godziny przed umówionym terminem.Pozwala to zaproponować zwolnione miejsce innym pacjentom.Wizyty odwołane później są płatne zgodnie z cennikiem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Konsultacje psychiatryczne"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Porada lekarska pierwszorazowa 350 zł",
+        "Porada lekarska kontrolna 300 zł",
+        "Wydanie kopii dokumentacji medycznej 0,60 gr/strona Powyżej jednej kopii"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Powyżej jednej kopii"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Psychoterapia i konsultacje psychologiczne"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Konsultacja pierwszorazowa 250 zł",
+        "Psychoterapia indywidualna lub wizyta kontrolna psychologiczna 200 zł W tym konsultacje dla rodziców",
+        "Terapia par 300 zł Jeden terapeuta",
+        "Terapia rodzinna 300 zł Jeden terapeuta",
+        "Konsultacja wielospecjalistyczna 350 zł z prowadzącym psychiatrą i psychoterapeutą"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "W tym konsultacje dla rodziców"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jeden terapeuta"
+    },
+    {
+      "type": "paragraph",
+      "text": "z prowadzącym psychiatrą i psychoterapeutą"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Diagnoza"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Konsultacja psychologiczna pierwszorazowa 250 zł Wstępna konsultacja dla pacjentów do procesu diagnostycznego - kwalifikacja",
+        "Konsultacja psychologiczna - kolejna 200 zł",
+        "Badanie psychologiczne z użyciem standaryzowanych narzędzi 450 zł Badanie intelektu, funkcji poznawczych/wykonawczych, badanie osobowości - do 3h",
+        "Wydanie pisemnej opinii psychologicznej 150 zł",
+        "Konsultacja wielospecjalistyczna podsumowująca 300 zł Podsumowanie procesu diagnostycznego z psychologiem i psychiatrą",
+        "Kompleksowa diagnostyka wielospecjalistyczna 1790 zł Konsultacja psychiatryczna, wywiad i badanie psychologiczne, obserwacja przez zespół psychologiczno-pedagogiczny, konsylium zespołu, wizyta podsumowująca proces diagnostyczny z psychologiem i psychiatrą, wydanie pisemnej opinii"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Wstępna konsultacja dla pacjentów do procesu diagnostycznego - kwalifikacja"
+    },
+    {
+      "type": "paragraph",
+      "text": "Badanie intelektu, funkcji poznawczych/wykonawczych, badanie osobowości - do 3h"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podsumowanie procesu diagnostycznego z psychologiem i psychiatrą"
+    },
+    {
+      "type": "paragraph",
+      "text": "Konsultacja psychiatryczna, wywiad i badanie psychologiczne, obserwacja przez zespół psychologiczno-pedagogiczny, konsylium zespołu, wizyta podsumowująca proces diagnostyczny z psychologiem i psychiatrą, wydanie pisemnej opinii"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Dietetyk"
+    },
+    {
+      "type": "paragraph",
+      "text": "Usługi dietetyczne są aktualnie niedostępne z uwagi na urlop mgr Doroty Janik."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pierwsza konsultacja z wywiadem 200 zł (czas trwania wizyty: 90 minut)",
+        "Konsultacja kontrolna 80 zł (czas trwania wizyty: 30 minut)",
+        "Edukacja żywieniowa 150 zł (czas trwania wizyty: 60 minut)",
+        "Pakiet opieki 4 wizyty kontrolne 240 zł Ważność pakietu - 6 tygodni",
+        "Pakiet opieki - 2 edukacje żywieniowe 260 zł Ważność pakietu - 3 tygodnie"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "(czas trwania wizyty: 90 minut)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(czas trwania wizyty: 30 minut)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(czas trwania wizyty: 60 minut)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ważność pakietu - 6 tygodni"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ważność pakietu - 3 tygodnie"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Czy gabinet realizuje wizyty w ramach NFZ?Gabinety Pomorska nie mają kontraktu z NFZ – wizyty odbywają się prywatnie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jak wygląda płatność za wizytę?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Płatność u lek. Joanny Boroń-Zyss jest możliwa za pomocą gotówki lub karty płatniczej",
+        "Płatność u lek. Piotra Nowaka jest możliwa wyłącznie za pomocą gotówki",
+        "Płatność u pozostałych specjalistów jest możliwa za pomocą gotówki, karty płatniczej, przelewu z potwierdzeniem lub BLIK.",
+        "Szczegółowe informacje i numery do realizacji przelewu/BLIK podajemy telefonicznie lub mailowo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ile spotkań jest potrzebnych do przeprowadzenia diagnozy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Liczba spotkań i zakres diagnostyki ustalany jest indywidualnie w zależności od celów, bieżącego obrazu klinicznego oraz dotychczasowych wyników badań. Szczegółowe informacje o diagnostyce w naszym gabinecie zawarte są w odpowiedniej zakładce w dziale ,,Oferta”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jak odwołać wizytę?Wizytę można odwołać najpóźniej 24 godziny przed umówionym terminem – telefonicznie, mailowo bądź smsowo. Wizyty odwołane później są płatne zgodnie z cennikiem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Umów wizytę"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jeśli nie wiesz, od czego zacząć – pomożemy dobrać odpowiedni krok. Zapraszamy do kontaktu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odpowiadamy tak szybko, jak to możliwe."
+    }
+  ],
+  "specialists": [],
+  "pricingRows": [
+    "Porada lekarska pierwszorazowa 350 zł",
+    "Porada lekarska kontrolna 300 zł",
+    "Wydanie kopii dokumentacji medycznej 0,60 gr/strona Powyżej jednej kopii",
+    "Konsultacja pierwszorazowa 250 zł",
+    "Psychoterapia indywidualna lub wizyta kontrolna psychologiczna 200 zł W tym konsultacje dla rodziców",
+    "Terapia par 300 zł Jeden terapeuta",
+    "Terapia rodzinna 300 zł Jeden terapeuta",
+    "Konsultacja wielospecjalistyczna 350 zł z prowadzącym psychiatrą i psychoterapeutą",
+    "Konsultacja psychologiczna pierwszorazowa 250 zł Wstępna konsultacja dla pacjentów do procesu diagnostycznego - kwalifikacja",
+    "Konsultacja psychologiczna - kolejna 200 zł",
+    "Badanie psychologiczne z użyciem standaryzowanych narzędzi 450 zł Badanie intelektu, funkcji poznawczych/wykonawczych, badanie osobowości - do 3h",
+    "Wydanie pisemnej opinii psychologicznej 150 zł",
+    "Konsultacja wielospecjalistyczna podsumowująca 300 zł Podsumowanie procesu diagnostycznego z psychologiem i psychiatrą",
+    "Kompleksowa diagnostyka wielospecjalistyczna 1790 zł Konsultacja psychiatryczna, wywiad i badanie psychologiczne, obserwacja przez zespół psychologiczno-pedagogiczny, konsylium zespołu, wizyta podsumowująca proces diagnostyczny z psychologiem i psychiatrą, wydanie pisemnej opinii",
+    "Pierwsza konsultacja z wywiadem 200 zł (czas trwania wizyty: 90 minut)",
+    "Konsultacja kontrolna 80 zł (czas trwania wizyty: 30 minut)",
+    "Edukacja żywieniowa 150 zł (czas trwania wizyty: 60 minut)",
+    "Pakiet opieki 4 wizyty kontrolne 240 zł Ważność pakietu - 6 tygodni",
+    "Pakiet opieki - 2 edukacje żywieniowe 260 zł Ważność pakietu - 3 tygodnie"
+  ],
+  "faq": [],
+  "images": [],
+  "hasPriceTables": true
+}

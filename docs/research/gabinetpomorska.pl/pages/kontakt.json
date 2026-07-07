@@ -1,0 +1,48 @@
+{
+  "slug": "kontakt",
+  "url": "https://gabinetpomorska.pl/index.php/kontakt/",
+  "title": "Kontakt - Gabinety Pomorska",
+  "metaDescription": "Pomorska Specjalistyczne Gabinety Lekarsko-Psychologiczne Sotwin Grochocki Spółka CywilnaNazwa skrócona: Gabinety Pomorska s.c.NIP: 677-252-36-23  REGON:",
+  "h1": "Kontakt",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Kontakt"
+    },
+    {
+      "type": "paragraph",
+      "text": "Numery telefonów do rejestracji: 12 431 16 30 / 790 233 171"
+    },
+    {
+      "type": "paragraph",
+      "text": "Godziny pracy rejestracji:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Poniedziałek – Piątek 15:00-20:00"
+    },
+    {
+      "type": "paragraph",
+      "text": "Adres email: gabinetpomorska@gmail.com"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Umów wizytę"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jeśli nie wiesz, od czego zacząć – pomożemy dobrać odpowiedni krok. Zapraszamy do kontaktu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odpowiadamy tak szybko, jak to możliwe."
+    }
+  ],
+  "specialists": [],
+  "pricingRows": [],
+  "faq": [],
+  "images": [],
+  "hasPriceTables": false
+}
