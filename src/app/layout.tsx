@@ -1,18 +1,26 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Sans, JetBrains_Mono, Sora } from "next/font/google";
+import { Baloo_2, JetBrains_Mono, Nunito_Sans, Silkscreen } from "next/font/google";
 
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
-const sora = Sora({
-  variable: "--font-sora",
+const baloo = Baloo_2({
+  variable: "--font-baloo",
+  subsets: ["latin", "latin-ext"],
+  weight: ["600", "700", "800"],
+  display: "swap",
+});
+
+const nunito = Nunito_Sans({
+  variable: "--font-nunito",
   subsets: ["latin", "latin-ext"],
   display: "swap",
 });
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin", "latin-ext"],
+const silkscreen = Silkscreen({
+  variable: "--font-silkscreen",
+  subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -25,7 +33,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Kolekcjonerskie główki Minecraft`,
+    default: `${siteConfig.name} — Personalizowane główki Minecraft`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -37,7 +45,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1a1d24",
+  themeColor: "#121214",
 };
 
 export default function RootLayout({
@@ -48,12 +56,12 @@ export default function RootLayout({
   return (
     <html
       lang="pl"
-      className={`${sora.variable} ${dmSans.variable} ${jetbrains.variable} dark`}
+      className={`${baloo.variable} ${nunito.variable} ${silkscreen.variable} ${jetbrains.variable} dark`}
     >
       <body className="min-h-screen flex flex-col font-sans antialiased">
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:m-4 focus:rounded-lg focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+          className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:m-4 focus:rounded focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
         >
           Przejdź do treści
         </a>

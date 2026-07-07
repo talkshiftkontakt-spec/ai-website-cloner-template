@@ -4,8 +4,6 @@ import { ArrowRight } from "lucide-react";
 
 import { ProductGrid } from "@/components/commerce/ProductGrid";
 import { products } from "@/lib/cms/data";
-import { buttonVariants } from "@/components/ui/button-variants";
-import { cn } from "@/lib/utils";
 
 export function FeaturedProducts() {
   const featured = products.filter((p) =>
@@ -17,16 +15,17 @@ export function FeaturedProducts() {
       <div className="container-site">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <h2 className="font-display text-3xl font-bold md:text-4xl">
+            <p className="pixel-label text-grass">Sklep</p>
+            <h2 className="mt-2 font-display text-3xl font-extrabold text-white md:text-4xl">
               Wyróżnione główki
             </h2>
             <p className="mt-2 text-muted-foreground">
-              Najczęściej wybierane przez kolekcjonerów
+              Gotowe modele — lub stwórz własną w konfiguratorze
             </p>
           </div>
           <Link
             href="/kolekcje/wszystkie"
-            className={cn(buttonVariants({ variant: "ghost" }), "hidden sm:inline-flex")}
+            className="mc-button-outline hidden !py-2 !px-4 !text-sm sm:inline-flex"
           >
             Zobacz wszystkie
             <ArrowRight className="size-4" />
@@ -42,37 +41,53 @@ export function FeaturedProducts() {
 
 export function CollectionShowcase() {
   const collections = [
-    { slug: "ikony-minecraft", name: "Ikony", image: "/images/collections/icons.svg" },
-    { slug: "tworcy", name: "Twórcy", image: "/images/collections/creators.svg" },
-    { slug: "limitowane", name: "Limitowane", image: "/images/collections/limited.svg" },
-    { slug: "personalizowane", name: "Personalizowane", image: "/images/collections/custom.svg" },
+    { slug: "personalizowane", name: "Personalizowane", image: "/images/heads/dream.png", head: true },
+    { slug: "ikony-minecraft", name: "Ikony", image: "/images/heads/creeper.png", head: true },
+    { slug: "tworcy", name: "Twórcy", image: "/images/heads/techno.png", head: true },
+    { slug: "limitowane", name: "Limitowane", image: "/images/hero/blocks-texture.jpg", head: false },
   ];
 
   return (
     <section className="section-padding bg-surface">
       <div className="container-site">
-        <h2 className="font-display text-3xl font-bold md:text-4xl">
-          Popularne kolekcje
+        <p className="pixel-label text-grass">Kolekcje</p>
+        <h2 className="mt-2 font-display text-3xl font-extrabold text-white md:text-4xl">
+          Wybierz swoją ścieżkę
         </h2>
-        <div className="mt-8 flex gap-4 overflow-x-auto pb-4">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {collections.map((col) => (
             <Link
               key={col.slug}
               href={`/kolekcje/${col.slug}`}
-              className="group relative min-w-[240px] flex-1 overflow-hidden rounded-xl border border-border"
+              className="group mc-panel overflow-hidden transition-colors hover:border-grass/50"
             >
-              <div className="relative aspect-[3/2]">
-                <Image
-                  src={col.image}
-                  alt={col.name}
-                  fill
-                  sizes="240px"
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent" />
-                <p className="absolute bottom-4 left-4 font-display text-lg font-semibold">
-                  {col.name}
-                </p>
+              <div className="relative aspect-[4/3] bg-surface-elevated">
+                {col.head ? (
+                  <div className="absolute inset-0 flex items-center justify-center p-8">
+                    <div className="relative size-24 transition-transform group-hover:scale-110 md:size-28">
+                      <Image
+                        src={col.image}
+                        alt=""
+                        fill
+                        sizes="112px"
+                        className="object-contain drop-shadow-lg"
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  <Image
+                    src={col.image}
+                    alt=""
+                    fill
+                    sizes="280px"
+                    className="object-cover opacity-60 transition-opacity group-hover:opacity-80"
+                  />
+                )}
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background to-transparent p-4">
+                  <p className="font-display text-lg font-bold text-white">
+                    {col.name}
+                  </p>
+                </div>
               </div>
             </Link>
           ))}

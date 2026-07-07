@@ -3,7 +3,7 @@ export const siteConfig = {
   legalName: "HeadCraft Polska",
   tagline: "Twoja historia. Na półce.",
   description:
-    "Kolekcjonerskie fizyczne główki Minecraft. Premium materiały, produkcja w Polsce, stworzone do ekspozycji na półce gamingowej.",
+    "Personalizowane i kolekcjonerskie fizyczne główki Minecraft. Wgraj swój skin — odbierz główkę na półkę. Produkcja w Polsce.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://headcraft.pl",
   email: "kontakt@headcraft.pl",
   phone: "+48 123 456 789",

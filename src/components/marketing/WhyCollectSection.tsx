@@ -1,49 +1,68 @@
-import { Box, Palette, Sparkles } from "lucide-react";
+import Image from "next/image";
 
 const pillars = [
   {
-    icon: Box,
-    title: "Craft",
+    image: "/images/heads/dream.png",
+    title: "Twój skin",
     description:
-      "Żywica premium, ręczne wykończenie i opcjonalna podstawa z litego dębu. Każdy detal ma znaczenie.",
+      "Wgraj plik PNG — zobacz podgląd 3D i zamów główkę dokładnie z Twojego avatara Minecraft.",
   },
   {
-    icon: Palette,
-    title: "Identity",
+    image: "/images/heads/techno.png",
+    title: "Craft premium",
     description:
-      "Twoja główka — Twój skin. Personalizacja z podglądem 3D przed zamówieniem.",
+      "Żywica wysokiej jakości, ręczne wykończenie i opcjonalna podstawa z litego dębu.",
   },
   {
-    icon: Sparkles,
-    title: "Display",
+    image: "/images/heads/creeper.png",
+    title: "Na półkę",
     description:
-      "Zaprojektowane do ekspozycji na półce, biurku lub w gablocie kolekcjonerskiej.",
+      "Zaprojektowane do ekspozycji na biurku, półce gamingowej lub w gablocie kolekcjonerskiej.",
   },
 ];
 
 export function WhyCollectSection() {
   return (
-    <section className="section-padding bg-surface">
-      <div className="container-site">
+    <section className="section-padding relative overflow-hidden bg-surface">
+      <div
+        className="pointer-events-none absolute inset-0 opacity-[0.04]"
+        style={{
+          backgroundImage: "url(/images/hero/blocks-texture.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+        aria-hidden
+      />
+      <div className="container-site relative">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="font-display text-3xl font-bold md:text-4xl">
-            Dlaczego kolekcjonować główki?
+          <p className="pixel-label text-grass">Dlaczego HeadCraft</p>
+          <h2 className="mt-3 font-display text-3xl font-extrabold text-white md:text-4xl">
+            Twoja historia w fizycznej formie
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Więcej niż gadżet — fizyczna manifestacja Twojej historii w Minecraft.
+            Nie kolejny gadżet z AliExpress — prawdziwa kolekcjonerska główka z
+            Twojego świata Minecraft.
           </p>
         </div>
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
           {pillars.map((pillar) => (
             <div
               key={pillar.title}
-              className="rounded-xl border border-border bg-background p-8"
+              className="mc-panel group p-6 transition-colors hover:border-grass/50 md:p-8"
             >
-              <div className="mb-4 flex size-12 items-center justify-center rounded-lg bg-primary/10">
-                <pillar.icon className="size-6 text-primary" />
+              <div className="relative mx-auto mb-5 size-20">
+                <Image
+                  src={pillar.image}
+                  alt=""
+                  fill
+                  sizes="80px"
+                  className="object-contain drop-shadow-lg transition-transform group-hover:scale-105"
+                />
               </div>
-              <h3 className="font-display text-xl font-semibold">{pillar.title}</h3>
-              <p className="mt-2 text-sm text-muted-foreground text-pretty">
+              <h3 className="font-display text-xl font-bold text-white">
+                {pillar.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground text-pretty">
                 {pillar.description}
               </p>
             </div>
