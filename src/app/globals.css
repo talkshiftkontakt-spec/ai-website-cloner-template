@@ -172,3 +172,26 @@
     background: transparent;
   }
 }
+
+@layer components {
+  .gp-mobile-backdrop,
+  .gp-mobile-nav {
+    display: none;
+  }
+
+  #mobile-nav-toggle:checked ~ .gp-header-bar .gp-menu-icon-open {
+    display: none;
+  }
+
+  #mobile-nav-toggle:checked ~ .gp-header-bar .gp-menu-icon-close {
+    display: flex;
+  }
+
+  #mobile-nav-toggle:checked ~ .gp-mobile-backdrop {
+    display: block;
+  }
+
+  #mobile-nav-toggle:checked ~ .gp-mobile-nav {
+    display: block;
+  }
+}
