@@ -31,13 +31,19 @@ export function HeroSection() {
 
  return (
  <section className="hero-cinematic relative flex items-center">
+ <div className="hero-cinematic__backdrop z-0">
+ <BackgroundCover
+ src="/images/hero/minecraft-landscape.jpg"
+ position="center 20%"
+ className="md:hidden"
+ />
  <BackgroundCover
  src="/images/hero/minecraft-sunset.jpg"
- priority
  position="center 35%"
- className="z-0"
+ className="hidden md:block"
  />
  <div className="absolute inset-0 z-[2] grain-overlay" aria-hidden />
+ </div>
 
  <div className="container-site relative z-10 py-12 md:py-20 lg:py-24">
  <div className="flex flex-col items-center gap-10 text-center lg:gap-12">

@@ -127,11 +127,45 @@
   .hero-cinematic {
     position: relative;
     isolation: isolate;
-    min-height: min(100svh, 900px);
+    overflow: hidden;
+    background-color: var(--background);
+  }
+
+  /* Mobile: background only behind headline band — avoids stretching a 16:9 photo */
+  .hero-cinematic__backdrop {
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    height: min(46svh, 400px);
     overflow: hidden;
   }
 
-  /* Prevent stretched fill images when object-fit utilities fail to apply */
+  .hero-cinematic__backdrop::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: 40%;
+    background: linear-gradient(to bottom, transparent, var(--background));
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  @media (min-width: 768px) {
+    .hero-cinematic {
+      min-height: min(88svh, 900px);
+    }
+
+    .hero-cinematic__backdrop {
+      inset: 0;
+      height: auto;
+    }
+
+    .hero-cinematic__backdrop::after {
+      display: none;
+    }
+  }
+
   img[data-nimg="fill"] {
     object-fit: cover;
     object-position: center;
