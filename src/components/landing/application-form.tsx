@@ -95,10 +95,10 @@ export function ApplicationForm() {
     <Section id="aplikacja" theme="sunken">
       <div className="mx-auto max-w-xl">
         <div>
-          <p className="text-label text-secondary">Aplikacja</p>
-          <h2 className="text-display mt-3 text-primary">Zacznij współpracę</h2>
+          <p className="text-label text-destructive">Ostatni krok</p>
+          <h2 className="text-display mt-3 text-primary">Zacznij już dzisiaj</h2>
           <p className="mt-4 text-sm leading-relaxed text-secondary">
-            Krótki formularz. Oddzwonimy w 24 godziny.
+            Krótki formularz. Oddzwonimy w 24 godziny. Nie odkładaj decyzji na jutro.
           </p>
         </div>
 
@@ -280,10 +280,10 @@ export function ApplicationForm() {
             <Button
               type="submit"
               size="lg"
-              className="w-full"
+              className="w-full bg-destructive font-bold uppercase tracking-wider text-canvas hover:bg-destructive/90"
               disabled={isSubmitting}
             >
-              {isSubmitting ? "Wysyłanie..." : "Wyślij aplikację"}
+              {isSubmitting ? "Wysyłanie..." : "Zacznij już dzisiaj"}
             </Button>
           </form>
         )}

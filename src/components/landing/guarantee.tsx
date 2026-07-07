@@ -34,6 +34,18 @@ export function Guarantee() {
           </div>
         ))}
       </div>
+
+      <div className="mt-10 border border-destructive/25 bg-destructive-subtle p-6 text-center md:p-8">
+        <p className="text-sm font-semibold text-destructive-foreground">
+          Masz wątpliwości? Przetestuj bez ryzyka przez 14 dni.
+        </p>
+        <a
+          href="#aplikacja"
+          className="mt-5 inline-flex h-12 items-center justify-center bg-destructive px-8 text-sm font-bold uppercase tracking-wider text-canvas transition-colors hover:bg-destructive/90"
+        >
+          Zacznij już dzisiaj
+        </a>
+      </div>
     </Section>
   );
 }

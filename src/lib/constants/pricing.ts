@@ -5,6 +5,9 @@ export type PricingTier = {
   name: string;
   price: number;
   featured?: boolean;
+  hook: string;
+  badge?: string;
+  urgency?: string;
   audience: string;
   includes: string[];
   commitment: string;
@@ -15,6 +18,9 @@ export const PRICING_TIERS: PricingTier[] = [
     id: "starter",
     name: "Starter",
     price: 399,
+    hook: "Pierwsze kilogramy bez presji i bez wstydu",
+    badge: "Na start",
+    urgency: "Ostatnie wolne miejsca w tym miesiącu",
     audience: "Osoby z nadwagą (BMI od 27 do 32), które chcą zacząć od podstaw",
     includes: [
       "Plan treningowy dopasowany do domu lub siłowni",
@@ -29,6 +35,9 @@ export const PRICING_TIERS: PricingTier[] = [
     name: "Standard",
     price: 699,
     featured: true,
+    hook: "Najczęściej wybierany. Efekty, które widać w lustrze",
+    badge: "Bestseller",
+    urgency: "Tylko 8 miejsc w lipcu",
     audience:
       "Osoby z otyłością I i II stopnia (BMI od 32 do 40), gotowe na pełne zaangażowanie",
     includes: [
@@ -44,6 +53,9 @@ export const PRICING_TIERS: PricingTier[] = [
     id: "premium",
     name: "Premium",
     price: 1199,
+    hook: "Maksymalne wsparcie, gdy każdy dzień ma znaczenie",
+    badge: "VIP",
+    urgency: "Program zamknięty przy 15 klientach",
     audience:
       "Osoby z otyłością znaczną (BMI 40+), potrzebujące intensywnego wsparcia",
     includes: [

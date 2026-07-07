@@ -17,7 +17,11 @@ export function Hero() {
       <Container className="relative">
         <div className="grid gap-10 border-b border-border py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-14">
           <div className="flex flex-col justify-center">
-            <p className="text-label text-secondary">Coaching · odchudzanie · otyłość</p>
+            <p className="inline-flex w-fit items-center gap-2 border border-destructive/30 bg-destructive-subtle px-3 py-1.5 text-[11px] font-bold uppercase tracking-widest text-destructive">
+              <span className="size-1.5 animate-pulse rounded-full bg-destructive" />
+              Limitowane miejsca w lipcu
+            </p>
+            <p className="text-label mt-5 text-secondary">Coaching · odchudzanie · otyłość</p>
             <h1 className="text-hero mt-5 text-primary">
               Schudnij
               <br />
@@ -27,19 +31,22 @@ export function Hero() {
               Trening, żywienie i cotygodniowe wsparcie trenera dla osób z nadwagą
               i otyłością. Bez cudownych diet. Bez kultury siłowni.
             </p>
+            <p className="mt-4 max-w-lg text-sm font-semibold text-destructive-foreground">
+              Nie czekaj na poniedziałek. Twoje ciało nie potrzebuje kolejnej wymówki.
+            </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#aplikacja"
-                className="inline-flex h-14 items-center justify-center bg-primary px-8 text-sm font-semibold uppercase tracking-wider text-canvas transition-colors hover:bg-brand-hover"
+                className="inline-flex h-14 items-center justify-center bg-destructive px-8 text-sm font-bold uppercase tracking-wider text-canvas transition-colors hover:bg-destructive/90"
               >
-                Złóż aplikację
+                Zacznij już dzisiaj
               </a>
               <a
                 href="#cennik"
-                className="inline-flex h-14 items-center justify-center border border-border px-8 text-sm font-semibold uppercase tracking-wider text-primary transition-colors hover:border-primary"
+                className="inline-flex h-14 items-center justify-center border border-destructive/30 bg-destructive-subtle px-8 text-sm font-semibold uppercase tracking-wider text-destructive-foreground transition-colors hover:border-destructive/50 hover:bg-destructive-muted"
               >
-                Zobacz cennik
+                Zobacz ofertę
               </a>
             </div>
 
@@ -77,8 +84,11 @@ export function Hero() {
         <div id="cennik" className="scroll-mt-24 py-10 lg:py-12">
           <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-label text-secondary">Cennik</p>
-              <h2 className="text-display mt-2 text-primary">Wybierz pakiet</h2>
+              <p className="text-label text-destructive">Oferta specjalna</p>
+              <h2 className="text-display mt-2 text-primary">Wybierz pakiet i zacznij dziś</h2>
+              <p className="mt-3 max-w-md text-sm font-medium text-destructive-foreground">
+                Każdy dzień zwłoki to kolejny dzień w starym ciele. Wybierz plan i złóż aplikację w 2 minuty.
+              </p>
             </div>
             <p className="max-w-xs text-sm text-tertiary">
               Ceny na wierzchu. Bez „skontaktuj się po wycenę”.

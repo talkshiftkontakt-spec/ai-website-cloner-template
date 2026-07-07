@@ -56,9 +56,9 @@ export function SiteHeader() {
 
           <a
             href="#aplikacja"
-            className="relative z-[60] hidden h-11 items-center justify-center bg-primary px-6 text-sm font-semibold text-canvas transition-colors hover:bg-brand-hover md:inline-flex"
+            className="relative z-[60] hidden h-11 items-center justify-center bg-destructive px-6 text-sm font-bold text-canvas transition-colors hover:bg-destructive/90 md:inline-flex"
           >
-            Złóż aplikację
+            Zacznij już dzisiaj
           </a>
 
           <button
@@ -115,10 +115,10 @@ export function SiteHeader() {
 
           <a
             href="#aplikacja"
-            className="mt-8 flex h-14 items-center justify-center bg-primary text-base font-semibold text-canvas"
+            className="mt-8 flex h-14 items-center justify-center bg-destructive text-base font-bold text-canvas"
             onClick={() => setOpen(false)}
           >
-            Złóż aplikację
+            Zacznij już dzisiaj
           </a>
 
           <p className="mt-auto pt-10 text-sm leading-relaxed text-tertiary">

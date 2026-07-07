@@ -29,7 +29,7 @@ export function RejectedStereotypes() {
               sizes="(max-width: 640px) 100vw, 33vw"
               className="object-cover grayscale contrast-125 brightness-75 saturate-50"
             />
-            <CrossedOutOverlay columns={6} rows={5} />
+            <CrossedOutOverlay />
             <figcaption className="absolute inset-x-0 bottom-0 z-20 bg-canvas/90 px-4 py-3 text-xs font-bold uppercase tracking-widest text-primary backdrop-blur-sm">
               {image.label}
             </figcaption>

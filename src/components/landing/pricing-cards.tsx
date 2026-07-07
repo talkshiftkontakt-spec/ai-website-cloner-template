@@ -34,23 +34,48 @@ export function PricingCards({
         <article
           key={tier.id}
           className={cn(
-            "flex snap-start flex-col border bg-canvas-raised p-5 md:p-6",
-            tier.featured ? "border-primary" : "border-border",
+            "relative flex snap-start flex-col border p-5 md:p-6",
+            tier.featured
+              ? "border-destructive/50 bg-destructive-muted shadow-[inset_0_1px_0_oklch(0.78_0.16_25/0.12)]"
+              : "border-destructive/20 bg-destructive-subtle/60",
             isCompact && "min-w-[272px]",
           )}
         >
-          <div className="flex items-start justify-between gap-2">
-            <h3 className="font-[family-name:var(--font-display)] text-lg font-bold uppercase tracking-wide text-primary">
-              {tier.name}
-            </h3>
-            {tier.featured && (
-              <span className="bg-primary px-2 py-0.5 text-[10px] font-bold uppercase tracking-widest text-canvas">
-                Hit
+          {tier.urgency && (
+            <p className="text-[10px] font-bold uppercase tracking-widest text-destructive">
+              {tier.urgency}
+            </p>
+          )}
+
+          <div className="mt-2 flex items-start justify-between gap-2">
+            <div>
+              <p className="text-sm font-medium leading-snug text-destructive-foreground">
+                {tier.hook}
+              </p>
+              <h3 className="mt-2 font-[family-name:var(--font-display)] text-lg font-bold uppercase tracking-wide text-primary">
+                {tier.name}
+              </h3>
+            </div>
+            {tier.badge && (
+              <span
+                className={cn(
+                  "shrink-0 px-2 py-0.5 text-[10px] font-bold uppercase tracking-widest",
+                  tier.featured
+                    ? "bg-destructive text-canvas"
+                    : "border border-destructive/30 bg-destructive/15 text-destructive-foreground",
+                )}
+              >
+                {tier.badge}
               </span>
             )}
           </div>
 
-          <p className="text-price mt-3 text-primary">
+          <p
+            className={cn(
+              "text-price mt-4",
+              tier.featured ? "text-destructive" : "text-primary",
+            )}
+          >
             {formatPrice(tier.price)}
             <span className="ml-1 font-[family-name:var(--font-body)] text-xs font-medium uppercase tracking-wider text-tertiary">
               / mies.
@@ -69,13 +94,13 @@ export function PricingCards({
                     key={item}
                     className="flex gap-2 text-sm leading-snug text-secondary"
                   >
-                    <span className="mt-2 size-1 shrink-0 bg-primary" />
+                    <span className="mt-2 size-1 shrink-0 bg-destructive/70" />
                     {item}
                   </li>
                 ))}
               </ul>
 
-              <p className="mt-5 text-xs uppercase tracking-wider text-tertiary">
+              <p className="mt-5 text-xs uppercase tracking-wider text-destructive/80">
                 {tier.commitment}
               </p>
             </>
@@ -91,13 +116,13 @@ export function PricingCards({
             href="#aplikacja"
             onClick={() => onSelectTier?.(tier.id)}
             className={cn(
-              "mt-5 inline-flex h-12 items-center justify-center text-sm font-semibold uppercase tracking-wider transition-colors",
+              "mt-5 inline-flex h-12 items-center justify-center text-sm font-bold uppercase tracking-wider transition-colors",
               tier.featured
-                ? "bg-primary text-canvas hover:bg-brand-hover"
-                : "border border-border text-primary hover:border-primary",
+                ? "bg-destructive text-canvas hover:bg-destructive/90"
+                : "border border-destructive/35 bg-destructive/10 text-destructive-foreground hover:bg-destructive/20",
             )}
           >
-            Wybierz {tier.name}
+            Zacznij już dzisiaj
           </a>
         </article>
       ))}

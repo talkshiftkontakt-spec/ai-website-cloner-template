@@ -4,10 +4,11 @@ import { Section } from "@/components/layout/section";
 export function PricingSection() {
   return (
     <Section id="cennik-pelny" theme="raised" padding="default">
-      <p className="text-label text-secondary">Cennik</p>
-      <h2 className="text-display mt-3 text-primary">Pełna oferta</h2>
+      <p className="text-label text-destructive">Nie odkładaj na jutro</p>
+      <h2 className="text-display mt-3 text-primary">Pełna oferta. Zero wymówek.</h2>
       <p className="mt-4 max-w-2xl text-sm leading-relaxed text-secondary">
-        Wybierz poziom wsparcia. Wszystkie pakiety obejmują plan i kontakt z trenerem.
+        Wybierz poziom wsparcia i zacznij już dzisiaj. Wszystkie pakiety obejmują plan,
+        kontakt z trenerem i realne efekty, nie obietnice z reklamy.
       </p>
 
       <div className="mt-10">
