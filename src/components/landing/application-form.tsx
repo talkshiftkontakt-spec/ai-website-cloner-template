@@ -45,7 +45,7 @@ function Field({
       <label className="text-label mb-2 block text-tertiary">{label}</label>
       {children}
       {error && (
-        <p className="mt-1.5 text-sm text-destructive" role="alert">
+        <p className="mt-1.5 text-sm text-primary" role="alert">
           {error}
         </p>
       )}
@@ -54,7 +54,7 @@ function Field({
 }
 
 const inputClassName =
-  "h-12 w-full rounded-sm border border-border bg-white px-4 text-base text-light-text outline-none transition-colors focus:border-brand focus:ring-2 focus:ring-brand/20";
+  "h-12 w-full rounded-sm border border-border bg-canvas-sunken px-4 text-base text-primary outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/20";
 
 export function ApplicationForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -92,23 +92,23 @@ export function ApplicationForm() {
   }
 
   return (
-    <Section id="aplikacja" theme="light">
+    <Section id="aplikacja" theme="sunken">
       <div className="mx-auto max-w-xl">
         <div>
-          <p className="text-label text-tertiary">Aplikacja</p>
-          <h2 className="text-display mt-3 text-light-text">Zacznij współpracę</h2>
-          <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+          <p className="text-label text-secondary">Aplikacja</p>
+          <h2 className="text-display mt-3 text-primary">Zacznij współpracę</h2>
+          <p className="mt-4 text-sm leading-relaxed text-secondary">
             Krótki formularz. Oddzwonimy w 24 godziny.
           </p>
         </div>
 
         {submitted ? (
           <div
-            className="mt-10 border border-border bg-white p-8 text-center"
+            className="mt-10 border border-border bg-canvas-raised p-8 text-center"
             role="status"
           >
-            <h3 className="text-xl font-medium text-light-text">Dziękujemy!</h3>
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+            <h3 className="text-xl font-medium text-primary">Dziękujemy!</h3>
+            <p className="mt-3 text-sm leading-relaxed text-secondary">
               Otrzymaliśmy Twoją aplikację. Skontaktujemy się w ciągu 24 godzin
               wybraną formą kontaktu.
             </p>
@@ -226,12 +226,12 @@ export function ApplicationForm() {
                 {CONTACT_OPTIONS.map((option) => (
                   <label
                     key={option.value}
-                    className="flex cursor-pointer items-center gap-2 text-sm text-light-text"
+                    className="flex cursor-pointer items-center gap-2 text-sm text-primary"
                   >
                     <input
                       type="radio"
                       value={option.value}
-                      className="size-4 accent-[oklch(0.72_0.08_75)]"
+                      className="size-4 accent-primary"
                       {...register("preferredContact")}
                     />
                     {option.label}
@@ -239,32 +239,32 @@ export function ApplicationForm() {
                 ))}
               </div>
               {errors.preferredContact && (
-                <p className="mt-1.5 text-sm text-destructive" role="alert">
+                <p className="mt-1.5 text-sm text-primary" role="alert">
                   {errors.preferredContact.message}
                 </p>
               )}
             </fieldset>
 
             <div className="space-y-3 border-t border-border pt-6">
-              <label className="flex cursor-pointer gap-3 text-sm leading-relaxed text-muted-foreground">
+              <label className="flex cursor-pointer gap-3 text-sm leading-relaxed text-secondary">
                 <input
                   type="checkbox"
-                  className="mt-1 size-4 shrink-0 accent-[oklch(0.72_0.08_75)]"
+                  className="mt-1 size-4 shrink-0 accent-primary"
                   {...register("gdprConsent")}
                 />
                 Wyrażam zgodę na przetwarzanie danych osobowych w celu obsługi
                 aplikacji. *
               </label>
               {errors.gdprConsent && (
-                <p className="text-sm text-destructive" role="alert">
+                <p className="text-sm text-primary" role="alert">
                   {errors.gdprConsent.message}
                 </p>
               )}
 
-              <label className="flex cursor-pointer gap-3 text-sm leading-relaxed text-muted-foreground">
+              <label className="flex cursor-pointer gap-3 text-sm leading-relaxed text-secondary">
                 <input
                   type="checkbox"
-                  className="mt-1 size-4 shrink-0 accent-[oklch(0.72_0.08_75)]"
+                  className="mt-1 size-4 shrink-0 accent-primary"
                   {...register("marketingConsent")}
                 />
                 Chcę otrzymywać informacje o programie (opcjonalnie).
@@ -272,7 +272,7 @@ export function ApplicationForm() {
             </div>
 
             {serverError && (
-              <p className="text-sm text-destructive" role="alert">
+              <p className="text-sm text-primary" role="alert">
                 {serverError}
               </p>
             )}

@@ -11,9 +11,9 @@ export function FaqAccordion() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <Section id="faq" theme="light">
-      <p className="text-label text-tertiary">FAQ</p>
-      <h2 className="text-display mt-3 text-light-text">Pytania przed startem</h2>
+    <Section id="faq" theme="raised">
+      <p className="text-label text-secondary">FAQ</p>
+      <h2 className="text-display mt-3 text-primary">Pytania przed startem</h2>
 
       <div className="mt-10 divide-y divide-border border-y border-border">
         {FAQ_ITEMS.map((item, index) => {
@@ -27,7 +27,7 @@ export function FaqAccordion() {
                 onClick={() => setOpenIndex(isOpen ? null : index)}
                 aria-expanded={isOpen}
               >
-                <span className="text-base font-medium text-light-text">
+                <span className="text-base font-medium text-primary">
                   {item.question}
                 </span>
                 <ChevronDown
@@ -44,7 +44,7 @@ export function FaqAccordion() {
                 )}
               >
                 <div className="overflow-hidden">
-                  <p className="pb-5 text-sm leading-relaxed text-muted-foreground">
+                  <p className="pb-5 text-sm leading-relaxed text-secondary">
                     {item.answer}
                   </p>
                 </div>

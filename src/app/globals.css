@@ -71,7 +71,7 @@
   --muted-foreground: var(--text-secondary);
   --accent: var(--brand-muted);
   --accent-foreground: var(--text-primary);
-  --destructive: oklch(0.65 0.2 25);
+  --destructive: oklch(0.97 0.005 85);
   --border: oklch(0.24 0.005 80);
   --input: oklch(0.18 0.005 80);
   --ring: var(--brand);
