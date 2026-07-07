@@ -4,7 +4,6 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 import { FAQ_ITEMS } from "@/lib/constants/faq";
-import { FadeUp } from "@/components/motion/fade-up";
 import { Section } from "@/components/layout/section";
 import { cn } from "@/lib/utils";
 
@@ -13,12 +12,8 @@ export function FaqAccordion() {
 
   return (
     <Section id="faq" theme="light">
-      <FadeUp>
-        <p className="text-label text-tertiary">FAQ</p>
-        <h2 className="text-display mt-3 text-light-text">
-          Najczęściej zadawane pytania
-        </h2>
-      </FadeUp>
+      <p className="text-label text-tertiary">FAQ</p>
+      <h2 className="text-display mt-3 text-light-text">Pytania przed startem</h2>
 
       <div className="mt-10 divide-y divide-border border-y border-border">
         {FAQ_ITEMS.map((item, index) => {

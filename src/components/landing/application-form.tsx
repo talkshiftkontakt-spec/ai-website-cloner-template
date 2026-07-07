@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import { Button } from "@/components/ui/button";
-import { FadeUp } from "@/components/motion/fade-up";
 import { Section } from "@/components/layout/section";
 import {
   applicationSchema,
@@ -95,19 +94,17 @@ export function ApplicationForm() {
   return (
     <Section id="aplikacja" theme="light">
       <div className="mx-auto max-w-xl">
-        <FadeUp>
+        <div>
           <p className="text-label text-tertiary">Aplikacja</p>
-          <h2 className="text-display mt-3 text-light-text">
-            Zacznij współpracę
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            Wypełnij krótki formularz — odezwiemy się w ciągu 24 godzin.
+          <h2 className="text-display mt-3 text-light-text">Zacznij współpracę</h2>
+          <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+            Krótki formularz — oddzwonimy w 24 godziny.
           </p>
-        </FadeUp>
+        </div>
 
         {submitted ? (
           <div
-            className="mt-10 rounded-xl border border-border bg-white p-8 text-center"
+            className="mt-10 border border-border bg-white p-8 text-center"
             role="status"
           >
             <h3 className="text-xl font-medium text-light-text">Dziękujemy!</h3>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { fontBody, fontDisplay, fontMono } from "@/lib/fonts";
+import { fontBody, fontDisplay } from "@/lib/fonts";
 import { siteMetadata, metadataBase } from "@/lib/metadata";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="pl"
-      className={`${fontDisplay.variable} ${fontBody.variable} ${fontMono.variable} h-full`}
+      className={`${fontDisplay.variable} ${fontBody.variable} h-full`}
     >
       <head>
         <JsonLd data={organizationSchema()} />

@@ -11,13 +11,13 @@ export function SiteFooter() {
           <div className="lg:col-span-2">
             <Link
               href="/"
-              className="font-[family-name:var(--font-display)] text-2xl tracking-tight text-primary"
+              className="font-[family-name:var(--font-display)] text-xl font-extrabold uppercase tracking-[0.12em] text-primary"
             >
               LekkiStart
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-secondary">
-              Premium coaching online dla osób z nadwagą i otyłością.
-              Indywidualnie. Uczciwie. Bez presji.
+              Coaching online dla osób z nadwagą i otyłością. Bez hype&apos;u. Bez
+              ukrytych cen.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-16 border-t border-border pt-8 text-sm text-tertiary">
-          © {new Date().getFullYear()} LekkiStart.pl. Wszelkie prawa zastrzeżone.
+          © {new Date().getFullYear()} LekkiStart.pl
         </div>
       </Container>
     </footer>

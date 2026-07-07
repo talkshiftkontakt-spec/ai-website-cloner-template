@@ -1,32 +1,27 @@
 import { CLIENT_STORIES } from "@/lib/constants/content";
-import { FadeUp } from "@/components/motion/fade-up";
 import { Section } from "@/components/layout/section";
 
 export function ClientStories() {
   return (
     <Section id="historie" theme="raised">
-      <FadeUp>
-        <p className="text-label text-brand">Historie klientów</p>
-        <h2 className="text-display mt-3 max-w-2xl text-primary">
-          Prawdziwe historie. Bez sensacyjnych obietnic.
-        </h2>
-      </FadeUp>
+      <p className="text-label text-secondary">Historie</p>
+      <h2 className="text-display mt-3 max-w-2xl text-primary">
+        Ludzie, nie case study.
+      </h2>
 
-      <div className="mt-12 grid gap-8 lg:grid-cols-3">
-        {CLIENT_STORIES.map((story, index) => (
-          <FadeUp key={story.name} delay={index * 0.08}>
-            <article className="flex h-full flex-col rounded-xl border border-border bg-canvas p-6 lg:p-8">
-              <blockquote className="font-[family-name:var(--font-display)] text-xl leading-snug text-primary">
-                „{story.quote}”
-              </blockquote>
-              <p className="mt-6 flex-1 text-sm leading-relaxed text-secondary">
-                {story.excerpt}
-              </p>
-              <footer className="mt-6 border-t border-border pt-4 text-sm text-tertiary">
-                {story.name} · {story.duration} współpracy
+      <div className="mt-10 divide-y divide-border border-y border-border">
+        {CLIENT_STORIES.map((story) => (
+          <article key={story.name} className="grid gap-6 py-8 lg:grid-cols-[1fr_2fr] lg:gap-12">
+            <blockquote className="font-[family-name:var(--font-display)] text-2xl font-semibold leading-tight tracking-tight text-primary md:text-3xl">
+              „{story.quote}”
+            </blockquote>
+            <div>
+              <p className="text-sm leading-relaxed text-secondary">{story.excerpt}</p>
+              <footer className="mt-4 text-xs font-semibold uppercase tracking-wider text-tertiary">
+                {story.name} · {story.duration}
               </footer>
-            </article>
-          </FadeUp>
+            </div>
+          </article>
         ))}
       </div>
     </Section>

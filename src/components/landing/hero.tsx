@@ -1,56 +1,87 @@
+import Image from "next/image";
+
 import { PricingCards } from "@/components/landing/pricing-cards";
-import { Button } from "@/components/ui/button";
 import { Container } from "@/components/layout/container";
+
+const STATS = [
+  { value: "1:1", label: "Coach na stałe" },
+  { value: "7 dni", label: "Check-in co tydzień" },
+  { value: "399 zł", label: "Od / miesiąc" },
+] as const;
 
 export function Hero() {
   return (
     <section className="relative border-b border-border bg-canvas">
-      <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,oklch(0.25_0.03_75_/_0.15),transparent_55%)]"
-        aria-hidden
-      />
-      <Container className="relative py-12 md:py-16 lg:py-20">
-        <div className="max-w-3xl">
-          <p className="text-label text-brand">Premium coaching online</p>
-          <h1 className="text-hero mt-4 text-primary">
-            Odzyskaj lekkość.{" "}
-            <em className="not-italic text-secondary">
-              Coaching, który zostaje z Tobą na lata.
-            </em>
-          </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-secondary">
-            Indywidualny trening, żywienie i cotygodniowe wsparcie — dla osób z
-            nadwagą i otyłością. Bez restrykcyjnych diet. Bez presji.
-          </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Button
-              size="lg"
-              render={<a href="#aplikacja" />}
-              nativeButton={false}
-            >
-              Złóż aplikację
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              render={<a href="#cennik" />}
-              nativeButton={false}
-            >
-              Zobacz cennik
-            </Button>
+      <div className="marketing-grid absolute inset-0 opacity-40" aria-hidden />
+
+      <Container className="relative">
+        <div className="grid gap-10 border-b border-border py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-14">
+          <div className="flex flex-col justify-center">
+            <p className="text-label text-secondary">Coaching · odchudzanie · otyłość</p>
+            <h1 className="text-hero mt-5 text-primary">
+              Schudnij
+              <br />
+              na serio.
+            </h1>
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-secondary md:text-lg">
+              Trening, żywienie i cotygodniowe wsparcie trenera — dla osób z nadwagą
+              i otyłością. Bez cudownych diet. Bez kultury siłowni.
+            </p>
+
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="#aplikacja"
+                className="inline-flex h-14 items-center justify-center bg-primary px-8 text-sm font-semibold uppercase tracking-wider text-canvas transition-colors hover:bg-brand-hover"
+              >
+                Złóż aplikację
+              </a>
+              <a
+                href="#cennik"
+                className="inline-flex h-14 items-center justify-center border border-border px-8 text-sm font-semibold uppercase tracking-wider text-primary transition-colors hover:border-primary"
+              >
+                Zobacz cennik
+              </a>
+            </div>
+
+            <dl className="mt-10 grid grid-cols-3 gap-4 border-t border-border pt-8">
+              {STATS.map((stat) => (
+                <div key={stat.label}>
+                  <dt className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-primary md:text-3xl">
+                    {stat.value}
+                  </dt>
+                  <dd className="mt-1 text-xs leading-snug text-tertiary">{stat.label}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+
+          <div className="relative min-h-[280px] lg:min-h-[420px]">
+            <Image
+              src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
+              alt="Osoba spacerująca w parku — spokojna aktywność na co dzień"
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 45vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/20 to-transparent lg:bg-gradient-to-r lg:from-canvas lg:via-transparent lg:to-transparent" />
+            <div className="absolute bottom-4 left-4 right-4 border border-border/80 bg-canvas/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">
+              <p className="text-label text-secondary">Dla kogo</p>
+              <p className="mt-1 text-sm font-medium leading-snug text-primary">
+                BMI 27+. Osoby, które chcą realnej zmiany — nie kolejnej diety z Instagrama.
+              </p>
+            </div>
           </div>
         </div>
 
-        <div id="cennik" className="mt-12 scroll-mt-24 md:mt-14">
-          <div className="mb-6 flex items-end justify-between gap-4">
+        <div id="cennik" className="scroll-mt-24 py-10 lg:py-12">
+          <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-label text-tertiary">Cennik</p>
-              <h2 className="text-display mt-2 text-primary">
-                Wybierz swój pakiet
-              </h2>
+              <p className="text-label text-secondary">Cennik</p>
+              <h2 className="text-display mt-2 text-primary">Wybierz pakiet</h2>
             </div>
-            <p className="hidden max-w-xs text-right text-sm text-tertiary md:block">
-              Przejrzyste ceny. Bez ukrytych opłat.
+            <p className="max-w-xs text-sm text-tertiary">
+              Ceny na wierzchu. Bez „skontaktuj się po wycenę”.
             </p>
           </div>
           <PricingCards variant="compact" />

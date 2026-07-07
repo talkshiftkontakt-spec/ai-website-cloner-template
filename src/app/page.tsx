@@ -72,20 +72,20 @@ export default function Home() {
 
       <Section id="kontakt" padding="compact">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-label text-brand">Kontakt</p>
+          <p className="text-label text-secondary">Kontakt</p>
           <h2 className="text-display mt-3 text-primary">Masz pytania?</h2>
           <p className="mt-4 text-base leading-relaxed text-secondary">
             Napisz na{" "}
             <a
               href="mailto:kontakt@lekkistart.pl"
-              className="text-brand transition-colors hover:text-brand-hover"
+              className="font-medium text-primary underline-offset-4 hover:underline"
             >
               kontakt@lekkistart.pl
             </a>{" "}
             lub zadzwoń:{" "}
             <a
               href="tel:+48000000000"
-              className="text-brand transition-colors hover:text-brand-hover"
+              className="font-medium text-primary underline-offset-4 hover:underline"
             >
               +48 000 000 000
             </a>

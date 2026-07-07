@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import { FadeUp } from "@/components/motion/fade-up";
 import { Section } from "@/components/layout/section";
 
 type FeatureSectionProps = {
@@ -27,27 +26,25 @@ export function FeatureSection({
           reversed ? "lg:[&>*:first-child]:order-2" : ""
         }`}
       >
-        <FadeUp>
-          <p className="text-label text-brand">{label}</p>
+        <div>
+          <p className="text-label text-secondary">{label}</p>
           <h2 className="text-display mt-3 text-primary">{title}</h2>
-          <div className="mt-6 space-y-4 text-base leading-relaxed text-secondary">
+          <div className="mt-6 space-y-4 text-sm leading-relaxed text-secondary md:text-base">
             {paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
-        </FadeUp>
+        </div>
 
-        <FadeUp delay={0.1}>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-canvas-raised">
-            <Image
-              src={image.src}
-              alt={image.alt}
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
-        </FadeUp>
+        <div className="relative aspect-[4/3] overflow-hidden bg-canvas-raised">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover"
+          />
+        </div>
       </div>
     </Section>
   );
