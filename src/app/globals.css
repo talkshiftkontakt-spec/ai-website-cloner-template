@@ -153,6 +153,13 @@
     text-transform: uppercase;
   }
 
+  .marketing-grid {
+    background-image:
+      linear-gradient(to right, oklch(1 0 0 / 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(1 0 0 / 0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
   .marketing-grid-light {
     background-image:
       linear-gradient(to right, oklch(0 0 0 / 0.05) 1px, transparent 1px),

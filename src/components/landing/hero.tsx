@@ -11,11 +11,8 @@ const STATS = [
 
 export function Hero() {
   return (
-    <section
-      data-theme="light"
-      className="relative border-b border-border bg-light-canvas text-light-text"
-    >
-      <div className="marketing-grid-light absolute inset-0 opacity-60" aria-hidden />
+    <section className="relative border-b border-border bg-canvas">
+      <div className="marketing-grid absolute inset-0 opacity-40" aria-hidden />
 
       <Container className="relative">
         <div className="grid gap-10 border-b border-border py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-14">
@@ -30,22 +27,19 @@ export function Hero() {
               Trening, żywienie i cotygodniowe wsparcie trenera dla osób z nadwagą
               i otyłością. Bez cudownych diet. Bez kultury siłowni.
             </p>
-            <p className="mt-4 max-w-lg text-sm font-semibold text-destructive-foreground">
-              Nie czekaj na poniedziałek. Twoje ciało nie potrzebuje kolejnej wymówki.
-            </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#aplikacja"
-                className="inline-flex h-14 items-center justify-center bg-destructive px-8 text-sm font-bold uppercase tracking-wider text-canvas transition-colors hover:bg-destructive/90"
+                className="inline-flex h-14 items-center justify-center bg-primary px-8 text-sm font-semibold uppercase tracking-wider text-canvas transition-colors hover:bg-brand-hover"
               >
-                Zacznij już dzisiaj
+                Złóż aplikację
               </a>
               <a
                 href="#cennik"
-                className="inline-flex h-14 items-center justify-center border border-destructive/30 bg-destructive-subtle px-8 text-sm font-semibold uppercase tracking-wider text-destructive-foreground transition-colors hover:border-destructive/50 hover:bg-destructive-muted"
+                className="inline-flex h-14 items-center justify-center border border-border px-8 text-sm font-semibold uppercase tracking-wider text-primary transition-colors hover:border-primary"
               >
-                Zobacz ofertę
+                Zobacz cennik
               </a>
             </div>
 
@@ -70,8 +64,8 @@ export function Hero() {
               sizes="(max-width: 1024px) 100vw, 45vw"
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-light-canvas via-light-canvas/20 to-transparent lg:bg-gradient-to-r lg:from-light-canvas lg:via-transparent lg:to-transparent" />
-            <div className="absolute bottom-4 left-4 right-4 border border-border bg-white/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">
+            <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/20 to-transparent lg:bg-gradient-to-r lg:from-canvas lg:via-transparent lg:to-transparent" />
+            <div className="absolute bottom-4 left-4 right-4 border border-border/80 bg-canvas/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">
               <p className="text-label text-secondary">Dla kogo</p>
               <p className="mt-1 text-sm font-medium leading-snug text-primary">
                 BMI 27+. Osoby, które chcą realnej zmiany, a nie kolejnej diety z Instagrama.
