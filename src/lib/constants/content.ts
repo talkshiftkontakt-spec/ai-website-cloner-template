@@ -120,34 +120,34 @@ export const GALLERY_IMAGES = [
 
 export const REJECTED_STEREOTYPE_IMAGES = [
   {
-    src: "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Osoba z nadwagą siedząca samotnie, smutna i przygnębiona",
+    src: "/images/rejected/sad-sofa-curled.jpg",
+    alt: "Otyła kobieta zwinięta na kanapie, przygnębiona i smutna",
     label: "Wstyd i izolacja",
   },
   {
-    src: "https://images.pexels.com/photos/7533343/pexels-photo-7533343.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Osoba z otyłością patrząca w dół z rezygnacją",
+    src: "/images/rejected/sad-couch-despair.jpg",
+    alt: "Otyła kobieta siedząca na kanapie z wyrazem smutku i rozpaczy",
     label: "Poczucie porażki",
   },
   {
-    src: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Osoba z nadwagą jedząca w samotności przy telewizorze",
-    label: "Emocjonalne jedzenie",
+    src: "/images/rejected/scale-despair.jpg",
+    alt: "Otyła kobieta siedząca przy wadze z głową w dłoniach",
+    label: "Obsesja na punkcie wagi",
   },
   {
-    src: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Osoba z otyłością leżąca w łóżku, zmęczona i przygnębiona",
+    src: "/images/rejected/scale-shock.jpg",
+    alt: "Otyła kobieta w szoku patrząca na wynik na wadze",
     label: "Bezradność",
   },
   {
-    src: "https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Osoba z nadwagą stojąca przed lustrem z niezadowoleniem",
-    label: "Nienawiść do ciała",
+    src: "/images/rejected/depressed-headache.jpg",
+    alt: "Otyła kobieta trzymająca głowę, zestresowana i przygnębiona",
+    label: "Presja i stres",
   },
   {
-    src: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    alt: "Osoba z otyłością siedząca przy oknie w mroku",
-    label: "Smutek i samotność",
+    src: "/images/rejected/street-weary.jpg",
+    alt: "Otyła kobieta idąca ulicą, zmęczona i przygnębiona",
+    label: "Codzienne zmęczenie",
   },
 ] as const;
 

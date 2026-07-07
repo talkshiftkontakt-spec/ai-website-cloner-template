@@ -8,7 +8,7 @@ export function CrossedOutOverlay({ columns = 5, rows = 4 }: CrossedOutOverlayPr
 
   return (
     <div className="pointer-events-none absolute inset-0 z-10 overflow-hidden" aria-hidden>
-      <div className="absolute inset-0 bg-canvas/50" />
+      <div className="absolute inset-0 bg-canvas/60" />
 
       <svg
         viewBox="0 0 100 100"
