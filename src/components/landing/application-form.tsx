@@ -45,7 +45,7 @@ function Field({
       <label className="text-label mb-2 block text-tertiary">{label}</label>
       {children}
       {error && (
-        <p className="mt-1.5 text-sm text-primary" role="alert">
+        <p className="mt-1.5 text-sm text-destructive" role="alert">
           {error}
         </p>
       )}
@@ -54,7 +54,7 @@ function Field({
 }
 
 const inputClassName =
-  "h-12 w-full rounded-sm border border-border bg-canvas-sunken px-4 text-base text-primary outline-none transition-colors focus:border-primary focus:ring-2 focus:ring-primary/20";
+  "h-12 w-full rounded-sm border border-border bg-canvas-sunken px-4 text-base text-primary outline-none transition-colors focus:border-destructive focus:ring-2 focus:ring-destructive/20";
 
 export function ApplicationForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -231,7 +231,7 @@ export function ApplicationForm() {
                     <input
                       type="radio"
                       value={option.value}
-                      className="size-4 accent-primary"
+                      className="size-4 accent-destructive"
                       {...register("preferredContact")}
                     />
                     {option.label}
@@ -239,7 +239,7 @@ export function ApplicationForm() {
                 ))}
               </div>
               {errors.preferredContact && (
-                <p className="mt-1.5 text-sm text-primary" role="alert">
+                <p className="mt-1.5 text-sm text-destructive" role="alert">
                   {errors.preferredContact.message}
                 </p>
               )}
@@ -249,14 +249,14 @@ export function ApplicationForm() {
               <label className="flex cursor-pointer gap-3 text-sm leading-relaxed text-secondary">
                 <input
                   type="checkbox"
-                  className="mt-1 size-4 shrink-0 accent-primary"
+                  className="mt-1 size-4 shrink-0 accent-destructive"
                   {...register("gdprConsent")}
                 />
                 Wyrażam zgodę na przetwarzanie danych osobowych w celu obsługi
                 aplikacji. *
               </label>
               {errors.gdprConsent && (
-                <p className="text-sm text-primary" role="alert">
+                <p className="text-sm text-destructive" role="alert">
                   {errors.gdprConsent.message}
                 </p>
               )}
@@ -264,7 +264,7 @@ export function ApplicationForm() {
               <label className="flex cursor-pointer gap-3 text-sm leading-relaxed text-secondary">
                 <input
                   type="checkbox"
-                  className="mt-1 size-4 shrink-0 accent-primary"
+                  className="mt-1 size-4 shrink-0 accent-destructive"
                   {...register("marketingConsent")}
                 />
                 Chcę otrzymywać informacje o programie (opcjonalnie).
@@ -272,7 +272,7 @@ export function ApplicationForm() {
             </div>
 
             {serverError && (
-              <p className="text-sm text-primary" role="alert">
+              <p className="text-sm text-destructive" role="alert">
                 {serverError}
               </p>
             )}
