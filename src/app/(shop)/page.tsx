@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import { BackgroundCover } from "@/components/ui/background-cover";
+
 import {
  CollectionShowcase,
  FeaturedProducts,
@@ -60,17 +62,14 @@ export default function HomePage() {
  <HowItWorksSection />
 
  {/* Personalized canvas spotlight */}
- <section className="section-padding relative overflow-hidden">
- <Image
+ <section className="section-padding relative isolate overflow-hidden">
+ <BackgroundCover
  src="/images/hero/minecraft-overworld.jpg"
- alt=""
- fill
- sizes="100vw"
- className="object-cover object-center"
- aria-hidden
+ position="center 40%"
+ className="z-0"
  />
- <div className="absolute inset-0 bg-background/82" aria-hidden />
- <div className="container-site relative">
+ <div className="absolute inset-0 z-[1] bg-background/82" aria-hidden />
+ <div className="container-site relative z-10">
  <div className="grid items-center gap-10 lg:grid-cols-2">
  <div className="order-2 space-y-6 lg:order-1">
  <p className="pixel-label text-grass">Główny produkt</p>
@@ -116,8 +115,8 @@ export default function HomePage() {
  <Image
  src="/images/products/twojskinek/product-closeup.png"
  alt="Zbliżenie na obraz ze skinem Minecraft na płótnie"
- width={800}
- height={600}
+ width={1080}
+ height={1080}
  className="h-auto w-full"
  sizes="(max-width: 768px) 100vw, 50vw"
  />
@@ -126,8 +125,8 @@ export default function HomePage() {
  <Image
  src="/images/products/twojskinek/product-3d-view.png"
  alt="Płaski obraz na płótnie, widok z boku"
- width={400}
- height={400}
+ width={1080}
+ height={1080}
  className="h-auto w-full"
  sizes="240px"
  />
@@ -136,8 +135,8 @@ export default function HomePage() {
  <Image
  src="/images/products/twojskinek/product-in-living-room.png"
  alt="Obraz ze skinem w salonie"
- width={400}
- height={400}
+ width={1080}
+ height={1080}
  className="h-auto w-full"
  sizes="240px"
  />

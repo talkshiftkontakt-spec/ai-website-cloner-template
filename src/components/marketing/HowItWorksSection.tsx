@@ -43,7 +43,7 @@ export function HowItWorksSection() {
  <Image
  src="/images/products/twojskinek/product-concept.png"
  alt="Od skina Minecraft do obrazu na płótnie, koncepcja produktu"
- width={1200}
+ width={2048}
  height={800}
  className="h-auto w-full"
  sizes="(max-width: 768px) 100vw, 768px"

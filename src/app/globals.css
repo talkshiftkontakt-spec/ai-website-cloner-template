@@ -126,8 +126,15 @@
   /* Minecraft cinematic hero */
   .hero-cinematic {
     position: relative;
+    isolation: isolate;
     min-height: min(100svh, 900px);
     overflow: hidden;
+  }
+
+  /* Prevent stretched fill images when object-fit utilities fail to apply */
+  img[data-nimg="fill"] {
+    object-fit: cover;
+    object-position: center;
   }
   .hero-cinematic::before {
     content: "";

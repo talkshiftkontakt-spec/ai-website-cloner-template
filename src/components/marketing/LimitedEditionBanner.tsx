@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { BackgroundCover } from "@/components/ui/background-cover";
 import { getProductBySlug } from "@/lib/cms/data";
 import { formatPrice } from "@/lib/format";
 
@@ -10,14 +11,11 @@ export function LimitedEditionBanner() {
  return (
  <section className="section-padding">
  <div className="container-site">
- <div className="mc-panel relative overflow-hidden p-8 md:p-12">
- <div
- className="pointer-events-none absolute inset-0 opacity-15"
- style={{
- backgroundImage: "url(/images/hero/minecraft-caves.jpg)",
- backgroundSize: "cover",
- }}
- aria-hidden
+ <div className="mc-panel relative isolate overflow-hidden p-8 md:p-12">
+ <BackgroundCover
+ src="/images/hero/minecraft-caves.jpg"
+ className="z-0 opacity-15"
+ position="center"
  />
  <div className="relative z-10 max-w-xl space-y-4">
  <p className="pixel-label text-accent">Limitowana edycja</p>

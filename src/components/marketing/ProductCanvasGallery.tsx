@@ -37,9 +37,9 @@ export function ProductCanvasGallery() {
  <Image
  src={shot.src}
  alt={shot.alt}
- width={600}
- height={600}
- className="h-auto w-full object-cover"
+ width={1080}
+ height={1080}
+ className="h-auto w-full"
  sizes="(max-width: 640px) 100vw, 33vw"
  />
  </div>

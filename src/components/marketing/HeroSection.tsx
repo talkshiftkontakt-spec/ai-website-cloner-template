@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ArrowDown } from "lucide-react";
 
+import { BackgroundCover } from "@/components/ui/background-cover";
 import { siteConfig } from "@/lib/site";
 
 const heroProducts = [
@@ -30,16 +31,13 @@ export function HeroSection() {
 
  return (
  <section className="hero-cinematic relative flex items-center">
- <Image
+ <BackgroundCover
  src="/images/hero/minecraft-sunset.jpg"
- alt=""
- fill
  priority
- sizes="100vw"
- className="object-cover object-center"
- aria-hidden
+ position="center 35%"
+ className="z-0"
  />
- <div className="absolute inset-0 grain-overlay z-[2]" aria-hidden />
+ <div className="absolute inset-0 z-[2] grain-overlay" aria-hidden />
 
  <div className="container-site relative z-10 py-12 md:py-20 lg:py-24">
  <div className="flex flex-col items-center gap-10 text-center lg:gap-12">
@@ -78,7 +76,7 @@ export function HeroSection() {
  fill
  priority={index === 0}
  sizes="(max-width: 640px) 90vw, 400px"
- className={`object-cover transition-opacity duration-1000 ${
+ className={`bg-neutral-900/30 object-contain transition-opacity duration-1000 ${
  index === active ? "opacity-100" : "opacity-0"
  }`}
  />
