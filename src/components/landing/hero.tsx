@@ -11,17 +11,16 @@ const STATS = [
 
 export function Hero() {
   return (
-    <section className="relative border-b border-border bg-canvas">
-      <div className="marketing-grid absolute inset-0 opacity-40" aria-hidden />
+    <section
+      data-theme="light"
+      className="relative border-b border-border bg-light-canvas text-light-text"
+    >
+      <div className="marketing-grid-light absolute inset-0 opacity-60" aria-hidden />
 
       <Container className="relative">
         <div className="grid gap-10 border-b border-border py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-14">
           <div className="flex flex-col justify-center">
-            <p className="inline-flex w-fit items-center gap-2 border border-destructive/30 bg-destructive-subtle px-3 py-1.5 text-[11px] font-bold uppercase tracking-widest text-destructive">
-              <span className="size-1.5 animate-pulse rounded-full bg-destructive" />
-              Limitowane miejsca w lipcu
-            </p>
-            <p className="text-label mt-5 text-secondary">Coaching · odchudzanie · otyłość</p>
+            <p className="text-label text-secondary">Coaching · odchudzanie · otyłość</p>
             <h1 className="text-hero mt-5 text-primary">
               Schudnij
               <br />
@@ -71,8 +70,8 @@ export function Hero() {
               sizes="(max-width: 1024px) 100vw, 45vw"
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/20 to-transparent lg:bg-gradient-to-r lg:from-canvas lg:via-transparent lg:to-transparent" />
-            <div className="absolute bottom-4 left-4 right-4 border border-border/80 bg-canvas/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">
+            <div className="absolute inset-0 bg-gradient-to-t from-light-canvas via-light-canvas/20 to-transparent lg:bg-gradient-to-r lg:from-light-canvas lg:via-transparent lg:to-transparent" />
+            <div className="absolute bottom-4 left-4 right-4 border border-border bg-white/90 p-4 backdrop-blur-sm lg:bottom-6 lg:left-6 lg:max-w-xs">
               <p className="text-label text-secondary">Dla kogo</p>
               <p className="mt-1 text-sm font-medium leading-snug text-primary">
                 BMI 27+. Osoby, które chcą realnej zmiany, a nie kolejnej diety z Instagrama.
@@ -84,10 +83,10 @@ export function Hero() {
         <div id="cennik" className="scroll-mt-24 py-10 lg:py-12">
           <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-label text-destructive">Oferta specjalna</p>
+              <p className="text-label text-destructive">Cennik</p>
               <h2 className="text-display mt-2 text-primary">Wybierz pakiet i zacznij dziś</h2>
-              <p className="mt-3 max-w-md text-sm font-medium text-destructive-foreground">
-                Każdy dzień zwłoki to kolejny dzień w starym ciele. Wybierz plan i złóż aplikację w 2 minuty.
+              <p className="mt-3 max-w-md text-sm font-medium text-secondary">
+                Wybierz plan dopasowany do Twojego celu i złóż aplikację w kilka minut.
               </p>
             </div>
             <p className="max-w-xs text-sm text-tertiary">

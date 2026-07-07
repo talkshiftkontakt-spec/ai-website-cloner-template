@@ -41,13 +41,7 @@ export function PricingCards({
             isCompact && "min-w-[272px]",
           )}
         >
-          {tier.urgency && (
-            <p className="text-[10px] font-bold uppercase tracking-widest text-destructive">
-              {tier.urgency}
-            </p>
-          )}
-
-          <div className="mt-2 flex items-start justify-between gap-2">
+          <div className="flex items-start justify-between gap-2">
             <div>
               <p className="text-sm font-medium leading-snug text-destructive-foreground">
                 {tier.hook}

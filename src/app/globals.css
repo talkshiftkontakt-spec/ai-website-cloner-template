@@ -87,11 +87,17 @@
 [data-theme="light"] {
   --background: var(--light-canvas);
   --foreground: var(--light-text);
+  --text-primary: var(--light-text);
+  --text-secondary: oklch(0.42 0.01 80);
+  --text-tertiary: oklch(0.55 0.01 80);
   --card: oklch(1 0 0);
   --card-foreground: var(--light-text);
   --border: oklch(0.88 0.01 85);
   --input: oklch(0.92 0.01 85);
   --muted-foreground: oklch(0.42 0.01 80);
+  --destructive-muted: oklch(0.94 0.04 25);
+  --destructive-subtle: oklch(0.97 0.02 25);
+  --destructive-foreground: oklch(0.52 0.18 25);
 }
 
 @layer base {
@@ -147,10 +153,10 @@
     text-transform: uppercase;
   }
 
-  .marketing-grid {
+  .marketing-grid-light {
     background-image:
-      linear-gradient(to right, oklch(1 0 0 / 0.04) 1px, transparent 1px),
-      linear-gradient(to bottom, oklch(1 0 0 / 0.04) 1px, transparent 1px);
+      linear-gradient(to right, oklch(0 0 0 / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(0 0 0 / 0.05) 1px, transparent 1px);
     background-size: 48px 48px;
   }
 }
