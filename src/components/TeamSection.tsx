@@ -53,7 +53,7 @@ export function TeamSection() {
         </div>
 
         <SectionReveal className="mt-12 text-center">
-          <Link href="https://www.gabinetpomorska.pl/index.php/specjalisci/" className="gp-btn gp-btn-outline">
+          <Link href="/specjalisci" className="gp-btn gp-btn-outline">
             Dowiedz się więcej
           </Link>
         </SectionReveal>

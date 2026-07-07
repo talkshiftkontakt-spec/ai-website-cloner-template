@@ -17,7 +17,7 @@ export function TrustStrip() {
           <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-[#879d91]" weight="duotone" aria-hidden />
           <p>Kraków, ul. Pomorska 10/1 – centrum miasta</p>
         </div>
-        <Link href="#formularz-kontaktowy" className="gp-btn gp-btn-primary w-full shrink-0 md:w-auto">
+        <Link href="/kontakt#formularz-kontaktowy" className="gp-btn gp-btn-primary w-full shrink-0 md:w-auto">
           Formularz kontaktowy
         </Link>
       </div>

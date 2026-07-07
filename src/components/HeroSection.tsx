@@ -27,7 +27,7 @@ export function HeroSection() {
               <Link href="#formularz-kontaktowy" className="gp-btn gp-btn-primary">
                 Formularz kontaktowy
               </Link>
-              <Link href="https://www.gabinetpomorska.pl/specjalisci/" className="gp-btn gp-btn-outline">
+              <Link href="/specjalisci" className="gp-btn gp-btn-outline">
                 Specjaliści
               </Link>
             </div>

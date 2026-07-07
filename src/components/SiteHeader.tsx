@@ -56,7 +56,7 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Link href="#formularz-kontaktowy" className="gp-btn gp-btn-primary text-sm">
+          <Link href="/kontakt#formularz-kontaktowy" className="gp-btn gp-btn-primary text-sm">
             Formularz kontaktowy
           </Link>
         </div>
@@ -97,7 +97,7 @@ export function SiteHeader() {
           ))}
         </ul>
         <Link
-          href="#formularz-kontaktowy"
+          href="/kontakt#formularz-kontaktowy"
           className="gp-btn gp-btn-primary mt-4 w-full"
           onClick={closeMobileMenu}
         >

@@ -28,7 +28,7 @@ export function PricingSection() {
 
         <SectionReveal className="mt-12 text-center">
           <Link
-            href="https://www.gabinetpomorska.pl/index.php/cennik/"
+            href="/cennik"
             className="gp-btn border border-white/30 bg-white text-[#134340] hover:bg-white/90"
           >
             Pełny cennik
