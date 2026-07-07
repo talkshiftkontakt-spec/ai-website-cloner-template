@@ -8,6 +8,7 @@ import { Hero } from "@/components/landing/hero";
 import { HowItWorks } from "@/components/landing/how-it-works";
 import { PricingSection } from "@/components/landing/pricing-section";
 import { ProgressTracking } from "@/components/landing/progress-tracking";
+import { RejectedStereotypes } from "@/components/landing/rejected-stereotypes";
 import { Testimonials } from "@/components/landing/testimonials";
 import { TransformationGallery } from "@/components/landing/transformation-gallery";
 import { Section } from "@/components/layout/section";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <RejectedStereotypes />
       <TransformationGallery />
       <ClientStories />
       <Testimonials />

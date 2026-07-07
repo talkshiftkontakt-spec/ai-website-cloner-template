@@ -3,7 +3,7 @@ import { Container } from "./container";
 
 type SectionProps = {
   id?: string;
-  theme?: "dark" | "light" | "raised";
+  theme?: "dark" | "light" | "raised" | "sunken";
   padding?: "default" | "hero" | "compact";
   className?: string;
   children: React.ReactNode;
@@ -23,6 +23,7 @@ export function Section({
       className={cn(
         "bg-canvas text-primary",
         theme === "raised" && "bg-canvas-raised",
+        theme === "sunken" && "bg-canvas-sunken",
         theme === "light" && "bg-light-canvas text-light-text",
         padding === "hero" && "py-20 lg:py-28",
         padding === "default" && "py-16 lg:py-24",

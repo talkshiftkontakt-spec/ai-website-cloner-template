@@ -118,6 +118,39 @@ export const GALLERY_IMAGES = [
   },
 ] as const;
 
+export const REJECTED_STEREOTYPE_IMAGES = [
+  {
+    src: "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Osoba z nadwagą siedząca samotnie, smutna i przygnębiona",
+    label: "Wstyd i izolacja",
+  },
+  {
+    src: "https://images.pexels.com/photos/7533343/pexels-photo-7533343.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Osoba z otyłością patrząca w dół z rezygnacją",
+    label: "Poczucie porażki",
+  },
+  {
+    src: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Osoba z nadwagą jedząca w samotności przy telewizorze",
+    label: "Emocjonalne jedzenie",
+  },
+  {
+    src: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Osoba z otyłością leżąca w łóżku, zmęczona i przygnębiona",
+    label: "Bezradność",
+  },
+  {
+    src: "https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Osoba z nadwagą stojąca przed lustrem z niezadowoleniem",
+    label: "Nienawiść do ciała",
+  },
+  {
+    src: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    alt: "Osoba z otyłością siedząca przy oknie w mroku",
+    label: "Smutek i samotność",
+  },
+] as const;
+
 export const COACH = {
   name: "Trener LekkiStart",
   title: "Coach zdrowia i odchudzania",
