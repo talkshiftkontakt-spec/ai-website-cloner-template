@@ -13,7 +13,7 @@ export function HeroSection() {
       <div className="mx-auto grid min-h-[calc(100dvh-4rem)] max-w-7xl lg:grid-cols-[1.05fr_0.95fr]">
         <div className="flex flex-col justify-center px-6 py-16 lg:px-8 lg:py-24">
           <motion.div
-            initial={reduce ? false : { opacity: 0, y: 24 }}
+            initial={reduce ? false : { opacity: 1, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
@@ -36,7 +36,7 @@ export function HeroSection() {
 
         <motion.div
           className="relative min-h-[320px] lg:min-h-full"
-          initial={reduce ? false : { opacity: 0, scale: 1.03 }}
+          initial={reduce ? false : { opacity: 1, scale: 1.02 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
         >
