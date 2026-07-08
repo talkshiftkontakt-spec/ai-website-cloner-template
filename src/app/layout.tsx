@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
+import { fontBody, fontDisplay } from "@/lib/fonts";
+import { siteMetadata, metadataBase } from "@/lib/metadata";
+import { SiteFooter } from "@/components/layout/site-footer";
+import { SiteHeader } from "@/components/layout/site-header";
+import { JsonLd } from "@/components/seo/json-ld";
+import {
+  faqSchema,
+  organizationSchema,
+  professionalServiceSchema,
+} from "@/lib/schema";
+import { FAQ_ITEMS } from "@/lib/constants/faq";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  ...siteMetadata,
+  metadataBase,
 };
 
 export default function RootLayout({
@@ -24,10 +25,19 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang="pl"
+      className={`${fontDisplay.variable} ${fontBody.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <head>
+        <JsonLd data={organizationSchema()} />
+        <JsonLd data={professionalServiceSchema()} />
+        <JsonLd data={faqSchema(FAQ_ITEMS)} />
+      </head>
+      <body className="min-h-full bg-canvas font-sans text-primary antialiased">
+        <SiteHeader />
+        <main id="main">{children}</main>
+        <SiteFooter />
+      </body>
     </html>
   );
 }
