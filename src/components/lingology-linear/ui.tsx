@@ -63,20 +63,43 @@ export function LinearSection({
   id,
   children,
   className,
-  reveal = true,
 }: {
   id?: string;
   children: ReactNode;
   className?: string;
-  reveal?: boolean;
 }) {
   return (
-    <section
-      id={id}
-      className={cn("b-30Va_root Fzcv4W_inset", reveal && "linear-reveal", className)}
-    >
+    <section id={id} className={cn("b-30Va_root Fzcv4W_inset", className)}>
       {children}
     </section>
+  );
+}
+
+export function LinearSectionHeader({
+  title,
+  description,
+  label,
+}: {
+  title: ReactNode;
+  description: ReactNode;
+  label?: { num: string; text: string };
+}) {
+  return (
+    <div className="b-30Va_header">
+      <div className="b-30Va_titleContainer">
+        {label ? (
+          <div className="b-30Va_action mb-4 inline-flex items-center gap-3 font-mono text-sm text-[var(--color-text-tertiary)]">
+            <span className="Fzcv4W_slashedZero text-[var(--color-accent)]">{label.num}</span>
+            <span>{label.text}</span>
+            <span className="text-[var(--color-text-quaternary)]">→</span>
+          </div>
+        ) : null}
+        <LinearHeading className="b-30Va_title">{title}</LinearHeading>
+      </div>
+      <div className="b-30Va_descriptionContainer">
+        <LinearBody className="b-30Va_descriptionText">{description}</LinearBody>
+      </div>
+    </div>
   );
 }
 
@@ -118,18 +141,15 @@ export function LinearCard({
   children,
   className,
   featured,
-  interactive = true,
 }: {
   children: ReactNode;
   className?: string;
   featured?: boolean;
-  interactive?: boolean;
 }) {
   return (
     <div
       className={cn(
-        "Fzcv4W_edgeHighlight relative flex flex-col rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-secondary)] p-6 md:p-8",
-        interactive && "linear-card-interactive",
+        "Fzcv4W_edgeHighlight b-30Va_action relative flex flex-col rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-secondary)] p-6 md:p-8",
         featured && "shadow-[0_0_0_1px_rgba(113,112,255,0.15),0_24px_80px_rgba(0,0,0,0.45)]",
         className,
       )}
@@ -152,27 +172,21 @@ export function PillarLabel({ num, label }: { num: string; label: string }) {
 export function LinearPanel({
   children,
   className,
-  float,
   ...props
 }: {
   children: ReactNode;
   className?: string;
-  float?: boolean;
 } & HTMLAttributes<HTMLDivElement>) {
   return (
     <div
       className={cn(
-        "Fzcv4W_edgeHighlight linear-grain relative overflow-hidden rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-panel)] shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]",
-        float && "linear-float",
+        "Fzcv4W_edgeHighlight relative overflow-hidden rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-panel)] shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]",
         className,
       )}
       {...props}
     >
-      {children}
+      <div className="SPbJba_grain SPbJba_grainSubtle" aria-hidden />
+      <div className="relative">{children}</div>
     </div>
   );
-}
-
-export function Stagger({ children, className }: { children: ReactNode; className?: string }) {
-  return <div className={cn("linear-stagger", className)}>{children}</div>;
 }

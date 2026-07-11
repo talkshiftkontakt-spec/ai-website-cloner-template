@@ -30,6 +30,8 @@
   --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
   --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --speed-quickTransition: 0.16s;
+  --layer-header: 100;
   --title-3: var(--font-weight-semibold) 1.5rem / 1.33 var(--font-regular);
   --title-5: var(--font-weight-semibold) 2.5rem / 1.1 var(--font-regular);
   --title-7: var(--font-weight-semibold) 3.5rem / 1.1 var(--font-regular);

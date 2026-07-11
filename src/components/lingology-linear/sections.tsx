@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import {
   appSection,
-  betweenLessons,
   contact,
   diagnosis,
   faq,
@@ -21,6 +20,7 @@ import {
 } from "@/lib/lingology-content";
 
 import { FaqAccordion, LinearAccordion } from "./accordion";
+import { HeroProductPanel } from "./hero-product-panel";
 import {
   LinearBody,
   LinearButton,
@@ -28,9 +28,9 @@ import {
   LinearHeading,
   LinearPanel,
   LinearSection,
+  LinearSectionHeader,
   LinearTag,
   PillarLabel,
-  Stagger,
 } from "./ui";
 
 export function HeroSection() {
@@ -40,13 +40,15 @@ export function HeroSection() {
       style={{ paddingTop: "calc(var(--header-height) + 48px)", paddingBottom: 64, maxWidth: "var(--homepage-max-width)", marginInline: "auto" }}
     >
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-        <div className="linear-hero-in">
+        <div>
           <LinearTag>{hero.tag}</LinearTag>
           <LinearHeading as="h1" className="QI8oKG_title mt-6">
             {hero.title}
-            <span className="linear-gradient-text block">{hero.titleAccent}</span>
+            <span className="Fzcv4W_gradientText block">{hero.titleAccent}</span>
           </LinearHeading>
-          <LinearBody className="QI8oKG_description mt-6">{hero.description}</LinearBody>
+          <div className="QI8oKG_descriptionContainer mt-6 flex flex-wrap items-baseline gap-4">
+            <LinearBody className="QI8oKG_description m-0">{hero.description}</LinearBody>
+          </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <LinearButton href="#contact" variant="invert">
               Umów konsultację
@@ -58,40 +60,24 @@ export function HeroSection() {
           <p className="mt-6 text-sm text-[var(--ll-text-tertiary)]">{hero.trust}</p>
         </div>
 
-        <div className="linear-hero-visual">
-          <div className="linear-hero-glow" aria-hidden />
-          <div
-            className="linear-parallax-layer relative z-[1] aspect-square max-w-[560px] justify-self-center lg:justify-self-end"
-            data-parallax="0.08"
-          >
-            <LinearPanel float className="h-full w-full">
-              <Image
-                src="/lingology/img/photo-hero-560.webp"
-                alt="Kuba Smolczewski, lekcje angielskiego online dla dorosłych"
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 1024px) 90vw, 560px"
-              />
-              <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10" />
-            </LinearPanel>
-          </div>
-        </div>
+        <HeroProductPanel />
       </div>
 
-      <div className="border-t border-[var(--color-border-translucent)] pt-10 linear-reveal" style={{ ["--reveal-delay" as string]: "200ms" }}>
+      <div className="border-t border-[var(--color-border-translucent)] pt-10">
         <div className="mb-6 flex items-center gap-2 text-sm text-[var(--ll-text-tertiary)]">
           <span className="text-[var(--ll-accent)]">★★★★★</span>
           <span>Opinie uczniów</span>
         </div>
-        <Stagger className="grid gap-4 md:grid-cols-3">
-          {hero.quotes.map((q) => (
-            <LinearCard key={q.author} className="p-5">
-              <p className="text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">„{q.text}”</p>
-              <p className="mt-4 text-sm font-medium text-[var(--ll-text-tertiary)]">{q.author}</p>
-            </LinearCard>
-          ))}
-        </Stagger>
+        <div className="linear-marquee">
+          <div className="linear-marquee-track">
+            {[...hero.quotes, ...hero.quotes].map((q, i) => (
+              <LinearCard key={`${q.author}-${i}`} className="w-[min(340px,80vw)] shrink-0 p-5">
+                <p className="text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">„{q.text}”</p>
+                <p className="mt-4 text-sm font-medium text-[var(--ll-text-tertiary)]">{q.author}</p>
+              </LinearCard>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -100,10 +86,7 @@ export function HeroSection() {
 export function ProblemSection() {
   return (
     <LinearSection id="problem" className="border-t border-white/5 bg-[var(--ll-bg-secondary)]/40">
-      <div className="mx-auto max-w-3xl text-center">
-        <LinearHeading>{problem.title}</LinearHeading>
-        <LinearBody className="mx-auto mt-6">{problem.description}</LinearBody>
-      </div>
+      <LinearSectionHeader title={problem.title} description={problem.description} />
       <ul className="mx-auto mt-12 grid max-w-3xl gap-3">
         {problem.items.map((item) => (
           <li
@@ -159,31 +142,6 @@ export function SpeakingSection() {
   );
 }
 
-export function BetweenLessonsSection() {
-  return (
-    <LinearSection id="between-lessons" className="border-t border-white/5">
-      <div className="text-center">
-        <PillarLabel num="2.0" label="Między lekcjami" />
-        <LinearHeading>{betweenLessons.title}</LinearHeading>
-        <LinearBody className="mx-auto mt-6">{betweenLessons.description}</LinearBody>
-      </div>
-      <Stagger className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {betweenLessons.cards.map((card, i) => (
-          <LinearCard key={card.title} className={i === 4 ? "md:col-span-2 lg:col-span-1" : undefined}>
-            <h3 className="text-lg font-medium text-[var(--ll-text-primary)]">{card.title}</h3>
-            <p className="mt-3 text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">{card.body}</p>
-          </LinearCard>
-        ))}
-      </Stagger>
-      <div className="mt-10 text-center">
-        <LinearButton href="#lingology-learn" variant="primary">
-          Zobacz, jak wygląda nauka między lekcjami
-        </LinearButton>
-      </div>
-    </LinearSection>
-  );
-}
-
 export function OfferSection() {
   return (
     <LinearSection id="offer">
@@ -192,7 +150,7 @@ export function OfferSection() {
         <LinearHeading className="mt-4">{offer.title}</LinearHeading>
         <p className="mt-4 text-lg text-[var(--ll-accent)]">{offer.subtitle}</p>
       </div>
-      <Stagger className="mt-12 grid gap-6 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 lg:grid-cols-3">
         {offer.plans.map((plan) => (
           <LinearCard key={plan.title} featured={plan.featured} className="h-full">
             {"badge" in plan && plan.badge ? (
@@ -225,7 +183,7 @@ export function OfferSection() {
             </div>
           </LinearCard>
         ))}
-      </Stagger>
+      </div>
     </LinearSection>
   );
 }
@@ -416,23 +374,25 @@ export function TestsSection() {
 }
 
 export function TestimonialsSection() {
+  const items = [...testimonials.items, ...testimonials.items];
   return (
     <LinearSection id="testimonials" className="border-t border-white/5 bg-[var(--ll-bg-secondary)]/20">
-      <LinearHeading>{testimonials.title}</LinearHeading>
-      <LinearBody className="mt-4">{testimonials.description}</LinearBody>
-      <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {testimonials.items.map((t) => (
-          <LinearCard key={t.author} className="p-5">
-            <span className="text-xs text-[var(--ll-text-tertiary)]">{t.source}</span>
-            <p className="mt-3 text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">„{t.quote}”</p>
-            <div className="mt-4 flex items-center gap-3">
-              <span className="flex size-8 items-center justify-center rounded-full bg-[var(--ll-brand)]/30 text-sm font-medium text-[var(--ll-accent)]">
-                {t.author[0]}
-              </span>
-              <span className="text-sm font-medium text-[var(--ll-text-primary)]">{t.author}</span>
-            </div>
-          </LinearCard>
-        ))}
+      <LinearSectionHeader title={testimonials.title} description={testimonials.description} />
+      <div className="linear-marquee mt-10">
+        <div className="linear-marquee-track">
+          {items.map((t, i) => (
+            <LinearCard key={`${t.author}-${i}`} className="w-[min(360px,82vw)] shrink-0 p-5">
+              <span className="text-xs text-[var(--ll-text-tertiary)]">{t.source}</span>
+              <p className="mt-3 text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">„{t.quote}”</p>
+              <div className="mt-4 flex items-center gap-3">
+                <span className="flex size-8 items-center justify-center rounded-full bg-[var(--ll-brand)]/30 text-sm font-medium text-[var(--ll-accent)]">
+                  {t.author[0]}
+                </span>
+                <span className="text-sm font-medium text-[var(--ll-text-primary)]">{t.author}</span>
+              </div>
+            </LinearCard>
+          ))}
+        </div>
       </div>
     </LinearSection>
   );

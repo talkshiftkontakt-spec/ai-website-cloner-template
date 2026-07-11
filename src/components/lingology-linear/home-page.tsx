@@ -1,9 +1,9 @@
 import { LingologyFooter } from "./footer";
 import { LingologyHeader } from "./header";
-import { MotionProvider } from "./motion-provider";
+import { ScrollEffects } from "./scroll-effects";
+import { BetweenLessonsPillarSection } from "./pillar-section";
 import {
   AppSection,
-  BetweenLessonsSection,
   ContactSection,
   DiagnosisSection,
   FaqSection,
@@ -21,14 +21,15 @@ import {
 
 export function LingologyLinearHome() {
   return (
-    <MotionProvider>
+    <>
+      <ScrollEffects />
       <div className="ll-page Fzcv4W_smooth-scroll">
         <LingologyHeader />
         <main>
           <HeroSection />
           <ProblemSection />
           <SpeakingSection />
-          <BetweenLessonsSection />
+          <BetweenLessonsPillarSection />
           <OfferSection />
           <AppSection />
           <DiagnosisSection />
@@ -43,6 +44,6 @@ export function LingologyLinearHome() {
         </main>
         <LingologyFooter />
       </div>
-    </MotionProvider>
+    </>
   );
 }

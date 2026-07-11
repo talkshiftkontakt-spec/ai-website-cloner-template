@@ -14,7 +14,7 @@ export function LingologyHeader() {
 
   return (
     <>
-      <header className="TZTsQG_header">
+      <header className="TZTsQG_header" data-header data-transparent-header>
         <div className="TZTsQG_innerWrapper">
           <div className="TZTsQG_menuRoot" style={{ flex: 1, justifyContent: "space-between", width: "100%" }}>
             <Link href="/" className="TZTsQG_logoLink">
@@ -30,7 +30,7 @@ export function LingologyHeader() {
             <ul className="TZTsQG_list hide-mobile" style={{ flex: 1, justifyContent: "center" }}>
               {navLinks.map((link) => (
                 <li key={link.href} className="TZTsQG_item">
-                  <Link href={link.href} className="TZTsQG_anchor linear-nav-link">
+                  <Link href={link.href} className="TZTsQG_anchor">
                     {link.label}
                   </Link>
                 </li>
