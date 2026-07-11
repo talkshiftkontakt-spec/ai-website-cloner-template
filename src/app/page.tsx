@@ -1,9 +1,13 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+
+import { LingologyPage } from "@/components/lingology/LingologyPage";
+
+export default async function Home() {
+  const html = await readFile(
+    join(process.cwd(), "public/lingology/content.html"),
+    "utf8",
   );
+
+  return <LingologyPage html={html} />;
 }
