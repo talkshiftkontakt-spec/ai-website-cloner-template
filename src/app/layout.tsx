@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
-import "./globals.css";
-
 interface LinearManifest {
   title: string;
   description: string;

@@ -16,6 +16,13 @@ full = full.replace(/src="\//g, 'src="https://linear.app/');
 // Same-page anchors should stay on the clone origin
 full = full.replace(/href="https:\/\/linear\.app\/(#)/g, 'href="/$1');
 
+// Prevent white flash if CDN CSS is slow or blocked (tunnel / adblock)
+const criticalCss =
+  '<style id="clone-critical-css">html,body{background:#08090a!important;color:#f7f8f8!important;min-height:100%}</style>';
+if (!full.includes("clone-critical-css")) {
+  full = full.replace(/<head>/i, `<head>${criticalCss}`);
+}
+
 const outDir = join(root, "public/linear");
 await mkdir(outDir, { recursive: true });
 
