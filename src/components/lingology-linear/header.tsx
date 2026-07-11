@@ -14,49 +14,57 @@ export function LingologyHeader() {
 
   return (
     <>
-      <header className="TZTsQG_header" style={{ position: "fixed", insetInline: 0, top: 0, zIndex: 100 }}>
-        <div className="TZTsQG_innerWrapper" style={{ maxWidth: "var(--homepage-max-width)", marginInline: "auto" }}>
-          <Link href="/" className="flex items-center gap-2 text-[15px] font-semibold" style={{ color: "var(--color-text-primary)" }}>
-            <span
-              className="flex size-7 items-center justify-center rounded-full text-xs text-white"
-              style={{ background: "var(--color-brand-bg)" }}
+      <header className="TZTsQG_header">
+        <div className="TZTsQG_innerWrapper">
+          <div className="TZTsQG_menuRoot" style={{ flex: 1, justifyContent: "space-between", width: "100%" }}>
+            <Link href="/" className="TZTsQG_logoLink">
+              <span
+                className="flex size-7 items-center justify-center rounded-full text-xs text-white"
+                style={{ background: "var(--color-brand-bg)" }}
+              >
+                L
+              </span>
+              <span style={{ marginLeft: 8, fontWeight: 600 }}>{site.name}</span>
+            </Link>
+
+            <ul className="TZTsQG_list hide-mobile" style={{ flex: 1, justifyContent: "center" }}>
+              {navLinks.map((link) => (
+                <li key={link.href} className="TZTsQG_item">
+                  <Link href={link.href} className="TZTsQG_anchor">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <ul className="TZTsQG_buttons hide-mobile">
+              <li className="TZTsQG_buttonItem">
+                <LinearButton href={site.appUrl} variant="ghost" external className="S36ykG_size-small">
+                  Aplikacja
+                </LinearButton>
+              </li>
+              <li className="TZTsQG_buttonItem">
+                <LinearButton href="#contact" variant="invert" className="S36ykG_size-small">
+                  Umów konsultację
+                </LinearButton>
+              </li>
+            </ul>
+
+            <button
+              type="button"
+              className="TZTsQG_mobileMenuTrigger show-mobile"
+              aria-label={open ? "Zamknij menu" : "Otwórz menu"}
+              onClick={() => setOpen((v) => !v)}
             >
-              L
-            </span>
-            {site.name}
-          </Link>
-
-          <nav className="TZTsQG_list hide-mobile">
-            {navLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="TZTsQG_anchor">
-                {link.label}
-              </Link>
-            ))}
-          </nav>
-
-          <div className="TZTsQG_buttons hide-mobile">
-            <LinearButton href={site.appUrl} variant="ghost" external className="S36ykG_size-small">
-              Aplikacja
-            </LinearButton>
-            <LinearButton href="#contact" variant="invert" className="S36ykG_size-small">
-              Umów konsultację
-            </LinearButton>
+              {open ? <X className="size-5" /> : <Menu className="size-5" />}
+            </button>
           </div>
-
-          <button
-            type="button"
-            className="show-mobile inline-flex size-10 items-center justify-center rounded-full border border-[var(--color-border-translucent)]"
-            aria-label={open ? "Zamknij menu" : "Otwórz menu"}
-            onClick={() => setOpen((v) => !v)}
-          >
-            {open ? <X className="size-5" /> : <Menu className="size-5" />}
-          </button>
         </div>
       </header>
 
       <div
         className={cn(
-          "fixed inset-0 z-40 backdrop-blur-xl transition-opacity show-mobile",
+          "fixed inset-0 z-[90] backdrop-blur-xl transition-opacity show-mobile",
           open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
         )}
         style={{ background: "color-mix(in srgb, var(--color-bg-primary) 95%, transparent)" }}
@@ -84,10 +92,10 @@ export function LingologyHeader() {
       </div>
 
       <div
-        className="show-mobile fixed inset-x-0 bottom-0 z-40 flex items-center justify-between gap-3 border-t px-4 py-3 backdrop-blur-[20px]"
+        className="show-mobile fixed inset-x-0 bottom-0 z-[80] flex items-center justify-between gap-3 border-t px-4 py-3 backdrop-blur-[20px]"
         style={{
-          borderColor: "var(--header-border, #ffffff14)",
-          background: "var(--header-bg, #0b0b0bcc)",
+          borderColor: "var(--header-border)",
+          background: "var(--header-bg)",
         }}
       >
         <span className="text-xs" style={{ color: "var(--color-text-tertiary)" }}>

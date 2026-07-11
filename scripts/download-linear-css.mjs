@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const outDir = join(__dirname, "..", "public", "linear", "css");
 
 const files = [
-  { name: "index.css", url: "https://static.linear.app/web/_next/static/css/index.CcvuW808.css" },
+  { name: "tokens.css", local: true },
   { name: "utils.css", url: "https://static.linear.app/web/_next/static/css/utils.5l1Pf81z.css" },
   { name: "button.css", url: "https://static.linear.app/web/_next/static/css/Button.dcAi4KbO.css" },
   { name: "header.css", url: "https://static.linear.app/web/_next/static/css/Header.DrX8EJz9.css" },
@@ -19,6 +19,13 @@ const files = [
 await mkdir(outDir, { recursive: true });
 
 for (const file of files) {
+  let css;
+  if (file.local) {
+    const { readFile } = await import("node:fs/promises");
+    css = await readFile(join(outDir, file.name), "utf8");
+    console.log(`${file.name}: ${css.length} bytes (local)`);
+    continue;
+  }
   const res = await fetch(file.url);
   if (!res.ok) throw new Error(`Failed ${file.url}: ${res.status}`);
   const css = await res.text();

@@ -7,11 +7,9 @@
 
 @theme inline {
   --font-sans: var(--font-regular), ui-sans-serif, system-ui, sans-serif;
-  --color-background: var(--color-bg-primary);
-  --color-foreground: var(--color-text-primary);
 }
 
-/* Bridge legacy ll-* aliases to Linear CDN tokens */
+/* Bridge legacy ll-* aliases to Linear tokens */
 :root {
   --ll-bg-primary: var(--color-bg-primary, #08090a);
   --ll-bg-secondary: var(--color-bg-secondary, #1c1c1f);
@@ -30,13 +28,4 @@
   * {
     box-sizing: border-box;
   }
-}
-
-/* Tailwind utilities should not override Linear typography on marketing page */
-.ll-page {
-  font-family: var(--font-regular);
-  font-feature-settings: var(--font-settings, "cv01", "ss03");
-  font-variation-settings: var(--font-variations, "opsz" auto);
-  color: var(--color-text-primary);
-  background: var(--color-bg-primary);
 }

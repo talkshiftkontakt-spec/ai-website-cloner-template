@@ -34,9 +34,12 @@ import {
 
 export function HeroSection() {
   return (
-    <section className="QI8oKG_container linear-hero-stagger" style={{ paddingTop: "calc(var(--header-height) + 48px)", paddingBottom: 64 }}>
+    <section
+      className="QI8oKG_container Fzcv4W_inset"
+      style={{ paddingTop: "calc(var(--header-height) + 48px)", paddingBottom: 64, maxWidth: "var(--homepage-max-width)", marginInline: "auto" }}
+    >
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-        <div>
+        <div className="linear-hero-in">
           <LinearTag>{hero.tag}</LinearTag>
           <LinearHeading as="h1" className="QI8oKG_title mt-6">
             {hero.title}
