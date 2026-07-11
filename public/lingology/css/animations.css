@@ -1,0 +1,47 @@
+@keyframes fadeUp   { from { opacity: 0; transform: translateY(36px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeRight{ from { opacity: 0; transform: translateX(40px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes navIn    { from { opacity: 0; transform: translateY(-100%); } to { opacity: 1; transform: translateY(0); } }
+
+.fu { opacity: 0; transform: translateY(28px); transition: opacity .65s ease, transform .65s ease; }
+.fu.visible { opacity: 1; transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  .ha .tag,
+  .ha .hero-heading,
+  .ha .hero-sub,
+  .ha .hero-cta,
+  .ha .hero-trust,
+  nav {
+    animation: none !important;
+  }
+
+  .fu {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.reduce-motion .ha .tag,
+.reduce-motion .ha .hero-heading,
+.reduce-motion .ha .hero-sub,
+.reduce-motion .ha .hero-cta,
+.reduce-motion .ha .hero-trust,
+.reduce-motion nav {
+  animation: none !important;
+}
+
+.reduce-motion .fu {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .problem-card:hover,
+  .between-card:hover,
+  .app-feature-tile:hover {
+    transform: none;
+    transition: none;
+  }
+}
