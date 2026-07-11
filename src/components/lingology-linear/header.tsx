@@ -30,7 +30,7 @@ export function LingologyHeader() {
             <ul className="TZTsQG_list hide-mobile" style={{ flex: 1, justifyContent: "center" }}>
               {navLinks.map((link) => (
                 <li key={link.href} className="TZTsQG_item">
-                  <Link href={link.href} className="TZTsQG_anchor">
+                  <Link href={link.href} className="TZTsQG_anchor linear-nav-link">
                     {link.label}
                   </Link>
                 </li>

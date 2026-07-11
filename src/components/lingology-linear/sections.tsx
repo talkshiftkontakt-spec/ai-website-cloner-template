@@ -30,6 +30,7 @@ import {
   LinearSection,
   LinearTag,
   PillarLabel,
+  Stagger,
 } from "./ui";
 
 export function HeroSection() {
@@ -57,32 +58,40 @@ export function HeroSection() {
           <p className="mt-6 text-sm text-[var(--ll-text-tertiary)]">{hero.trust}</p>
         </div>
 
-        <LinearPanel float className="relative aspect-square max-w-[560px] justify-self-center lg:justify-self-end">
-          <Image
-            src="/lingology/img/photo-hero-560.webp"
-            alt="Kuba Smolczewski, lekcje angielskiego online dla dorosłych"
-            fill
-            priority
-            className="object-cover"
-            sizes="(max-width: 1024px) 90vw, 560px"
-          />
-          <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10" />
-        </LinearPanel>
+        <div className="linear-hero-visual">
+          <div className="linear-hero-glow" aria-hidden />
+          <div
+            className="linear-parallax-layer relative z-[1] aspect-square max-w-[560px] justify-self-center lg:justify-self-end"
+            data-parallax="0.08"
+          >
+            <LinearPanel float className="h-full w-full">
+              <Image
+                src="/lingology/img/photo-hero-560.webp"
+                alt="Kuba Smolczewski, lekcje angielskiego online dla dorosłych"
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 1024px) 90vw, 560px"
+              />
+              <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10" />
+            </LinearPanel>
+          </div>
+        </div>
       </div>
 
-      <div className="border-t border-[var(--color-border-translucent)] pt-10">
+      <div className="border-t border-[var(--color-border-translucent)] pt-10 linear-reveal" style={{ ["--reveal-delay" as string]: "200ms" }}>
         <div className="mb-6 flex items-center gap-2 text-sm text-[var(--ll-text-tertiary)]">
           <span className="text-[var(--ll-accent)]">★★★★★</span>
           <span>Opinie uczniów</span>
         </div>
-        <div className="grid gap-4 md:grid-cols-3">
+        <Stagger className="grid gap-4 md:grid-cols-3">
           {hero.quotes.map((q) => (
             <LinearCard key={q.author} className="p-5">
               <p className="text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">„{q.text}”</p>
               <p className="mt-4 text-sm font-medium text-[var(--ll-text-tertiary)]">{q.author}</p>
             </LinearCard>
           ))}
-        </div>
+        </Stagger>
       </div>
     </section>
   );
@@ -158,14 +167,14 @@ export function BetweenLessonsSection() {
         <LinearHeading>{betweenLessons.title}</LinearHeading>
         <LinearBody className="mx-auto mt-6">{betweenLessons.description}</LinearBody>
       </div>
-      <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <Stagger className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {betweenLessons.cards.map((card, i) => (
           <LinearCard key={card.title} className={i === 4 ? "md:col-span-2 lg:col-span-1" : undefined}>
             <h3 className="text-lg font-medium text-[var(--ll-text-primary)]">{card.title}</h3>
             <p className="mt-3 text-[15px] leading-relaxed text-[var(--ll-text-secondary)]">{card.body}</p>
           </LinearCard>
         ))}
-      </div>
+      </Stagger>
       <div className="mt-10 text-center">
         <LinearButton href="#lingology-learn" variant="primary">
           Zobacz, jak wygląda nauka między lekcjami
@@ -183,7 +192,7 @@ export function OfferSection() {
         <LinearHeading className="mt-4">{offer.title}</LinearHeading>
         <p className="mt-4 text-lg text-[var(--ll-accent)]">{offer.subtitle}</p>
       </div>
-      <div className="mt-12 grid gap-6 lg:grid-cols-3">
+      <Stagger className="mt-12 grid gap-6 lg:grid-cols-3">
         {offer.plans.map((plan) => (
           <LinearCard key={plan.title} featured={plan.featured} className="h-full">
             {"badge" in plan && plan.badge ? (
@@ -216,7 +225,7 @@ export function OfferSection() {
             </div>
           </LinearCard>
         ))}
-      </div>
+      </Stagger>
     </LinearSection>
   );
 }

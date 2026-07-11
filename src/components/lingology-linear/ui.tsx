@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { ReactNode } from "react";
+import type { HTMLAttributes, ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -118,15 +118,18 @@ export function LinearCard({
   children,
   className,
   featured,
+  interactive = true,
 }: {
   children: ReactNode;
   className?: string;
   featured?: boolean;
+  interactive?: boolean;
 }) {
   return (
     <div
       className={cn(
         "Fzcv4W_edgeHighlight relative flex flex-col rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-secondary)] p-6 md:p-8",
+        interactive && "linear-card-interactive",
         featured && "shadow-[0_0_0_1px_rgba(113,112,255,0.15),0_24px_80px_rgba(0,0,0,0.45)]",
         className,
       )}
@@ -146,7 +149,16 @@ export function PillarLabel({ num, label }: { num: string; label: string }) {
   );
 }
 
-export function LinearPanel({ children, className, float }: { children: ReactNode; className?: string; float?: boolean }) {
+export function LinearPanel({
+  children,
+  className,
+  float,
+  ...props
+}: {
+  children: ReactNode;
+  className?: string;
+  float?: boolean;
+} & HTMLAttributes<HTMLDivElement>) {
   return (
     <div
       className={cn(
@@ -154,27 +166,13 @@ export function LinearPanel({ children, className, float }: { children: ReactNod
         float && "linear-float",
         className,
       )}
+      {...props}
     >
       {children}
     </div>
   );
 }
 
-export function Reveal({
-  children,
-  className,
-  delay,
-}: {
-  children: ReactNode;
-  className?: string;
-  delay?: number;
-}) {
-  return (
-    <div
-      className={cn("linear-reveal", className)}
-      style={delay ? { ["--reveal-delay" as string]: `${delay}ms` } : undefined}
-    >
-      {children}
-    </div>
-  );
+export function Stagger({ children, className }: { children: ReactNode; className?: string }) {
+  return <div className={cn("linear-stagger", className)}>{children}</div>;
 }

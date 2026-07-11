@@ -1,45 +1,162 @@
-/* Scroll reveal — content always readable, only slides into place */
+/* ── Scroll reveal (progressive: visible without JS, animated with .js) ── */
 .linear-reveal {
-  opacity: 1;
-  transform: translateY(20px);
-  transition: transform 0.65s var(--ease-out-quart, cubic-bezier(0.165, 0.84, 0.44, 1));
+  --reveal-duration: 0.85s;
+  --reveal-ease: var(--ease-out-quart, cubic-bezier(0.165, 0.84, 0.44, 1));
+}
+
+.js .linear-reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(28px);
+  filter: blur(8px);
+}
+
+.js .linear-reveal {
+  transition:
+    opacity var(--reveal-duration) var(--reveal-ease),
+    transform var(--reveal-duration) var(--reveal-ease),
+    filter calc(var(--reveal-duration) * 0.75) var(--reveal-ease);
   transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform, filter;
 }
 
 .linear-reveal.is-visible {
+  opacity: 1;
   transform: translateY(0);
+  filter: blur(0);
 }
 
+/* Stagger children inside revealed sections */
+.linear-stagger > * {
+  transition:
+    opacity 0.7s var(--ease-out-quart),
+    transform 0.7s var(--ease-out-quart),
+    filter 0.55s var(--ease-out-quart);
+  transition-delay: calc(var(--stagger-index, 0) * 70ms + var(--stagger-base, 80ms));
+}
+
+.linear-stagger > *:nth-child(1) { --stagger-index: 0; }
+.linear-stagger > *:nth-child(2) { --stagger-index: 1; }
+.linear-stagger > *:nth-child(3) { --stagger-index: 2; }
+.linear-stagger > *:nth-child(4) { --stagger-index: 3; }
+.linear-stagger > *:nth-child(5) { --stagger-index: 4; }
+.linear-stagger > *:nth-child(6) { --stagger-index: 5; }
+.linear-stagger > *:nth-child(7) { --stagger-index: 6; }
+.linear-stagger > *:nth-child(8) { --stagger-index: 7; }
+.linear-stagger > *:nth-child(9) { --stagger-index: 8; }
+.linear-stagger > *:nth-child(10) { --stagger-index: 9; }
+.linear-stagger > *:nth-child(11) { --stagger-index: 10; }
+.linear-stagger > *:nth-child(12) { --stagger-index: 11; }
+
+.js .linear-reveal:not(.is-visible) .linear-stagger > * {
+  opacity: 0;
+  transform: translateY(20px);
+  filter: blur(6px);
+}
+
+.js .linear-reveal.is-visible .linear-stagger > * {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* ── Hero entrance ── */
 .linear-hero-in > * {
-  animation: linear-hero-in 0.7s var(--ease-out-quart, cubic-bezier(0.165, 0.84, 0.44, 1)) both;
+  animation: linear-hero-in 0.9s var(--ease-out-quart) both;
 }
 
-.linear-hero-in > *:nth-child(1) { animation-delay: 0.04s; }
-.linear-hero-in > *:nth-child(2) { animation-delay: 0.1s; }
-.linear-hero-in > *:nth-child(3) { animation-delay: 0.16s; }
-.linear-hero-in > *:nth-child(4) { animation-delay: 0.22s; }
-.linear-hero-in > *:nth-child(5) { animation-delay: 0.28s; }
+.linear-hero-in > *:nth-child(1) { animation-delay: 0.05s; }
+.linear-hero-in > *:nth-child(2) { animation-delay: 0.12s; }
+.linear-hero-in > *:nth-child(3) { animation-delay: 0.2s; }
+.linear-hero-in > *:nth-child(4) { animation-delay: 0.28s; }
+.linear-hero-in > *:nth-child(5) { animation-delay: 0.36s; }
+.linear-hero-in > *:nth-child(6) { animation-delay: 0.44s; }
 
 @keyframes linear-hero-in {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(24px);
+    filter: blur(10px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 
+/* ── Hero panel float + glow ── */
+.linear-hero-visual {
+  position: relative;
+}
+
+.linear-hero-glow {
+  pointer-events: none;
+  position: absolute;
+  inset: -12% -8%;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 45%, rgba(113, 112, 255, 0.35) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 30% at 70% 60%, rgba(94, 106, 210, 0.2) 0%, transparent 65%);
+  filter: blur(24px);
+  opacity: 0.9;
+  animation: linear-glow-pulse 8s var(--ease-in-out-quad) infinite;
+}
+
+@keyframes linear-glow-pulse {
+  0%, 100% { opacity: 0.75; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
 .linear-float {
-  animation: linear-float 6s var(--ease-in-out-quad, cubic-bezier(0.455, 0.03, 0.515, 0.955)) infinite;
+  animation: linear-float 7s var(--ease-in-out-quad) infinite;
+  will-change: transform;
 }
 
 @keyframes linear-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(0.3deg); }
+  66% { transform: translateY(-4px) rotate(-0.2deg); }
 }
 
+.linear-parallax-layer {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* ── Interactive cards (Linear b-30Va_action pattern) ── */
+.linear-card-interactive {
+  transition:
+    filter 0.16s var(--ease-out-quad),
+    transform 0.16s var(--ease-out-quad),
+    border-color 0.25s var(--ease-out-quad),
+    box-shadow 0.25s var(--ease-out-quad);
+}
+
+@media (any-hover: hover) {
+  .linear-card-interactive:hover {
+    filter: brightness(1.12);
+    border-color: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.linear-card-interactive:active {
+  transform: scale(0.98);
+}
+
+/* ── Nav link hover (Linear header feel) ── */
+.linear-nav-link {
+  transition: color 0.16s var(--ease-out-quad), filter 0.16s var(--ease-out-quad);
+}
+
+@media (any-hover: hover) {
+  .linear-nav-link:hover {
+    color: var(--color-text-primary);
+    filter: brightness(1.2);
+  }
+}
+
+/* ── Gradient text ── */
 .linear-gradient-text {
   background: linear-gradient(135deg, #b4bcd0 0%, #7170ff 45%, #5e6ad2 100%);
   -webkit-background-clip: text;
@@ -48,6 +165,7 @@
   color: transparent;
 }
 
+/* ── Grain overlay ── */
 .linear-grain::after {
   content: "";
   pointer-events: none;
@@ -59,13 +177,31 @@
   mix-blend-mode: overlay;
 }
 
+/* ── Page smooth feel ── */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .linear-reveal,
+  .linear-stagger > *,
   .linear-hero-in > *,
-  .linear-float {
+  .linear-float,
+  .linear-hero-glow,
+  .linear-parallax-layer {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
+    filter: none !important;
     transition: none !important;
   }
 }
