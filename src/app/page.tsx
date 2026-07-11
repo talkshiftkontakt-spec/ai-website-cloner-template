@@ -1,9 +1,13 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+
+import { LekcjeRazemPage } from "@/components/lekcjerazem/LekcjeRazemPage";
+
+export default async function Home() {
+  const html = await readFile(
+    join(process.cwd(), "public/lekcjerazem/content.html"),
+    "utf8",
   );
+
+  return <LekcjeRazemPage html={html} />;
 }

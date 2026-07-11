@@ -1,0 +1,184 @@
+<svg width="100%" viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&amp;display=swap');
+
+    /* ── CZAPKA unosi się góra/dół ── */
+    .cap-body { animation: capFloat 3.5s ease-in-out infinite; transform-origin: 130px 78px; }
+
+    /* ── RONDO razem z czapką ── */
+    .cap-brim { animation: capFloat 3.5s ease-in-out infinite; transform-origin: 130px 104px; }
+
+    /* ── KIJEK + KULKA – niezależny ruch ── */
+    .cap-stick { animation: capFloat 3.5s ease-in-out infinite; transform-origin: 130px 52px; }
+    .cap-ball  { animation: ballBob 3.5s ease-in-out infinite; transform-origin: 195px 62px; }
+
+    /* ── FRĘDZLA kołysze się ── */
+    .cap-tassel { animation: tasselSwing 2.8s ease-in-out infinite; transform-origin: 130px 52px; }
+
+    /* ── PIERŚCIENIE obracają się ── */
+    .ring-orange { animation: spinCW  18s linear infinite; transform-origin: 130px 105px; }
+    .ring-blue   { animation: spinCCW 24s linear infinite; transform-origin: 130px 105px; }
+
+    /* ── CZĄSTECZKI wylatują z czapki ── */
+    .p1 { animation: fly1 2.8s ease-in-out infinite; transform-origin: 100px 80px; }
+    .p2 { animation: fly2 3.2s ease-in-out infinite 0.5s; transform-origin: 160px 80px; }
+    .p3 { animation: fly3 3s ease-in-out infinite 1s; transform-origin: 88px 90px; }
+    .p4 { animation: fly4 2.6s ease-in-out infinite 1.5s; transform-origin: 172px 90px; }
+    .p5 { animation: fly5 3.4s ease-in-out infinite 0.3s; transform-origin: 130px 72px; }
+
+    /* ── GWIAZDKI migoczą ── */
+    .star-y { animation: twinkle 2.2s ease-in-out infinite; transform-origin: 60px 51px; }
+    .star-b { animation: twinkle 2.2s ease-in-out infinite 0.9s; transform-origin: 200px 46px; }
+
+    /* ── TEKST wjeżdża przy ładowaniu ── */
+    .txt-lekcje { animation: slideUp 0.9s cubic-bezier(.22,1,.36,1) 0.1s both; }
+    .txt-razem  { animation: slideUp 0.9s cubic-bezier(.22,1,.36,1) 0.3s both; }
+    .txt-tag    { animation: fadeIn  1s ease 0.6s both; }
+    .rule       { animation: ruleGrow 0.9s ease 0.55s both; transform-origin: 248px 188px; }
+
+    /* ── KEYFRAMES ── */
+    @keyframes capFloat {
+      0%,100% { transform: translateY(0); }
+      50%      { transform: translateY(-9px); }
+    }
+    @keyframes ballBob {
+      0%,100% { transform: translateY(0) translateX(0); }
+      50%      { transform: translateY(-11px) translateX(3px); }
+    }
+    @keyframes tasselSwing {
+      0%,100% { transform: rotate(-15deg); }
+      50%      { transform: rotate(15deg); }
+    }
+    @keyframes spinCW {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    @keyframes spinCCW {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(-360deg); }
+    }
+    @keyframes fly1 {
+      0%   { transform: translate(0,0); opacity:0; }
+      15%  { opacity:1; }
+      100% { transform: translate(-52px,-48px); opacity:0; }
+    }
+    @keyframes fly2 {
+      0%   { transform: translate(0,0); opacity:0; }
+      15%  { opacity:1; }
+      100% { transform: translate(52px,-48px); opacity:0; }
+    }
+    @keyframes fly3 {
+      0%   { transform: translate(0,0); opacity:0; }
+      15%  { opacity:1; }
+      100% { transform: translate(-68px,-18px); opacity:0; }
+    }
+    @keyframes fly4 {
+      0%   { transform: translate(0,0); opacity:0; }
+      15%  { opacity:1; }
+      100% { transform: translate(68px,-18px); opacity:0; }
+    }
+    @keyframes fly5 {
+      0%   { transform: translate(0,0); opacity:0; }
+      15%  { opacity:1; }
+      100% { transform: translate(0,-62px); opacity:0; }
+    }
+    @keyframes twinkle {
+      0%,100% { opacity:1; transform:scale(1); }
+      50%      { opacity:0.1; transform:scale(0.35); }
+    }
+    @keyframes slideUp {
+      from { opacity:0; transform:translateY(18px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity:0; }
+      to   { opacity:0.8; }
+    }
+    @keyframes ruleGrow {
+      from { transform:scaleX(0); }
+      to   { transform:scaleX(1); }
+    }
+  </style>
+</defs>
+
+<!-- ── PIERŚCIENIE obracające się ── -->
+<ellipse class="ring-orange" cx="130" cy="105" rx="100" ry="60" fill="none" stroke="#F97316" stroke-width="1" stroke-dasharray="5 6" opacity="0.35"/>
+<ellipse class="ring-blue"   cx="130" cy="105" rx="120" ry="75" fill="none" stroke="#3B82F6" stroke-width="0.8" stroke-dasharray="3 9" opacity="0.25"/>
+
+<!-- ── CZĄSTECZKI wylatujące ── -->
+<circle class="p1" cx="100" cy="80" r="5"  fill="#F97316"/>
+<circle class="p2" cx="160" cy="80" r="5"  fill="#3B82F6"/>
+<circle class="p3" cx="88"  cy="90" r="4"  fill="#FB923C"/>
+<circle class="p4" cx="172" cy="90" r="4"  fill="#60A5FA"/>
+<circle class="p5" cx="130" cy="72" r="6"  fill="#FBBF24"/>
+
+<!-- ── CZAPKA ── -->
+<g class="cap-body">
+  <polygon points="130,52 195,78 130,104 65,78" fill="#1D4ED8" stroke="#3B82F6" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="130,52 195,78 130,78 65,78" fill="#2563EB" opacity="0.6"/>
+  <polygon points="130,52 162,65 130,72 98,65" fill="#60A5FA" opacity="0.18"/>
+</g>
+
+<!-- ── RONDO ── -->
+<g class="cap-brim">
+  <ellipse cx="130" cy="104" rx="65" ry="10" fill="#1E3A8A" stroke="#3B82F6" stroke-width="1"/>
+  <path d="M80 140 Q130 152 180 140" fill="none" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+
+<!-- ── KIJEK ── -->
+<g class="cap-stick">
+  <line x1="130" y1="52" x2="195" y2="62" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+</g>
+
+<!-- ── KULKA (niezależny bounce) ── -->
+<g class="cap-ball">
+  <circle cx="195" cy="62" r="7" fill="#F97316" stroke="#FED7AA" stroke-width="1.5"/>
+  <circle cx="193" cy="60" r="2" fill="#FEF3C7" opacity="0.7"/>
+</g>
+
+<!-- ── FRĘDZLA kołysząca się ── -->
+<g class="cap-tassel">
+  <line x1="130" y1="52" x2="118" y2="74" stroke="#FBBF24" stroke-width="2"   stroke-linecap="round"/>
+  <line x1="118" y1="74" x2="115" y2="88" stroke="#FBBF24" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="115" cy="92" r="4" fill="#F97316"/>
+</g>
+
+<!-- ── GWIAZDKI migoczące ── -->
+<g class="star-y">
+  <polygon points="60,42 62,49 69,49 63,53 65,60 60,56 55,60 57,53 51,49 58,49" fill="#FCD34D"/>
+</g>
+<g class="star-b">
+  <polygon points="200,38 202,44 208,44 203,47 205,53 200,50 195,53 197,47 192,44 198,44" fill="#93C5FD"/>
+</g>
+
+<!-- ── MAŁE PULSUJĄCE PUNKTY ── -->
+<circle cx="50" cy="115" r="4" fill="#F97316">
+  <animate attributeName="r"       values="4;6;4"     dur="2s"   repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.6;1;0.6" dur="2s"   repeatCount="indefinite"/>
+</circle>
+<circle cx="210" cy="115" r="3.5" fill="#3B82F6">
+  <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="78" cy="162" r="3" fill="#FB923C">
+  <animate attributeName="opacity" values="1;0.15;1"  dur="3s"   repeatCount="indefinite" begin="1s"/>
+</circle>
+
+<!-- ── TEKST ── -->
+<text class="txt-lekcje" x="248" y="110"
+  font-family="'Nunito', sans-serif" font-size="66" font-weight="900"
+  fill="#1D4ED8" text-anchor="start" letter-spacing="-2">Lekcje</text>
+
+<text class="txt-razem"  x="248" y="178"
+  font-family="'Nunito', sans-serif" font-size="66" font-weight="900"
+  fill="#F97316" text-anchor="start" letter-spacing="-2">Razem</text>
+
+<!-- ── KRESKA ── -->
+<rect class="rule" x="248" y="188" width="300" height="4" rx="2" fill="#3B82F6" opacity="0.4"/>
+
+<!-- ── TAGLINE ── -->
+<text class="txt-tag" x="250" y="212"
+  font-family="'Nunito', sans-serif" font-size="13.5" font-weight="800"
+  fill="#F97316" text-anchor="start" letter-spacing="3.5">UCZ SIĘ RAZEM Z INNYMI</text>
+
+</svg>
