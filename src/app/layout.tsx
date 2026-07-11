@@ -5,7 +5,6 @@ import { join } from "node:path";
 import "./globals.css";
 
 interface LinearManifest {
-  cssUrls: string[];
   title: string;
   description: string;
 }
@@ -42,22 +41,10 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const manifest = await getManifest();
-
-  return (
-    <html lang="en" data-theme="dark" suppressHydrationWarning>
-      <head>
-        {manifest.cssUrls.map((href) => (
-          <link key={href} rel="stylesheet" href={href} />
-        ))}
-        <link rel="stylesheet" href="/linear/styles.css" />
-      </head>
-      <body>{children}</body>
-    </html>
-  );
+  return children;
 }

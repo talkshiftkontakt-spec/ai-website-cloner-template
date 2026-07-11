@@ -52,9 +52,9 @@
     "https://static.linear.app/web/_next/static/css/ReviewsFrame.B31PMGDT.css",
     "https://static.linear.app/web/_next/static/css/Select.B5TJQPAh.css",
     "https://static.linear.app/web/_next/static/css/DiffsIllustration.C6GP4Fws.css",
-    "https://static.linear.app/web/_next/static/css/code-diff.NhuKB87D.css",
     "https://static.linear.app/web/_next/static/css/Monitor.DP9NgX7j.css",
     "https://static.linear.app/web/_next/static/css/CustomerQuotes.DqOx2PkG.css",
+    "https://static.linear.app/web/_next/static/css/code-diff.NhuKB87D.css",
     "https://static.linear.app/web/_next/static/css/index.CcvuW808.css",
     "https://static.linear.app/web/_next/static/css/Changelog.C40xlRzV.css",
     "https://static.linear.app/web/_next/static/css/HomepageLink.IOeHSWow.css",
@@ -69,6 +69,8 @@
     "https://static.linear.app/web/_next/static/css/LayoutContent.D8YYVbao.css",
     "https://static.linear.app/web/_next/static/css/Layout.tvkMFESE.css"
   ],
+  "scriptCount": 85,
+  "imgCount": 32,
   "title": "Linear – The system for product development",
   "description": "Linear is the system for product development. Plan and build your product with the #1 issue tracker for software teams and agents."
 }
