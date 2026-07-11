@@ -1,20 +1,30 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "LingoLogy | Angielski online dla dorosłych",
+  description:
+    "Korepetycje z angielskiego pod mówienie i plan między spotkaniami w LingoLogy App. Konsultacja 0 zł.",
+  metadataBase: new URL("https://www.lingology.pl"),
+  openGraph: {
+    type: "website",
+    locale: "pl_PL",
+    siteName: "LingoLogy",
+    title: "LingoLogy | Angielski online dla dorosłych",
+    description: "Korepetycje 1:1 nastawione na mówienie. Plan między lekcjami w LingoLogy App.",
+  },
+  icons: {
+    icon: "/lingology/favicon.ico",
+    apple: "/lingology/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +33,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="pl" className={`${inter.variable} h-full`} data-theme="dark">
+      <body className="min-h-full bg-[var(--ll-bg-primary)] font-sans text-[var(--ll-text-primary)] antialiased">
+        {children}
+      </body>
     </html>
   );
 }
