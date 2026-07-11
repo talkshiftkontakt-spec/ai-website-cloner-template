@@ -1,5 +1,6 @@
 import { LingologyFooter } from "./footer";
 import { LingologyHeader } from "./header";
+import { ScrollRevealProvider } from "./scroll-reveal";
 import {
   AppSection,
   BetweenLessonsSection,
@@ -20,7 +21,8 @@ import {
 
 export function LingologyLinearHome() {
   return (
-    <>
+    <div className="ll-page">
+      <ScrollRevealProvider />
       <LingologyHeader />
       <main>
         <HeroSection />
@@ -40,6 +42,6 @@ export function LingologyLinearHome() {
         <ContactSection />
       </main>
       <LingologyFooter />
-    </>
+    </div>
   );
 }

@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
+import { linearStylesheets } from "@/lib/linear-styles";
 
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-inter",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "LingoLogy | Angielski online dla dorosłych",
@@ -33,10 +28,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl" className={`${inter.variable} h-full`} data-theme="dark">
-      <body className="min-h-full bg-[var(--ll-bg-primary)] font-sans text-[var(--ll-text-primary)] antialiased">
-        {children}
-      </body>
+    <html lang="pl" className="js h-full" data-theme="dark">
+      <head>
+        {linearStylesheets.map((href) => (
+          <link key={href} rel="stylesheet" href={href} precedence="default" />
+        ))}
+      </head>
+      <body className="min-h-full antialiased">{children}</body>
     </html>
   );
 }

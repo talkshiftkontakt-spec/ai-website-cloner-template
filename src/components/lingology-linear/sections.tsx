@@ -34,15 +34,15 @@ import {
 
 export function HeroSection() {
   return (
-    <LinearSection className="pt-32 pb-16 md:pt-40">
+    <section className="QI8oKG_container linear-hero-stagger" style={{ paddingTop: "calc(var(--header-height) + 48px)", paddingBottom: 64 }}>
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <div>
           <LinearTag>{hero.tag}</LinearTag>
-          <LinearHeading as="h1" className="mt-6">
+          <LinearHeading as="h1" className="QI8oKG_title mt-6">
             {hero.title}
-            <span className="block text-[var(--ll-accent)]">{hero.titleAccent}</span>
+            <span className="linear-gradient-text block">{hero.titleAccent}</span>
           </LinearHeading>
-          <LinearBody className="mt-6">{hero.description}</LinearBody>
+          <LinearBody className="QI8oKG_description mt-6">{hero.description}</LinearBody>
           <div className="mt-8 flex flex-wrap gap-3">
             <LinearButton href="#contact" variant="invert">
               Umów konsultację
@@ -54,7 +54,7 @@ export function HeroSection() {
           <p className="mt-6 text-sm text-[var(--ll-text-tertiary)]">{hero.trust}</p>
         </div>
 
-        <LinearPanel className="relative aspect-square max-w-[560px] justify-self-center lg:justify-self-end">
+        <LinearPanel float className="relative aspect-square max-w-[560px] justify-self-center lg:justify-self-end">
           <Image
             src="/lingology/img/photo-hero-560.webp"
             alt="Kuba Smolczewski, lekcje angielskiego online dla dorosłych"
@@ -67,7 +67,7 @@ export function HeroSection() {
         </LinearPanel>
       </div>
 
-      <div className="mt-16 border-t border-white/10 pt-10">
+      <div className="border-t border-[var(--color-border-translucent)] pt-10">
         <div className="mb-6 flex items-center gap-2 text-sm text-[var(--ll-text-tertiary)]">
           <span className="text-[var(--ll-accent)]">★★★★★</span>
           <span>Opinie uczniów</span>
@@ -81,7 +81,7 @@ export function HeroSection() {
           ))}
         </div>
       </div>
-    </LinearSection>
+    </section>
   );
 }
 
@@ -539,7 +539,7 @@ export function ContactSection() {
           </label>
           <button
             type="submit"
-            className="inline-flex h-10 w-full items-center justify-center rounded-full bg-[var(--ll-button-invert)] px-5 text-[15px] font-medium text-[#08090a] transition-all hover:brightness-95 active:scale-[0.97] sm:w-auto"
+            className="S36ykG_root S36ykG_variant S36ykG_variant-invert S36ykG_size-default w-full sm:w-auto"
           >
             Umów konsultację
           </button>

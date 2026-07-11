@@ -14,39 +14,38 @@ export function LingologyHeader() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#0b0b0bcc] backdrop-blur-[20px]">
-        <div className="mx-auto flex h-16 max-w-[1120px] items-center justify-between px-4 md:h-[72px] md:px-8">
-          <Link href="/" className="flex items-center gap-2 text-[15px] font-semibold text-[var(--ll-text-primary)]">
-            <span className="flex size-7 items-center justify-center rounded-full bg-[var(--ll-brand)] text-xs text-white">
+      <header className="TZTsQG_header" style={{ position: "fixed", insetInline: 0, top: 0, zIndex: 100 }}>
+        <div className="TZTsQG_innerWrapper" style={{ maxWidth: "var(--homepage-max-width)", marginInline: "auto" }}>
+          <Link href="/" className="flex items-center gap-2 text-[15px] font-semibold" style={{ color: "var(--color-text-primary)" }}>
+            <span
+              className="flex size-7 items-center justify-center rounded-full text-xs text-white"
+              style={{ background: "var(--color-brand-bg)" }}
+            >
               L
             </span>
             {site.name}
           </Link>
 
-          <nav className="hidden items-center gap-1 md:flex">
+          <nav className="TZTsQG_list hide-mobile">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="rounded-full px-3 py-2 text-[13px] text-[var(--ll-text-tertiary)] transition-colors hover:bg-white/10 hover:text-[var(--ll-text-primary)]"
-              >
+              <Link key={link.href} href={link.href} className="TZTsQG_anchor">
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          <div className="hidden items-center gap-3 md:flex">
-            <LinearButton href={site.appUrl} variant="ghost" external className="h-8 px-4 text-[13px]">
+          <div className="TZTsQG_buttons hide-mobile">
+            <LinearButton href={site.appUrl} variant="ghost" external className="S36ykG_size-small">
               Aplikacja
             </LinearButton>
-            <LinearButton href="#contact" variant="invert" className="h-8 px-4 text-[13px]">
+            <LinearButton href="#contact" variant="invert" className="S36ykG_size-small">
               Umów konsultację
             </LinearButton>
           </div>
 
           <button
             type="button"
-            className="inline-flex size-10 items-center justify-center rounded-full border border-white/10 text-[var(--ll-text-primary)] md:hidden"
+            className="show-mobile inline-flex size-10 items-center justify-center rounded-full border border-[var(--color-border-translucent)]"
             aria-label={open ? "Zamknij menu" : "Otwórz menu"}
             onClick={() => setOpen((v) => !v)}
           >
@@ -57,16 +56,18 @@ export function LingologyHeader() {
 
       <div
         className={cn(
-          "fixed inset-0 z-40 bg-[#08090a]/95 backdrop-blur-xl transition-opacity md:hidden",
+          "fixed inset-0 z-40 backdrop-blur-xl transition-opacity show-mobile",
           open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
         )}
+        style={{ background: "color-mix(in srgb, var(--color-bg-primary) 95%, transparent)" }}
       >
         <nav className="flex h-full flex-col items-center justify-center gap-6 px-8">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-2xl font-medium text-[var(--ll-text-primary)]"
+              className="text-2xl font-medium"
+              style={{ color: "var(--color-text-primary)" }}
               onClick={() => setOpen(false)}
             >
               {link.label}
@@ -74,7 +75,7 @@ export function LingologyHeader() {
           ))}
           <Link
             href="#contact"
-            className="mt-4 inline-flex h-10 items-center justify-center rounded-full bg-[var(--ll-button-invert)] px-5 text-[15px] font-medium text-[#08090a]"
+            className="S36ykG_root S36ykG_variant S36ykG_variant-invert S36ykG_size-default mt-4"
             onClick={() => setOpen(false)}
           >
             Umów konsultację
@@ -82,9 +83,17 @@ export function LingologyHeader() {
         </nav>
       </div>
 
-      <div className="fixed inset-x-0 bottom-0 z-40 flex items-center justify-between gap-3 border-t border-white/10 bg-[#0b0b0bcc] px-4 py-3 backdrop-blur-[20px] md:hidden">
-        <span className="text-xs text-[var(--ll-text-tertiary)]">Konsultacja 0 zł · 20 min</span>
-        <LinearButton href="#contact" variant="invert" className="h-8 px-4 text-[13px]">
+      <div
+        className="show-mobile fixed inset-x-0 bottom-0 z-40 flex items-center justify-between gap-3 border-t px-4 py-3 backdrop-blur-[20px]"
+        style={{
+          borderColor: "var(--header-border, #ffffff14)",
+          background: "var(--header-bg, #0b0b0bcc)",
+        }}
+      >
+        <span className="text-xs" style={{ color: "var(--color-text-tertiary)" }}>
+          Konsultacja 0 zł · 20 min
+        </span>
+        <LinearButton href="#contact" variant="invert" className="S36ykG_size-small">
           Umów konsultację
         </LinearButton>
       </div>

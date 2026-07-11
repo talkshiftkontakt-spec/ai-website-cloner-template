@@ -1,40 +1,42 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@import "../styles/linear-animations.css";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --color-background: var(--ll-bg-primary);
-  --color-foreground: var(--ll-text-primary);
+  --font-sans: var(--font-regular), ui-sans-serif, system-ui, sans-serif;
+  --color-background: var(--color-bg-primary);
+  --color-foreground: var(--color-text-primary);
 }
 
+/* Bridge legacy ll-* aliases to Linear CDN tokens */
 :root {
-  --ll-bg-primary: #08090a;
-  --ll-bg-secondary: #1c1c1f;
-  --ll-bg-tertiary: #232326;
-  --ll-bg-panel: #0f1011;
-  --ll-text-primary: #f7f8f8;
-  --ll-text-secondary: #d0d6e0;
-  --ll-text-tertiary: #8a8f98;
-  --ll-text-quaternary: #62666d;
-  --ll-border: #3e3e44;
-  --ll-brand: #5e6ad2;
-  --ll-accent: #7170ff;
-  --ll-button-invert: #e5e5e6;
+  --ll-bg-primary: var(--color-bg-primary, #08090a);
+  --ll-bg-secondary: var(--color-bg-secondary, #1c1c1f);
+  --ll-bg-panel: var(--color-bg-panel, #0f1011);
+  --ll-text-primary: var(--color-text-primary, #f7f8f8);
+  --ll-text-secondary: var(--color-text-secondary, #d0d6e0);
+  --ll-text-tertiary: var(--color-text-tertiary, #8a8f98);
+  --ll-text-quaternary: var(--color-text-quaternary, #62666d);
+  --ll-border: var(--color-border-tertiary, #3e3e44);
+  --ll-brand: var(--color-brand-bg, #5e6ad2);
+  --ll-accent: var(--color-accent, #7170ff);
+  --ll-button-invert: var(--color-button-invert-bg, #e5e5e6);
 }
 
 @layer base {
   * {
     box-sizing: border-box;
   }
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
-
-  ::selection {
-    background: color-mix(in srgb, var(--ll-accent) 35%, transparent);
-  }
+/* Tailwind utilities should not override Linear typography on marketing page */
+.ll-page {
+  font-family: var(--font-regular);
+  font-feature-settings: var(--font-settings, "cv01", "ss03");
+  font-variation-settings: var(--font-variations, "opsz" auto);
+  color: var(--color-text-primary);
+  background: var(--color-bg-primary);
 }

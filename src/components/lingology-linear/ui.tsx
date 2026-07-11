@@ -3,11 +3,18 @@ import type { ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
 
+const buttonVariantClass: Record<string, string> = {
+  primary: "S36ykG_variant-primary",
+  invert: "S36ykG_variant-invert",
+  ghost: "S36ykG_variant-ghost",
+  outline: "S36ykG_variant-border",
+};
+
 export function LinearTag({ children, className }: { children: ReactNode; className?: string }) {
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[13px] font-medium tracking-wide text-[var(--ll-text-tertiary)]",
+        "inline-flex items-center rounded-full border border-[var(--color-border-translucent)] bg-[var(--color-bg-translucent)] px-3 py-1 text-[13px] font-medium text-[var(--color-text-tertiary)]",
         className,
       )}
     >
@@ -17,13 +24,6 @@ export function LinearTag({ children, className }: { children: ReactNode; classN
 }
 
 type ButtonVariant = "primary" | "invert" | "ghost" | "outline";
-
-const buttonStyles: Record<ButtonVariant, string> = {
-  primary: "bg-[var(--ll-brand)] text-white hover:brightness-110",
-  invert: "bg-[var(--ll-button-invert)] text-[#08090a] hover:brightness-95",
-  ghost: "border border-white/10 bg-white/5 text-[var(--ll-text-primary)] hover:bg-white/10",
-  outline: "border border-[var(--ll-border)] bg-transparent text-[var(--ll-text-secondary)] hover:border-white/20 hover:text-[var(--ll-text-primary)]",
-};
 
 export function LinearButton({
   href,
@@ -39,8 +39,8 @@ export function LinearButton({
   external?: boolean;
 }) {
   const classes = cn(
-    "inline-flex h-10 items-center justify-center rounded-full px-5 text-[15px] font-medium transition-all active:scale-[0.97]",
-    buttonStyles[variant],
+    "S36ykG_root S36ykG_variant S36ykG_size-default",
+    buttonVariantClass[variant],
     className,
   );
 
@@ -63,16 +63,19 @@ export function LinearSection({
   id,
   children,
   className,
-  inset = true,
+  reveal = true,
 }: {
   id?: string;
   children: ReactNode;
   className?: string;
-  inset?: boolean;
+  reveal?: boolean;
 }) {
   return (
-    <section id={id} className={cn("relative py-20 md:py-28", className)}>
-      <div className={cn("mx-auto w-full max-w-[1120px]", inset && "px-4 md:px-8")}>{children}</div>
+    <section
+      id={id}
+      className={cn("b-30Va_root Fzcv4W_inset", reveal && "linear-reveal", className)}
+    >
+      {children}
     </section>
   );
 }
@@ -86,16 +89,15 @@ export function LinearHeading({
   className?: string;
   as?: "h1" | "h2" | "h3";
 }) {
+  const style =
+    Tag === "h1"
+      ? { font: "var(--title-7)", letterSpacing: "var(--title-7-letter-spacing, -0.022em)" }
+      : Tag === "h2"
+        ? { font: "var(--title-5)", letterSpacing: "var(--title-5-letter-spacing, -0.022em)" }
+        : { font: "var(--title-3)", letterSpacing: "var(--title-3-letter-spacing, -0.012em)" };
+
   return (
-    <Tag
-      className={cn(
-        "text-balance font-semibold tracking-[-0.022em] text-[var(--ll-text-primary)]",
-        Tag === "h1" && "text-[clamp(2.5rem,6vw,4rem)] leading-[1.06]",
-        Tag === "h2" && "text-[clamp(2rem,4vw,3rem)] leading-[1.1]",
-        Tag === "h3" && "text-xl leading-snug",
-        className,
-      )}
-    >
+    <Tag className={cn("text-balance font-semibold text-[var(--color-text-primary)]", className)} style={style}>
       {children}
     </Tag>
   );
@@ -103,7 +105,10 @@ export function LinearHeading({
 
 export function LinearBody({ children, className }: { children: ReactNode; className?: string }) {
   return (
-    <p className={cn("max-w-[640px] text-[17px] leading-relaxed text-[var(--ll-text-secondary)]", className)}>
+    <p
+      className={cn("max-w-[640px] text-[var(--color-text-secondary)]", className)}
+      style={{ font: "var(--text-large)" }}
+    >
       {children}
     </p>
   );
@@ -121,8 +126,8 @@ export function LinearCard({
   return (
     <div
       className={cn(
-        "relative flex flex-col rounded-2xl border border-[var(--ll-border)] bg-[var(--ll-bg-secondary)] p-6 md:p-8",
-        featured && "border-[var(--ll-accent)]/40 shadow-[0_0_0_1px_rgba(113,112,255,0.15),0_24px_80px_rgba(0,0,0,0.45)]",
+        "Fzcv4W_edgeHighlight relative flex flex-col rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-secondary)] p-6 md:p-8",
+        featured && "shadow-[0_0_0_1px_rgba(113,112,255,0.15),0_24px_80px_rgba(0,0,0,0.45)]",
         className,
       )}
     >
@@ -133,21 +138,41 @@ export function LinearCard({
 
 export function PillarLabel({ num, label }: { num: string; label: string }) {
   return (
-    <div className="mb-4 flex items-center gap-3 font-mono text-sm text-[var(--ll-text-tertiary)]">
-      <span className="tabular-nums text-[var(--ll-accent)]">{num}</span>
+    <div className="b-30Va_action mb-4 inline-flex items-center gap-3 font-mono text-sm text-[var(--color-text-tertiary)]">
+      <span className="Fzcv4W_slashedZero text-[var(--color-accent)]">{num}</span>
       <span>{label}</span>
-      <span className="text-[var(--ll-text-quaternary)]">→</span>
+      <span className="text-[var(--color-text-quaternary)]">→</span>
     </div>
   );
 }
 
-export function LinearPanel({ children, className }: { children: ReactNode; className?: string }) {
+export function LinearPanel({ children, className, float }: { children: ReactNode; className?: string; float?: boolean }) {
   return (
     <div
       className={cn(
-        "overflow-hidden rounded-2xl border border-white/10 bg-[var(--ll-bg-panel)] shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]",
+        "Fzcv4W_edgeHighlight linear-grain relative overflow-hidden rounded-2xl border border-[var(--color-border-translucent)] bg-[var(--color-bg-panel)] shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]",
+        float && "linear-float",
         className,
       )}
+    >
+      {children}
+    </div>
+  );
+}
+
+export function Reveal({
+  children,
+  className,
+  delay,
+}: {
+  children: ReactNode;
+  className?: string;
+  delay?: number;
+}) {
+  return (
+    <div
+      className={cn("linear-reveal", className)}
+      style={delay ? { ["--reveal-delay" as string]: `${delay}ms` } : undefined}
     >
       {children}
     </div>
