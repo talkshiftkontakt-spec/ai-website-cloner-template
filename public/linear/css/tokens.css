@@ -1,0 +1,77 @@
+/* Linear fonts + dark tokens (trimmed — no aggressive reset that breaks Tailwind) */
+@font-face {
+  font-family: "Inter Variable";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  src: url("https://static.linear.app/fonts/InterVariable.woff2?v=4.1") format("woff2");
+}
+
+@font-face {
+  font-family: "Berkeley Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://static.linear.app/fonts/Berkeley-Mono-Variable.woff2?v=3.2") format("woff2");
+}
+
+:root {
+  --header-height: 72px;
+  --header-blur: 20px;
+  --homepage-outer-padding: 46px;
+  --homepage-max-width: calc(1344px + var(--homepage-outer-padding) * 2);
+  --homepage-padding-inset: 32px;
+  --radius-rounded: 9999px;
+  --border-hairline: 1px;
+  --font-regular: "Inter Variable", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-monospace: "Berkeley Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-weight-medium: 510;
+  --font-weight-semibold: 590;
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --speed-quickTransition: 0.16s;
+  --layer-header: 100;
+  --title-3: var(--font-weight-semibold) 1.5rem / 1.33 var(--font-regular);
+  --title-5: var(--font-weight-semibold) 2.5rem / 1.1 var(--font-regular);
+  --title-7: var(--font-weight-semibold) 3.5rem / 1.1 var(--font-regular);
+  --text-large: 1.0625rem / 1.6 var(--font-regular);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --header-height: 64px;
+    --homepage-outer-padding: 16px;
+  }
+}
+
+[data-theme="dark"] {
+  --header-bg: #0b0b0bcc;
+  --header-border: #ffffff14;
+  --color-bg-primary: #08090a;
+  --color-bg-secondary: #1c1c1f;
+  --color-bg-tertiary: #232326;
+  --color-bg-panel: #0f1011;
+  --color-bg-translucent: #ffffff0d;
+  --color-text-primary: #f7f8f8;
+  --color-text-secondary: #d0d6e0;
+  --color-text-tertiary: #8a8f98;
+  --color-text-quaternary: #62666d;
+  --color-border-translucent: #ffffff0d;
+  --color-border-translucent-strong: #ffffff14;
+  --color-border-tertiary: #3e3e44;
+  --color-brand-bg: #5e6ad2;
+  --color-brand-text: #fff;
+  --color-accent: #7170ff;
+  --color-button-invert-bg: #e5e5e6;
+  --color-button-invert-bg-hover: #f0f0f1;
+}
+
+.ll-page {
+  font-family: var(--font-regular);
+  font-feature-settings: "cv01", "ss03";
+  font-variation-settings: "opsz" auto;
+  color: var(--color-text-primary);
+  background: var(--color-bg-primary);
+  min-height: 100vh;
+}

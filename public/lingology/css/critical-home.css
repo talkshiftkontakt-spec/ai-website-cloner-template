@@ -1,0 +1,141 @@
+/* Above-the-fold: nav + hero (home only, sync) */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--nav-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 32px;
+}
+
+.nav-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.nav-logo {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.nav-logo span { color: var(--teal); }
+
+.nav-links { display: flex; align-items: center; gap: 16px; }
+
+.nav-item {
+  font-family: var(--sans);
+  font-size: .84rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 10px;
+  border: none;
+  background: none;
+}
+
+.nav-cta {
+  background: var(--teal) !important;
+  color: #fff !important;
+  padding: 9px 18px !important;
+  border-radius: 50px !important;
+  font-size: .82rem !important;
+}
+
+.nav-burger { display: none; }
+
+#hero { width: 100%; }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 64px;
+  padding: 80px 32px;
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-family: var(--serif);
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.hero-heading em {
+  font-style: italic;
+  color: var(--teal-dk);
+  display: block;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-top: 8px;
+  line-height: 1.3;
+}
+
+.hero-sub {
+  font-size: 1.05rem;
+  color: var(--fg-muted);
+  margin: 24px 0 36px;
+  max-width: 480px;
+  line-height: 1.75;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-trust {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 28px;
+  font-size: .82rem;
+  color: var(--fg-muted);
+}
+
+.hero-trust-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal-dk);
+}
+
+.hero-photo-link {
+  display: block;
+  border-radius: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hero-photo-link:hover img {
+  opacity: 0.92;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: opacity 0.2s ease;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 60px 24px;
+    gap: 48px;
+  }
+
+  .nav-links { display: none; }
+  .nav-burger { display: flex; }
+}

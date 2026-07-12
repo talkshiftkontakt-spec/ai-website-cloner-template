@@ -1,0 +1,33 @@
+/* Linear-faithful motion only — no blur reveals, no parallax */
+
+.linear-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.linear-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  animation: linear-marquee 42s linear infinite;
+}
+
+.linear-marquee:hover .linear-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes linear-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .Fzcv4W_gradientText,
+  .linear-marquee-track {
+    animation: none !important;
+  }
+}
