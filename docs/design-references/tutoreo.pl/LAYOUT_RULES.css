@@ -1,0 +1,314 @@
+/**
+ * Tutoreo.pl — extracted layout rules (reference only)
+ * Breakpoint: 1000px
+ * Source: getComputedStyle from live site → layout-css.json
+ * See DESIGN.md for screenshots + full documentation.
+ */
+
+:root {
+  --Spacer_Big: 48px;
+  --Spacer_Medium: 24px;
+  --Spacer_Small: 16px;
+  --BigButton: 64px;
+  --BorderRadius1: 16px;
+  --FontSize2: 18px;
+  --FontSize3: 24px;
+  --AccentColor: #5800ff;
+  --AccentColor1: #9b66ff;
+  --AccentColor2: #230066;
+  --AccentHighlight: #ffc400;
+  --TonedBackground: #e6e6e6;
+  --Dark2: #b3b3b3;
+  --PopOffShadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  --ShinyShadow: inset 0 2px #ffffff30, inset 0 -5px rgba(0, 0, 0, 0.25);
+  --InsetShadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+  --UniversalTransition: 0.2s ease-in-out;
+}
+
+/* ——— PAGE ——— */
+#PageBG {
+  position: relative;
+  z-index: 1;
+  background: var(--TonedBackground);
+  border-radius: 0 0 50px 50px;
+  box-shadow: var(--PopOffShadow);
+}
+
+/* ——— NAV ——— */
+#MainNavbar {
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+  z-index: 1000;
+  height: 80px;
+  background: transparent;
+  transition: background-color var(--UniversalTransition);
+}
+#MainNavbar.LightNavbar {
+  background: #fff;
+  box-shadow: var(--PopOffShadow);
+}
+#NavbarWidthRestrainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 48px;
+  height: 80px;
+  padding: 16px 24px;
+  margin-inline: 37px;
+}
+#MainNavbarLogo {
+  width: 178px;
+  height: 38px;
+}
+
+/* ——— HERO ——— */
+#CTASection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 128px;
+  background: linear-gradient(var(--AccentColor), var(--AccentColor1));
+}
+#CTAText {
+  display: flex;
+  flex-direction: column;
+  width: min(903px, 100%);
+  padding-top: 48px;
+  text-align: center;
+}
+#CTAText h1.Desktop {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  white-space: nowrap;
+}
+.Accent {
+  color: var(--AccentHighlight);
+}
+#CTAText p {
+  margin: 16px 0 48px;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--Dark2);
+}
+#CTAButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 48px;
+  margin-bottom: 100px;
+}
+#CTAButton {
+  height: var(--BigButton);
+  padding: 0 48px;
+  border-radius: var(--BorderRadius1);
+  font-size: var(--FontSize3);
+  font-weight: 700;
+  line-height: var(--BigButton);
+  color: #fff;
+  background: var(--AccentColor2);
+  box-shadow: var(--PopOffShadow), var(--ShinyShadow);
+}
+#SoftCTAButton {
+  height: var(--BigButton);
+  padding: 0 48px;
+  border-radius: var(--BorderRadius1);
+  font-size: var(--FontSize3);
+  font-weight: 700;
+  line-height: var(--BigButton);
+  color: #fff;
+  background: transparent;
+  outline: 2px solid #fff;
+  box-shadow: var(--PopOffShadow);
+}
+
+/* Video — sibling AFTER #CTASection */
+#CTAImageDiv {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 128px;
+  margin: -200px 0 300px;
+  padding: 0 48px 48px;
+  /* z-index must stay auto */
+}
+#HeroVideo {
+  display: block;
+  width: 1200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* ——— HOW IT WORKS ——— */
+#HowItWorks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  background: radial-gradient(var(--AccentColor1), var(--AccentColor));
+  border-radius: 200px 200px 0 0;
+  box-shadow: var(--PopOffShadow);
+}
+#ThreeSteps {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 948px;
+  margin: 48px 0;
+}
+.Step {
+  position: relative;
+  width: 300px;
+  padding: 0 24px;
+}
+.Step .CurvedArrow {
+  position: absolute;
+  top: 64px;
+  right: -72px;
+  width: 120px;
+}
+
+/* ——— BENEFITS ——— */
+#BenefitsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 48px 24px;
+  background: var(--TonedBackground);
+}
+#BenefitsCategories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 48px;
+  background: #fff;
+  border-radius: var(--BorderRadius1);
+  box-shadow: var(--PopOffShadow);
+}
+.Benefits {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 24px;
+  max-width: 1392px;
+}
+.BenefitCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 420px;
+  padding: 24px;
+  background: #fff;
+  border-radius: var(--BorderRadius1);
+  box-shadow: var(--PopOffShadow);
+}
+.Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: var(--ShinyShadow);
+}
+.Icon img {
+  width: 32px;
+  height: 32px;
+}
+
+/* ——— FAQ ——— */
+.Question {
+  display: grid;
+  grid-template-columns: 648px 32px;
+  column-gap: 24px;
+  width: 800px;
+  padding: 24px 48px;
+  margin-bottom: 24px;
+  background: #fff;
+  border-radius: var(--BorderRadius1);
+  box-shadow: var(--InsetShadow);
+  transition: var(--UniversalTransition);
+}
+.Question.Active {
+  transform: translateY(2px);
+}
+
+/* ——— SECONDARY CTA ——— */
+#SecondaryCTA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 48px 48px;
+  background: var(--TonedBackground);
+  border-radius: 0 0 50px 50px;
+}
+
+/* ——— FOOTER ——— */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 98px 0 48px;
+  margin-top: -50px;
+  z-index: 0;
+  background: linear-gradient(135deg, var(--AccentColor), var(--AccentColor1));
+}
+
+/* ——— MOBILE ≤1000px ——— */
+@media (max-width: 1000px) {
+  #CTAText h1.Desktop {
+    display: none;
+  }
+  #CTAText h1.Mobile {
+    display: block;
+  }
+  #CTAButtons {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  #CTAImageDiv {
+    top: 64px;
+    margin: 0;
+    padding: 48px 24px;
+  }
+  #HowItWorks {
+    border-radius: 50px 50px 0 0;
+  }
+  #ThreeSteps {
+    flex-direction: column;
+    width: 300px;
+  }
+  .Step .CurvedArrow {
+    display: none;
+  }
+  #BenefitsCategories {
+    flex-direction: column;
+  }
+  .Benefits {
+    flex-direction: column;
+    align-items: center;
+  }
+  .BenefitCard {
+    width: 100%;
+    max-width: 420px;
+  }
+  .Question {
+    width: 342px;
+    grid-template-columns: 1fr 32px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 98px 48px 48px;
+  }
+}
