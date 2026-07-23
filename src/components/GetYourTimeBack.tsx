@@ -69,9 +69,9 @@ function KeyboardStrip() {
             className="grid gap-1.5"
             style={{ gridTemplateColumns: `repeat(${row.length}, minmax(0, 1fr))` }}
           >
-            {row.map((key) => (
+            {row.map((key, keyIndex) => (
               <KeyboardKey
-                key={key}
+                key={`${key}-${keyIndex}`}
                 label={key}
                 wide={key === "delete" || key === "return" || key === "shift"}
                 extraWide={key === "space"}

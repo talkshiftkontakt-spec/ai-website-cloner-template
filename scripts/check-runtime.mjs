@@ -1,0 +1,24 @@
+import { chromium } from 'playwright';
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+const errors = [];
+const logs = [];
+page.on('pageerror', e => errors.push(String(e)));
+page.on('console', m => { if (m.type() === 'error') logs.push(m.text()); });
+await page.goto('http://localhost:3000/', { waitUntil: 'networkidle', timeout: 60000 });
+await page.waitForTimeout(3000);
+await page.screenshot({ path: '/opt/cursor/artifacts/clone-check-top.png', fullPage: false });
+await page.evaluate(() => window.scrollTo(0, 1200));
+await page.waitForTimeout(800);
+await page.screenshot({ path: '/opt/cursor/artifacts/clone-check-features.png', fullPage: false });
+const canvasOk = await page.evaluate(() => {
+  const c = document.querySelector('canvas');
+  if (!c) return { ok: false, reason: 'no canvas' };
+  const ctx = c.getContext('2d');
+  return { ok: true, w: c.width, h: c.height, hasPixels: !!ctx };
+});
+console.log('errors', errors);
+console.log('consoleErrors', logs);
+console.log('canvas', canvasOk);
+console.log('title', await page.title());
+await browser.close();
