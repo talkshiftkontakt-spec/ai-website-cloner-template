@@ -22,6 +22,8 @@ const NOTIF_TRANSFORMS = [
   { translateY: 219, rotate: -0.88 },
 ] as const;
 
+const NOTIF_STACK_Y = 120;
+
 function CarNotificationCard({
   title,
   price,
@@ -39,8 +41,8 @@ function CarNotificationCard({
   sourceIcon: string;
   image: string;
   offsetX: string;
-  translateY: number;
-  rotate: number;
+  translateY: MotionValue<number> | number;
+  rotate: MotionValue<number> | number;
   opacity: MotionValue<number> | number;
 }) {
   return (
@@ -49,7 +51,9 @@ function CarNotificationCard({
       style={{
         marginLeft: offsetX,
         opacity,
-        transform: `translateX(-50%) translateY(${translateY}px) rotate(${rotate}deg)`,
+        x: "-50%",
+        y: translateY,
+        rotate,
       }}
     >
       <div className="flex items-center gap-1.5 rounded-[10px] border border-[#bae3df]/45 bg-[#1c2625]/80 px-1.5 py-1 shadow-[0_10px_40px_rgba(0,0,0,0.3)] backdrop-blur-md sm:gap-3 sm:rounded-[15px] sm:px-3 sm:py-2.5">
@@ -95,7 +99,47 @@ function PhoneVisual() {
   const o3 = useTransform(scrollYProgress, [0.38, 0.5], [0, 1]);
   const o4 = useTransform(scrollYProgress, [0.46, 0.58], [0, 1]);
   const o5 = useTransform(scrollYProgress, [0.54, 0.66], [0, 1]);
-  const opacities = [o0, o1, o2, o3, o4, o5];
+  const opacities: Array<MotionValue<number>> = [o0, o1, o2, o3, o4, o5];
+
+  const y0 = useTransform(
+    scrollYProgress,
+    [0.15, 0.28],
+    [NOTIF_STACK_Y, NOTIF_TRANSFORMS[0].translateY]
+  );
+  const y1 = useTransform(
+    scrollYProgress,
+    [0.22, 0.35],
+    [NOTIF_STACK_Y, NOTIF_TRANSFORMS[1].translateY]
+  );
+  const y2 = useTransform(
+    scrollYProgress,
+    [0.3, 0.42],
+    [NOTIF_STACK_Y, NOTIF_TRANSFORMS[2].translateY]
+  );
+  const y3 = useTransform(
+    scrollYProgress,
+    [0.38, 0.5],
+    [NOTIF_STACK_Y, NOTIF_TRANSFORMS[3].translateY]
+  );
+  const y4 = useTransform(
+    scrollYProgress,
+    [0.46, 0.58],
+    [NOTIF_STACK_Y, NOTIF_TRANSFORMS[4].translateY]
+  );
+  const y5 = useTransform(
+    scrollYProgress,
+    [0.54, 0.66],
+    [NOTIF_STACK_Y, NOTIF_TRANSFORMS[5].translateY]
+  );
+  const ys: Array<MotionValue<number>> = [y0, y1, y2, y3, y4, y5];
+
+  const r0 = useTransform(scrollYProgress, [0.15, 0.28], [0, NOTIF_TRANSFORMS[0].rotate]);
+  const r1 = useTransform(scrollYProgress, [0.22, 0.35], [0, NOTIF_TRANSFORMS[1].rotate]);
+  const r2 = useTransform(scrollYProgress, [0.3, 0.42], [0, NOTIF_TRANSFORMS[2].rotate]);
+  const r3 = useTransform(scrollYProgress, [0.38, 0.5], [0, NOTIF_TRANSFORMS[3].rotate]);
+  const r4 = useTransform(scrollYProgress, [0.46, 0.58], [0, NOTIF_TRANSFORMS[4].rotate]);
+  const r5 = useTransform(scrollYProgress, [0.54, 0.66], [0, NOTIF_TRANSFORMS[5].rotate]);
+  const rotates: Array<MotionValue<number>> = [r0, r1, r2, r3, r4, r5];
 
   return (
     <div
@@ -128,8 +172,8 @@ function PhoneVisual() {
               sourceIcon={notif.sourceIcon}
               image={notif.image}
               offsetX={notif.offsetX}
-              translateY={t.translateY}
-              rotate={t.rotate}
+              translateY={reduce ? t.translateY : ys[i]!}
+              rotate={reduce ? t.rotate : rotates[i]!}
               opacity={reduce ? 1 : opacities[i]!}
             />
           );

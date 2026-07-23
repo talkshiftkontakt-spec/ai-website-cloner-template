@@ -277,9 +277,9 @@
 
 @keyframes t-digit-pop-in {
   0% {
-    transform: translateY(8px);
+    transform: translateY(var(--digit-distance, 8px));
     opacity: 0;
-    filter: blur(4px);
+    filter: blur(var(--digit-blur, 2px));
   }
   100% {
     opacity: 1;
@@ -290,28 +290,33 @@
 .t-digit-group {
   display: inline-flex;
   align-items: baseline;
+  --digit-stagger: 70ms;
+  --digit-distance: 8px;
+  --digit-blur: 2px;
+  --digit-dur: 0.5s;
+  --digit-ease: cubic-bezier(0.34, 1.45, 0.64, 1);
 }
 .t-digit {
   display: inline-block;
   will-change: transform, opacity, filter;
 }
 .t-digit-group.is-animating .t-digit {
-  animation: t-digit-pop-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: t-digit-pop-in var(--digit-dur) var(--digit-ease) both;
 }
 .t-digit-group.is-animating .t-digit[data-stagger="1"] {
-  animation-delay: 0.04s;
+  animation-delay: calc(var(--digit-stagger) * 1);
 }
 .t-digit-group.is-animating .t-digit[data-stagger="2"] {
-  animation-delay: 0.08s;
+  animation-delay: calc(var(--digit-stagger) * 2);
 }
 .t-digit-group.is-animating .t-digit[data-stagger="3"] {
-  animation-delay: 0.12s;
+  animation-delay: calc(var(--digit-stagger) * 3);
 }
 .t-digit-group.is-animating .t-digit[data-stagger="4"] {
-  animation-delay: 0.16s;
+  animation-delay: calc(var(--digit-stagger) * 4);
 }
 .t-digit-group.is-animating .t-digit[data-stagger="5"] {
-  animation-delay: 0.2s;
+  animation-delay: calc(var(--digit-stagger) * 5);
 }
 
 .notif-card {

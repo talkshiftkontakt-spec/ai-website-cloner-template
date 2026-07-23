@@ -1,11 +1,53 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Reveal } from "@/components/snipeit/Reveal";
 import { ASSET, PRICING_PLANS } from "@/lib/snipeit-content";
 import { cn } from "@/lib/utils";
 import type { PricingInterval, PricingPlan } from "@/types/snipeit";
+
+function AnimatedPrice({ value }: { value: string }) {
+  const [animating, setAnimating] = useState(false);
+  const prevRef = useRef(value);
+  const skipFirst = useRef(true);
+
+  useEffect(() => {
+    if (skipFirst.current) {
+      skipFirst.current = false;
+      prevRef.current = value;
+      return;
+    }
+    if (prevRef.current === value) return;
+    prevRef.current = value;
+    setAnimating(true);
+    const id = window.setTimeout(() => setAnimating(false), 650);
+    return () => window.clearTimeout(id);
+  }, [value]);
+
+  let digitIndex = 0;
+  const parts = Array.from(value).map((char, index) => {
+    if (/\d/.test(char)) {
+      digitIndex += 1;
+      return (
+        <span
+          key={`${value}-${index}`}
+          className="t-digit"
+          data-stagger={Math.min(digitIndex, 5)}
+        >
+          {char}
+        </span>
+      );
+    }
+    return <span key={`${value}-${index}`}>{char}</span>;
+  });
+
+  return (
+    <span className={cn("t-digit-group", animating && "is-animating")}>
+      {parts}
+    </span>
+  );
+}
 
 function PopularBadge() {
   return (
@@ -74,21 +116,24 @@ function PricingCard({
                 <br />
                 indywidualna
               </span>
-            ) : (
+            ) : price ? (
               <>
                 <span className="font-satoshi block text-[28px] leading-none font-bold text-[#1c2625] md:text-[32px]">
-                  {price}
+                  <AnimatedPrice value={price} />
                 </span>
                 <span className="font-satoshi mt-[6px] block text-[13px] font-medium text-[#747979] md:text-[14px]">
                   / miesięcznie
                 </span>
                 {showSavings ? (
-                  <span className="font-satoshi mt-2 inline-block rounded-[8px] bg-[#bae3df] px-2 py-1 text-[11px] leading-tight font-bold text-[#1c2625] md:text-[12px]">
+                  <span
+                    key={plan.yearlySavings}
+                    className="font-satoshi mt-2 inline-block rounded-[8px] bg-[#bae3df] px-2 py-1 text-[11px] leading-tight font-bold text-[#1c2625] card-appear md:text-[12px]"
+                  >
                     {plan.yearlySavings}
                   </span>
                 ) : null}
               </>
-            )}
+            ) : null}
           </div>
         </div>
         <p className="font-satoshi mt-[14px] max-w-[230px] text-[15px] leading-[20px] font-medium text-[#747979] md:text-[16px]">

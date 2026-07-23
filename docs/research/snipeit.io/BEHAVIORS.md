@@ -8,42 +8,40 @@
 - Trigger threshold: ~20–50px scroll
 - Page uses native `scroll-behavior: smooth` (no Lenis)
 
-## Hover
+## Motion (implemented)
 
-- Nav links: opacity / color toward accent teal
-- Primary CTA pills: slight brightness / scale
-- Pricing cards: subtle lift/shadow
-- FAQ row: cursor pointer
+### Continuous CSS
+- `animate-union-pulse` — hero / outline decorations (5s scale+opacity)
+- `hero-grad-anim` — hero background gradient drift (12s)
+- `metal-move` — Pro pricing outline + Popularne badge
+- `animate-cta-shimmer` — secondary CTAs shimmer overlay
 
-## Click
+### Scroll-linked (motion)
+- **Product demo 3D tilt** — `useScroll` maps progress → `rotateX` 14→0, `scale` 0.96→1, `y` 40→0 with spring
+- **Offer feed** — auto-advancing carousel every 2.2s
+- **Express notifications** — staggered opacity + Y fan-out + rotate as section scrolls into view
+- **All-in-one lines** — lines/pulse opacity + logo/node scale on scroll; source logos stagger in
+- **Rings** — subtle infinite scale pulse
 
-### Pricing toggle
-- Default: **Miesięczny** active (dark `#293735`), yearly inactive (muted `#8ca4a2`)
-- Yearly prices: Basic **44,99**, Pro **89,99** (+ "Oszczędzasz X zł / rok")
-- Monthly: Basic **49,99**, Pro **99,99**
-- Enterprise unchanged (custom quote)
+### Enter / whileInView
+- Hero H1 / subtitle / CTAs staggered entrance on load
+- Features bento cards stagger (`Stagger` / `StaggerItem`)
+- Section headings & copy via `Reveal` (opacity + translate)
+- Pricing cards stagger up; footer columns stagger
+- Category tiles fade/slide + hover scale
 
-### FAQ accordion
-- Clicking question expands answer panel
-- Questions/answers in `faq-content.json`
-
-### Cookie banner
-- "Akceptuj wszystkie" / "Odrzuć wszystkie" / "Dostosuj ustawienia" dismiss/hide banner
-
-### Nav anchors
-- `#hero` / home, `#produkt`, `#plany`, `#kontakt`
+### Click
+- Pricing toggle → `t-digit-pop-in` staggered digit animation on price change (tokens: `--digit-stagger` 70ms, `--digit-dur` 0.5s, spring ease)
+- FAQ accordion height/opacity expand 300ms
+- Cookie dismiss
 
 ## Responsive
 
 | Breakpoint | Behavior |
 |------------|----------|
-| Desktop 1440 | Full nav links, side-by-side feature layouts, 3 pricing cards |
+| Desktop 1440 | Full nav, side-by-side layouts, 3 pricing cards |
 | Tablet 768 | Reduced padding; stacks begin |
-| Mobile 390 | Burger menu; stacked CTAs; single-column pricing; hero pt 130px |
+| Mobile 390 | Burger menu; stacked CTAs; single-column pricing |
 
-## Motion
-
-- `animate-union-pulse` on hero corner SVGs
-- Nav transition 700ms
-- FAQ expand height/opacity ~200–300ms
-- Pricing digit/price swap on toggle
+## Reduced motion
+`prefers-reduced-motion` disables CSS loops; motion hooks fall back to static transforms/opacity.
