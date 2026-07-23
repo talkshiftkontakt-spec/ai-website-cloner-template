@@ -1,5 +1,10 @@
+"use client";
+
 import { Plus } from "lucide-react";
+import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import Image from "next/image";
+import { useRef } from "react";
+import { Reveal, Stagger, StaggerItem } from "@/components/snipeit/Reveal";
 import { ASSET, SOURCE_LOGOS } from "@/lib/snipeit-content";
 
 const LOGO_ROW_TOP = SOURCE_LOGOS.slice(0, 2);
@@ -46,23 +51,20 @@ export function FeaturesDecorations() {
   );
 }
 
-function SourceLogo({ src, alt }: { src: string; alt: string }) {
-  return (
-    <div className="h-[56px] w-[56px] overflow-hidden rounded-[18px] opacity-100 sm:h-[86px] sm:w-[86px]">
-      <Image
-        src={src}
-        alt={alt}
-        width={86}
-        height={86}
-        className="h-full w-full object-contain"
-      />
-    </div>
-  );
-}
-
 function SourcesVisual() {
+  const ref = useRef<HTMLDivElement>(null);
+  const reduce = useReducedMotion();
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "center center"],
+  });
+  const linesOpacity = useTransform(scrollYProgress, [0.35, 0.75], [0, 0.5]);
+  const pulseOpacity = useTransform(scrollYProgress, [0.45, 0.85], [0, 0.85]);
+  const nodeScale = useTransform(scrollYProgress, [0.5, 0.9], [0, 1]);
+
   return (
     <div
+      ref={ref}
       className="relative mx-auto w-full max-w-[781px] overflow-hidden rounded-[37px]"
       style={{
         aspectRatio: "781/660",
@@ -70,8 +72,8 @@ function SourcesVisual() {
           "linear-gradient(180deg, #4a6e6a 0%, #2d3d3b 35%, #1c2625 70%, #1a2322 100%)",
       }}
     >
-      {RINGS.map((ring) => (
-        <div
+      {RINGS.map((ring, i) => (
+        <motion.div
           key={ring.width}
           className="absolute left-1/2 -translate-x-1/2 rounded-full border"
           style={{
@@ -80,6 +82,18 @@ function SourcesVisual() {
             bottom: ring.bottom,
             borderColor: ring.borderColor,
           }}
+          animate={
+            reduce
+              ? undefined
+              : {
+                  scale: [1, 1.015, 1],
+                }
+          }
+          transition={{
+            duration: 4 + i * 0.4,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
         />
       ))}
 
@@ -87,38 +101,68 @@ function SourcesVisual() {
         className="relative z-10 flex flex-col items-center px-8"
         style={{ marginTop: "9%", gap: 18 }}
       >
-        <div className="flex justify-center gap-[12px] sm:gap-[24px]">
+        <Stagger className="flex justify-center gap-[12px] sm:gap-[24px]" stagger={0.1}>
           {LOGO_ROW_TOP.map((logo) => (
-            <SourceLogo key={logo.alt} src={logo.src} alt={logo.alt} />
+            <StaggerItem key={logo.alt}>
+              <div className="h-[56px] w-[56px] overflow-hidden rounded-[18px] sm:h-[86px] sm:w-[86px]">
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={86}
+                  height={86}
+                  className="h-full w-full object-contain"
+                />
+              </div>
+            </StaggerItem>
           ))}
-        </div>
-        <div className="flex justify-center gap-[12px] sm:gap-[24px]">
+        </Stagger>
+        <Stagger
+          className="flex justify-center gap-[12px] sm:gap-[24px]"
+          stagger={0.1}
+          delay={0.15}
+        >
           {LOGO_ROW_BOTTOM.map((logo) => (
-            <SourceLogo key={logo.alt} src={logo.src} alt={logo.alt} />
+            <StaggerItem key={logo.alt}>
+              <div className="h-[56px] w-[56px] overflow-hidden rounded-[18px] sm:h-[86px] sm:w-[86px]">
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={86}
+                  height={86}
+                  className="h-full w-full object-contain"
+                />
+              </div>
+            </StaggerItem>
           ))}
-        </div>
+        </Stagger>
       </div>
 
-      <Image
-        src={`${ASSET}/lines2.svg`}
-        alt=""
-        width={458}
-        height={391}
-        className="absolute z-[1] opacity-100"
+      <motion.div
+        className="absolute z-[1]"
         style={{
           left: "21.3%",
           top: "26.2%",
           width: "58.6%",
           height: "59.2%",
+          opacity: reduce ? 0.5 : linesOpacity,
         }}
-      />
-      <div
-        className="pointer-events-none absolute z-[2] opacity-100"
+      >
+        <Image
+          src={`${ASSET}/lines2.svg`}
+          alt=""
+          width={458}
+          height={391}
+          className="h-full w-full"
+        />
+      </motion.div>
+      <motion.div
+        className="pointer-events-none absolute z-[2]"
         style={{
           left: "21.3%",
           top: "26.2%",
           width: "58.6%",
           height: "59.2%",
+          opacity: reduce ? 0.7 : pulseOpacity,
         }}
       >
         <Image
@@ -128,15 +172,18 @@ function SourcesVisual() {
           height={391}
           className="h-full w-full"
           style={{
-            filter:
-              "brightness(2) drop-shadow(0 0 6px rgba(186,227,223,0.5))",
+            filter: "brightness(2) drop-shadow(0 0 6px rgba(186,227,223,0.5))",
           }}
         />
-      </div>
+      </motion.div>
 
-      <div
-        className="absolute z-20 -translate-x-1/2 -translate-y-1/2 opacity-100"
-        style={{ left: "50.55%", top: "80%" }}
+      <motion.div
+        className="absolute z-20 -translate-x-1/2 -translate-y-1/2"
+        style={{
+          left: "50.55%",
+          top: "80%",
+          scale: reduce ? 1 : nodeScale,
+        }}
       >
         <div
           className="h-[17px] w-[17px] rounded-full"
@@ -144,11 +191,16 @@ function SourcesVisual() {
             background: "linear-gradient(180deg, #BAE3DF 0%, #323C3B 100%)",
           }}
         />
-      </div>
+      </motion.div>
 
-      <div
-        className="absolute left-1/2 z-10 -translate-x-1/2 opacity-100"
-        style={{ bottom: "7%", width: "25%" }}
+      <motion.div
+        className="absolute left-1/2 z-10 -translate-x-1/2"
+        style={{
+          bottom: "7%",
+          width: "25%",
+          scale: reduce ? 1 : nodeScale,
+          opacity: reduce ? 1 : nodeScale,
+        }}
       >
         <Image
           src={`${ASSET}/snipelt-logo.webp`}
@@ -157,7 +209,7 @@ function SourcesVisual() {
           height={80}
           className="h-auto w-full object-contain"
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
@@ -167,11 +219,11 @@ export function AllInOneSection() {
     <section className="relative overflow-hidden px-6 py-12 md:py-20">
       <div className="mx-auto max-w-[1480px]">
         <div className="flex flex-col-reverse items-center gap-10 lg:flex-row-reverse lg:gap-16">
-          <div className="w-full flex-1">
+          <Reveal className="w-full flex-1" x={-40} y={0}>
             <SourcesVisual />
-          </div>
+          </Reveal>
 
-          <div className="max-w-[600px] flex-1 text-center lg:text-left">
+          <Reveal className="max-w-[600px] flex-1 text-center lg:text-left" x={40} y={0} delay={0.1}>
             <div
               className="scroll-mt-24 mx-auto mb-6 text-center lg:mx-0 lg:text-left"
               style={{ maxWidth: 620 }}
@@ -188,7 +240,7 @@ export function AllInOneSection() {
             <div className="mb-8 flex justify-center lg:justify-start">
               <a
                 href="#plany"
-                className="font-satoshi inline-flex h-[52px] items-center gap-2.5 rounded-full border border-[#394746] px-7 text-[18px] font-bold text-white shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.15)] transition hover:brightness-110"
+                className="animate-cta-shimmer font-satoshi inline-flex h-[52px] items-center gap-2.5 rounded-full border border-[#394746] px-7 text-[18px] font-bold text-white shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.15)] transition hover:brightness-110"
                 style={{
                   background:
                     "radial-gradient(130% 130% at 50% 0%, #2e3b3a 0%, #1c2625 78%)",
@@ -208,7 +260,7 @@ export function AllInOneSection() {
               jednym miejscu. Skonfiguruj inteligentne powiadomienia o rzadkich
               przedmiotach, których szukasz, i bądź zawsze o krok przed innymi
             </p>
-          </div>
+          </Reveal>
         </div>
       </div>
     </section>

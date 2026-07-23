@@ -1,21 +1,26 @@
+"use client";
+
 import { Plus } from "lucide-react";
+import { motion } from "motion/react";
 import Image from "next/image";
 import { ASSET } from "@/lib/snipeit-content";
 
 export function HeroDecorations() {
   return (
     <>
-      <div className="absolute pointer-events-none animate-union-pulse w-[300px] h-[300px] -left-[150px] top-[430px] md:w-[802px] md:h-[802px] md:-left-[401px] md:top-[112px] rotate-[-19.11deg] opacity-[0.28]">
+      <div className="animate-union-pulse pointer-events-none absolute top-[430px] -left-[150px] h-[300px] w-[300px] rotate-[-19.11deg] opacity-[0.28] md:top-[112px] md:-left-[401px] md:h-[802px] md:w-[802px]">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={`${ASSET}/union-hero.svg`}
-          className="w-full h-full"
+          className="h-full w-full"
           alt=""
         />
       </div>
-      <div className="absolute pointer-events-none animate-union-pulse w-[280px] h-[280px] -right-[140px] top-[470px] md:w-[782px] md:h-[782px] md:-right-[391px] md:top-[65px] rotate-[-73.74deg] opacity-[0.40]">
+      <div className="animate-union-pulse pointer-events-none absolute top-[470px] -right-[140px] h-[280px] w-[280px] rotate-[-73.74deg] opacity-[0.40] md:top-[65px] md:-right-[391px] md:h-[782px] md:w-[782px]">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={`${ASSET}/union-hero-right.svg`}
-          className="w-full h-full"
+          className="h-full w-full"
           alt=""
         />
       </div>
@@ -27,33 +32,48 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative pt-[130px] md:pt-[200px] pb-10 md:pb-16 overflow-hidden"
+      className="relative overflow-hidden pt-[130px] pb-10 md:pt-[200px] md:pb-16"
     >
-      <div className="max-w-[1200px] mx-auto px-6 text-center relative z-10">
-        <h1 className="text-[32px] md:text-[56px] lg:text-[64px] leading-[1.15] md:leading-[70px] tracking-[-0.8px] mb-4 md:mb-8 text-gradient-hero font-sf-expanded-medium">
+      <div className="relative z-10 mx-auto max-w-[1200px] px-6 text-center">
+        <motion.h1
+          className="font-sf-expanded-medium text-gradient-hero mb-4 text-[32px] leading-[1.15] tracking-[-0.8px] md:mb-8 md:text-[56px] md:leading-[70px] lg:text-[64px]"
+          initial={{ opacity: 0, y: 28 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+        >
           Monitoruj najnowsze
           <br />
           ogłoszenia w{" "}
           <span className="font-sf-expanded-bold">jednym miejscu</span>
-        </h1>
-        <p className="font-satoshi text-[16px] md:text-[24px] text-[#d9e5e8] leading-[24px] md:leading-[30px] tracking-[-1.2px] max-w-[654px] mx-auto mb-8 md:mb-12 font-medium">
+        </motion.h1>
+        <motion.p
+          className="font-satoshi mx-auto mb-8 max-w-[654px] text-[16px] leading-[24px] font-medium tracking-[-1.2px] text-[#d9e5e8] md:mb-12 md:text-[24px] md:leading-[30px]"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.75, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
+        >
           Wpisz frazę kluczową, bądź wybierz co Cię interesuje i bądź przed
           innymi w zakupie przedmiotu na czołowych platformach
-        </p>
-        <div className="flex items-center justify-center gap-4 flex-wrap">
+        </motion.p>
+        <motion.div
+          className="flex flex-wrap items-center justify-center gap-4"
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.22, ease: [0.22, 1, 0.36, 1] }}
+        >
           <a
             href="#plany"
-            className="inline-flex items-center justify-center gap-2.5 w-[234px] h-[49px] rounded-[38px] border border-[#73ede0] text-[#1c2625] text-[18px] md:text-[20px] font-satoshi font-medium shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.6)] hover:brightness-[1.03] transition"
+            className="font-satoshi inline-flex h-[49px] w-[234px] items-center justify-center gap-2.5 rounded-[38px] border border-[#73ede0] text-[18px] font-medium text-[#1c2625] shadow-[inset_0px_4px_4px_0px_rgba(255,255,255,0.6)] transition hover:brightness-[1.03] md:text-[20px]"
             style={{
               background:
                 "radial-gradient(110% 130% at 30% 15%, #a6eee7 0%, #f2faff 80%)",
             }}
           >
-            <Plus className="size-5" /> Zdobądź dostęp
+            <Plus className="size-5" strokeWidth={2.5} /> Zdobądź dostęp
           </a>
           <a
             href="#kontakt"
-            className="inline-flex items-center justify-center gap-2.5 w-[234px] h-[49px] border border-[#f2faff] text-[#f2faff] rounded-[38px] text-[18px] md:text-[20px] font-satoshi font-bold hover:bg-white/5 transition-all duration-200"
+            className="animate-cta-shimmer font-satoshi inline-flex h-[49px] w-[234px] items-center justify-center gap-2.5 rounded-[38px] border border-[#f2faff] text-[18px] font-bold text-[#f2faff] transition-all duration-200 hover:bg-white/5 md:text-[20px]"
           >
             <Image
               src={`${ASSET}/icon-send-filled.svg`}
@@ -64,7 +84,7 @@ export function HeroSection() {
             />{" "}
             Skontaktuj się
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

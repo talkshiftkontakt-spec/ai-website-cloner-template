@@ -1,5 +1,6 @@
 import { ArrowRight, Info, Search, Check } from "lucide-react";
 import Image from "next/image";
+import { Reveal, Stagger, StaggerItem } from "@/components/snipeit/Reveal";
 import { ASSET } from "@/lib/snipeit-content";
 
 const SEARCH_GRAD =
@@ -208,39 +209,37 @@ export function FeaturesBentoSection() {
   return (
     <section className="px-6 py-20">
       <div className="mx-auto max-w-[1480px]">
-        <div
-          className="scroll-mt-24 mx-auto mb-10 text-center md:mb-14"
-          style={{ maxWidth: 620 }}
-        >
-          <p className="font-sf-expanded-medium mb-2 text-[15px] leading-[1.4] tracking-[0.14em] text-[#49768d] uppercase md:mb-3 md:text-[24px]">
-            ŁATWA KONFIGURACJA
-          </p>
-          <h2 className="text-gradient-section text-[28px] leading-[36px] tracking-tight md:text-[48px] md:leading-[50px]">
-            <span className="font-sf-expanded-regular">Idealne narzędzie dla </span>
-            <span className="font-sf-expanded-bold">handlarzy i kupców</span>
-          </h2>
-        </div>
+        <Reveal className="scroll-mt-24 mx-auto mb-10 text-center md:mb-14">
+          <div style={{ maxWidth: 620 }} className="mx-auto">
+            <p className="font-sf-expanded-medium mb-2 text-[15px] leading-[1.4] tracking-[0.14em] text-[#49768d] uppercase md:mb-3 md:text-[24px]">
+              ŁATWA KONFIGURACJA
+            </p>
+            <h2 className="text-gradient-section text-[28px] leading-[36px] tracking-tight md:text-[48px] md:leading-[50px]">
+              <span className="font-sf-expanded-regular">Idealne narzędzie dla </span>
+              <span className="font-sf-expanded-bold">handlarzy i kupców</span>
+            </h2>
+          </div>
+        </Reveal>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+        <Stagger className="grid grid-cols-1 gap-6 md:grid-cols-3" stagger={0.12}>
           {CARDS.map((card) => (
-            <div
-              key={card.title}
-              className="min-h-[472px] overflow-hidden rounded-[37px] bg-[#1c2625]"
-            >
-              <div className="flex h-full flex-col">
-                {card.mockup}
-                <div className="px-[31px] pt-5 pb-10">
-                  <h3 className="font-satoshi mb-2 text-[28px] leading-tight font-bold text-[#c4e6e4]">
-                    {card.title}
-                  </h3>
-                  <p className="font-satoshi text-[18px] leading-[20px] text-[#9ebdbb]">
-                    {card.body}
-                  </p>
+            <StaggerItem key={card.title} y={40}>
+              <div className="min-h-[472px] overflow-hidden rounded-[37px] bg-[#1c2625] transition-transform duration-300 hover:-translate-y-1">
+                <div className="flex h-full flex-col">
+                  {card.mockup}
+                  <div className="px-[31px] pt-5 pb-10">
+                    <h3 className="font-satoshi mb-2 text-[28px] leading-tight font-bold text-[#c4e6e4]">
+                      {card.title}
+                    </h3>
+                    <p className="font-satoshi text-[18px] leading-[20px] text-[#9ebdbb]">
+                      {card.body}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </StaggerItem>
           ))}
-        </div>
+        </Stagger>
       </div>
     </section>
   );

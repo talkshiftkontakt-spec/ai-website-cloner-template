@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { Reveal } from "@/components/snipeit/Reveal";
 import { ASSET } from "@/lib/snipeit-content";
 
 const NAV_ITEMS = [
@@ -34,7 +37,7 @@ export function SiteFooter() {
 
       <div className="relative z-10 mx-auto max-w-[1480px]">
         <div className="mb-12 grid grid-cols-1 gap-12 md:grid-cols-3">
-          <div>
+          <Reveal>
             <div className="mb-4">
               <Image
                 src={`${ASSET}/footer-logo.svg`}
@@ -73,9 +76,9 @@ export function SiteFooter() {
                 />
               </a>
             </div>
-          </div>
+          </Reveal>
 
-          <div>
+          <Reveal delay={0.08}>
             <h4 className="font-sf-expanded-medium mb-5 text-[24px] text-[#f0f0f0]">
               Nawigacja
             </h4>
@@ -91,9 +94,9 @@ export function SiteFooter() {
                 </li>
               ))}
             </ul>
-          </div>
+          </Reveal>
 
-          <div>
+          <Reveal delay={0.16}>
             <h4 className="font-sf-expanded-medium mb-5 text-[24px] text-[#f0f0f0]">
               Dane prawne
             </h4>
@@ -117,7 +120,7 @@ export function SiteFooter() {
                 </button>
               </li>
             </ul>
-          </div>
+          </Reveal>
         </div>
 
         <div className="mt-12 border-t border-[#2a3938]/60 pt-6 text-center">
