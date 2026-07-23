@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { Reveal } from "@/components/Reveal";
 import { automationCards } from "@/lib/raycast-content";
 import type { AutomationCard } from "@/types/raycast";
 import { cn } from "@/lib/utils";
@@ -100,19 +101,25 @@ export function AutomationSection() {
   return (
     <section className="bg-[#07080a] px-6 py-24 md:py-32">
       <div className="mx-auto max-w-6xl">
-        <div className="mx-auto max-w-lg text-center">
+        <Reveal className="mx-auto max-w-lg text-center">
           <h2 className="text-[32px] font-semibold leading-tight tracking-[-0.02em] text-white">
             Don&apos;t repeat yourself.
           </h2>
           <p className="mt-2 text-base text-ray-muted">
             Automate the things you do all the time.
           </p>
-        </div>
+        </Reveal>
 
         <div className="mt-12 grid gap-4 lg:grid-cols-2 lg:gap-5">
-          {wideCard ? <AutomationCardItem card={wideCard} wide /> : null}
-          {halfCards.map((card) => (
-            <AutomationCardItem key={card.title} card={card} />
+          {wideCard ? (
+            <Reveal variant="slide-in" className="col-span-full">
+              <AutomationCardItem card={wideCard} wide />
+            </Reveal>
+          ) : null}
+          {halfCards.map((card, index) => (
+            <Reveal key={card.title} variant="slide-in" delay={80 + index * 80}>
+              <AutomationCardItem card={card} />
+            </Reveal>
           ))}
         </div>
       </div>

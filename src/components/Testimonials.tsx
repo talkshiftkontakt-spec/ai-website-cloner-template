@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 
+import { Reveal } from "@/components/Reveal";
 import { testimonials } from "@/lib/raycast-content";
 import type { Testimonial } from "@/types/raycast";
 
@@ -49,20 +50,20 @@ export function Testimonials() {
 
   return (
     <section className="overflow-hidden bg-[#07080a] px-6 py-24 md:py-32">
-      <div className="mx-auto max-w-md text-center">
-        <h2 className="text-xl font-medium tracking-[0.2px] text-white">
+      <Reveal className="mx-auto max-w-md text-center">
+        <h2 className="text-[32px] font-semibold tracking-[-0.02em] text-white">
           Built for professionals like you.
         </h2>
-        <p className="text-xl font-medium tracking-[0.2px] text-ray-muted-2">
+        <p className="mt-2 text-base text-ray-muted">
           Used by seriously productive people.
         </p>
-      </div>
+      </Reveal>
 
       <div className="relative mt-16">
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#07080a] to-transparent" />
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#07080a] to-transparent" />
 
-        <div className="flex w-max animate-marquee gap-4">
+        <div className="flex w-max animate-marquee gap-4 hover:[animation-play-state:paused]">
           {marqueeItems.map((testimonial, index) => (
             <TestimonialCard
               key={`${testimonial.handle}-${index}`}

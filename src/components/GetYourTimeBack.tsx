@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { AppleIcon } from "@/components/icons";
+import { Reveal } from "@/components/Reveal";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -86,7 +87,7 @@ function KeyboardStrip() {
 export function GetYourTimeBack() {
   return (
     <section className="relative overflow-hidden bg-[#07080a] px-6 py-24 md:py-32">
-      <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
+      <Reveal className="mx-auto flex max-w-3xl flex-col items-center text-center">
         <h2 className="text-[28px] font-medium leading-tight tracking-[0.2px] text-white md:text-[32px]">
           It&apos;s not about saving time.
         </h2>
@@ -97,14 +98,14 @@ export function GetYourTimeBack() {
         <Button
           nativeButton={false}
           render={<Link href="/download" />}
-          className="mt-8 h-10 gap-2 rounded-lg bg-ray-button px-4 text-sm font-medium text-ray-button-fg hover:bg-ray-button/90"
+          className="mt-8 h-10 gap-2 rounded-lg bg-ray-button px-4 text-sm font-medium text-ray-button-fg transition-transform duration-200 hover:bg-ray-button/90 active:scale-[0.98]"
         >
           <AppleIcon className="size-4" />
           Download
         </Button>
-      </div>
+      </Reveal>
 
-      <div className="relative mx-auto mt-20 max-w-5xl">
+      <Reveal variant="scale-up" delay={100} className="relative mx-auto mt-20 max-w-5xl">
         <div className="grid gap-8 md:grid-cols-3 md:gap-6">
           {pillars.map((pillar) => (
             <div
@@ -127,7 +128,7 @@ export function GetYourTimeBack() {
         </div>
 
         <KeyboardStrip />
-      </div>
+      </Reveal>
     </section>
   );
 }

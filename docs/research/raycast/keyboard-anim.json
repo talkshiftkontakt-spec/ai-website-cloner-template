@@ -1,0 +1,217 @@
+{
+  "classes": "Keyboard_keyboard__Ln3nQ",
+  "animation": "none",
+  "keys": [
+    {
+      "classes": "Keyboard_keyboardRow__p_VN4",
+      "text": "esc\nF1\nF2\n",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "esc",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic",
+      "text": "esc",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F1",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F1",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F2",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F2",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F3",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F3",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F4",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F4",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F5",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F5",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F6",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F6",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F7",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F7",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F8",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F8",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_key__QsvDd",
+      "text": "F9",
+      "animation": "none",
+      "opacity": "0.2",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx",
+      "text": "",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Keyboard_primary__gV0ic Keyboard_alignCenter__SG2yx",
+      "text": "F9",
+      "animation": "none",
+      "opacity": "1",
+      "transform": "none"
+    }
+  ],
+  "htmlSnippet": "<div class=\"Keyboard_keyboardRow__p_VN4\"><div class=\"Keyboard_key__QsvDd\" style=\"width:167px;opacity:0.2\"><div class=\"Keyboard_primary__gV0ic\" style=\"font-size:23.75px\">esc</div></div><div class=\"Keyboard_key__QsvDd\" style=\"opacity:0.2\"><div class=\"Keyboard_alt__YrkyB Keyboard_alignCenter__SG2yx\" style=\"font-size:24px\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" fill=\"none\" style=\"margin-top:15.5px\"><path fill=\"#D8D8D8\" d=\"M10.147 15.405q1.396 0 2.56-.698a5.35 5.35 0 0 0 1.862-1.862 4.9 4.9 0 0 0 .698-2.56q0-1.396-.698-2.56a5.35 5.35 0 0 0-1.862-1.861 4.9 4.9 0 0 0-2.56-.698q-1.396 0-2.56.698a5.35 5.35 0 0 0-1.861 1.861 4.9 4.9 0 0 0-.698 2.56q0 1.396.698 2.56a5.35 5.35 0 0 0 1.862 1.861 4.9 4.9 0 0 0 2.56.699m0-1.698q-.93 0-1.71-.466a3.54 3.54 0 0 1-1.246-1.245 3.3 3.3 0 0 1-.465-1.71q0-.932.465-1.705.465-.774 1.246-1.246a3.24 3.24 0 0 1 1.71-.471q.93 0 1.711.465.78.466 1.245 1.245t.466 1.711q0 .93-.466 1.71-.465.78-1.245 1.246t-1.71.466m6.202-8.39q.515 0 .874-.365.358-.365.358-.868 0-.516-.358-.874a1.2 1.2 0 0 0-.874-.359q-.504 0-.868.359a1.18 1.18 0 0 0-.365.874q0 .503.365.868.364.365.868.365m0 12.402q.515 0 .874-.358a1.2 1.2 0 0 0 .358-.875q0-.502-.358-.868a1.18 1.18 0 0 0-.874-.364q-.504 0-.868.364a1.19 1.19 0 0 0-.365.868q0 .516.365.875.364.358.868.358M3.946 5.317q.504 0 .868-.365.365-.365.365-.868a1.18 1.18 0 0 0-.365-.874 1.2 1.2 0 0 0-.868-.359q-.516 0-.874.359a1.2 1.2 0 0 0-.359.874q0 .503.359.868.358.365.874.365m0 12.402q.504 0 .868-.358a1.18 1.1"
+}

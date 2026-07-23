@@ -1,7 +1,10 @@
-import Image from "next/image";
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import { AppleIcon } from "@/components/icons";
+import { Reveal } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
 
 type KeyDef = {
@@ -43,6 +46,7 @@ const keyboardRows: KeyDef[][] = [
     { label: "delete", width: "wide" },
   ],
   [
+    { label: "tab" },
     { label: "Q" },
     { label: "W" },
     { label: "E" },
@@ -58,6 +62,7 @@ const keyboardRows: KeyDef[][] = [
     { label: "\\", width: "wide" },
   ],
   [
+    { label: "caps" },
     { label: "A" },
     { label: "S" },
     { label: "D" },
@@ -72,6 +77,7 @@ const keyboardRows: KeyDef[][] = [
     { label: "return", width: "wider" },
   ],
   [
+    { label: "shift", width: "wider" },
     { label: "Z" },
     { label: "X" },
     { label: "C" },
@@ -95,14 +101,22 @@ const keyboardRows: KeyDef[][] = [
   ],
 ];
 
-function KeyboardKey({ label, width, highlight }: KeyDef) {
+/** Sequence of keys that light up in the ⌘ Space demo */
+const PULSE_SEQUENCE = ["⌘", "space", "⌘"];
+
+function KeyboardKey({
+  label,
+  width,
+  highlight,
+  lit,
+}: KeyDef & { lit?: boolean }) {
   return (
     <div
       className={cn(
-        "flex h-8 items-center justify-center rounded-md border text-[10px] font-medium tracking-wide md:h-10 md:text-[11px]",
-        highlight
-          ? "border-ray-red/50 bg-ray-red/20 text-white shadow-[0_0_20px_rgba(255,99,99,0.35)]"
-          : "border-white/8 bg-white/4 text-ray-muted",
+        "flex h-8 items-center justify-center rounded-md border text-[10px] font-medium tracking-wide transition-all duration-300 md:h-10 md:text-[11px]",
+        lit || highlight
+          ? "border-ray-red/50 bg-ray-red/25 text-white shadow-[0_0_22px_rgba(255,99,99,0.4)] opacity-100"
+          : "border-white/8 bg-white/[0.04] text-ray-muted opacity-25",
         width === "wide" && "col-span-2",
         width === "wider" && "col-span-3",
         width === "space" && "col-span-6",
@@ -114,6 +128,18 @@ function KeyboardKey({ label, width, highlight }: KeyDef) {
 }
 
 function KeyboardMock() {
+  const [step, setStep] = useState(0);
+
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setStep((s) => (s + 1) % (PULSE_SEQUENCE.length + 2));
+    }, 700);
+    return () => window.clearInterval(id);
+  }, []);
+
+  const litLabel =
+    step < PULSE_SEQUENCE.length ? PULSE_SEQUENCE[step] : undefined;
+
   return (
     <div className="mx-auto w-full max-w-[720px] px-4">
       <div className="rounded-2xl border border-ray-border bg-ray-surface/60 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] backdrop-blur-sm md:p-6">
@@ -125,7 +151,15 @@ function KeyboardMock() {
               style={{ gridTemplateColumns: "repeat(14, minmax(0, 1fr))" }}
             >
               {row.map((key, keyIndex) => (
-                <KeyboardKey key={`${rowIndex}-${keyIndex}`} {...key} />
+                <KeyboardKey
+                  key={`${rowIndex}-${keyIndex}`}
+                  {...key}
+                  lit={
+                    litLabel === key.label ||
+                    (litLabel === "⌘" && key.label === "⌘") ||
+                    (litLabel === "space" && key.label === "space")
+                  }
+                />
               ))}
             </div>
           ))}
@@ -138,19 +172,17 @@ function KeyboardMock() {
 export function CommandYourTime() {
   return (
     <section className="relative overflow-hidden pb-32 pt-16 md:pb-56 md:pt-24">
-      <Image
-        src="/images/raycast/features/hero-glow.png"
-        alt=""
-        width={1200}
-        height={800}
-        className="pointer-events-none absolute top-1/2 left-1/2 z-0 w-[min(1200px,120vw)] -translate-x-1/2 -translate-y-1/2 opacity-40"
+      <div
         aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_40%,rgba(255,99,99,0.22),transparent_55%)]"
       />
 
       <div className="relative z-10 mx-auto flex w-full max-w-[900px] flex-col items-center gap-10 px-6 md:gap-16">
-        <KeyboardMock />
+        <Reveal variant="scale-up" className="w-full">
+          <KeyboardMock />
+        </Reveal>
 
-        <div className="max-w-[400px] text-center">
+        <Reveal className="max-w-[400px] text-center" delay={120}>
           <h2 className="text-xl font-medium tracking-[0.2px] text-white md:text-2xl">
             Command your time.
           </h2>
@@ -161,13 +193,13 @@ export function CommandYourTime() {
           <div className="mt-10 flex flex-col items-center gap-4">
             <Link
               href="https://raycast.com/download"
-              className="inline-flex h-9 items-center gap-2 rounded-lg bg-ray-button px-4 text-sm font-medium text-ray-button-fg transition-opacity hover:opacity-90"
+              className="inline-flex h-9 items-center gap-2 rounded-lg bg-ray-button px-4 text-sm font-medium text-ray-button-fg transition-[transform,opacity] duration-200 hover:opacity-90 active:scale-[0.98]"
             >
               <AppleIcon className="size-4" />
               Download for Mac
             </Link>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

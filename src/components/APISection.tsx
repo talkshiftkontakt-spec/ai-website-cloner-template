@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { ExternalLinkIcon } from "@/components/icons";
+import { Reveal } from "@/components/Reveal";
 
 function DottedGridPanel() {
   return (
@@ -41,7 +42,7 @@ function DottedGridPanel() {
 export function APISection() {
   return (
     <section className="relative mx-auto w-full max-w-[1392px] px-6 py-24 md:py-32">
-      <div className="mx-auto max-w-[640px] text-center">
+      <Reveal className="mx-auto max-w-[640px] text-center">
         <h2 className="ray-section-title">Build the perfect tools.</h2>
         <p className="ray-section-subtitle mt-4">
           Our extension API is designed to allow anyone with web development
@@ -51,14 +52,16 @@ export function APISection() {
           href="https://developers.raycast.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-flex h-9 items-center gap-2 rounded-lg bg-ray-button px-4 text-sm font-medium text-ray-button-fg transition-opacity hover:opacity-90"
+          className="mt-8 inline-flex h-9 items-center gap-2 rounded-lg bg-ray-button px-4 text-sm font-medium text-ray-button-fg transition-[opacity,transform] duration-200 hover:opacity-90 active:scale-[0.98]"
         >
           Read the docs
           <ExternalLinkIcon className="size-4" />
         </Link>
-      </div>
+      </Reveal>
 
-      <DottedGridPanel />
+      <Reveal variant="scale-up" delay={100}>
+        <DottedGridPanel />
+      </Reveal>
     </section>
   );
 }

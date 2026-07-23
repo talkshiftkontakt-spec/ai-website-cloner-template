@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
+import { Reveal } from "@/components/Reveal";
 import {
   extensionCards,
   extensionCategories,
@@ -15,12 +16,23 @@ const CARD_SCROLL_OFFSET = 340;
 export function ExtensionHighlight() {
   const [activeCategory, setActiveCategory] =
     useState<ExtensionCategory>("Productivity");
+  const [animKey, setAnimKey] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
 
   const filteredCards = useMemo(
     () => extensionCards.filter((card) => card.category === activeCategory),
     [activeCategory],
   );
+
+  const setCategory = useCallback((category: ExtensionCategory) => {
+    setActiveCategory(category);
+    setAnimKey((k) => k + 1);
+  }, []);
+
+  useEffect(() => {
+    const el = carouselRef.current;
+    if (el) el.scrollTo({ left: 0, behavior: "smooth" });
+  }, [activeCategory]);
 
   const scrollCarousel = useCallback((direction: "left" | "right") => {
     const container = carouselRef.current;
@@ -37,7 +49,7 @@ export function ExtensionHighlight() {
   return (
     <section className="bg-[#07080a] px-4 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-10 flex flex-col items-center gap-6 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left">
+        <Reveal className="mb-10 flex flex-col items-center gap-6 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left">
           <div>
             <h2 className="ray-section-title lg:text-left">
               There&apos;s an extension for that.
@@ -52,9 +64,9 @@ export function ExtensionHighlight() {
               <button
                 key={category}
                 type="button"
-                onClick={() => setActiveCategory(category)}
+                onClick={() => setCategory(category)}
                 className={cn(
-                  "relative z-10 rounded-full px-4 py-2 text-sm transition-colors",
+                  "relative z-10 rounded-full px-4 py-2 text-sm transition-colors duration-200",
                   activeCategory === category
                     ? "text-white"
                     : "text-ray-muted hover:text-white",
@@ -63,14 +75,14 @@ export function ExtensionHighlight() {
                 {activeCategory === category ? (
                   <span
                     aria-hidden="true"
-                    className="absolute inset-0 rounded-full bg-white/10"
+                    className="absolute inset-0 rounded-full bg-white/10 transition-[transform,width] duration-300"
                   />
                 ) : null}
                 <span className="relative">{category}</span>
               </button>
             ))}
           </div>
-        </div>
+        </Reveal>
 
         <div className="relative">
           <button
@@ -83,16 +95,18 @@ export function ExtensionHighlight() {
           </button>
 
           <div
+            key={animKey}
             ref={carouselRef}
             className="hide-scrollbars flex gap-4 overflow-x-auto scroll-smooth pb-2"
           >
-            {filteredCards.map((card) => (
+            {filteredCards.map((card, index) => (
               <article
                 key={`${card.category}-${card.name}`}
                 className={cn(
-                  "relative flex min-h-[536px] w-[min(300px,85vw)] shrink-0 flex-col overflow-hidden rounded-3xl border border-white/[0.06] bg-gradient-to-b p-7",
+                  "ray-slide-in relative flex min-h-[536px] w-[min(300px,85vw)] shrink-0 flex-col overflow-hidden rounded-3xl border border-white/[0.06] bg-gradient-to-b p-7 transition-transform duration-300 hover:-translate-y-1",
                   card.gradient,
                 )}
+                style={{ animationDelay: `${index * 60}ms` }}
               >
                 <div className="relative z-10">
                   <h3 className="text-[22px] font-semibold tracking-[-0.02em] text-white">

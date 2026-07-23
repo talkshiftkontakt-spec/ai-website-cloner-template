@@ -473,31 +473,36 @@ export const featureDockItems = [
   {
     id: "clipboard",
     label: "Clipboard History",
+    title: "Remember Everything.",
     caption:
-      "Remember Everything. Stop playing Clipboard ping pong - with Clipboard History you'll never forget anything.",
+      "Stop playing Clipboard ping pong - with Clipboard History you'll never forget anything.",
   },
   {
     id: "ai",
     label: "AI",
+    title: "Be Curious.",
     caption:
-      "Ask Anything, Anytime, Anywhere. Quick AI combines the power of AI with the web to answer any question.",
+      "Have a question? Why google it when you can just ask AI without leaving your keyboard?",
   },
   {
     id: "emoji",
     label: "Emoji & Symbols",
+    title: "Express Yourself.",
     caption:
-      "Search Emoji & Symbols. Find the perfect emoji or symbol without leaving your keyboard.",
+      "Search for emojis and symbols and paste them into any context.",
   },
   {
     id: "calculator",
     label: "Calculator",
+    title: "Calculate Anything.",
     caption:
-      "Do Math Instantly. Type an expression and get an answer without opening another app.",
+      "Convert currencies or units, calculate time differences and much more - all in natural language.",
   },
   {
-    id: "files",
-    label: "File Search",
+    id: "window",
+    label: "Window Management",
+    title: "Tidy Up.",
     caption:
-      "Find Anything Fast. Search files across your Mac and open them instantly.",
+      "Resize and reorganize your focused window without touching your mouse.",
   },
 ] as const;

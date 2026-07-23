@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { Reveal } from "@/components/Reveal";
 import { youtubeVideos } from "@/lib/raycast-content";
 import { cn } from "@/lib/utils";
 
@@ -71,15 +72,18 @@ export function CommunitySection() {
       />
 
       <div className="relative z-10 mx-auto flex w-full max-w-[948px] flex-col items-center px-6">
-        <div className="mb-16 text-center md:mb-[120px]">
+        <Reveal className="mb-16 text-center md:mb-[120px]">
           <h2 className="ray-section-title">Stay in the loop.</h2>
           <p className="ray-section-subtitle mt-4 max-w-[486px]">
             Join the community and learn how other people get the most out of
             Raycast.
           </p>
-        </div>
+        </Reveal>
 
-        <div className="mb-16 grid w-full gap-4 sm:grid-cols-2 md:mb-[120px] md:gap-5">
+        <Reveal
+          variant="slide-in"
+          className="mb-16 grid w-full gap-4 sm:grid-cols-2 md:mb-[120px] md:gap-5"
+        >
           {socialLinks.map((social) => (
             <a
               key={social.label}
@@ -88,7 +92,7 @@ export function CommunitySection() {
               rel="noopener noreferrer"
               className={cn(
                 "flex flex-col gap-2 rounded-2xl border border-ray-border bg-ray-surface/80 p-6",
-                "transition-colors hover:border-white/10 hover:bg-ray-surface",
+                "transition-all duration-200 hover:-translate-y-0.5 hover:border-white/10 hover:bg-ray-surface",
               )}
             >
               <div className="flex items-center justify-between gap-3">
@@ -99,13 +103,13 @@ export function CommunitySection() {
               </div>
             </a>
           ))}
-        </div>
+        </Reveal>
 
         <div className="w-full max-w-[1204px]">
           <YoutubeTicker />
         </div>
 
-        <div className="mt-16 max-w-[360px] text-center md:mt-[72px]">
+        <Reveal className="mt-16 max-w-[360px] text-center md:mt-[72px]">
           <p className="text-sm font-medium leading-[1.6] tracking-[0.2px] text-ray-muted">
             Check out our YouTube channel to learn about features you didn&apos;t
             even know existed.
@@ -118,7 +122,7 @@ export function CommunitySection() {
           >
             Visit YouTube
           </Link>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
