@@ -1,0 +1,12 @@
+import { chromium } from 'playwright-core';
+import { homedir } from 'os';
+import { join } from 'path';
+const chrome = join(homedir(), '.cache/ms-playwright/chromium-1228/chrome-linux64/chrome');
+const browser = await chromium.launch({executablePath: chrome, args:['--no-sandbox','--disable-dev-shm-usage']});
+const page = await browser.newPage({viewport:{width:1440,height:900}});
+await page.goto('http://127.0.0.1:3000/legal/polityka-prywatnosci', {waitUntil:'networkidle'});
+await page.waitForTimeout(800);
+await page.screenshot({path:'docs/design-references/snipeit.io/qa/clone-legal-privacy.png', fullPage:true});
+const h1 = await page.locator('h1').textContent();
+console.log('h1', h1);
+await browser.close();

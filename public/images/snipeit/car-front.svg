@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide/car-front">
+<path id="Vector" d="M66.5 25.3333L60.1667 31.6667M60.1667 31.6667L55.4167 19.95C54.9687 18.7509 54.1679 17.7157 53.1199 16.9808C52.0718 16.2459 50.8256 15.8458 49.5457 15.8333H26.6C25.3096 15.8037 24.0409 16.169 22.9639 16.8804C21.8869 17.5918 21.053 18.6153 20.5738 19.8138L15.8333 31.6667M60.1667 31.6667H15.8333M60.1667 31.6667C63.6645 31.6667 66.5 34.5022 66.5 38V50.6667C66.5 54.1645 63.6645 57 60.1667 57M15.8333 31.6667L9.5 25.3333M15.8333 31.6667C12.3355 31.6667 9.5 34.5022 9.5 38V50.6667C9.5 54.1645 12.3355 57 15.8333 57M22.1667 44.3333H22.1983M53.8333 44.3333H53.865M60.1667 57H15.8333M60.1667 57V63.3333M15.8333 57V63.3333" stroke="url(#paint0_linear_815_4171)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_815_4171" x1="38" y1="15.8317" x2="38" y2="73.7087" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9EBDBB"/>
+<stop offset="1" stop-color="#394746"/>
+</linearGradient>
+</defs>
+</svg>

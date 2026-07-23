@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide/map-pin">
+<g id="lucide/satellite-dish">
+<path id="Vector" d="M8 12L10 10M13.3333 10.6667C13.3333 9.6058 12.9119 8.58839 12.1618 7.83824C11.4116 7.08809 10.3942 6.66667 9.33333 6.66667M16 10.6667C16 8.89856 15.2976 7.20286 14.0474 5.95262C12.7971 4.70238 11.1014 4 9.33333 4M4.66667 8.66667C4.12296 9.59671 3.90276 10.6807 4.04048 11.7492C4.1782 12.8176 4.66609 13.8104 5.42786 14.5721C6.18964 15.3339 7.18236 15.8218 8.25083 15.9595C9.3193 16.0972 10.4033 15.877 11.3333 15.3333L4.66667 8.66667Z" stroke="var(--stroke-0, #759390)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,84 @@
+{
+  "footer": "Kompleksowy monitor ogłoszeń internetowych, bądź przed innymi\n\nhello@snipeit.pl\nNawigacja\nStrona główna\nProdukt\nDla firm\nKontakt\nPanel\nDane prawne\nPolityka prywatności\nRegulamin\nPliki Cookies\nUstawienia cookies\n\nNie jesteśmy powiązani z żadnym portalem",
+  "kontakt": "DODATKOWE PYTANIA?\n\nSkontaktuj się z nami\nRozumiem, że Snipeit będzie bezpiecznie przechowywać moje dane zgodnie ze swoją Polityką Prywatności.\nWyślij wiadomość",
+  "hero": "Monitoruj najnowsze\nogłoszenia w jednym miejscu\n\nWpisz frazę kluczową, bądź wybierz co Cię interesuje i bądź przed innymi w zakupie przedmiotu na czołowych platformach\n\nZdobądź dostęp\nSkontaktuj się",
+  "produkt": "Witaj Krystian, na co dziś polujemy?\n\nProponowane\n\nTelefony komórkowe\nCzęści samochodowe\nCzęści RTV\nObuwie\nOdzież\nPojazdy\nNieruchomości\nZobacz wszystkie\n\nTwoje ostatnie zakupy\n\nNowe oferty\n\nIPhone 13 Pro\n\nOstrowiec Świętokrzyski\n\n439,00 zł\n\nIPhone 17 Pro\n\nWarszawa\n\n2139,00 zł\n\nIPhone 14 Pro\n\nBielsko-biała\n\n1930,00 zł\n\nIPhone 14 Pro\n\nBielsko-biała\n\n1999,00 zł\n\nIPhone XS\n\nGdańsk\n\n100,00 zł\n\nŚledzenie kategorii: IPhone\nCena: od najniższej",
+  "features": "ŁATWA KONFIGURACJA\n\nIdealne narzędzie dla handlarzy i kupców\nNazwa przedmiotu...\nNajniższa cena\nBardzo dobra cena\nDobra cena\nIntuicyjne wyszukiwanie\n\nInteligetne wyszukiwanie przystosowane do twoich potrzeb\n\nDodano nowe przedmioty\nNajnowsze oferty\n\nWyświetlaj najnowsze oferty tego czego szukasz, z wszystkich portali\n\nZatwierdź ustawienia\nPodkreślaj cenę poniżej średniej\nWyszukuj także skróty & błędy\nWyszukuj przybliżone\nOmijaj podejrzane ogłoszenia\nZaawansowane sortowanie\n\nSortuj wszystkie oferty z zaawansowanym konfiguratorem filtrów",
+  "allinone": "NARZĘDZIE ALL IN ONE\n\nJedna platforma, wszystkie ogłoszenia\nZdobądź dostęp\n\nZapomnij o wielogodzinnym przeglądaniu dziesiątek witryn w poszukiwaniu idealnej okazji. Snipelt to zaawansowany agregator, który w czasie rzeczywistym skanuje wszystkie najpopularniejsze portale ogłoszeniowe, łącząc je w jeden, przejrzysty widok. Dzięki nam zyskujesz natychmiastowy dostęp do każdej oferty na rynku w jednym miejscu. Skonfiguruj inteligentne powiadomienia o rzadkich przedmiotach, których szukasz, i bądź zawsze o krok przed innymi",
+  "express": "EKSPRESOWE DZIAŁANIE\n\nBądź przed innymi, w ciągu kilku sekund\nZdobądź dostęp\n\nSnipelt monitoruje jednocześnie najpopularniejsze portale ogłoszeniowe i natychmiast wykrywa nowe oferty spełniające Twoje kryteria. Nie musisz już ręcznie odświeżać stron ani przeglądać setek ogłoszeń. Ustaw własne frazy kluczowe, filtry oraz zakres cenowy, a gdy pojawi się pasujące ogłoszenie — otrzymasz powiadomienie w czasie rzeczywistym. Dzięki temu możesz skontaktować się ze sprzedawcą, zanim zrobi to konkurencja.\n\nVolkswagen T-Roc 1.5 TSI GPF\n\n84 800 zł\n\nOtomoto\n\nMazda 2 SKYACTIV-G 90 Homura\n\n42 999 zł\n\nOLX\n\nAudi A4 2.0 TDI Quattro S-Line\n\n58 500 zł\n\nOtomoto\n\nBMW 320d Sport Line\n\n67 900 zł\n\nOLX\n\nToyota Corolla 1.8 Hybrid\n\n82 500 zł\n\nOtomoto\n\nSkoda Octavia RS 2.0 TSI\n\n74 300 zł\n\nOLX",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Imię i nazwisko",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "name": "",
+      "placeholder": "Adres E-Mail",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Numer telefonu (opcjonalnie)",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Nazwa firmy (opcjonalnie)",
+      "id": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "",
+      "placeholder": "Treść wiadomości",
+      "id": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "cf-turnstile-response",
+      "placeholder": "",
+      "id": "cf-chl-widget-vjmhj_response"
+    }
+  ],
+  "labels": [],
+  "nav": [
+    {
+      "text": "",
+      "href": "#hero"
+    },
+    {
+      "text": "Strona główna",
+      "href": "#hero"
+    },
+    {
+      "text": "Produkt",
+      "href": "#produkt"
+    },
+    {
+      "text": "Plany",
+      "href": "#plany"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    },
+    {
+      "text": "Zaloguj się",
+      "href": "/auth/login"
+    },
+    {
+      "text": "Zdobądź dostęp",
+      "href": "#plany"
+    }
+  ]
+}

@@ -1,0 +1,2427 @@
+[
+  {
+    "label": "top",
+    "scrollY": 0,
+    "produktTransform": "matrix3d(0.962574, 0, 0, 0, 0, 0.935096, 0.237229, 0, 0, -0.22835, 0.971454, 0, 0, 37.4265, 0, 1)",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999922, -0.0124831, 0.0124831, 0.999922, -170, 136.951)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "0.766944",
+        "transform": "matrix(0.999976, 0.00696075, -0.00696075, 0.999976, -170, 226.205)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      }
+    ],
+    "lines": {
+      "opacity": "0",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "P",
+        "text": "ŁATWA KONFIGURACJA",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[15px] md:text-[24px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Idealne narzędzie dla handlarzy i kupców",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "Nazwa przedmiotu...Najniższa cenaBardzo ",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 40)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dodano nowe przedmiotyNajnowsze ofertyWy",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 40)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Zatwierdź ustawieniaPodkreślaj cenę poni",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 40)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -40, 0)",
+        "classes": "flex-1 w-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute -translate-x-1/2 -translate-y-1/2"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute left-1/2 -translate-x-1/2 z-10"
+      },
+      {
+        "tag": "DIV",
+        "text": "NARZĘDZIE ALL IN ONEJedna platforma, wsz",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 40, 0)",
+        "classes": "flex-1 max-w-[600px] text-center lg:text-left"
+      },
+      {
+        "tag": "P",
+        "text": "NARZĘDZIE ALL IN ONE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Jedna platforma, wszystkie ogłoszenia",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "P",
+        "text": "EKSPRESOWE DZIAŁANIE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Bądź przed innymi, w ciągu kilku sekund",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      }
+    ]
+  },
+  {
+    "label": "y=400",
+    "scrollY": 400,
+    "produktTransform": "matrix3d(0.991985, 0, 0, 0, 0, 0.990681, 0.051268, 0, 0, -0.0508571, 0.998685, 0, 0, 8.01471, 0, 1)",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "0.9899",
+        "transform": "matrix(0.999629, 0, 0, 0.999629, 0.593814, 0)"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)"
+      },
+      {
+        "i": 4,
+        "opacity": "0.00916254",
+        "transform": "matrix(0.950341, 0, 0, 0.950341, 0, 29.6442)"
+      },
+      {
+        "i": 5,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999883, -0.0152666, 0.0152666, 0.999883, -170, 105.051)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999942, 0.0107443, -0.0107443, 0.999942, -170, 196.963)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "0.0756522",
+        "transform": "matrix(1, -0.000573075, 0.000573075, 1, -170, 274.049)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      }
+    ],
+    "lines": {
+      "opacity": "0",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "IPhone 13Kraków1 249,00 zł",
+        "opacity": "0.9899",
+        "transform": "matrix(0.999629, 0, 0, 0.999629, 0.593814, 0)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 13 ProOstrowiec Świętokrzyski439,",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 17 ProWarszawa2139,00 zł",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 14 ProBielsko-biała1930,00 zł",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone XSGdańsk100,00 zł",
+        "opacity": "0.00916254",
+        "transform": "matrix(0.950341, 0, 0, 0.950341, 0, 29.6442)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 14 ProBielsko-biała1999,00 zł",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -2.97764)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "H2",
+        "text": "Idealne narzędzie dla handlarzy i kupców",
+        "opacity": "0.942325",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.862582)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "Nazwa przedmiotu...Najniższa cenaBardzo ",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 40)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dodano nowe przedmiotyNajnowsze ofertyWy",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 40)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Zatwierdź ustawieniaPodkreślaj cenę poni",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 40)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -40, 0)",
+        "classes": "flex-1 w-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute -translate-x-1/2 -translate-y-1/2"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute left-1/2 -translate-x-1/2 z-10"
+      },
+      {
+        "tag": "DIV",
+        "text": "NARZĘDZIE ALL IN ONEJedna platforma, wsz",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 40, 0)",
+        "classes": "flex-1 max-w-[600px] text-center lg:text-left"
+      },
+      {
+        "tag": "P",
+        "text": "NARZĘDZIE ALL IN ONE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Jedna platforma, wszystkie ogłoszenia",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "P",
+        "text": "EKSPRESOWE DZIAŁANIE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Bądź przed innymi, w ciągu kilku sekund",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      }
+    ]
+  },
+  {
+    "label": "y=800",
+    "scrollY": 800,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999836, -0.018119, 0.018119, 0.999836, -170, 72.36)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999893, 0.0146216, -0.0146216, 0.999893, -170, 166.997)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "0.534565",
+        "transform": "matrix(0.999994, -0.00358414, 0.00358414, 0.999994, -170, 242.779)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      }
+    ],
+    "lines": {
+      "opacity": "0",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Nazwa przedmiotu...Najniższa cenaBardzo ",
+        "opacity": "0.999999",
+        "transform": "matrix(1, 0, 0, 1, 0, 2.09e-05)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dodano nowe przedmiotyAudi A3 8v Quattro",
+        "opacity": "0.99619",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.151874)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Zatwierdź ustawieniaPodkreślaj cenę poni",
+        "opacity": "0.95631",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.74169)",
+        "classes": "bg-[#1c2625] rounded-[37px] overflow-hidden min-h-[472px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -40, 0)",
+        "classes": "flex-1 w-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute -translate-x-1/2 -translate-y-1/2"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute left-1/2 -translate-x-1/2 z-10"
+      },
+      {
+        "tag": "DIV",
+        "text": "NARZĘDZIE ALL IN ONEJedna platforma, wsz",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 40, 0)",
+        "classes": "flex-1 max-w-[600px] text-center lg:text-left"
+      },
+      {
+        "tag": "P",
+        "text": "NARZĘDZIE ALL IN ONE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Jedna platforma, wszystkie ogłoszenia",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "P",
+        "text": "EKSPRESOWE DZIAŁANIE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Bądź przed innymi, w ciągu kilku sekund",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.999836, -0.018119, 0.018119, 0.999836, -170, 72.36)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  },
+  {
+    "label": "y=1200",
+    "scrollY": 1200,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999782, -0.0208839, 0.0208839, 0.999782, -170, 40.6709)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999831, 0.0183798, -0.0183798, 0.999831, -170, 137.948)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "0.969348",
+        "transform": "matrix(0.999979, -0.0065029, 0.0065029, 0.999979, -170, 212.468)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "0.24236",
+        "transform": "matrix(1, 0, 0, 1, 0, 15.1011)"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)"
+      }
+    ],
+    "lines": {
+      "opacity": "0",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "1",
+        "transform": "matrix(1.11232, 0, 0, 1.11232, 0, 0)",
+        "classes": "absolute inset-0 flex items-center justify-center"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.995512",
+        "transform": "matrix(1, 0, 0, 1, -0.177429, 0)",
+        "classes": "flex-1 w-full"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.24236",
+        "transform": "matrix(1, 0, 0, 1, 0, 15.1011)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute -translate-x-1/2 -translate-y-1/2"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute left-1/2 -translate-x-1/2 z-10"
+      },
+      {
+        "tag": "DIV",
+        "text": "NARZĘDZIE ALL IN ONEJedna platforma, wsz",
+        "opacity": "0.878464",
+        "transform": "matrix(1, 0, 0, 1, 4.83343, 0)",
+        "classes": "flex-1 max-w-[600px] text-center lg:text-left"
+      },
+      {
+        "tag": "H2",
+        "text": "Jedna platforma, wszystkie ogłoszenia",
+        "opacity": "0.996261",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0694683)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "P",
+        "text": "EKSPRESOWE DZIAŁANIE",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "font-sf-expanded-medium text-[12px] md:text-[15px] tracking-"
+      },
+      {
+        "tag": "H2",
+        "text": "Bądź przed innymi, w ciągu kilku sekund",
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, 0, 20)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      }
+    ]
+  },
+  {
+    "label": "y=1600",
+    "scrollY": 1600,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999719, -0.0237176, 0.0237176, 0.999719, -170, 8.19091)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999753, 0.0222315, -0.0222315, 0.999753, -170, 108.175)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999955, -0.00949445, 0.00949445, 0.999955, -170, 181.4)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "0.236267",
+        "transform": "matrix(1, 0.000892212, -0.000892212, 1, -170, 263.528)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "0.930592",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.38652)"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "0.773648",
+        "transform": "matrix(1, 0, 0, 1, 0, 4.51957)"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "0.290929",
+        "transform": "matrix(1, 0, 0, 1, 0, 14.1816)"
+      }
+    ],
+    "lines": {
+      "opacity": "0.281772",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.930592",
+        "transform": "matrix(1, 0, 0, 1, 0, 1.38652)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.773648",
+        "transform": "matrix(1, 0, 0, 1, 0, 4.51957)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.556163",
+        "transform": "matrix(1, 0, 0, 1, 0, 8.86691)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.290929",
+        "transform": "matrix(1, 0, 0, 1, 0, 14.1816)",
+        "classes": "w-[56px] h-[56px] sm:w-[86px] sm:h-[86px] rounded-[18px] ove"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.281772",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute -translate-x-1/2 -translate-y-1/2"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "matrix(0, 0, 0, 0, 0, 0)",
+        "classes": "absolute left-1/2 -translate-x-1/2 z-10"
+      },
+      {
+        "tag": "H2",
+        "text": "Bądź przed innymi, w ciągu kilku sekund",
+        "opacity": "0.996482",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0694683)",
+        "classes": "text-[28px] md:text-[48px] leading-[36px] md:leading-[50px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.999719, -0.0237176, 0.0237176, 0.999719, -170, 8.19091)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  },
+  {
+    "label": "y=2000",
+    "scrollY": 2000,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999649, -0.0264775, 0.0264775, 0.999649, -170, -23.4455)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999662, 0.0259828, -0.0259828, 0.999662, -170, 79.175)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999923, -0.0124082, 0.0124082, 0.999923, -170, 151.139)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "0.6362",
+        "transform": "matrix(0.999997, 0.00240017, -0.00240017, 0.999997, -170, 235.688)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "lines": {
+      "opacity": "0.499964",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.499964",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.999693",
+        "transform": "none",
+        "classes": "absolute -translate-x-1/2 -translate-y-1/2"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.999025",
+        "transform": "matrix(0.998478, 0, 0, 0.998478, 0, 0)",
+        "classes": "absolute left-1/2 -translate-x-1/2 z-10"
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.999649, -0.0264775, 0.0264775, 0.999649, -170, -23.4455)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  },
+  {
+    "label": "y=2500",
+    "scrollY": 2500,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "0.997794",
+        "transform": "matrix(0.99989, 0, 0, 0.99989, 0.176275, 0)"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)"
+      },
+      {
+        "i": 4,
+        "opacity": "0.00198024",
+        "transform": "matrix(0.950098, 0, 0, 0.950098, 0, 29.9407)"
+      },
+      {
+        "i": 5,
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.99957, -0.0293108, 0.0293108, 0.99957, -170, -55.9255)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999555, 0.0298339, -0.0298339, 0.999555, -170, 49.4017)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999881, -0.0153996, 0.0153996, 0.999881, -170, 120.071)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(0.999992, 0.00394834, -0.00394834, 0.999992, -170, 207.106)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "lines": {
+      "opacity": "0.5",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "0.949217"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "IPhone 15 Pro MaxŁódź2 100,00 zł",
+        "opacity": "0.997794",
+        "transform": "matrix(0.99989, 0, 0, 0.99989, 0.176275, 0)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 13Kraków1 249,00 zł",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 13 ProOstrowiec Świętokrzyski439,",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 17 ProWarszawa2139,00 zł",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 14 ProBielsko-biała1999,00 zł",
+        "opacity": "0.00198024",
+        "transform": "matrix(0.950098, 0, 0, 0.950098, 0, 29.9407)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "IPhone 14 ProBielsko-biała1930,00 zł",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, -0.111669)",
+        "classes": "flex items-center gap-4 p-4 rounded-[17px] border-[0.847px] "
+      },
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.5",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "",
+        "opacity": "0.949217",
+        "transform": "none",
+        "classes": "absolute z-[2] pointer-events-none"
+      }
+    ]
+  },
+  {
+    "label": "y=3000",
+    "scrollY": 3000,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999485, -0.0320749, 0.0320749, 0.999485, -170, -87.6145)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999436, 0.0335907, -0.0335907, 0.999436, -170, 20.3533)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999832, -0.018318, 0.018318, 0.999832, -170, 89.76)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(0.999985, 0.0054588, -0.0054588, 0.999985, -170, 179.219)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0.432576",
+        "transform": "matrix(0.999994, -0.00335801, 0.00335801, 0.999994, -170, 249.84)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "lines": {
+      "opacity": "0.5",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "1"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.5",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.999485, -0.0320749, 0.0320749, 0.999485, -170, -87.6145)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  },
+  {
+    "label": "y=3500",
+    "scrollY": 3500,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999393, -0.0348342, 0.0348342, 0.999393, -170, -119.251)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999303, 0.0373408, -0.0373408, 0.999303, -170, -8.64667)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999775, -0.0212313, 0.0212313, 0.999775, -170, 59.4991)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(0.999976, 0.00696674, -0.00696674, 0.999976, -170, 151.379)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "0.887045",
+        "transform": "matrix(0.999976, -0.00688035, 0.00688035, 0.999976, -170, 218.204)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0",
+        "transform": "matrix(1, 0, 0, 1, -170, 280)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "lines": {
+      "opacity": "0.5",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "1"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.5",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.999393, -0.0348342, 0.0348342, 0.999393, -170, -119.251)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  },
+  {
+    "label": "y=4200",
+    "scrollY": 4200,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.99929, -0.0376667, 0.0376667, 0.99929, -170, -151.731)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.999151, 0.0411903, -0.0411903, 0.999151, -170, -38.42)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999707, -0.0242222, 0.0242222, 0.999707, -170, 28.4313)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(0.999964, 0.00851487, -0.00851487, 0.999964, -170, 122.797)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "matrix(0.999945, -0.0104965, 0.0104965, 0.999945, -170, 185.724)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0.130278",
+        "transform": "matrix(0.999997, -0.00226951, 0.00226951, 0.999997, -170, 270.913)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "lines": {
+      "opacity": "0.5",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "1"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.5",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.99929, -0.0376667, 0.0376667, 0.99929, -170, -151.731)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  },
+  {
+    "label": "y=5000",
+    "scrollY": 4308,
+    "produktTransform": "none",
+    "offers": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "notifs": [
+      {
+        "i": 0,
+        "opacity": "1",
+        "transform": "matrix(0.999183, -0.0404254, 0.0404254, 0.999183, -170, -183.367)",
+        "marginLeft": "-249.917px"
+      },
+      {
+        "i": 1,
+        "opacity": "1",
+        "transform": "matrix(0.99899, 0.0449393, -0.0449393, 0.99899, -170, -67.42)",
+        "marginLeft": "234.292px"
+      },
+      {
+        "i": 2,
+        "opacity": "1",
+        "transform": "matrix(0.999632, -0.0271352, 0.0271352, 0.999632, -170, -1.82957)",
+        "marginLeft": "-218.667px"
+      },
+      {
+        "i": 3,
+        "opacity": "1",
+        "transform": "matrix(0.99995, 0.0100228, -0.0100228, 0.99995, -170, 94.9568)",
+        "marginLeft": "203.042px"
+      },
+      {
+        "i": 4,
+        "opacity": "1",
+        "transform": "matrix(0.999902, -0.0140187, 0.0140187, 0.999902, -170, 154.087)",
+        "marginLeft": "-265.521px"
+      },
+      {
+        "i": 5,
+        "opacity": "0.546944",
+        "transform": "matrix(0.999955, -0.00951248, 0.00951248, 0.999955, -170, 241.913)",
+        "marginLeft": "265.521px"
+      }
+    ],
+    "logos": [
+      {
+        "alt": "Allegro",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OLX",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "OtoMoto",
+        "opacity": "1",
+        "transform": "none"
+      },
+      {
+        "alt": "Vinted",
+        "opacity": "1",
+        "transform": "none"
+      }
+    ],
+    "lines": {
+      "opacity": "0.5",
+      "parentOpacity": "1"
+    },
+    "linesPulse": {
+      "opacity": "1"
+    },
+    "snipeltLogo": {
+      "opacity": "1",
+      "transform": "none"
+    },
+    "revealSample": [
+      {
+        "tag": "DIV",
+        "text": "Najniższa cena",
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Bardzo dobra cena",
+        "opacity": "0.4",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Dobra cena",
+        "opacity": "0.15",
+        "transform": "matrix(1, 0, 0, 1, 300, 0)",
+        "classes": "relative h-[36px] w-[200%] rounded-l-[32px]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj także skróty & błędy",
+        "opacity": "0.8",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Wyszukuj przybliżone",
+        "opacity": "0.6",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "DIV",
+        "text": "Omijaj podejrzane ogłoszenia",
+        "opacity": "0.3",
+        "transform": "none",
+        "classes": "flex items-center gap-2 md:gap-3"
+      },
+      {
+        "tag": "IMG",
+        "text": "",
+        "opacity": "0.5",
+        "transform": "none",
+        "classes": "absolute z-[1]"
+      },
+      {
+        "tag": "DIV",
+        "text": "Volkswagen T-Roc 1.5 TSI GPF84 800 złOto",
+        "opacity": "1",
+        "transform": "matrix(0.999183, -0.0404254, 0.0404254, 0.999183, -170, -183.367)",
+        "classes": "notif-card absolute left-1/2 top-1/2 w-[150px] sm:w-[240px] "
+      }
+    ]
+  }
+]
