@@ -1,0 +1,394 @@
+[
+  {
+    "scrollY": 0,
+    "navClasses": "",
+    "navBg": "rgba(0, 0, 0, 0)",
+    "navHeight": "80px",
+    "navShadow": "none",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 800,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 1600,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 2400,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 3200,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 4000,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 4800,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  },
+  {
+    "scrollY": 4846,
+    "navClasses": "LightNavbar",
+    "navBg": "rgb(255, 255, 255)",
+    "navHeight": "80px",
+    "navShadow": "rgba(0, 0, 0, 0.25) 0px 0px 10px 0px",
+    "stickyElements": [
+      {
+        "tag": "COOKIES-BANNER",
+        "id": "",
+        "classes": "",
+        "position": "fixed",
+        "top": "728px",
+        "zIndex": "5"
+      },
+      {
+        "tag": "NAV",
+        "id": "MainNavbar",
+        "classes": "LightNavbar",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "MobileNavbar",
+        "classes": "",
+        "position": "fixed",
+        "top": "0px",
+        "zIndex": "1000"
+      },
+      {
+        "tag": "DIV",
+        "id": "CTAImageDiv",
+        "classes": "",
+        "position": "sticky",
+        "top": "128px",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "FOOTER",
+        "id": "",
+        "classes": "",
+        "position": "sticky",
+        "top": "auto",
+        "zIndex": "0"
+      }
+    ]
+  }
+]

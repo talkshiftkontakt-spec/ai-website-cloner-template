@@ -7,9 +7,15 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-catamaran), "Catamaran", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-catamaran), "Catamaran", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
-  --font-heading: var(--font-sans);
+  --color-tutoreo-accent: var(--AccentColor);
+  --color-tutoreo-accent-1: var(--AccentColor1);
+  --color-tutoreo-accent-2: var(--AccentColor2);
+  --color-tutoreo-highlight: var(--AccentHighlight);
+  --color-tutoreo-toned: var(--TonedBackground);
+  --color-tutoreo-dark-2: var(--Dark2);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,82 +55,172 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
+  --Spacer_Big: 48px;
+  --Spacer_Medium: 24px;
+  --Spacer_Small: 16px;
+  --Spacer_Tiny: 4px;
+  --BigButton: 64px;
+  --BorderRadius1: 16px;
+  --BorderRadius2: 8px;
+  --FontSize1: 48px;
+  --FontSize2: 18px;
+  --FontSize3: 24px;
+  --AccentShadow: 0 0 16px #4600cc;
+  --PopOffShadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  --InsetShadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+  --ShinyShadow: inset 0 2px #ffffff30, inset 0 -5px rgba(0, 0, 0, 0.25);
+  --ButtonBottomShadow: inset 0 -5px rgba(0, 0, 0, 0.25);
+  --UniversalTransition: 0.2s ease-in-out;
+  --NavbarHeight: calc(var(--Spacer_Big) + (2 * var(--Spacer_Small)));
+  --RegularBackground: white;
+  --TonedBackground: #e6e6e6;
+  --AccentColor: #5800ff;
+  --AccentColor1: #9b66ff;
+  --AccentColor2: #230066;
+  --AccentHighlight: #ffc400;
+  --Dark1: #cccccc;
+  --Dark2: #b3b3b3;
+  --RegularFont: black;
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #e6e6e6;
+  --foreground: #000000;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  --primary: #5800ff;
+  --primary-foreground: #ffffff;
+  --secondary: #230066;
+  --secondary-foreground: #ffffff;
+  --muted: #e6e6e6;
+  --muted-foreground: #b3b3b3;
+  --accent: #ffc400;
+  --accent-foreground: #000000;
+  --destructive: #be0000;
+  --border: #cccccc;
+  --input: #cccccc;
+  --ring: #5800ff;
+  --chart-1: #5800ff;
+  --chart-2: #9b66ff;
+  --chart-3: #230066;
+  --chart-4: #ffc400;
+  --chart-5: #80ff8a;
+  --radius: 16px;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #000000;
+  --sidebar-primary: #5800ff;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e6e6e6;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #cccccc;
+  --sidebar-ring: #5800ff;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    box-sizing: border-box;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
+
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
+    background-color: var(--AccentColor);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-catamaran), Catamaran, sans-serif;
+    font-size: var(--FontSize2);
+    line-height: var(--FontSize2);
+    margin: 0;
+    min-height: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    font-family: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  .tutoreo-standard-btn {
+    display: inline-block;
+    font-size: var(--FontSize3);
+    font-weight: 700;
+    line-height: var(--BigButton);
+    height: var(--BigButton);
+    padding: 0 var(--Spacer_Big);
+    border-radius: var(--BorderRadius1);
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--UniversalTransition);
+    box-shadow: var(--PopOffShadow), var(--ShinyShadow);
+    user-select: none;
+  }
+
+  .tutoreo-standard-btn:active {
+    filter: brightness(0.8);
+    box-shadow: none;
+    transform: translateY(2px);
+  }
+
+  .tutoreo-standard-btn--deep {
+    background-color: var(--AccentColor2);
+    color: white;
+  }
+
+  .tutoreo-standard-btn--accent {
+    background-color: var(--AccentColor);
+    color: white;
+  }
+
+  .tutoreo-standard-btn--white {
+    background-color: white;
+    color: black;
+  }
+
+  .tutoreo-soft-btn {
+    display: inline-block;
+    font-size: var(--FontSize3);
+    font-weight: 700;
+    line-height: var(--BigButton);
+    height: var(--BigButton);
+    padding: 0 var(--Spacer_Big);
+    border-radius: var(--BorderRadius1);
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--UniversalTransition);
+    background-color: transparent;
+    color: white;
+    box-shadow: var(--PopOffShadow);
+    outline: 2px solid white;
+    user-select: none;
+  }
+
+  .tutoreo-soft-btn:active {
+    filter: brightness(0.8);
+    box-shadow: none;
+    transform: translateY(2px);
+  }
+
+  .tutoreo-accent-word {
+    color: var(--AccentHighlight);
+  }
+
+  .tutoreo-wave-cutout {
+    display: block;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
   }
 }
