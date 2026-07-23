@@ -1,0 +1,808 @@
+{
+  "title": "Korepetycje online | Tutoreo",
+  "url": "https://tutoreo.pl/",
+  "bodyText": "Używamy niezbędnych plików cookie do działania strony. Za Twoją zgodą wykorzystujemy także pliki cookie do analizy ruchu. Więcej informacji znajdziesz w polityce prywatności.\n\nTylko niezbędne\nZaakceptuj wszystkie\nStrona głowna\nO nas\nZaloguj\nWszystkie korepetycje na jednej\nwygodnej platformie\n\nUczestnicz w korepetycjach z nauczycielami z całej Polski w jednym miejscu ze wszystkim czego potrzebujesz\n\nDołącz za darmo\nJak to działa?\nJak działa tutoreo?\n1\nRejestrujesz się\n\nTworzysz konto, i jeżeli jesteś korepetytorem, weryfikujesz swoje dane\n\n2\nUmawiasz się\n\nJako korepetytor tworzysz ogłoszenie, a uczniowie je znajdują i rezerwują termin\n\n3\nUczestniczysz\n\nGdy przyjdzie czas, dołączasz do połączenia online i uczysz się lub nauczasz z pomocą wygodnej tablicy\n\nPrzetestuj bez rejestracji\nJuż teraz możesz zobaczyć jak działa tablica która jest dostępna podczas połączenia. Wystarczy że klikniesz przycisk poniżej!\nPrzetestuj tablicę\nDla korepetytora\nDla ucznia\nZarabiaj lepiej niż inni\n\nKorepetytorzy i nauczyciele zasługują na szacunek i godne wynagrodzenie za ich ciężką pracę. Z tego powodu nasza prowizja wynosi jedyne 3% + koszty bramki płatności, podczas gdy podobne serwisy potrafią zabierać aż do 30%!\n\nNie trać dziesiątek godzin\n\nZamiast spędzać godziny na reklamowaniu się po grupach w internecie i dogadywaniu się z uczniami, my zajmiemy się sprawami organizacyjnymi, żebyś ty mógł skupić się na uczeniu i zarabianiu a nie marketingu.\n\nKorzystny algorytm\n\nNasz algorytm wyszukiwarki bierze pod uwagę opinie, dopasowanie filtrów oraz dostępność w terminarzu. W ten sposób unikniemy głęboko zakopanych martwych kont, a nowi korepetytorzy będą mieli równe szanse na pozyskanie uczniów.\n\nKażda lekcja w jednym miejscu\n\nMatematyka, Angielski czy Chemia? Nieważne bo na tutoreo każdy przedmiot znajdziesz w jednym miejscu i wygodnie nauczysz się materiału bez wychodzenia z domu dzięki połączeniu online z korepetytorem\n\nSzukasz i masz\n\nOd znalezienia idealnego korepetytora dzielą cię 2 kroki: Rejestracja i wypełnienie filtrów wyszukiwania. Nasz system dopasuje sam najlepsze oferty u korepetytorów z najlepszą dostępnością.\n\nDarmowe zwroty\n\nNasz system nie pobiera od razu opłaty, a jedynie rezerwuje płatność. To umożliwia kompletnie darmowe zwroty aż do odbycia lekcji. Więc jeżeli coś ci wypadnie, możesz otrzymać pełny zwrot pieniędzy\n\nNajczęstsze pytania (FAQ)\nJeżeli nie umiesz znaleźć odpowiedzi na swoje pytanie poniżej, napisz do nas.\nSkontaktuj się z nami\nCzy rejestracja jest darmowa?\n\nRejestracja jest w pełni darmowa. Uczeń nie ponosi bezpośrednio żadnych kosztów, a my pobieramy tylko drobną prowizję od korepetytora.\n\nCzy muszę posiadać jakiś certyfikat?\n\nNie, korepetytorem na tutoreo może zostać ktokolwiek kto czuje że sprawdziłby się w tej roli. Niemniej bycie zawodowcem może ułatwić zbudowanie zaufania uczniów.\n\nCzy muszę coś weryfikować?\n\nUczeń może korzystać z platformy zaraz po założeniu konta. Korepetytorzy natomiast, muszą zweryfikować swoją tożsamość aby legalnie móc zostać sprzedawcą na platformie.\n\nJakie narzędzia udostępnia tutoreo?\n\nNa tutoreo znajdziesz przede wszystkim system ogłoszeń, który pozwala komukolwiek umówić się w dostępnym terminie oraz wbudowany system rozmowy wraz z czatem oraz tablicą na żywo.\n\nCzy mogę oferować zniżkę na pierwszą lekcję?\n\nWiemy że to powszechna praktyka w branży korepetytorskiej, więc umożliwiamy ustawienie własnej żniżki wyrażonej w procentach dla uczniów którzy pierwszy raz uczestniczą w twoich lekcjach.\n\nCzy mogę odwołać lekcję jeśli coś mi wypadnie?\n\nJeżeli zajdzie taka potrzeba, możesz bez problemu anulować lekcję bez żadnych opłat, a pieniądze w całości trafią z powrotem do ciebie.\n\nUdzielaj korepetycji prościej\nniż kiedykolwiek\nDołącz za darmo\nTutoreo Franciszek Majewski\nNIP: 6263073608\nREGON: 544226792\nAplikacja\nKontakt\nO nas\nBlog tutoreo\nZasady użytkowania\nPolityka prywatności\nUstawienia cookies",
+  "htmlStructure": "<router-outlet></router-outlet><app-landing-page-layout _nghost-ng-c21044360=\"\"><cookies-banner _ngcontent-ng-c21044360=\"\" _nghost-ng-c3856489518=\"\"><p _ngcontent-ng-c3856489518=\"\"> Używamy niezbędnych plików cookie do działania strony. Za Twoją zgodą wykorzystujemy także pliki cookie do analizy ruchu. Więcej informacji znajdziesz w <a _ngcontent-ng-c3856489518=\"\" target=\"_blank\" href=\"/privacypolicy\">polityce prywatności</a>.\n</p><div _ngcontent-ng-c3856489518=\"\" id=\"CookiesBannerButtons\" class",
+  "rootChildren": [
+    {
+      "tag": "router-outlet",
+      "id": "",
+      "classes": ""
+    },
+    {
+      "tag": "app-landing-page-layout",
+      "id": "",
+      "classes": ""
+    }
+  ],
+  "allIds": [
+    {
+      "id": "CookiesBannerButtons",
+      "tag": "div",
+      "top": 788,
+      "height": 64
+    },
+    {
+      "id": "AcceptOnlyNecessary",
+      "tag": "button",
+      "top": 788,
+      "height": 64
+    },
+    {
+      "id": "AcceptAll",
+      "tag": "button",
+      "top": 788,
+      "height": 64
+    },
+    {
+      "id": "MainNavbar",
+      "tag": "nav",
+      "top": 0,
+      "height": 80
+    },
+    {
+      "id": "MobileNavbar",
+      "tag": "div",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "id": "NavbarWidthRestrainer",
+      "tag": "div",
+      "top": 0,
+      "height": 80
+    },
+    {
+      "id": "LogoLink",
+      "tag": "a",
+      "top": 21,
+      "height": 38
+    },
+    {
+      "id": "MainNavbarLogo",
+      "tag": "img",
+      "top": 21,
+      "height": 38
+    },
+    {
+      "id": "NavbarCTA",
+      "tag": "a",
+      "top": 16,
+      "height": 48
+    },
+    {
+      "id": "NavbarToggle",
+      "tag": "button",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "id": "PageBG",
+      "tag": "main",
+      "top": 0,
+      "height": 4546
+    },
+    {
+      "id": "CTASection",
+      "tag": "section",
+      "top": 0,
+      "height": 749
+    },
+    {
+      "id": "CTAText",
+      "tag": "div",
+      "top": 128,
+      "height": 508
+    },
+    {
+      "id": "CTAButtons",
+      "tag": "div",
+      "top": 424,
+      "height": 112
+    },
+    {
+      "id": "CTAButton",
+      "tag": "a",
+      "top": 424,
+      "height": 64
+    },
+    {
+      "id": "SoftCTAButton",
+      "tag": "a",
+      "top": 424,
+      "height": 64
+    },
+    {
+      "id": "CTAImageDiv",
+      "tag": "div",
+      "top": 549,
+      "height": 751
+    },
+    {
+      "id": "HeroVideo",
+      "tag": "video",
+      "top": 549,
+      "height": 703
+    },
+    {
+      "id": "HowItWorks",
+      "tag": "section",
+      "top": 1600,
+      "height": 858
+    },
+    {
+      "id": "ThreeSteps",
+      "tag": "div",
+      "top": 1760,
+      "height": 280
+    },
+    {
+      "id": "TestTitle",
+      "tag": "h1",
+      "top": 2088,
+      "height": 64
+    },
+    {
+      "id": "TestParagraph",
+      "tag": "h3",
+      "top": 2176,
+      "height": 56
+    },
+    {
+      "id": "TestWhiteboardButton",
+      "tag": "button",
+      "top": 2256,
+      "height": 64
+    },
+    {
+      "id": "BenefitsSection",
+      "tag": "section",
+      "top": 2458,
+      "height": 553
+    },
+    {
+      "id": "BenefitsCategories",
+      "tag": "div",
+      "top": 2506,
+      "height": 80
+    },
+    {
+      "id": "FAQSection",
+      "tag": "section",
+      "top": 3011,
+      "height": 1248
+    },
+    {
+      "id": "ContactUsButton",
+      "tag": "a",
+      "top": 3324,
+      "height": 64
+    },
+    {
+      "id": "SecondaryCTA",
+      "tag": "section",
+      "top": 4258,
+      "height": 288
+    },
+    {
+      "id": "FooterLogo",
+      "tag": "a",
+      "top": 675,
+      "height": 48
+    },
+    {
+      "id": "clarity-script",
+      "tag": "script",
+      "top": 0,
+      "height": 0
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "id": "CookiesBannerButtons",
+      "classes": "Hidden",
+      "top": 788,
+      "height": 64,
+      "textPreview": "Tylko niezbędneZaakceptuj wszystkie"
+    },
+    {
+      "tag": "button",
+      "id": "AcceptOnlyNecessary",
+      "classes": "Standard",
+      "top": 788,
+      "height": 64,
+      "textPreview": "Tylko niezbędne"
+    },
+    {
+      "tag": "button",
+      "id": "AcceptAll",
+      "classes": "Standard",
+      "top": 788,
+      "height": 64,
+      "textPreview": "Zaakceptuj wszystkie"
+    },
+    {
+      "tag": "nav",
+      "id": "MainNavbar",
+      "classes": "",
+      "top": 0,
+      "height": 80,
+      "textPreview": "Strona głownaO nasAplikacjaStrona głownaO nasZaloguj"
+    },
+    {
+      "tag": "div",
+      "id": "NavbarWidthRestrainer",
+      "classes": "",
+      "top": 0,
+      "height": 80,
+      "textPreview": "Strona głownaO nasZaloguj"
+    },
+    {
+      "tag": "a",
+      "id": "NavbarCTA",
+      "classes": "Standard",
+      "top": 16,
+      "height": 48,
+      "textPreview": "Zaloguj"
+    },
+    {
+      "tag": "main",
+      "id": "PageBG",
+      "classes": "",
+      "top": 0,
+      "height": 4546,
+      "textPreview": "Wszystkie korepetycje na jednejwygodnej platformieUczestnicz w korepetycjach z nauczycielami z całej Polski w jednym mie"
+    },
+    {
+      "tag": "section",
+      "id": "CTASection",
+      "classes": "GradientWrapper",
+      "top": 0,
+      "height": 749,
+      "textPreview": "Wszystkie korepetycje na jednejwygodnej platformieUczestnicz w korepetycjach z nauczycielami z całej Polski w jednym mie"
+    },
+    {
+      "tag": "div",
+      "id": "CTAText",
+      "classes": "",
+      "top": 128,
+      "height": 508,
+      "textPreview": "Wszystkie korepetycje na jednejwygodnej platformieUczestnicz w korepetycjach z nauczycielami z całej Polski w jednym mie"
+    },
+    {
+      "tag": "div",
+      "id": "CTAButtons",
+      "classes": "",
+      "top": 424,
+      "height": 112,
+      "textPreview": "Dołącz za darmoJak to działa?"
+    },
+    {
+      "tag": "a",
+      "id": "CTAButton",
+      "classes": "",
+      "top": 424,
+      "height": 64,
+      "textPreview": "Dołącz za darmo"
+    },
+    {
+      "tag": "a",
+      "id": "SoftCTAButton",
+      "classes": "",
+      "top": 424,
+      "height": 64,
+      "textPreview": "Jak to działa?"
+    },
+    {
+      "tag": "div",
+      "id": "CTAImageDiv",
+      "classes": "",
+      "top": 549,
+      "height": 751,
+      "textPreview": ""
+    },
+    {
+      "tag": "video",
+      "id": "HeroVideo",
+      "classes": "",
+      "top": 549,
+      "height": 703,
+      "textPreview": ""
+    },
+    {
+      "tag": "section",
+      "id": "HowItWorks",
+      "classes": "GradientWrapper",
+      "top": 1600,
+      "height": 858,
+      "textPreview": "Jak działa tutoreo?1Rejestrujesz sięTworzysz konto, i jeżeli jesteś korepetytorem, weryfikujesz swoje dane2Umawiasz sięJ"
+    },
+    {
+      "tag": "div",
+      "id": "ThreeSteps",
+      "classes": "",
+      "top": 1760,
+      "height": 280,
+      "textPreview": "1Rejestrujesz sięTworzysz konto, i jeżeli jesteś korepetytorem, weryfikujesz swoje dane2Umawiasz sięJako korepetytor two"
+    },
+    {
+      "tag": "h1",
+      "id": "TestTitle",
+      "classes": "",
+      "top": 2088,
+      "height": 64,
+      "textPreview": "Przetestuj bez rejestracji"
+    },
+    {
+      "tag": "h3",
+      "id": "TestParagraph",
+      "classes": "",
+      "top": 2176,
+      "height": 56,
+      "textPreview": "Już teraz możesz zobaczyć jak działa tablica która jest dostępna podczas połączenia. Wystarczy że klikniesz przycisk pon"
+    },
+    {
+      "tag": "button",
+      "id": "TestWhiteboardButton",
+      "classes": "Standard",
+      "top": 2256,
+      "height": 64,
+      "textPreview": "Przetestuj tablicę"
+    },
+    {
+      "tag": "section",
+      "id": "BenefitsSection",
+      "classes": "Regular",
+      "top": 2458,
+      "height": 553,
+      "textPreview": "Dla korepetytoraDla uczniaZarabiaj lepiej niż inniKorepetytorzy i nauczyciele zasługują na szacunek i godne wynagrodzeni"
+    },
+    {
+      "tag": "div",
+      "id": "BenefitsCategories",
+      "classes": "",
+      "top": 2506,
+      "height": 80,
+      "textPreview": "Dla korepetytoraDla ucznia"
+    },
+    {
+      "tag": "section",
+      "id": "FAQSection",
+      "classes": "GradientWrapper",
+      "top": 3011,
+      "height": 1248,
+      "textPreview": "Najczęstsze pytania (FAQ)Jeżeli nie umiesz znaleźć odpowiedzi na swoje pytanie poniżej, napisz do nas.Skontaktuj się z n"
+    },
+    {
+      "tag": "a",
+      "id": "ContactUsButton",
+      "classes": "Standard",
+      "top": 3324,
+      "height": 64,
+      "textPreview": "Skontaktuj się z nami"
+    },
+    {
+      "tag": "section",
+      "id": "SecondaryCTA",
+      "classes": "Regular",
+      "top": 4258,
+      "height": 288,
+      "textPreview": "Udzielaj korepetycji prościejniż kiedykolwiekDołącz za darmo"
+    },
+    {
+      "tag": "section",
+      "id": "",
+      "classes": "FooterSection",
+      "top": 648,
+      "height": 204,
+      "textPreview": "Tutoreo Franciszek MajewskiNIP: 6263073608REGON: 544226792"
+    },
+    {
+      "tag": "a",
+      "id": "FooterLogo",
+      "classes": "",
+      "top": 675,
+      "height": 48,
+      "textPreview": ""
+    }
+  ],
+  "cssVars": {
+    "--Spacer_Big": "48px",
+    "--Spacer_Medium": "24px",
+    "--Spacer_Small": "16px",
+    "--Spacer_Tiny": "4px",
+    "--BigButton": "64px",
+    "--ScrollbarWidth": "16px",
+    "--BorderRadius1": "16px",
+    "--BorderRadius2": "8px",
+    "--FontSize1": "48px",
+    "--FontSize2": "18px",
+    "--FontSize3": "24px",
+    "--AccentShadow": "0 0 16px #4600CC",
+    "--PopOffShadow": "0 0 10px rgba(0, 0, 0, .25)",
+    "--InsetShadow": "inset 0 0 8px rgba(0, 0, 0, .1)",
+    "--ShinyShadow": "inset 0 2px #FFFFFF30, inset 0 -5px rgba(0, 0, 0, .25)",
+    "--ButtonBottomShadow": "inset 0 -5px rgba(0, 0, 0, .25)",
+    "--UniversalTransition": ".2s ease-in-out",
+    "--NavbarHeight": "calc(48px + (2 * 16px))",
+    "--NavbarWidth": "400px",
+    "--RegularBackground": "white",
+    "--TonedBackground": "#E6E6E6",
+    "--AccentColor": "#5800FF",
+    "--AccentColor1": "#9B66FF",
+    "--AccentColor2": "#230066",
+    "--Dark1": "#CCCCCC",
+    "--Dark2": "#B3B3B3",
+    "--RegularFont": "black",
+    "--ErrorColorSoft": "#FF3F55",
+    "--ErrorColorHard": "#BE0000",
+    "--InputErrorBackground": "#FFEBED",
+    "--PositiveErrorColorSoft": "#75E975",
+    "--PositiveErrorColorHard": "#009800",
+    "--InvertIcons": "0"
+  },
+  "fonts": [
+    "Catamaran, sans-serif",
+    "Roboto"
+  ],
+  "images": [
+    {
+      "src": "https://tutoreo.pl/Logo_Nav_White.webp",
+      "alt": "Logo",
+      "width": 637,
+      "height": 136,
+      "parentClasses": "",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/Waves/LandingPage/Wave1.svg",
+      "alt": "",
+      "width": 300,
+      "height": 24,
+      "parentClasses": "GradientWrapper",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/Graphics/CurvedArrow.svg",
+      "alt": "Zakrzywiona Strzałka",
+      "width": 300,
+      "height": 97,
+      "parentClasses": "Step",
+      "position": "absolute"
+    },
+    {
+      "src": "https://tutoreo.pl/Graphics/CurvedArrow.svg",
+      "alt": "Zakrzywiona Strzałka",
+      "width": 300,
+      "height": 97,
+      "parentClasses": "Step",
+      "position": "absolute"
+    },
+    {
+      "src": "https://tutoreo.pl/Waves/LandingPage/Wave3.svg",
+      "alt": "",
+      "width": 300,
+      "height": 19,
+      "parentClasses": "GradientWrapper",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/LandingPage/Money.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "parentClasses": "Icon",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/LandingPage/Clock.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "parentClasses": "Icon",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/LandingPage/Robot.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "parentClasses": "Icon",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/LandingPage/Apps.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "parentClasses": "Icon",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/LandingPage/Search.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "parentClasses": "Icon",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/LandingPage/Wallet.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "parentClasses": "Icon",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/Waves/LandingPage/Wave4.svg",
+      "alt": "",
+      "width": 300,
+      "height": 26,
+      "parentClasses": "GradientWrapper",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/SelectArrow.svg",
+      "alt": "",
+      "width": 270,
+      "height": 150,
+      "parentClasses": "Question Active",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/SelectArrow.svg",
+      "alt": "",
+      "width": 270,
+      "height": 150,
+      "parentClasses": "Question",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/SelectArrow.svg",
+      "alt": "",
+      "width": 270,
+      "height": 150,
+      "parentClasses": "Question",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/SelectArrow.svg",
+      "alt": "",
+      "width": 270,
+      "height": 150,
+      "parentClasses": "Question",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/SelectArrow.svg",
+      "alt": "",
+      "width": 270,
+      "height": 150,
+      "parentClasses": "Question",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/icons/SelectArrow.svg",
+      "alt": "",
+      "width": 270,
+      "height": 150,
+      "parentClasses": "Question",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/Waves/LandingPage/Wave5.svg",
+      "alt": "",
+      "width": 300,
+      "height": 29,
+      "parentClasses": "GradientWrapper",
+      "position": "static"
+    },
+    {
+      "src": "https://tutoreo.pl/Logo_Nav_White.webp",
+      "alt": "Logo",
+      "width": 637,
+      "height": 136,
+      "parentClasses": "",
+      "position": "static"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://tutoreo.pl/Graphics/HeroVideo.webm",
+      "poster": "",
+      "autoplay": false,
+      "loop": false,
+      "muted": false
+    }
+  ],
+  "backgroundImages": [
+    {
+      "url": "linear-gradient(135deg, rgb(88, 0, 255), rgb(155, 102, 255))",
+      "element": "DIV#MobileNavbar."
+    },
+    {
+      "url": "linear-gradient(rgb(88, 0, 255), rgb(155, 102, 255))",
+      "element": "SECTION#CTASection.GradientWrapper"
+    },
+    {
+      "url": "radial-gradient(rgb(155, 102, 255), rgb(88, 0, 255))",
+      "element": "SECTION#HowItWorks.GradientWrapper"
+    },
+    {
+      "url": "linear-gradient(rgb(88, 0, 255), rgb(155, 102, 255))",
+      "element": "SECTION#FAQSection.GradientWrapper"
+    },
+    {
+      "url": "linear-gradient(135deg, rgb(88, 0, 255), rgb(155, 102, 255))",
+      "element": "FOOTER."
+    }
+  ],
+  "svgs": [],
+  "links": [
+    {
+      "text": "polityce prywatności",
+      "href": "https://tutoreo.pl/privacypolicy"
+    },
+    {
+      "text": "Strona głowna",
+      "href": "https://tutoreo.pl/"
+    },
+    {
+      "text": "O nas",
+      "href": "https://tutoreo.pl/about"
+    },
+    {
+      "text": "Aplikacja",
+      "href": "https://tutoreo.pl/login"
+    },
+    {
+      "text": "",
+      "href": "https://tutoreo.pl/"
+    },
+    {
+      "text": "Strona głowna",
+      "href": "https://tutoreo.pl/"
+    },
+    {
+      "text": "O nas",
+      "href": "https://tutoreo.pl/about"
+    },
+    {
+      "text": "Zaloguj",
+      "href": "https://tutoreo.pl/login"
+    },
+    {
+      "text": "Dołącz za darmo",
+      "href": "https://tutoreo.pl/login?register=1"
+    },
+    {
+      "text": "Jak to działa?",
+      "href": "https://tutoreo.pl/#HowItWorks"
+    },
+    {
+      "text": "Skontaktuj się z nami",
+      "href": "https://tutoreo.pl/contact"
+    },
+    {
+      "text": "Dołącz za darmo",
+      "href": "https://tutoreo.pl/login?register=1"
+    },
+    {
+      "text": "",
+      "href": "https://tutoreo.pl/"
+    },
+    {
+      "text": "Aplikacja",
+      "href": "https://tutoreo.pl/app"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://tutoreo.pl/contact"
+    },
+    {
+      "text": "O nas",
+      "href": "https://tutoreo.pl/about"
+    },
+    {
+      "text": "Blog tutoreo",
+      "href": "https://tutoreo.pl/blog"
+    },
+    {
+      "text": "Zasady użytkowania",
+      "href": "https://tutoreo.pl/tos"
+    },
+    {
+      "text": "Polityka prywatności",
+      "href": "https://tutoreo.pl/privacypolicy"
+    },
+    {
+      "text": "Ustawienia cookies",
+      "href": "javascript:void(0)"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Tylko niezbędne",
+      "classes": "Standard",
+      "id": "AcceptOnlyNecessary"
+    },
+    {
+      "text": "Zaakceptuj wszystkie",
+      "classes": "Standard",
+      "id": "AcceptAll"
+    },
+    {
+      "text": "Zaloguj",
+      "classes": "Standard",
+      "id": "NavbarCTA"
+    },
+    {
+      "text": "",
+      "classes": "",
+      "id": "NavbarToggle"
+    },
+    {
+      "text": "Przetestuj tablicę",
+      "classes": "Standard",
+      "id": "TestWhiteboardButton"
+    },
+    {
+      "text": "Dla korepetytora",
+      "classes": "Active",
+      "id": ""
+    },
+    {
+      "text": "Dla ucznia",
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Skontaktuj się z nami",
+      "classes": "Standard",
+      "id": "ContactUsButton"
+    },
+    {
+      "text": "Czy rejestracja jest darmowa?Rejestracja jest w pełni darmowa. Uczeń nie ponosi ",
+      "classes": "Question Active",
+      "id": ""
+    },
+    {
+      "text": "Czy muszę posiadać jakiś certyfikat?Nie, korepetytorem na tutoreo może zostać kt",
+      "classes": "Question",
+      "id": ""
+    },
+    {
+      "text": "Czy muszę coś weryfikować?Uczeń może korzystać z platformy zaraz po założeniu ko",
+      "classes": "Question",
+      "id": ""
+    },
+    {
+      "text": "Jakie narzędzia udostępnia tutoreo?Na tutoreo znajdziesz przede wszystkim system",
+      "classes": "Question",
+      "id": ""
+    },
+    {
+      "text": "Czy mogę oferować zniżkę na pierwszą lekcję?Wiemy że to powszechna praktyka w br",
+      "classes": "Question",
+      "id": ""
+    },
+    {
+      "text": "Czy mogę odwołać lekcję jeśli coś mi wypadnie?Jeżeli zajdzie taka potrzeba, może",
+      "classes": "Question",
+      "id": ""
+    },
+    {
+      "text": "Dołącz za darmo",
+      "classes": "Standard",
+      "id": ""
+    }
+  ],
+  "favicons": [
+    {
+      "href": "https://tutoreo.pl/favicon.ico",
+      "sizes": ""
+    }
+  ]
+}
