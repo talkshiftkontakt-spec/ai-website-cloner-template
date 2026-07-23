@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.raycast.com"),
   title: "Raycast - Your shortcut to everything",
   description:
     "A collection of powerful productivity tools all within an extendable launcher.",
