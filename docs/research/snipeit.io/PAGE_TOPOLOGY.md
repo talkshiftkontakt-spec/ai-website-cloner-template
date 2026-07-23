@@ -60,6 +60,6 @@
 ## Known Gaps / Out of Scope
 
 - Real auth / Stripe checkout
-- Real contact form backend
-- Cookie preference modal detail panel
+- Real contact form backend / Turnstile
+- Cookie preference modal detail panel (custom categories UI)
 - Live offer feed
