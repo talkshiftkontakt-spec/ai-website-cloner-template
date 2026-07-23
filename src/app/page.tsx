@@ -24,7 +24,7 @@ const GLOW_POSITIONS = [
 export default function Home() {
   return (
     <>
-      <main className="relative min-h-screen overflow-clip bg-[#EDF7FC]">
+      <main className="relative min-h-screen overflow-x-clip bg-[#EDF7FC]">
         <div className="absolute top-0 left-0 z-0 h-[1111px] w-full bg-[#0e1716]" />
         <div className="absolute top-0 left-0 z-0 flex h-[1111px] w-full items-center justify-center overflow-hidden">
           <div

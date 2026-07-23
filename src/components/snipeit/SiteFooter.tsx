@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Reveal } from "@/components/snipeit/Reveal";
 import { ASSET } from "@/lib/snipeit-content";
 
 const NAV_ITEMS = [
@@ -17,6 +16,15 @@ const LEGAL_ITEMS = [
   { href: "/legal/regulamin", label: "Regulamin" },
   { href: "/legal/pliki-cookies", label: "Pliki Cookies" },
 ] as const;
+
+function openCookieSettings() {
+  try {
+    sessionStorage.removeItem("snipeit-cookie-consent");
+  } catch {
+    // ignore
+  }
+  window.dispatchEvent(new Event("snipeit-open-cookies"));
+}
 
 export function SiteFooter() {
   return (
@@ -37,7 +45,7 @@ export function SiteFooter() {
 
       <div className="relative z-10 mx-auto max-w-[1480px]">
         <div className="mb-12 grid grid-cols-1 gap-12 md:grid-cols-3">
-          <Reveal>
+          <div>
             <div className="mb-4">
               <Image
                 src={`${ASSET}/footer-logo.svg`}
@@ -76,9 +84,9 @@ export function SiteFooter() {
                 />
               </a>
             </div>
-          </Reveal>
+          </div>
 
-          <Reveal delay={0.08}>
+          <div>
             <h4 className="font-sf-expanded-medium mb-5 text-[24px] text-[#f0f0f0]">
               Nawigacja
             </h4>
@@ -94,9 +102,9 @@ export function SiteFooter() {
                 </li>
               ))}
             </ul>
-          </Reveal>
+          </div>
 
-          <Reveal delay={0.16}>
+          <div>
             <h4 className="font-sf-expanded-medium mb-5 text-[24px] text-[#f0f0f0]">
               Dane prawne
             </h4>
@@ -114,13 +122,14 @@ export function SiteFooter() {
               <li>
                 <button
                   type="button"
+                  onClick={openCookieSettings}
                   className="font-satoshi text-left text-[18px] leading-[35px] text-[#f0f0f0] transition-colors hover:text-[#9ebdbb]"
                 >
                   Ustawienia cookies
                 </button>
               </li>
             </ul>
-          </Reveal>
+          </div>
         </div>
 
         <div className="mt-12 border-t border-[#2a3938]/60 pt-6 text-center">

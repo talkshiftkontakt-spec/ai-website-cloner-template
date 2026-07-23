@@ -1,13 +1,18 @@
 "use client";
 
 import { Cookie } from "lucide-react";
-import { useCallback, useState, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useState, useSyncExternalStore } from "react";
 
 const STORAGE_KEY = "snipeit-cookie-consent";
+const OPEN_EVENT = "snipeit-open-cookies";
 
 function subscribe(onStoreChange: () => void) {
   window.addEventListener("storage", onStoreChange);
-  return () => window.removeEventListener("storage", onStoreChange);
+  window.addEventListener(OPEN_EVENT, onStoreChange);
+  return () => {
+    window.removeEventListener("storage", onStoreChange);
+    window.removeEventListener(OPEN_EVENT, onStoreChange);
+  };
 }
 
 function getConsentSnapshot() {
@@ -20,7 +25,17 @@ function getConsentSnapshot() {
 
 export function CookieBanner() {
   const stored = useSyncExternalStore(subscribe, getConsentSnapshot, () => "ssr");
+  const [forceOpen, setForceOpen] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+
+  useEffect(() => {
+    const onOpen = () => {
+      setDismissed(false);
+      setForceOpen(true);
+    };
+    window.addEventListener(OPEN_EVENT, onOpen);
+    return () => window.removeEventListener(OPEN_EVENT, onOpen);
+  }, []);
 
   const dismiss = useCallback((value: string) => {
     try {
@@ -28,10 +43,12 @@ export function CookieBanner() {
     } catch {
       // ignore storage errors
     }
+    setForceOpen(false);
     setDismissed(true);
   }, []);
 
-  if (dismissed || stored === "ssr" || stored) return null;
+  if (dismissed || stored === "ssr") return null;
+  if (!forceOpen && stored) return null;
 
   return (
     <div

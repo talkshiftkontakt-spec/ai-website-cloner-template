@@ -34,7 +34,7 @@ export function Reveal({
       className={cn(className)}
       initial={{ opacity: 0, y, x }}
       whileInView={{ opacity: 1, y: 0, x: 0 }}
-      viewport={{ once, amount, margin: "0px 0px -40px 0px" }}
+      viewport={{ once, amount: Math.min(amount, 0.15), margin: "80px 0px" }}
       transition={{
         duration: 0.7,
         ease: [0.22, 1, 0.36, 1],
