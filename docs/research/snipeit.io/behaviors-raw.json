@@ -1,0 +1,138 @@
+{
+  "headerAtTop": {
+    "backgroundColor": "lab(6.87026 -3.92184 -0.654447 / 0.8)",
+    "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 8px 30px 0px",
+    "height": "95.3333px",
+    "position": "fixed",
+    "backdropFilter": "blur(24px)",
+    "classes": "fixed top-0 left-0 right-0 z-50 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] bg-[#0e1716]/80 backdrop-blur-xl border-b border-white/"
+  },
+  "headerAfterScroll": {
+    "backgroundColor": "lab(6.87026 -3.92184 -0.654447 / 0.8)",
+    "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 8px 30px 0px",
+    "height": "95.3333px",
+    "position": "fixed",
+    "backdropFilter": "blur(24px)"
+  },
+  "faqItems": [
+    {
+      "question": "Czym jest SnipeIT",
+      "answer": "Czym jest SnipeIT?SnipeIT to agregator ogłoszeń, w którym w czasie rzeczywistym nasi pracownicy skanują najpopularniejsze portale (OLX, Allegro, Vinted, Otomoto i inne) i zbiera wszystkie oferty w jednym, przejrzystym widoku."
+    },
+    {
+      "question": "Które portale",
+      "answer": "Które portale są obsługiwane?Monitorujemy m.in OLX, Allegro, Allegro Lokalnie, Vinted, OtoMoto, OLX i OtoDom. Listę obsługiwanych platform stale rozszerzamy"
+    },
+    {
+      "question": "Ile kosztuje",
+      "answer": "Ile kosztuje korzystanie z SnipeIT?Oferujemy plan dla osób prywatnych oraz plan dla firm. Szczegóły i aktualne ceny znajdziesz w sekcji „Elastyczna subskrypcja” powyżej."
+    }
+  ],
+  "pricingToggle": {
+    "monthly": {
+      "text": "MiesięcznyRoczny -10%",
+      "tag": "DIV",
+      "classes": "flex items-center justify-center"
+    },
+    "yearly": {
+      "text": "MiesięcznyRoczny -10%",
+      "tag": "DIV",
+      "classes": "flex items-center justify-center"
+    }
+  },
+  "hoverSamples": [],
+  "clickableTexts": [
+    {
+      "i": 0,
+      "text": "Wybierz plan",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 1,
+      "text": "Wybierz plan",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 2,
+      "text": "Skontaktuj się",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 3,
+      "text": "Roczny -10%",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 4,
+      "text": "Wyślij wiadomość",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 5,
+      "text": "Czym jest SnipeIT?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 6,
+      "text": "Które portale są obsługiwane?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 7,
+      "text": "Jak działają powiadomienia o nowych ofertach?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 8,
+      "text": "Czy mogę śledzić kilka wyszukiwań jednocześnie?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 9,
+      "text": "Jak SnipeIT zdobywa ogłoszenia?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 10,
+      "text": "Czy wykrywacie podejrzane ogłoszenia?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 11,
+      "text": "Ile kosztuje korzystanie z SnipeIT?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 12,
+      "text": "Czy mogę zrezygnować w dowolnym momencie?",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 13,
+      "text": "Ustawienia cookies",
+      "tag": "BUTTON"
+    },
+    {
+      "i": 14,
+      "text": "Akceptuj wszystkie",
+      "tag": "BUTTON"
+    }
+  ],
+  "pricingAfterYearly": [
+    "Witaj Krystian, na co dziś polujemy?",
+    "Nowe oferty",
+    "Idealne narzędzie dla handlarzy i kupców",
+    "Intuicyjne wyszukiwanie",
+    "Najnowsze oferty",
+    "Zaawansowane sortowanie",
+    "Jedna platforma, wszystkie ogłoszenia",
+    "Bądź przed innymi, w ciągu kilku sekund",
+    "Elastyczna subskrypcja",
+    "Basic",
+    "Pro",
+    "Enterprise",
+    "Skontaktuj się z nami",
+    "Najczęściej zadawane pytania",
+    "Szanujemy Twoją prywatność"
+  ]
+}

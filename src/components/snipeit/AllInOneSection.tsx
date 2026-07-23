@@ -15,7 +15,7 @@ const RINGS = [
 export function FeaturesDecorations() {
   return (
     <>
-      <div className="animate-union-pulse pointer-events-none absolute -left-[120px] top-[200px] h-[250px] w-[250px] md:h-[631px] md:w-[631px]">
+      <div className="animate-union-pulse pointer-events-none absolute -left-[120px] top-[200px] h-[250px] w-[250px] rotate-[15deg] opacity-[0.40] md:-left-[250px] md:h-[631px] md:w-[631px]">
         <Image
           src={`${ASSET}/union-outline.svg`}
           alt=""
@@ -24,7 +24,7 @@ export function FeaturesDecorations() {
           className="h-full w-full"
         />
       </div>
-      <div className="animate-union-pulse pointer-events-none absolute -right-[100px] top-[1200px] h-[220px] w-[220px] md:h-[531px] md:w-[531px]">
+      <div className="animate-union-pulse pointer-events-none absolute -right-[100px] top-[1200px] h-[220px] w-[220px] rotate-[-25deg] opacity-[0.40] md:-right-[160px] md:h-[531px] md:w-[531px]">
         <Image
           src={`${ASSET}/union-outline.svg`}
           alt=""
@@ -33,7 +33,7 @@ export function FeaturesDecorations() {
           className="h-full w-full"
         />
       </div>
-      <div className="animate-union-pulse pointer-events-none absolute -left-[90px] top-[3050px] h-[200px] w-[200px] md:h-[450px] md:w-[450px]">
+      <div className="animate-union-pulse pointer-events-none absolute -left-[90px] top-[3050px] h-[200px] w-[200px] rotate-[20deg] opacity-[0.55] md:-left-[180px] md:h-[450px] md:w-[450px]">
         <Image
           src={`${ASSET}/union-outline.svg`}
           alt=""

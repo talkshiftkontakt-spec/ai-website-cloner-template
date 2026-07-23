@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="otomoto">
+<rect width="24" height="24" rx="5" fill="var(--fill-0, white)"/>
+<circle id="Ellipse 23" cx="12" cy="12" r="9" fill="var(--fill-0, #23E5DB)"/>
+<path id="Ellipse 25" d="M15.9411 3.90653L8.69546 20.374C5.35987 19.0566 3 15.8039 3 12C3 7.02944 7.02944 3 12 3C13.4135 3 14.7509 3.32585 15.9411 3.90653Z" fill="var(--fill-0, #C82814)"/>
+<path id="Ellipse 25_2" d="M15.9411 3.90653C18.9364 5.36782 21 8.44293 21 12C21 16.9706 16.9706 21 12 21C10.8333 21 9.7185 20.778 8.69546 20.374L15.9411 3.90653Z" fill="var(--fill-0, #142355)"/>
+<circle id="Ellipse 24" cx="12" cy="12" r="5" fill="var(--fill-0, white)"/>
+</g>
+</svg>

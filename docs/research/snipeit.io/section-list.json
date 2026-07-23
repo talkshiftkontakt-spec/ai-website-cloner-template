@@ -1,0 +1,72 @@
+[
+  {
+    "i": 0,
+    "tag": "NAV",
+    "id": "",
+    "classes": "fixed top-0 left-0 right-0 z-50 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] bg-transparent backdrop-b",
+    "textStart": "Strona głównaProduktPlanyKontaktZaloguj sięZdobądź dostęp"
+  },
+  {
+    "i": 1,
+    "tag": "SECTION",
+    "id": "hero",
+    "classes": "relative pt-[130px] md:pt-[200px] pb-10 md:pb-16 overflow-hidden",
+    "textStart": "Monitoruj najnowszeogłoszenia w jednym miejscuWpisz frazę kl"
+  },
+  {
+    "i": 2,
+    "tag": "SECTION",
+    "id": "produkt",
+    "classes": "py-8 px-6 scroll-mt-[94px]",
+    "textStart": "Witaj Krystian, na co dziś polujemy?ProponowaneTelefony komó"
+  },
+  {
+    "i": 3,
+    "tag": "SECTION",
+    "id": "",
+    "classes": "py-20 px-6",
+    "textStart": "ŁATWA KONFIGURACJAIdealne narzędzie dla handlarzy i kupcówNa"
+  },
+  {
+    "i": 4,
+    "tag": "SECTION",
+    "id": "",
+    "classes": "py-12 md:py-20 px-6 relative overflow-hidden",
+    "textStart": "NARZĘDZIE ALL IN ONEJedna platforma, wszystkie ogłoszeniaZdo"
+  },
+  {
+    "i": 5,
+    "tag": "SECTION",
+    "id": "",
+    "classes": "py-12 md:py-20 px-6 relative overflow-hidden",
+    "textStart": "EKSPRESOWE DZIAŁANIEBądź przed innymi, w ciągu kilku sekundZ"
+  },
+  {
+    "i": 6,
+    "tag": "SECTION",
+    "id": "plany",
+    "classes": "py-20 px-4 md:px-6 relative",
+    "textStart": "NIE ZWLEKAJElastyczna subskrypcjaBasiczł 49,99/ miesięcznieD"
+  },
+  {
+    "i": 7,
+    "tag": "SECTION",
+    "id": "kontakt",
+    "classes": "py-20 px-6",
+    "textStart": "DODATKOWE PYTANIA?Skontaktuj się z namiRozumiem, że Snipeit "
+  },
+  {
+    "i": 8,
+    "tag": "SECTION",
+    "id": "",
+    "classes": "py-20 px-6",
+    "textStart": "FAQNajczęściej zadawane pytaniaCzym jest SnipeIT?Które porta"
+  },
+  {
+    "i": 9,
+    "tag": "FOOTER",
+    "id": "",
+    "classes": "relative pt-16 pb-10 px-6 overflow-hidden bg-[#1c2625]",
+    "textStart": "Kompleksowy monitor ogłoszeń internetowych, bądź przed innym"
+  }
+]

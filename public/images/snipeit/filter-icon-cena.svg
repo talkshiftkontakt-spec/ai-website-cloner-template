@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide/map-pin">
+<g id="lucide/circle-dollar-sign" clip-path="url(#clip0_982_3462)">
+<path id="Vector" d="M13 8H9.25C8.91848 8 8.60054 8.1317 8.36612 8.36612C8.1317 8.60054 8 8.91848 8 9.25C8 9.58152 8.1317 9.89946 8.36612 10.1339C8.60054 10.3683 8.91848 10.5 9.25 10.5H11.75C12.0815 10.5 12.3995 10.6317 12.6339 10.8661C12.8683 11.1005 13 11.4185 13 11.75C13 12.0815 12.8683 12.3995 12.6339 12.6339C12.3995 12.8683 12.0815 13 11.75 13H8M10.5 14.25V6.75M16.75 10.5C16.75 13.9518 13.9518 16.75 10.5 16.75C7.04822 16.75 4.25 13.9518 4.25 10.5C4.25 7.04822 7.04822 4.25 10.5 4.25C13.9518 4.25 16.75 7.04822 16.75 10.5Z" stroke="var(--stroke-0, #759390)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_982_3462">
+<rect width="15" height="15" fill="white" transform="translate(3 3)"/>
+</clipPath>
+</defs>
+</svg>

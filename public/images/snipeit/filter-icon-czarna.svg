@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lucide/map-pin">
+<g id="lucide/satellite-dish" clip-path="url(#clip0_982_3435)">
+<g id="lucide/badge-check" clip-path="url(#clip1_982_3435)">
+<g id="lucide/circle-x" clip-path="url(#clip2_982_3435)">
+<path id="Vector" d="M12 8L8 12M8 8L12 12M16.6667 10C16.6667 13.6819 13.6819 16.6667 10 16.6667C6.3181 16.6667 3.33333 13.6819 3.33333 10C3.33333 6.3181 6.3181 3.33333 10 3.33333C13.6819 3.33333 16.6667 6.3181 16.6667 10Z" stroke="var(--stroke-0, #759390)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_982_3435">
+<rect width="16" height="16" fill="white" transform="translate(2 2)"/>
+</clipPath>
+<clipPath id="clip1_982_3435">
+<rect width="16" height="16" fill="white" transform="translate(2 2)"/>
+</clipPath>
+<clipPath id="clip2_982_3435">
+<rect width="16" height="16" fill="white" transform="translate(2 2)"/>
+</clipPath>
+</defs>
+</svg>

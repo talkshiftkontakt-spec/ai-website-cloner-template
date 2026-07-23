@@ -4,12 +4,21 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: Satoshi;
+  src: url("/fonts/Satoshi-Variable.woff2") format("woff2");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
-  --font-heading: var(--font-sans);
+  --font-sans: "Satoshi", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-heading: var(--font-roboto), "Roboto Flex", sans-serif;
+  --font-satoshi: "Satoshi", "Inter", sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,82 +58,184 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --background: #0e1716;
+  --foreground: #f0f0f0;
+  --card: #1f2b2a;
+  --card-foreground: #f0f0f0;
+  --popover: #1c2625;
+  --popover-foreground: #f0f0f0;
+  --primary: #bae3df;
+  --primary-foreground: #1c2625;
+  --secondary: #242d2d;
+  --secondary-foreground: #f0f0f0;
+  --muted: #253130;
+  --muted-foreground: #759390;
+  --accent: #bae3df;
+  --accent-foreground: #1c2625;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --border: #2a3938;
+  --input: #303030;
+  --ring: #49768d;
+  --chart-1: #bae3df;
+  --chart-2: #759390;
+  --chart-3: #49768d;
+  --chart-4: #678c88;
+  --chart-5: #1c2625;
+  --radius: 0.75rem;
+  --sidebar: #2d3b3a;
+  --sidebar-foreground: #f0f0f0;
+  --sidebar-primary: #bae3df;
+  --sidebar-primary-foreground: #1c2625;
+  --sidebar-accent: #242d2d;
+  --sidebar-accent-foreground: #f0f0f0;
+  --sidebar-border: #2a3938;
+  --sidebar-ring: #49768d;
+  --text-primary: #f5fefd;
+  --text-muted: #759390;
+  --text-muted2: #6d8886;
+  --surface-card: #1f2b2a;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
   html {
-    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-roboto), "Roboto Flex", system-ui, sans-serif;
+  }
+}
+
+/* SnipeIT custom utilities */
+.font-satoshi {
+  font-family: Satoshi, Inter, sans-serif;
+}
+.font-sf-expanded {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 400, "wdth" 150;
+}
+.font-sf-expanded-light {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 300, "wdth" 150;
+  font-weight: 300;
+}
+.font-sf-expanded-regular {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 400, "wdth" 150;
+  font-weight: 400;
+}
+.font-sf-expanded-medium {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 500, "wdth" 150;
+  font-weight: 500;
+}
+.font-sf-expanded-bold {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 700, "wdth" 150;
+  font-weight: 700;
+}
+.font-sf-regular {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 400, "wdth" 100;
+  font-weight: 400;
+}
+.font-sf-bold {
+  font-family: var(--font-roboto), "Roboto Flex", sans-serif;
+  font-variation-settings: "wght" 700, "wdth" 100;
+  font-weight: 700;
+}
+
+.text-gradient-hero {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(202.884deg, #fff 35.131%, #3a7987 96.636%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.text-gradient-section {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(198.775deg, #1c2625 40.255%, #dce2e3 115.37%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.text-gradient-section-dark {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(195.657deg, #fff 40.255%, #1b2729 115.37%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes union-pulse {
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+.animate-union-pulse {
+  animation: 5s ease-in-out infinite union-pulse;
+}
+
+@keyframes hero-grad-drift {
+  0% {
+    filter: blur(2px);
+    transform: translate(0%) scale(1.16);
+  }
+  50% {
+    filter: blur(11px);
+    transform: translate(3%, -3%) scale(1.28);
+  }
+  100% {
+    filter: blur(2px);
+    transform: translate(0%) scale(1.16);
+  }
+}
+.hero-grad-anim {
+  will-change: transform, filter;
+  transform-origin: 50%;
+  animation: 12s ease-in-out infinite hero-grad-drift;
+}
+
+@keyframes metal-move {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 280%;
+  }
+}
+.metal-outline {
+  background: linear-gradient(
+      115deg,
+      #bae3df 0%,
+      #f2faff 22%,
+      #678c88 46%,
+      #eafffb 62%,
+      #bae3df 82%,
+      #f2faff 100%
+    )
+    0 0 / 280% 100%;
+  border-radius: 41px;
+  padding: 5px;
+  animation: 6s linear infinite metal-move;
+}
+
+.btn-metal-dark {
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 366.09 52' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' width='366.09' height='52' fill='url(%23g)'/><defs><radialGradient id='g' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(0.15633 5.1613 -18.977 0.26095 186.03 0.30653)'><stop stop-color='rgb(80,114,111)' offset='0'/><stop stop-color='rgb(58,80,78)' offset='0.39439'/><stop stop-color='rgb(36,45,45)' offset='0.78879'/></radialGradient></defs></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-union-pulse,
+  .hero-grad-anim,
+  .metal-outline {
+    animation: none;
   }
 }
