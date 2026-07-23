@@ -1,21 +1,21 @@
 "use client";
 
 import { Cookie } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const STORAGE_KEY = "snipeit-cookie-consent";
 
-export function CookieBanner() {
-  const [visible, setVisible] = useState(false);
+function readInitialVisible(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return !sessionStorage.getItem(STORAGE_KEY);
+  } catch {
+    return true;
+  }
+}
 
-  useEffect(() => {
-    try {
-      const stored = sessionStorage.getItem(STORAGE_KEY);
-      if (!stored) setVisible(true);
-    } catch {
-      setVisible(true);
-    }
-  }, []);
+export function CookieBanner() {
+  const [visible, setVisible] = useState(readInitialVisible);
 
   function dismiss(value: string) {
     try {

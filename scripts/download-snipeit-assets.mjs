@@ -1,5 +1,5 @@
 import { mkdirSync, writeFileSync, createWriteStream, existsSync } from 'fs';
-import { dirname, join, extname, basename } from 'path';
+import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { pipeline } from 'stream/promises';
 import { Readable } from 'stream';
