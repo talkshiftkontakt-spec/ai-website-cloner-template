@@ -1,0 +1,866 @@
+{
+  "sections": [
+    {
+      "key": "Navbar_container__x_wnu",
+      "classes": "Navbar_container__x_wnu",
+      "tag": "div",
+      "top": 0,
+      "height": 92,
+      "width": 1440,
+      "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download",
+      "childClassNames": [
+        "Navbar_navbar__XlgWY"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 3,
+      "buttonTexts": [
+        "Store",
+        "Pro",
+        "AI",
+        "iOS",
+        "Windows",
+        "Teams",
+        "Enterprise",
+        "Blog",
+        "Pricing",
+        "Log in",
+        "Download",
+        "Log in"
+      ]
+    },
+    {
+      "key": "page_sectionContainer__86OJv",
+      "classes": "page_sectionContainer__86OJv",
+      "tag": "div",
+      "top": 1164,
+      "height": 1375,
+      "width": 1440,
+      "text": "Take shortcuts, not detours. One interface, everything you need. Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hello@raycast.com Two Mangos (640 x 427) magic.png (640 x 360) Image (842 x 420) #FF6363 Information Application VS Code Content Type Col",
+      "childClassNames": [
+        "Features_container__cNA2k hide-scrollbars"
+      ],
+      "imgCount": 18,
+      "videoCount": 0,
+      "svgCount": 24,
+      "buttonTexts": []
+    },
+    {
+      "key": "Features_container__cNA2k",
+      "classes": "Features_container__cNA2k hide-scrollbars",
+      "tag": "div",
+      "top": 1388,
+      "height": 927,
+      "width": 1392,
+      "text": "Take shortcuts, not detours. One interface, everything you need. Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hello@raycast.com Two Mangos (640 x 427) magic.png (640 x 360) Image (842 x 420) #FF6363 Information Application VS Code Content Type Col",
+      "childClassNames": [
+        "SectionTitle_container__qvIRZ Features_sectionTitle__3tVmK SectionTitle_center__",
+        "Features_backdropWrapper__L2OUh",
+        "Features_sub__2RCSJ"
+      ],
+      "imgCount": 18,
+      "videoCount": 0,
+      "svgCount": 24,
+      "buttonTexts": []
+    },
+    {
+      "key": "WindowManagementShowcase_container__etASM",
+      "classes": "WindowManagementShowcase_container__etASM",
+      "tag": "div",
+      "top": 1558,
+      "height": 570,
+      "width": 1184,
+      "text": "window management Results Left Half Window Management Right Half Window Management Almost Maximize Window Management iOS Development Window Management Last Third Window Management Last Two Thirds Window Management Toggle Full Screen Window Management Top Right Quarter Window Management Top Left Quarter Window Management Bottom Half Window Management Open Command ↵ Actions ⌘ K",
+      "childClassNames": [
+        "WindowManagementShowcase_windowWrapper__kJoU_",
+        "RaycastWindow_raycastWindowOuter__IPv1c WindowManagementShowcase_raycastWindow__"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 6,
+      "buttonTexts": []
+    },
+    {
+      "key": "GetYourTimeBack_container__J6oE_",
+      "classes": "GetYourTimeBack_container__J6oE_",
+      "tag": "div",
+      "top": 2539,
+      "height": 720,
+      "width": 1440,
+      "text": "It’s not about saving time. It’s about feeling like you’re never wasting it. Download esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 ± § ! 1 @ 2 # 3 $ 4 % 5 ^ 6 & 7 * 8 ( 9 ) 0 _ - + = delete Fast. Think in milliseconds. Ergonomic. Keyboard First. E R T Y U I O P { [ } ] | \\ Native. Pure performance. Reliable. 99.8% crash-free rate. S D F G H J K L : ; \" , ~ ` Z X C V B N M < , > . ? / fn control op",
+      "childClassNames": [
+        "GetYourTimeBack_getYourTimeBack__YPQys"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 30,
+      "buttonTexts": [
+        "Download"
+      ]
+    },
+    {
+      "key": "ExtensionHighlight_container__aojC1",
+      "classes": "ExtensionHighlight_container__aojC1",
+      "tag": "div",
+      "top": 3259,
+      "height": 1257,
+      "width": 1440,
+      "text": "There’s an extension for that. Use your favorite tools without even opening them. Productivity Engineering Design Writing Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and podcasts, browse your library, and control playback. Arc Navigate your open ",
+      "childClassNames": [
+        "ExtensionHighlight_top__Nem0f",
+        "ExtensionHighlight_reelWrapper__163qQ",
+        "ExtensionHighlight_bottom__fmUy9"
+      ],
+      "imgCount": 35,
+      "videoCount": 0,
+      "svgCount": 21,
+      "buttonTexts": [
+        "Productivity",
+        "Engineering",
+        "Design",
+        "Writing",
+        "Linear\n\nCreate, search and modify your issues without leavin",
+        "Google Translate\n\nUse Google Translate to effortlessly trans",
+        "Spotify\n\nSearch for music and podcasts, browse your library,",
+        "Arc\n\nNavigate your open tabs or search through your browser ",
+        "TinyPNG\n\nCompress the selected images in Finder with TinyPNG",
+        "1Password\n\nEasily grab any password or credential from your ",
+        "JIRA\n\nManage your JIRA issues and sprints without leaving yo",
+        "Slack\n\nSet your presence, see unread messages and search you",
+        "Zoom\n\nSee your upcoming calls and jump straight into them fr",
+        "Timers\n\nStart stopwatches and timers to keep track of your d",
+        "Pomodoro\n\nControl pomodoro timers and see the current interv",
+        "Notion\n\nThe fastest way to search and create Notion pages.",
+        "Todoist\n\nCheck your Todoist tasks and quickly create new one",
+        "Google Search\n\nNeed to know something fast? Google it straig",
+        "Obsidian\n\nCapture information, manage tasks and pin notes to",
+        "Google Chrome\n\nSearch open tabs, bookmarks and history in Go"
+      ]
+    },
+    {
+      "key": "Testimonials_embla__container__QZsiM",
+      "classes": "Testimonials_embla__container__QZsiM",
+      "tag": "div",
+      "top": 6331,
+      "height": 98,
+      "width": 1204,
+      "text": "Guillermo Rauch @rauchg CEO, Vercel Marques Brownlee @MKBHD Creator, MKBHD Koen Bok @koenbok Founder, Framer Andreas Storm @avstorm Designer & Iconograph Adam Wathan @adamwathan Creator, Tailwind CSS Wes Bos @wesbos Co-host, SyntaxFM Ridd @ridd_design Creator, Dive Club Max Stoiber @mxstbr CEO, Stellate Zach Holman @holman Angel Investor Ansub @justansub Founding Engineer Kitze @thekitze Founder F",
+      "childClassNames": [
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b Testimonials_active__t",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b is-in-view",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b is-in-view",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+        "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b"
+      ],
+      "imgCount": 24,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "Automation_container__39AlV",
+      "classes": "Automation_container__39AlV",
+      "tag": "div",
+      "top": 7311,
+      "height": 696,
+      "width": 1204,
+      "text": "Don't repeat yourself. Automate the things you do all the time. Snippets Tired of typing the same thing? Create a snippet and insert it by simply typing its keyword. Sure, here you go: 3rd Floor 1 Ashley Road, WA14 2DT Altrincham, Cheshire Send Quicklinks Say goodbye to open tabs. Create quicklinks to launch anything from anywhere. option + command + L Hotkeys and Aliases Speed up your wo",
+      "childClassNames": [
+        "SectionTitle_container__qvIRZ Automation_sectionTitle__n4J1x SectionTitle_center",
+        "Automation_grid__BVWWz"
+      ],
+      "imgCount": 2,
+      "videoCount": 0,
+      "svgCount": 7,
+      "buttonTexts": [
+        "Send"
+      ]
+    },
+    {
+      "key": "FeatureWall_container__ealcz",
+      "classes": "FeatureWall_container__ealcz",
+      "tag": "div",
+      "top": 8454,
+      "height": 538,
+      "width": 1204,
+      "text": "What else can Raycast do? It can take notes. Track your flights. Convert anything. Search files. Run scripts. Manage your windows. Plan your day. Remind you of stuff. Translate into any language. Block distractions. Find text in screenshots. Insert Emojis. And much, much more. Raycast Notes A quick way to capture a thought while working on something else. Learn more",
+      "childClassNames": [
+        "FeatureWall_left__5x6NB",
+        "FeatureWall_right__Nfe6o"
+      ],
+      "imgCount": 12,
+      "videoCount": 0,
+      "svgCount": 1,
+      "buttonTexts": [
+        "And much, much more.",
+        "Learn more"
+      ]
+    },
+    {
+      "key": "CommunitySection_bgImg__Sh9m0",
+      "classes": "CommunitySection_bgImg__Sh9m0",
+      "tag": "img",
+      "top": 9216,
+      "height": 818,
+      "width": 818,
+      "text": "",
+      "childClassNames": [],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "CommunitySection_container__8ZibF",
+      "classes": "CommunitySection_container__8ZibF",
+      "tag": "div",
+      "top": 9217,
+      "height": 818,
+      "width": 1440,
+      "text": "Stay in the loop. Join the community and learn how other people get the most out of Raycast. Slack 37k members Get the inside track on new features and learn how other people use Raycast. Join X/Twitter 90k followers Keep up to date with the latest releases, features and improvements. Follow Introducing Raycast Focus Mastering Quicklinks in Raycast Raycast Notes is Finally Out We Tested ",
+      "childClassNames": [
+        "CommunitySection_bgImg__Sh9m0",
+        "CommunitySection_socials___HNIF",
+        "CommunitySection_youtube__ZcogR",
+        "CommunitySection_footer__9b00k"
+      ],
+      "imgCount": 19,
+      "videoCount": 0,
+      "svgCount": 6,
+      "buttonTexts": [
+        "Slack\n37k members\n\nGet the inside track on new features and ",
+        "X/Twitter\n90k followers\n\nKeep up to date with the latest rel"
+      ]
+    },
+    {
+      "key": "CommunitySection_socials___HNIF",
+      "classes": "CommunitySection_socials___HNIF",
+      "tag": "div",
+      "top": 9217,
+      "height": 296,
+      "width": 948,
+      "text": "Stay in the loop. Join the community and learn how other people get the most out of Raycast. Slack 37k members Get the inside track on new features and learn how other people use Raycast. Join X/Twitter 90k followers Keep up to date with the latest releases, features and improvements. Follow",
+      "childClassNames": [
+        "SectionTitle_container__qvIRZ CommunitySection_sectionTitle__3RaZP SectionTitle_",
+        "CommunitySection_socialCard__Grpqk",
+        "CommunitySection_socialCard__Grpqk"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 4,
+      "buttonTexts": [
+        "Slack\n37k members\n\nGet the inside track on new features and ",
+        "X/Twitter\n90k followers\n\nKeep up to date with the latest rel"
+      ]
+    },
+    {
+      "key": "CommunitySection_youtube__ZcogR",
+      "classes": "CommunitySection_youtube__ZcogR",
+      "tag": "div",
+      "top": 9632,
+      "height": 281,
+      "width": 1440,
+      "text": "Introducing Raycast Focus Mastering Quicklinks in Raycast Raycast Notes is Finally Out We Tested Apple's New Window Management Against Raycast You MUST change these Raycast settings ⚙️ 101 Things You Can Do With Raycast 7 more Raycast tricks to level up your productivity Kitze shows Pedro his Raycast setup in Barcelona 12 months of Raycast Pro 🎉 Max Stoiber Owns His Workflow with Raycast",
+      "childClassNames": [
+        "CommunitySection_ticker__ggQJX"
+      ],
+      "imgCount": 18,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "CommunitySection_ticker__ggQJX",
+      "classes": "CommunitySection_ticker__ggQJX",
+      "tag": "div",
+      "top": 9632,
+      "height": 281,
+      "width": 1204,
+      "text": "Introducing Raycast Focus Mastering Quicklinks in Raycast Raycast Notes is Finally Out We Tested Apple's New Window Management Against Raycast You MUST change these Raycast settings ⚙️ 101 Things You Can Do With Raycast 7 more Raycast tricks to level up your productivity Kitze shows Pedro his Raycast setup in Barcelona 12 months of Raycast Pro 🎉 Max Stoiber Owns His Workflow with Raycast",
+      "childClassNames": [
+        "YoutubeCarousel_embla__HP5Lc"
+      ],
+      "imgCount": 18,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "YoutubeCarousel_embla__container__m63EN",
+      "classes": "YoutubeCarousel_embla__container__m63EN",
+      "tag": "div",
+      "top": 9680,
+      "height": 185,
+      "width": 1204,
+      "text": "Introducing Raycast Focus Mastering Quicklinks in Raycast Raycast Notes is Finally Out We Tested Apple's New Window Management Against Raycast You MUST change these Raycast settings ⚙️ 101 Things You Can Do With Raycast 7 more Raycast tricks to level up your productivity Kitze shows Pedro his Raycast setup in Barcelona 12 months of Raycast Pro 🎉 Max Stoiber Owns His Workflow with Raycast",
+      "childClassNames": [
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T",
+        "YoutubeCarousel_embla__slide__T2y6T"
+      ],
+      "imgCount": 18,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "APISection_container__xEJNH",
+      "classes": "APISection_container__xEJNH",
+      "tag": "div",
+      "top": 10258,
+      "height": 2734,
+      "width": 1392,
+      "text": "Build the perfect tools. Our extension API is designed to allow anyone with web development skills to unleash the power of Raycast. Read the docs FIG_0 FIG_0 React to macOS Build rich, native extensions with the technologies you already know: React, TypeScript and Node. FIG_0 Built-in UI Our UI component library allows you to concentrate on the logic while we push the pixels. FIG_0 Batteries",
+      "childClassNames": [
+        "APISection_fadeX__MSwzf",
+        "APISection_fadeY__osgmL",
+        "APISection_grid__rKWW1"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 12,
+      "buttonTexts": [
+        "Our extension API is designed to allow anyone with web devel",
+        "React to macOS\n\nBuild rich, native extensions with the techn",
+        "Built-in UI\n\nOur UI component library allows you to concentr",
+        "Batteries included\n\nA strongly typed API, hot-reloading and ",
+        "Publish to the Store\n\nSubmit your extension to the Raycast S",
+        "Get started"
+      ]
+    },
+    {
+      "key": "APISection_fadeX__MSwzf",
+      "classes": "APISection_fadeX__MSwzf",
+      "tag": "div",
+      "top": 10258,
+      "height": 2734,
+      "width": 1392,
+      "text": "",
+      "childClassNames": [],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "APISection_fadeY__osgmL",
+      "classes": "APISection_fadeY__osgmL",
+      "tag": "div",
+      "top": 10258,
+      "height": 2734,
+      "width": 1392,
+      "text": "",
+      "childClassNames": [],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 0,
+      "buttonTexts": []
+    },
+    {
+      "key": "APISection_grid__rKWW1",
+      "classes": "APISection_grid__rKWW1",
+      "tag": "div",
+      "top": 10258,
+      "height": 2734,
+      "width": 1392,
+      "text": "Build the perfect tools. Our extension API is designed to allow anyone with web development skills to unleash the power of Raycast. Read the docs FIG_0 FIG_0 React to macOS Build rich, native extensions with the technologies you already know: React, TypeScript and Node. FIG_0 Built-in UI Our UI component library allows you to concentrate on the logic while we push the pixels. FIG_0 Batteries",
+      "childClassNames": [
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w",
+        "APISection_spacer__ayz5w"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 12,
+      "buttonTexts": [
+        "Our extension API is designed to allow anyone with web devel",
+        "React to macOS\n\nBuild rich, native extensions with the techn",
+        "Built-in UI\n\nOur UI component library allows you to concentr",
+        "Batteries included\n\nA strongly typed API, hot-reloading and ",
+        "Publish to the Store\n\nSubmit your extension to the Raycast S",
+        "Get started"
+      ]
+    },
+    {
+      "key": "APISection_dotted__sQr0_",
+      "classes": "APISection_dotted__sQr0_",
+      "tag": "div",
+      "top": 10454,
+      "height": 485,
+      "width": 711,
+      "text": "FIG_0",
+      "childClassNames": [
+        "APISection_caption__vFm6z",
+        "[object SVGAnimatedString]"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 1,
+      "buttonTexts": []
+    },
+    {
+      "key": "CommandYourTime_container__S_HJo",
+      "classes": "CommandYourTime_container__S_HJo",
+      "tag": "div",
+      "top": 13216,
+      "height": 1217,
+      "width": 1440,
+      "text": "esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 ± § ! 1 @ 2 # 3 $ 4 % 5 ^ 6 & 7 * 8 ( 9 ) 0 _ - + = delete Q W E R T Y U I O P { [ } ] | \\ A S D F G H J K L : ; \" , ~ ` Z X C V B N M < , > . ? / fn control option command command option Take the short way. Download and use Raycast for free. Download for Mac Download for Windows (beta) Install via homebrew or winget Try the new Raycast beta",
+      "childClassNames": [
+        "AnimatedCmdSpaceKeyboard_container__zHMEc Keyboard_isNotSafari__vhdCL",
+        "CommandYourTime_action__EYknz"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 29,
+      "buttonTexts": [
+        "Download for Mac",
+        "Download for Windows (beta)",
+        "Install via homebrew or winget",
+        "Try the new Raycast beta"
+      ]
+    },
+    {
+      "key": "AnimatedCmdSpaceKeyboard_container__zHMEc",
+      "classes": "AnimatedCmdSpaceKeyboard_container__zHMEc Keyboard_isNotSafari__vhdCL",
+      "tag": "div",
+      "top": 13216,
+      "height": 770,
+      "width": 1440,
+      "text": "esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 ± § ! 1 @ 2 # 3 $ 4 % 5 ^ 6 & 7 * 8 ( 9 ) 0 _ - + = delete Q W E R T Y U I O P { [ } ] | \\ A S D F G H J K L : ; \" , ~ ` Z X C V B N M < , > . ? / fn control option command command option",
+      "childClassNames": [
+        "[object SVGAnimatedString]"
+      ],
+      "imgCount": 0,
+      "videoCount": 0,
+      "svgCount": 27,
+      "buttonTexts": []
+    },
+    {
+      "key": "Footer_container__6pNfo",
+      "classes": "Footer_container__6pNfo",
+      "tag": "div",
+      "top": 14433,
+      "height": 1239,
+      "width": 1440,
+      "text": "Product Store Pro Teams Pricing Changelog Browser Extension Developers iOS Windows Raycast 2.0 API Docs Manual Troubleshooting Raycast vs Alfred FAQ Core Features Raycast AI Raycast Notes Raycast Focus Clipboard History Window Management Snippets File Search Quicklinks Calculator Calendar System Emoji Picker Top Extensions Design Tools Developer Tools Pomodoro Timer Productivity Project Management",
+      "childClassNames": [
+        "Footer_bgImg__YdzGU",
+        "Footer_content__WG3KU"
+      ],
+      "imgCount": 1,
+      "videoCount": 0,
+      "svgCount": 16,
+      "buttonTexts": [
+        "Store",
+        "Pro",
+        "Teams",
+        "Pricing",
+        "Changelog",
+        "Browser Extension",
+        "Developers",
+        "iOS",
+        "Windows",
+        "Raycast 2.0",
+        "API Docs",
+        "Manual",
+        "Troubleshooting",
+        "Raycast vs Alfred",
+        "FAQ",
+        "Raycast AI",
+        "Raycast Notes",
+        "Raycast Focus",
+        "Clipboard History",
+        "Window Management"
+      ]
+    }
+  ],
+  "named": [
+    {
+      "classes": "Navbar_container__x_wnu",
+      "top": 0,
+      "height": 92,
+      "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download"
+    },
+    {
+      "classes": "Navbar_navbar__XlgWY",
+      "top": 16,
+      "height": 76,
+      "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download"
+    },
+    {
+      "classes": "Navbar_secondary__UAPPh",
+      "top": 17,
+      "height": 74,
+      "text": "Log in Download"
+    },
+    {
+      "classes": "Navbar_navigation__sNAXS",
+      "top": 33,
+      "height": 42,
+      "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing"
+    },
+    {
+      "classes": "Navbar_signedOutWide__P7f_w",
+      "top": 34,
+      "height": 41,
+      "text": "Log in Download"
+    },
+    {
+      "classes": "HeroDownloadInfo_container__QTM_P",
+      "top": 797,
+      "height": 71,
+      "text": "Download for Mac Download for Windows (beta) Install via homebrew or winget Try the new Raycast beta"
+    },
+    {
+      "classes": "HeroAnnouncement_announcementContainer__hJe_K",
+      "top": 868,
+      "height": 72,
+      "text": "Meet Glaze Learn more"
+    },
+    {
+      "classes": "page_sectionContainer__86OJv",
+      "top": 1164,
+      "height": 1375,
+      "text": "Take shortcuts, not detours. One interface, everything you need. Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/"
+    },
+    {
+      "classes": "Features_container__cNA2k hide-scrollbars",
+      "top": 1388,
+      "height": 927,
+      "text": "Take shortcuts, not detours. One interface, everything you need. Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/"
+    },
+    {
+      "classes": "SectionTitle_container__qvIRZ Features_sectionTitle__3tVmK SectionTitle_center__tGgzU",
+      "top": 1388,
+      "height": 48,
+      "text": "Take shortcuts, not detours. One interface, everything you need."
+    },
+    {
+      "classes": "Features_backdrop__VxyxO",
+      "top": 1440,
+      "height": 860,
+      "text": ""
+    },
+    {
+      "classes": "Features_stars__YRhs6",
+      "top": 1455,
+      "height": 830,
+      "text": ""
+    },
+    {
+      "classes": "Features_top__hfxko",
+      "top": 1455,
+      "height": 45,
+      "text": ""
+    },
+    {
+      "classes": "Features_backdropWrapper__L2OUh",
+      "top": 1500,
+      "height": 740,
+      "text": "Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hell"
+    },
+    {
+      "classes": "Features_frameOuter__cy6jZ",
+      "top": 1500,
+      "height": 740,
+      "text": "Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hell"
+    },
+    {
+      "classes": "Features_frameInner__2Z6Vc",
+      "top": 1509,
+      "height": 722,
+      "text": "Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hell"
+    },
+    {
+      "classes": "Features_frameContent__Hbf8N",
+      "top": 1510,
+      "height": 720,
+      "text": "Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hell"
+    },
+    {
+      "classes": "Features_scrollBlocker__GPhab",
+      "top": 1510,
+      "height": 720,
+      "text": ""
+    },
+    {
+      "classes": "Features_menuBar__Tkc36",
+      "top": 1510,
+      "height": 48,
+      "text": ""
+    },
+    {
+      "classes": "Features_showcaseReel__g17fo hide-scrollbars",
+      "top": 1510,
+      "height": 720,
+      "text": "Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com https://github.com/raycast/extensions The first Macintosh computer was introduced hell"
+    },
+    {
+      "classes": "Features_right___pNrD",
+      "top": 1537,
+      "height": 666,
+      "text": ""
+    },
+    {
+      "classes": "Features_left__nIVgE",
+      "top": 1537,
+      "height": 666,
+      "text": ""
+    },
+    {
+      "classes": "Features_item__CDT4o Features_active__1TRW9",
+      "top": 2130,
+      "height": 68,
+      "text": ""
+    },
+    {
+      "classes": "Features_dock__uWI8c",
+      "top": 2134,
+      "height": 72,
+      "text": "Clipboard History"
+    },
+    {
+      "classes": "Features_item__CDT4o",
+      "top": 2143,
+      "height": 54,
+      "text": ""
+    },
+    {
+      "classes": "Features_item__CDT4o",
+      "top": 2143,
+      "height": 54,
+      "text": ""
+    },
+    {
+      "classes": "Features_item__CDT4o",
+      "top": 2143,
+      "height": 54,
+      "text": ""
+    },
+    {
+      "classes": "Features_item__CDT4o",
+      "top": 2143,
+      "height": 54,
+      "text": ""
+    },
+    {
+      "classes": "Features_bottom__lzPWj",
+      "top": 2240,
+      "height": 45,
+      "text": ""
+    },
+    {
+      "classes": "Features_sub__2RCSJ",
+      "top": 2264,
+      "height": 51,
+      "text": "Remember Everything. Stop playing Clipboard ping pong - with Clipboard History you’ll never forget anything."
+    },
+    {
+      "classes": "ExtensionHighlight_container__aojC1",
+      "top": 3259,
+      "height": 1257,
+      "text": "There’s an extension for that. Use your favorite tools without even opening them. Productivity Engineering Design Writing Linear Create, search and modify your issues without leaving your keyboard."
+    },
+    {
+      "classes": "ExtensionHighlight_top__Nem0f",
+      "top": 3483,
+      "height": 72,
+      "text": "There’s an extension for that. Use your favorite tools without even opening them. Productivity Engineering Design Writing"
+    },
+    {
+      "classes": "ExtensionHighlight_text__gMfVY",
+      "top": 3483,
+      "height": 72,
+      "text": "There’s an extension for that. Use your favorite tools without even opening them."
+    },
+    {
+      "classes": "ExtensionHighlight_categoriesContainer__mmGIa",
+      "top": 3488,
+      "height": 63,
+      "text": "Productivity Engineering Design Writing"
+    },
+    {
+      "classes": "ExtensionHighlight_categories__WswlG",
+      "top": 3488,
+      "height": 63,
+      "text": "Productivity Engineering Design Writing"
+    },
+    {
+      "classes": "ExtensionHighlight_activeBackdrop__bNKsl",
+      "top": 3497,
+      "height": 46,
+      "text": ""
+    },
+    {
+      "classes": "ExtensionHighlight_category__aMfDp ExtensionHighlight_active__N2OuW",
+      "top": 3497,
+      "height": 46,
+      "text": "Productivity"
+    },
+    {
+      "classes": "ExtensionHighlight_category__aMfDp",
+      "top": 3497,
+      "height": 46,
+      "text": "Engineering"
+    },
+    {
+      "classes": "ExtensionHighlight_category__aMfDp",
+      "top": 3497,
+      "height": 46,
+      "text": "Design"
+    },
+    {
+      "classes": "ExtensionHighlight_category__aMfDp",
+      "top": 3497,
+      "height": 46,
+      "text": "Writing"
+    },
+    {
+      "classes": "ExtensionHighlight_reelContainer__SdwBU",
+      "top": 3555,
+      "height": 680,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and po"
+    },
+    {
+      "classes": "ExtensionHighlight_reelWrapper__163qQ",
+      "top": 3595,
+      "height": 600,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and po"
+    },
+    {
+      "classes": "ExtensionHighlight_reel__OotYH",
+      "top": 3595,
+      "height": 600,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and po"
+    },
+    {
+      "classes": "ExtensionHighlight_padding__U1KfF",
+      "top": 3627,
+      "height": 536,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and po"
+    },
+    {
+      "classes": "ExtensionHighlight_extensionCardWrapper__BE6OW",
+      "top": 3627,
+      "height": 536,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard."
+    },
+    {
+      "classes": "ExtensionCard_link__Uj5vM",
+      "top": 3627,
+      "height": 536,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard."
+    },
+    {
+      "classes": "ExtensionCard_card__g21uG",
+      "top": 3627,
+      "height": 536,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard."
+    },
+    {
+      "classes": "ExtensionCard_headerContainer__48wVu",
+      "top": 3627,
+      "height": 176,
+      "text": "Linear Create, search and modify your issues without leaving your keyboard."
+    },
+    {
+      "classes": "ExtensionHighlight_extensionCardWrapper__BE6OW",
+      "top": 3627,
+      "height": 536,
+      "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages"
+    },
+    {
+      "classes": "ExtensionCard_link__Uj5vM",
+      "top": 3627,
+      "height": 536,
+      "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages"
+    },
+    {
+      "classes": "ExtensionCard_card__g21uG",
+      "top": 3627,
+      "height": 536,
+      "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages"
+    },
+    {
+      "classes": "ExtensionCard_headerContainer__48wVu",
+      "top": 3627,
+      "height": 176,
+      "text": "Google Translate Use Google Translate to effortlessly translate into multiple languages"
+    },
+    {
+      "classes": "ExtensionHighlight_extensionCardWrapper__BE6OW",
+      "top": 3627,
+      "height": 536,
+      "text": "Spotify Search for music and podcasts, browse your library, and control playback."
+    },
+    {
+      "classes": "ExtensionCard_link__Uj5vM",
+      "top": 3627,
+      "height": 536,
+      "text": "Spotify Search for music and podcasts, browse your library, and control playback."
+    },
+    {
+      "classes": "ExtensionCard_card__g21uG",
+      "top": 3627,
+      "height": 536,
+      "text": "Spotify Search for music and podcasts, browse your library, and control playback."
+    },
+    {
+      "classes": "ExtensionCard_headerContainer__48wVu",
+      "top": 3627,
+      "height": 176,
+      "text": "Spotify Search for music and podcasts, browse your library, and control playback."
+    },
+    {
+      "classes": "ExtensionHighlight_extensionCardWrapper__BE6OW",
+      "top": 3627,
+      "height": 536,
+      "text": "Arc Navigate your open tabs or search through your browser history."
+    },
+    {
+      "classes": "ExtensionCard_link__Uj5vM",
+      "top": 3627,
+      "height": 536,
+      "text": "Arc Navigate your open tabs or search through your browser history."
+    },
+    {
+      "classes": "ExtensionCard_card__g21uG",
+      "top": 3627,
+      "height": 536,
+      "text": "Arc Navigate your open tabs or search through your browser history."
+    },
+    {
+      "classes": "ExtensionCard_headerContainer__48wVu",
+      "top": 3627,
+      "height": 176,
+      "text": "Arc Navigate your open tabs or search through your browser history."
+    }
+  ],
+  "pageText": "Store\nPro\nAI\niOS\nWindows\nTeams\nEnterprise\nBlog\nPricing\nLog in\nDownload\nYour shortcut to everything.\n\nA collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.\n\nDownload for Mac\nDownload for Windows (beta)\nInstall via homebrew or winget\nTry the new Raycast beta\nMeet Glaze\nLearn more\nTake shortcuts, not detours.\n\nOne interface, everything you need.\n\nType to filter entries...\nAll Types\nToday\nImage (1200 x 1000)\n#FF6363\n#59D499\n#56C2FF\n#FFC531\nhttps://raycast.com\nhttps://github.com/raycast/extensions\nThe first Macintosh computer was introduced\nhello@raycast.com\nTwo Mangos (640 x 427)\nmagic.png (640 x 360)\nImage (842 x 420)\n#FF6363\nInformation\nApplication\tVS Code\nContent Type\tColor\nCopied\tToday, 13:35:07\nClipboard History\nCopy to Clipboard\n↵\nActions\n⌘\nK\nSearch for apps and commands...\nSearch Emoji & Symbols...\nPinned\n❤️\n👋\n👍\n🚀\n🎉\n🙏\nSmileys & People\n😀\n😃\n😄\n😁\n😆\n😅\n🤣\n😂\n🙂\n🙃\n🫠\n😉\n😊\n😇\n🥰\n😍\n🤩\n😘\n😗\n☺️\n😚\n😙\n🥲\n😋\n😛\n😜\n🤪\n😝\n🤑\n🤗\n🤭\n🫢\n👆\n🫵\n👈\n👉\n☝️\n👇\n💯\n😞\n❤️\n👋\n👍\n🙏\nUnicode Symbols\n☝\n‧\n←\n↑\n→\n↓\n⇅\n⇆\n▲\n△\n▵\n▷\n▸\n▹\n▴\n►\n▻\n▼\n▽\n▾\n▿\n◁\n◂\n◃\n◄\n◅\nTravel & Places\n🚀\n🏯\n🏰\n🎉\nSymbols\n🔯\n✴️\n🔺\n🔻\nSearch Emoji & Symbols\nCopy to Clipboard\n↵\nActions\n⌘\nK\nSearch for apps and commands...\nAsk AI\nTab\nSuggestions\nStore\nRaycast\nCommand\nClipboard History\nRaycast\nCommand\nSearch Files\nRaycast\nCommand\nMy Schedule\nCalendar\nCommand\nDefine Word\nDictionary\nCommand\nCommands\nCalculator History\nCalculator\nCommand\nMy Schedule\nCalendar\nCommand\nClipboard History\nRaycast\nCommand\nCalculator\nUse \"\" with...\nSearch Files\nFile Search\nCommand\nDefine Word\nDictionary\nCommand\nSearch Google\nGoogle Chrome\nQuicklink\nSearch DuckDuckGo\nGoogle Chrome\nQuicklink\nOpen Command\n↵\nActions\n⌘\nK\nwindow management\nResults\nLeft Half\nWindow Management\nRight Half\nWindow Management\nAlmost Maximize\nWindow Management\niOS Development\nWindow Management\nLast Third\nWindow Management\nLast Two Thirds\nWindow Management\nToggle Full Screen\nWindow Management\nTop Right Quarter\nWindow Management\nTop Left Quarter\nWindow Management\nBottom Half\nWindow Management\nOpen Command\n↵\nActions\n⌘\nK\nClipboard History\nRemember Everything. Stop playing Clipboard ping pong - with Clipboard History you’ll never forget anything.\nIt’s not about saving time.\n\nIt’s about feeling like you’re never wasting it.\n\nDownload\nesc\nF1\nF2\nF3\nF4\nF5\nF6\nF7\nF8\nF9\nF10\nF11\nF12\n±\n§\n!\n1\n@\n2\n#\n3\n$\n4\n%\n5\n^\n6\n&\n7\n*\n8\n(\n9\n)\n0\n_\n-\n+\n=\ndelete\nFast. Think in milliseconds.\nErgonomic.\nKeyboard First.\nE\nR\nT\nY\nU\nI\nO\nP\n{\n[\n}\n]\n|\n\\\nNative. Pure performance.\nReliable. 99.8%\ncrash-free rate.\nS\nD\nF\nG\nH\nJ\nK\nL\n:\n;\n\"\n,\n~\n`\nZ\nX\nC\nV\nB\nN\nM\n<\n,\n>\n.\n?\n/\nfn\ncontrol\noption\ncommand\ncommand\noption\nThere’s an extension for that.\n\nUse your favorite tools without even opening them.\n\nProductivity\nEngineering\nDesign\nWriting\nLinear\n\nCreate, search and modify your issues without leaving your keyboard.\n\nGoogle Translate\n\nUse Google Translate to effortlessly translate into multiple languages\n\nSpotify\n\nSearch for music and podcasts, browse your library, and control playback.\n\nArc\n\nNavigate your open tabs or search through your browser history.\n\nTinyPNG\n\nCompress the selected images in Finder with TinyPNG.\n\n1Password\n\nEasily grab any password or credential from your 1Password vaults.\n\nJIRA\n\nManage your JIRA issues and sprints without leaving your keyboard.\n\nSlack\n\nSet your presence, see unread messages and search your chats.\n\nZoom\n\nSee your upcoming calls and jump straight into them from Raycast.\n\nTimers\n\nStart stopwatches and timers to keep track of your daily tasks.\n\nPomodoro\n\nControl pomodoro timers and see the current interval in the menu bar.\n\nNotion\n\nThe fastest way to search and create Notion pages.\n\nTodoist\n\nCheck your Todoist tasks and quickly create new ones\n\nGoogle Search\n\nNeed to know something fast? Google it straight from Raycast.\n\nObsidian\n\nCapture information, manage tasks and pin notes to your menu bar.\n\nGoogle Chrome\n\nSearch open tabs, bookmarks and history in Google Chrome.\n\nCleanShot X\n\nTrigger CleanShot X screen captures right from your keyboard.\n\nPlus thousands more...\nBrowse the store\nBrowse thousands more\nAI\nYour Mac just got smarter.\n\nAI where it’s most useful - on your OS.\n\nSearch for apps and commands...\nAsk Anything, Anytime, Anywhere. Quick AI combines the power of AI with the web to answer any question.\nAlways On ChatGPT. Stuck while coding? Need help writing an email? Meet your new virtual assistant.\nYour Automation Assistant. Create your own AI Commands to automate repetitive tasks and eliminate chores.\nMore about AI\nBuilt for professionals like you.\n\nUsed by seriously productive people.\n\nGuillermo Rauch\n@rauchg\nCEO, Vercel\nMarques Brownlee\n@MKBHD\nCreator, MKBHD\nKoen Bok\n@koenbok\nFounder, Framer\nAndreas Storm\n@avstorm\nDesigner & Iconograph\nAdam Wathan\n@adamwathan\nCreator, Tailwind CSS\nWes Bos\n@wesbos\nCo-host, SyntaxFM\nRidd\n@ridd_design\nCreator, Dive Club\nMax Stoiber\n@mxstbr\nCEO, Stellate\nZach Holman\n@holman\nAngel Investor\nAnsub\n@justansub\nFounding Engineer\nKitze\n@thekitze\nFounder\nFlorian Kiem\n@flornkm\nDesign Engineer\nWojtek Witkowski\n@pugson\nDesign Engineer\nReece Atkinson\n@reece_dev\nStudent\nMariana Castilho\n@mrncst\nDesigner\nOliur\n@UltraLinx\nDesigner\nJia\n@upinthezone\nStudent\nTomek Sułkowski\n@sulco\nDeveloper Advocate\nNicolas Neubert\n@iamneubert\nRunway AI\nJaime Creixems\n@webjac\nDesign Advocate\nGavin Nelson\n@gavmn\nDesigner, OpenAI\nIsabel Sá\n@isabelsoasa\nDesigner\nSteven Tey\n@steventey\nFounder, Dub\nAdam Whitcroft\n@AdamWhitcroft\nDesigner, Owner\nFavorite Feature:\nAI Chat\n\nRealtime knowledge, anywhere in your OS.\n\nTop Extension:\nNotion Search\n\nI forked the Notion Search extension so I can easily paste \"tokenized\" doc links into Slack.\n\nRaycast is incrementally turning my Mac into an AI-native operating system and I’m so here for it.\n\nDon't repeat yourself.\n\nAutomate the things you do all the time.\n\nSnippets\n\nTired of typing the same thing? Create a snippet and insert it by simply typing its keyword.\n\nSure, here you go:\n\n3rd Floor 1 Ashley Road, WA14 2DT Altrincham, Cheshire\n\nSend\nQuicklinks\n\nSay goodbye to open tabs. Create quicklinks to launch anything from anywhere.\n\noption\n+\ncommand\n+\nL\nHotkeys and Aliases\n\nSpeed up your workflow by assigning hotkeys or aliases to common commands or apps.\n\nWhat else can Raycast do?\nIt can take notes. Track your flights. Convert anything. Search files. Run scripts. Manage your windows. Plan your day. Remind you of stuff. Translate into any language. Block distractions. Find text in screenshots. Insert Emojis.\nAnd much, much more.\nRaycast Notes\n\nA quick way to capture a thought while working on something else. Learn more\n\nStay in the loop.\n\nJoin the community and learn how other people get the most out of Raycast.\n\nSlack\n37k members\n\nGet the inside track on new features and learn how other people use Raycast.\n\nJoin\nX/Twitter\n90k followers\n\nKeep up to date with the latest releases, features and improvements.\n\nFollow\n\nIntroducing Raycast Focus\n\nMastering Quicklinks in Raycast\n\nRaycast Notes is Finally Out\n\nWe Tested Apple's New Window Management Against Raycast\n\nYou MUST change these Raycast settings ⚙️\n\n101 Things You Can Do With Raycast\n\n7 more Raycast tricks to level up your productivity\n\nKitze shows Pedro his Raycast setup in Barcelona\n\n12 months of Raycast Pro 🎉\n\nMax Stoiber Owns His Workflow with Raycast\n\nIntroducing Raycast AI Presets\n\nAll About Raycast Snippets: Stop Repeating Yourself!\n\nIntroducing a revamped AI Chat\n\nHe's a Raycast newbie. What can he do?\n\nHow we built the best emoji picker 🤖\n\nWhat's in Wes Bos's Raycast\n\n9 hidden Raycast tricks to up your game\n\nOur Extension Picks for UI Developers\n\nCheck out our YouTube channel to learn about features you didn’t even know existed.\n\nBuild the perfect tools.\n\nOur extension API is designed to allow anyone with web development skills to unleash the power of Raycast.\n\nRead the docs\nFIG_0\nFIG_0\nReact to macOS\n\nBuild rich, native extensions with the technologies you already know: React, TypeScript and Node.\n\nFIG_0\nBuilt-in UI\n\nOur UI comp"
+}

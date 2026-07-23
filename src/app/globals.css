@@ -7,9 +7,17 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+  --font-sans: var(--font-inter), "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
   --font-heading: var(--font-sans);
+  --color-ray-red: var(--ray-red);
+  --color-ray-muted: var(--ray-muted);
+  --color-ray-muted-2: var(--ray-muted-2);
+  --color-ray-border: var(--ray-border);
+  --color-ray-surface: var(--ray-surface);
+  --color-ray-surface-2: var(--ray-surface-2);
+  --color-ray-button: var(--ray-button);
+  --color-ray-button-fg: var(--ray-button-fg);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,82 +57,152 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  /* Raycast dark homepage tokens (from getComputedStyle) */
+  --background: #07080a;
+  --foreground: #ffffff;
+  --ray-red: #ff6363;
+  --ray-muted: #9c9c9d;
+  --ray-muted-2: #6a6b6c;
+  --ray-border: rgba(255, 255, 255, 0.06);
+  --ray-surface: #111214;
+  --ray-surface-2: #17181a;
+  --ray-button: #e6e6e6;
+  --ray-button-fg: #2f3031;
+  --card: #111214;
+  --card-foreground: #ffffff;
+  --popover: #111214;
+  --popover-foreground: #ffffff;
+  --primary: #e6e6e6;
+  --primary-foreground: #2f3031;
+  --secondary: #17181a;
+  --secondary-foreground: #ffffff;
+  --muted: #17181a;
+  --muted-foreground: #9c9c9d;
+  --accent: #17181a;
+  --accent-foreground: #ffffff;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.1);
+  --ring: #6a6b6c;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --radius: 0.5rem;
+  --sidebar: #111214;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ff6363;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #17181a;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #6a6b6c;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --background: #07080a;
+  --foreground: #ffffff;
+  --card: #111214;
+  --card-foreground: #ffffff;
+  --popover: #111214;
+  --popover-foreground: #ffffff;
+  --primary: #e6e6e6;
+  --primary-foreground: #2f3031;
+  --secondary: #17181a;
+  --secondary-foreground: #ffffff;
+  --muted: #17181a;
+  --muted-foreground: #9c9c9d;
+  --accent: #17181a;
+  --accent-foreground: #ffffff;
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.15);
+  --ring: #6a6b6c;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    @apply font-sans antialiased;
+    color-scheme: dark;
+  }
   body {
     @apply bg-background text-foreground;
+    background-color: #07080a;
+    color: #ffffff;
   }
-  html {
-    @apply font-sans;
+}
+
+@layer utilities {
+  .hide-scrollbars {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbars::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ray-section-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-align: center;
+  }
+
+  .ray-section-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #9c9c9d;
+    text-align: center;
+  }
+
+  .fade-in-up {
+    animation: fadeInUp 0.7s ease-out both;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+  }
+
+  @keyframes heroGlowPulse {
+    0%,
+    100% {
+      opacity: 0.85;
+      transform: scale(1) rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.03) rotate(1deg);
+    }
+  }
+
+  .hero-glow-pulse {
+    animation: heroGlowPulse 8s ease-in-out infinite;
   }
 }

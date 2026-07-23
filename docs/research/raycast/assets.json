@@ -1,0 +1,700 @@
+{
+  "imgs": [
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfeatureBackground.7492bde9.png&w=1920&q=100",
+      "alt": "Frame Background Image",
+      "w": 1793,
+      "h": 1011
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwallpaper.f51cbd64.png&w=32&q=70",
+      "alt": "mini version of desktop wallpaper image that is in the clipboard history",
+      "w": 32,
+      "h": 14
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmangos.6b2d28e6.jpeg&w=32&q=70",
+      "alt": "mini version of picture of two mangos",
+      "w": 32,
+      "h": 21
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic.1bc3e3ac.jpeg&w=32&q=70",
+      "alt": "mini version of a magician with a magic stick and a hat",
+      "w": 32,
+      "h": 18
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic-at-your-fingertips.10b9ee35.png&w=32&q=70",
+      "alt": "mini version of magic at your fingertips screenshot",
+      "w": 32,
+      "h": 16
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=32&q=70",
+      "alt": "Clipboard History Command Icon",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-package-bg.84229341.png&w=48&q=70",
+      "alt": "Store Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=32&q=70",
+      "alt": "Store Icon",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70",
+      "alt": "Search Files Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70",
+      "alt": "Calendar Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70",
+      "alt": "Dictionary Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-calculator-history.a26c44ed.png&w=48&q=70",
+      "alt": "Dictionary Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70",
+      "alt": "Calendar Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=32&q=70",
+      "alt": "Store Icon",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70",
+      "alt": "Search Files Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70",
+      "alt": "Dictionary Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-google.4d4566ad.png&w=48&q=70",
+      "alt": "Google Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-duckduckgo.163fb12f.png&w=48&q=70",
+      "alt": "Duck Duck Go Icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fspotify-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fspotify-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Farc-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Farc-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftiny-png-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftiny-png-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2F1password-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2F1password-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fjira-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fjira-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fslack-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fslack-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fzoom-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fzoom-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftimers-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftimers-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fpomodoro-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fpomodoro-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fnotion-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fnotion-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftodoist-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftodoist-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-search-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-search-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fobsidian-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fobsidian-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-chrome-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-chrome-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fcleanshotx-icon.png&w=64&q=70",
+      "alt": "",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fcleanshotx-web.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 384
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmore-extensions.8dc6c008.png&w=384&q=70",
+      "alt": "",
+      "w": 384,
+      "h": 441
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1080&q=70",
+      "alt": "",
+      "w": 1080,
+      "h": 1080
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1080&q=70",
+      "alt": "",
+      "w": 1080,
+      "h": 1080
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquick-ai-mobile.a1c4047f.png&w=3840&q=70",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fguillermo.1ede87e2.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmkbhd.3978890d.jpg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkoen.6d1f621a.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favstorm.501925b2.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadamwathan.7d406127.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwesbos.9d09a8a6.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fridd.33ab2cf2.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmxstbr.500c6710.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzachholman.4b5fe06c.png&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjustansub.9b20ee4a.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthekitze.bf1fb689.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflornkm.80084690.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpugson.7221ae03.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freece_dev.c2c210ab.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmrncst.57e56abb.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUltraLinx.9e713da6.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fupinthezone.41e5fa80.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsulco.a1f04db6.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiamneubert.db5589d6.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwebjac.fc227ab7.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgavmn.0d1ce528.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fisabelsoasa.c147d05d.jpg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsteventey.cf42b43e.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAdamWhitcroft.8b7c60bb.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnotion.13382e38.png&w=256&q=70",
+      "alt": "iMessage 2FA Raycast Extension command icon",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsnippets-blue-glass.3f8eb367.png&w=1920&q=90",
+      "alt": "Blue glass-effect visual backdrop",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquicklinks-showcase.4179f21c.png&w=1200&q=70",
+      "alt": "Screenshot of Raycast showcasing the Figma Scratchad Quick Link",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-notes.d46cb687.png&w=3840&q=90",
+      "alt": "Raycast Notes",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-tracker.41d98c94.png&w=3840&q=90",
+      "alt": "Flight Tracker",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalculator.d0b6fc01.png&w=3840&q=90",
+      "alt": "Calculator",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffile-search.cc18c68b.png&w=3840&q=90",
+      "alt": "File Search",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscript-commands.9e5497a7.png&w=3840&q=90",
+      "alt": "Script Commands",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwindow-management.42db743b.png&w=3840&q=90",
+      "alt": "Window Management",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fschedule.ff46670c.png&w=3840&q=90",
+      "alt": "My Schedule",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freminders.68fbffbc.png&w=3840&q=90",
+      "alt": "Apple Reminders",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslator.5ac0ae60.png&w=3840&q=90",
+      "alt": "Translation",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffocus.4af7b56f.png&w=3840&q=90",
+      "alt": "Raycast Focus",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscreenshot-search.bf4d4d93.png&w=3840&q=90",
+      "alt": "Search Screenshots",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femoji-picker.fd3ad392.png&w=3840&q=90",
+      "alt": "Search Emojis and Symbols",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommunity-background.31147d7b.png&w=1920&q=70",
+      "alt": "Background image",
+      "w": 0,
+      "h": 0
+    },
+    {
+      "src": "https://i.ytimg.com/vi/NZwqx_dS-k0/hqdefault.jpg",
+      "alt": "Introducing Raycast Focus",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/W9FPWzorLyI/hqdefault.jpg",
+      "alt": "Mastering Quicklinks in Raycast",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/6knS3y39f7k/hqdefault.jpg",
+      "alt": "Raycast Notes is Finally Out",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/A4bewhG4724/hqdefault.jpg",
+      "alt": "We Tested Apple's New Window Management Against Raycast",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/yR2hnn7Ghko/hqdefault.jpg",
+      "alt": "You MUST change these Raycast settings ⚙️",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/NuIpZoQwuVY/hqdefault.jpg",
+      "alt": "101 Things You Can Do With Raycast",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/qobDloop1bg/hqdefault.jpg",
+      "alt": "7 more Raycast tricks to level up your productivity",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/HDQIvbLCF7Y/hqdefault.jpg",
+      "alt": "Kitze shows Pedro his Raycast setup in Barcelona",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/_DxukQdW1yg/hqdefault.jpg",
+      "alt": "12 months of Raycast Pro 🎉",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/m5MDv9qwhU8/hqdefault.jpg",
+      "alt": "Max Stoiber Owns His Workflow with Raycast",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/4Hi21ZpdrOc/hqdefault.jpg",
+      "alt": "Introducing Raycast AI Presets",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/_P1b00n12PU/hqdefault.jpg",
+      "alt": "All About Raycast Snippets: Stop Repeating Yourself!",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/RFwumqHLc8Y/hqdefault.jpg",
+      "alt": "Introducing a revamped AI Chat",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/OHuLnaY7Nxs/hqdefault.jpg",
+      "alt": "He's a Raycast newbie. What can he do?",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/Xc262WTsZoU/hqdefault.jpg",
+      "alt": "How we built the best emoji picker 🤖",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/UUPStiOLKlU/hqdefault.jpg",
+      "alt": "What's in Wes Bos's Raycast",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/9KvmDCy23g0/hqdefault.jpg",
+      "alt": "9 hidden Raycast tricks to up your game",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://i.ytimg.com/vi/oy8jtxl7c2I/hqdefault.jpg",
+      "alt": "Our Extension Picks for UI Developers",
+      "w": 480,
+      "h": 360
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1920&q=70",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    }
+  ],
+  "sources": [],
+  "bgUrls": [],
+  "favicons": [
+    "https://www.raycast.com/favicon-production.png"
+  ],
+  "og": "https://www.raycast.com/opengraph-image-pwu6ef.png?7385e23163a01717"
+}

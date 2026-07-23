@@ -1,0 +1,19 @@
+{
+  "headerTop": {
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "height": "92px",
+    "boxShadow": "none",
+    "position": "fixed",
+    "borderBottom": "0px none rgb(255, 255, 255)",
+    "classes": "Navbar_container__x_wnu"
+  },
+  "headerScrolled": {
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "height": "92px",
+    "boxShadow": "none",
+    "position": "fixed",
+    "borderBottom": "0px none rgb(255, 255, 255)"
+  }
+}
