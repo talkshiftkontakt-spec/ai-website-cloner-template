@@ -1,0 +1,336 @@
+{
+  "beforeScroll": [
+    {
+      "classes": "page_heroText___VRvH page_fadeInUp__yDeSr",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "top": 0
+    },
+    {
+      "classes": "page_fadeInUpStagger__UbVUU",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "top": 543
+    },
+    {
+      "classes": "page_sectionContainer__86OJv",
+      "opacity": "1",
+      "transform": "none",
+      "top": 1164
+    },
+    {
+      "classes": "Features_container__cNA2k hide-scrollbars",
+      "opacity": "1",
+      "transform": "none",
+      "top": 1388
+    },
+    {
+      "classes": "SectionTitle_container__qvIRZ Features_sectionTitle__3tVmK SectionTitle_center__",
+      "opacity": "1",
+      "transform": "none",
+      "top": 1388
+    },
+    {
+      "classes": "Features_backdropWrapper__L2OUh",
+      "opacity": "1",
+      "transform": "none",
+      "top": 1500
+    },
+    {
+      "classes": "Features_backdrop__VxyxO",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "top": 1440
+    },
+    {
+      "classes": "Features_stars__YRhs6",
+      "opacity": "1",
+      "transform": "none",
+      "top": 1455
+    },
+    {
+      "classes": "Features_top__hfxko",
+      "opacity": "1",
+      "transform": "none",
+      "top": 1455
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.367187",
+      "transform": "none",
+      "top": 1489
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.394062",
+      "transform": "none",
+      "top": 1462
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.300173",
+      "transform": "none",
+      "top": 1490
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.37273",
+      "transform": "none",
+      "top": 1478
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.257432",
+      "transform": "none",
+      "top": 1476
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.375935",
+      "transform": "none",
+      "top": 1478
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.199769",
+      "transform": "none",
+      "top": 1482
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.32287",
+      "transform": "none",
+      "top": 1473
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.252492",
+      "transform": "none",
+      "top": 1470
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.189678",
+      "transform": "none",
+      "top": 1493
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.399089",
+      "transform": "none",
+      "top": 1458
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.118154",
+      "transform": "none",
+      "top": 1461
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.193881",
+      "transform": "none",
+      "top": 1483
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.117604",
+      "transform": "none",
+      "top": 1473
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.223278",
+      "transform": "none",
+      "top": 1500
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.123288",
+      "transform": "none",
+      "top": 1474
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.16267",
+      "transform": "none",
+      "top": 1457
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.306465",
+      "transform": "none",
+      "top": 1457
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.375909",
+      "transform": "none",
+      "top": 1473
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.148427",
+      "transform": "none",
+      "top": 1464
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.179435",
+      "transform": "none",
+      "top": 1472
+    }
+  ],
+  "midScroll": [
+    {
+      "classes": "page_heroText___VRvH page_fadeInUp__yDeSr",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "classes": "page_fadeInUpStagger__UbVUU",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "classes": "page_sectionContainer__86OJv",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_container__cNA2k hide-scrollbars",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "SectionTitle_container__qvIRZ Features_sectionTitle__3tVmK SectionTitle_center__",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_backdropWrapper__L2OUh",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_backdrop__VxyxO",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "classes": "Features_stars__YRhs6",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_top__hfxko",
+      "opacity": "1",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.367187",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.394062",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.300173",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.37273",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.257432",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.375935",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.199769",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.32287",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.252492",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.189678",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.399089",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.118154",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.193881",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.117604",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.223278",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.123288",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.16267",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.306465",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.375909",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.148427",
+      "transform": "none"
+    },
+    {
+      "classes": "Features_star__CMn8R",
+      "opacity": "0.179435",
+      "transform": "none"
+    }
+  ]
+}

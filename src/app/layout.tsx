@@ -1,20 +1,33 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  metadataBase: new URL("https://www.raycast.com"),
+  title: "Raycast - Your shortcut to everything",
+  description:
+    "A collection of powerful productivity tools all within an extendable launcher.",
+  icons: {
+    icon: "/seo/favicon.png",
+  },
+  openGraph: {
+    title: "Raycast - Your shortcut to everything",
+    description:
+      "A collection of powerful productivity tools all within an extendable launcher.",
+    images: ["/seo/og-image.png"],
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +38,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${geistMono.variable} dark h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#07080a] text-white">
+        {children}
+      </body>
     </html>
   );
 }

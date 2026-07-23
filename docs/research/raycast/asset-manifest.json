@@ -1,0 +1,582 @@
+{
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic-at-your-fingertips.10b9ee35.png&w=32&q=70": {
+    "local": "/images/raycast/features/magic-at-your-fingertips.10b9ee35.png",
+    "dest": "/workspace/public/images/raycast/features/magic-at-your-fingertips.10b9ee35.png",
+    "size": 408
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwallpaper.f51cbd64.png&w=32&q=70": {
+    "local": "/images/raycast/features/wallpaper.f51cbd64.png",
+    "dest": "/workspace/public/images/raycast/features/wallpaper.f51cbd64.png",
+    "size": 266
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfeatureBackground.7492bde9.png&w=1920&q=100": {
+    "local": "/images/raycast/features/featureBackground.7492bde9.png",
+    "dest": "/workspace/public/images/raycast/features/featureBackground.7492bde9.png",
+    "size": 257748
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmangos.6b2d28e6.jpeg&w=32&q=70": {
+    "local": "/images/raycast/features/mangos.6b2d28e6.jpeg",
+    "dest": "/workspace/public/images/raycast/features/mangos.6b2d28e6.jpeg",
+    "size": 539
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic.1bc3e3ac.jpeg&w=32&q=70": {
+    "local": "/images/raycast/features/magic.1bc3e3ac.jpeg",
+    "dest": "/workspace/public/images/raycast/features/magic.1bc3e3ac.jpeg",
+    "size": 554
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=32&q=70": {
+    "local": "/images/raycast/features/command-clipboard-history.fa06c2bb.png",
+    "dest": "/workspace/public/images/raycast/features/command-clipboard-history.fa06c2bb.png",
+    "size": 696
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70": {
+    "local": "/images/raycast/features/command-file-search-16.51137efe.png",
+    "dest": "/workspace/public/images/raycast/features/command-file-search-16.51137efe.png",
+    "size": 627
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70": {
+    "local": "/images/raycast/features/calendar-extension-dark.4117f5df.png",
+    "dest": "/workspace/public/images/raycast/features/calendar-extension-dark.4117f5df.png",
+    "size": 662
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-calculator-history.a26c44ed.png&w=48&q=70": {
+    "local": "/images/raycast/features/command-calculator-history.a26c44ed.png",
+    "dest": "/workspace/public/images/raycast/features/command-calculator-history.a26c44ed.png",
+    "size": 581
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/linear-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/linear-icon.png",
+    "size": 1391
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70": {
+    "local": "/images/raycast/features/dictionary-extension-16.a768f3b0.png",
+    "dest": "/workspace/public/images/raycast/features/dictionary-extension-16.a768f3b0.png",
+    "size": 613
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-google.4d4566ad.png&w=48&q=70": {
+    "local": "/images/raycast/features/web-google.4d4566ad.png",
+    "dest": "/workspace/public/images/raycast/features/web-google.4d4566ad.png",
+    "size": 778
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/google-translate-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/google-translate-icon.png",
+    "size": 1555
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/linear-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/linear-web.png",
+    "size": 21229
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/google-translate-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/google-translate-web.png",
+    "size": 10289
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fspotify-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/spotify-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/spotify-icon.png",
+    "size": 1300
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Farc-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/arc-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/arc-icon.png",
+    "size": 1493
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftiny-png-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/tiny-png-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/tiny-png-icon.png",
+    "size": 1552
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-package-bg.84229341.png&w=48&q=70": {
+    "local": "/images/raycast/features/raycast-package-bg.84229341.png",
+    "dest": "/workspace/public/images/raycast/features/raycast-package-bg.84229341.png",
+    "size": 554
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Farc-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/arc-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/arc-web.png",
+    "size": 37478
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftiny-png-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/tiny-png-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/tiny-png-web.png",
+    "size": 15911
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2F1password-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/1password-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/1password-web.png",
+    "size": 19269
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fspotify-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/spotify-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/spotify-web.png",
+    "size": 28087
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2F1password-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/1password-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/1password-icon.png",
+    "size": 1353
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fjira-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/jira-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/jira-web.png",
+    "size": 25609
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fslack-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/slack-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/slack-web.png",
+    "size": 34786
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fzoom-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/zoom-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/zoom-icon.png",
+    "size": 1250
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fslack-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/slack-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/slack-icon.png",
+    "size": 1825
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fzoom-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/zoom-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/zoom-web.png",
+    "size": 21530
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fjira-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/jira-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/jira-icon.png",
+    "size": 1014
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftimers-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/timers-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/timers-icon.png",
+    "size": 2256
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftimers-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/timers-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/timers-web.png",
+    "size": 16202
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fpomodoro-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/pomodoro-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/pomodoro-icon.png",
+    "size": 2652
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fpomodoro-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/pomodoro-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/pomodoro-web.png",
+    "size": 22096
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fnotion-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/notion-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/notion-icon.png",
+    "size": 1296
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftodoist-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/todoist-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/todoist-web.png",
+    "size": 21158
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fnotion-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/notion-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/notion-web.png",
+    "size": 29212
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-search-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/google-search-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/google-search-web.png",
+    "size": 28524
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-search-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/google-search-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/google-search-icon.png",
+    "size": 1511
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftodoist-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/todoist-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/todoist-icon.png",
+    "size": 1150
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fobsidian-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/obsidian-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/obsidian-icon.png",
+    "size": 1658
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fobsidian-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/obsidian-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/obsidian-web.png",
+    "size": 26077
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-duckduckgo.163fb12f.png&w=48&q=70": {
+    "local": "/images/raycast/features/web-duckduckgo.163fb12f.png",
+    "dest": "/workspace/public/images/raycast/features/web-duckduckgo.163fb12f.png",
+    "size": 802
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-chrome-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/google-chrome-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/google-chrome-web.png",
+    "size": 35105
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fcleanshotx-web.png&w=384&q=70": {
+    "local": "/images/raycast/extensions/cleanshotx-web.png",
+    "dest": "/workspace/public/images/raycast/extensions/cleanshotx-web.png",
+    "size": 24946
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fcleanshotx-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/cleanshotx-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/cleanshotx-icon.png",
+    "size": 1947
+  },
+  "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-chrome-icon.png&w=64&q=70": {
+    "local": "/images/raycast/extensions/google-chrome-icon.png",
+    "dest": "/workspace/public/images/raycast/extensions/google-chrome-icon.png",
+    "size": 2153
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmore-extensions.8dc6c008.png&w=384&q=70": {
+    "local": "/images/raycast/features/more-extensions.8dc6c008.png",
+    "dest": "/workspace/public/images/raycast/features/more-extensions.8dc6c008.png",
+    "size": 31347
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquick-ai-mobile.a1c4047f.png&w=3840&q=70": {
+    "local": "/images/raycast/features/quick-ai-mobile.a1c4047f.png",
+    "dest": "/workspace/public/images/raycast/features/quick-ai-mobile.a1c4047f.png",
+    "size": 91832
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fguillermo.1ede87e2.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/guillermo.1ede87e2.png",
+    "dest": "/workspace/public/images/raycast/avatars/guillermo.1ede87e2.png",
+    "size": 3461
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkoen.6d1f621a.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/koen.6d1f621a.png",
+    "dest": "/workspace/public/images/raycast/avatars/koen.6d1f621a.png",
+    "size": 8070
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1080&q=70": {
+    "local": "/images/raycast/features/isolatedCube.0cfa31f6.png",
+    "dest": "/workspace/public/images/raycast/features/isolatedCube.0cfa31f6.png",
+    "size": 226454
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwesbos.9d09a8a6.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/wesbos.9d09a8a6.png",
+    "dest": "/workspace/public/images/raycast/avatars/wesbos.9d09a8a6.png",
+    "size": 8194
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fridd.33ab2cf2.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/ridd.33ab2cf2.png",
+    "dest": "/workspace/public/images/raycast/avatars/ridd.33ab2cf2.png",
+    "size": 6352
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadamwathan.7d406127.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/adamwathan.7d406127.png",
+    "dest": "/workspace/public/images/raycast/avatars/adamwathan.7d406127.png",
+    "size": 4378
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmkbhd.3978890d.jpg&w=96&q=70": {
+    "local": "/images/raycast/avatars/mkbhd.3978890d.jpg",
+    "dest": "/workspace/public/images/raycast/avatars/mkbhd.3978890d.jpg",
+    "size": 1967
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmxstbr.500c6710.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/mxstbr.500c6710.png",
+    "dest": "/workspace/public/images/raycast/avatars/mxstbr.500c6710.png",
+    "size": 4935
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzachholman.4b5fe06c.png&w=96&q=70": {
+    "local": "/images/raycast/avatars/zachholman.4b5fe06c.png",
+    "dest": "/workspace/public/images/raycast/avatars/zachholman.4b5fe06c.png",
+    "size": 9262
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthekitze.bf1fb689.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/thekitze.bf1fb689.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/thekitze.bf1fb689.jpeg",
+    "size": 2044
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjustansub.9b20ee4a.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/justansub.9b20ee4a.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/justansub.9b20ee4a.jpeg",
+    "size": 2111
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflornkm.80084690.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/flornkm.80084690.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/flornkm.80084690.jpeg",
+    "size": 1497
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freece_dev.c2c210ab.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/reece_dev.c2c210ab.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/reece_dev.c2c210ab.jpeg",
+    "size": 1739
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmrncst.57e56abb.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/mrncst.57e56abb.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/mrncst.57e56abb.jpeg",
+    "size": 1543
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUltraLinx.9e713da6.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/UltraLinx.9e713da6.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/UltraLinx.9e713da6.jpeg",
+    "size": 1573
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favstorm.501925b2.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/avstorm.501925b2.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/avstorm.501925b2.jpeg",
+    "size": 1218
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsulco.a1f04db6.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/sulco.a1f04db6.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/sulco.a1f04db6.jpeg",
+    "size": 1850
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiamneubert.db5589d6.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/iamneubert.db5589d6.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/iamneubert.db5589d6.jpeg",
+    "size": 1394
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwebjac.fc227ab7.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/webjac.fc227ab7.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/webjac.fc227ab7.jpeg",
+    "size": 1690
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgavmn.0d1ce528.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/gavmn.0d1ce528.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/gavmn.0d1ce528.jpeg",
+    "size": 1313
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsteventey.cf42b43e.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/steventey.cf42b43e.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/steventey.cf42b43e.jpeg",
+    "size": 1779
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpugson.7221ae03.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/pugson.7221ae03.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/pugson.7221ae03.jpeg",
+    "size": 1483
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAdamWhitcroft.8b7c60bb.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/AdamWhitcroft.8b7c60bb.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/AdamWhitcroft.8b7c60bb.jpeg",
+    "size": 1114
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fupinthezone.41e5fa80.jpeg&w=96&q=70": {
+    "local": "/images/raycast/avatars/upinthezone.41e5fa80.jpeg",
+    "dest": "/workspace/public/images/raycast/avatars/upinthezone.41e5fa80.jpeg",
+    "size": 1959
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquicklinks-showcase.4179f21c.png&w=1200&q=70": {
+    "local": "/images/raycast/features/quicklinks-showcase.4179f21c.png",
+    "dest": "/workspace/public/images/raycast/features/quicklinks-showcase.4179f21c.png",
+    "size": 17786
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsnippets-blue-glass.3f8eb367.png&w=1920&q=90": {
+    "local": "/images/raycast/features/snippets-blue-glass.3f8eb367.png",
+    "dest": "/workspace/public/images/raycast/features/snippets-blue-glass.3f8eb367.png",
+    "size": 169134
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fisabelsoasa.c147d05d.jpg&w=96&q=70": {
+    "local": "/images/raycast/avatars/isabelsoasa.c147d05d.jpg",
+    "dest": "/workspace/public/images/raycast/avatars/isabelsoasa.c147d05d.jpg",
+    "size": 2315
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-notes.d46cb687.png&w=3840&q=90": {
+    "local": "/images/raycast/features/raycast-notes.d46cb687.png",
+    "dest": "/workspace/public/images/raycast/features/raycast-notes.d46cb687.png",
+    "size": 89866
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnotion.13382e38.png&w=256&q=70": {
+    "local": "/images/raycast/features/notion.13382e38.png",
+    "dest": "/workspace/public/images/raycast/features/notion.13382e38.png",
+    "size": 2195
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-tracker.41d98c94.png&w=3840&q=90": {
+    "local": "/images/raycast/features/flight-tracker.41d98c94.png",
+    "dest": "/workspace/public/images/raycast/features/flight-tracker.41d98c94.png",
+    "size": 122472
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffile-search.cc18c68b.png&w=3840&q=90": {
+    "local": "/images/raycast/features/file-search.cc18c68b.png",
+    "dest": "/workspace/public/images/raycast/features/file-search.cc18c68b.png",
+    "size": 132484
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalculator.d0b6fc01.png&w=3840&q=90": {
+    "local": "/images/raycast/features/calculator.d0b6fc01.png",
+    "dest": "/workspace/public/images/raycast/features/calculator.d0b6fc01.png",
+    "size": 118717
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscript-commands.9e5497a7.png&w=3840&q=90": {
+    "local": "/images/raycast/features/script-commands.9e5497a7.png",
+    "dest": "/workspace/public/images/raycast/features/script-commands.9e5497a7.png",
+    "size": 93331
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fschedule.ff46670c.png&w=3840&q=90": {
+    "local": "/images/raycast/features/schedule.ff46670c.png",
+    "dest": "/workspace/public/images/raycast/features/schedule.ff46670c.png",
+    "size": 77166
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwindow-management.42db743b.png&w=3840&q=90": {
+    "local": "/images/raycast/features/window-management.42db743b.png",
+    "dest": "/workspace/public/images/raycast/features/window-management.42db743b.png",
+    "size": 90482
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freminders.68fbffbc.png&w=3840&q=90": {
+    "local": "/images/raycast/features/reminders.68fbffbc.png",
+    "dest": "/workspace/public/images/raycast/features/reminders.68fbffbc.png",
+    "size": 72948
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslator.5ac0ae60.png&w=3840&q=90": {
+    "local": "/images/raycast/features/translator.5ac0ae60.png",
+    "dest": "/workspace/public/images/raycast/features/translator.5ac0ae60.png",
+    "size": 82242
+  },
+  "https://i.ytimg.com/vi/NZwqx_dS-k0/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-NZwqx_dS-k0.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-NZwqx_dS-k0.jpg",
+    "size": 6265
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffocus.4af7b56f.png&w=3840&q=90": {
+    "local": "/images/raycast/features/focus.4af7b56f.png",
+    "dest": "/workspace/public/images/raycast/features/focus.4af7b56f.png",
+    "size": 96255
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femoji-picker.fd3ad392.png&w=3840&q=90": {
+    "local": "/images/raycast/features/emoji-picker.fd3ad392.png",
+    "dest": "/workspace/public/images/raycast/features/emoji-picker.fd3ad392.png",
+    "size": 99370
+  },
+  "https://i.ytimg.com/vi/A4bewhG4724/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-A4bewhG4724.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-A4bewhG4724.jpg",
+    "size": 15238
+  },
+  "https://i.ytimg.com/vi/W9FPWzorLyI/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-W9FPWzorLyI.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-W9FPWzorLyI.jpg",
+    "size": 10138
+  },
+  "https://i.ytimg.com/vi/6knS3y39f7k/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-6knS3y39f7k.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-6knS3y39f7k.jpg",
+    "size": 9731
+  },
+  "https://i.ytimg.com/vi/qobDloop1bg/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-qobDloop1bg.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-qobDloop1bg.jpg",
+    "size": 12603
+  },
+  "https://i.ytimg.com/vi/yR2hnn7Ghko/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-yR2hnn7Ghko.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-yR2hnn7Ghko.jpg",
+    "size": 6848
+  },
+  "https://i.ytimg.com/vi/NuIpZoQwuVY/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-NuIpZoQwuVY.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-NuIpZoQwuVY.jpg",
+    "size": 6686
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscreenshot-search.bf4d4d93.png&w=3840&q=90": {
+    "local": "/images/raycast/features/screenshot-search.bf4d4d93.png",
+    "dest": "/workspace/public/images/raycast/features/screenshot-search.bf4d4d93.png",
+    "size": 112767
+  },
+  "https://i.ytimg.com/vi/HDQIvbLCF7Y/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-HDQIvbLCF7Y.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-HDQIvbLCF7Y.jpg",
+    "size": 20673
+  },
+  "https://i.ytimg.com/vi/_DxukQdW1yg/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-_DxukQdW1yg.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-_DxukQdW1yg.jpg",
+    "size": 22303
+  },
+  "https://i.ytimg.com/vi/m5MDv9qwhU8/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-m5MDv9qwhU8.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-m5MDv9qwhU8.jpg",
+    "size": 16883
+  },
+  "https://i.ytimg.com/vi/4Hi21ZpdrOc/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-4Hi21ZpdrOc.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-4Hi21ZpdrOc.jpg",
+    "size": 16412
+  },
+  "https://i.ytimg.com/vi/_P1b00n12PU/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-_P1b00n12PU.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-_P1b00n12PU.jpg",
+    "size": 14745
+  },
+  "https://i.ytimg.com/vi/Xc262WTsZoU/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-Xc262WTsZoU.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-Xc262WTsZoU.jpg",
+    "size": 19723
+  },
+  "https://i.ytimg.com/vi/UUPStiOLKlU/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-UUPStiOLKlU.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-UUPStiOLKlU.jpg",
+    "size": 25685
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1920&q=70": {
+    "local": "/images/raycast/features/isolatedCube.0cfa31f6.png",
+    "dest": "/workspace/public/images/raycast/features/isolatedCube.0cfa31f6.png",
+    "skipped": true
+  },
+  "https://i.ytimg.com/vi/RFwumqHLc8Y/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-RFwumqHLc8Y.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-RFwumqHLc8Y.jpg",
+    "size": 11558
+  },
+  "https://i.ytimg.com/vi/oy8jtxl7c2I/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-oy8jtxl7c2I.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-oy8jtxl7c2I.jpg",
+    "size": 22360
+  },
+  "https://www.raycast.com/_next/static/media/featureBackground.7492bde9.png": {
+    "local": "/images/raycast/features/featureBackground.7492bde9.png",
+    "dest": "/workspace/public/images/raycast/features/featureBackground.7492bde9.png",
+    "skipped": true
+  },
+  "https://i.ytimg.com/vi/9KvmDCy23g0/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-9KvmDCy23g0.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-9KvmDCy23g0.jpg",
+    "size": 15715
+  },
+  "https://www.raycast.com/_next/static/media/isolatedCube.0cfa31f6.png": {
+    "local": "/images/raycast/features/isolatedCube.0cfa31f6.png",
+    "dest": "/workspace/public/images/raycast/features/isolatedCube.0cfa31f6.png",
+    "skipped": true
+  },
+  "https://www.raycast.com/_next/static/media/snippets-blue-glass.3f8eb367.png": {
+    "local": "/images/raycast/features/snippets-blue-glass.3f8eb367.png",
+    "dest": "/workspace/public/images/raycast/features/snippets-blue-glass.3f8eb367.png",
+    "skipped": true
+  },
+  "https://www.raycast.com/_next/static/media/quicklinks-showcase.4179f21c.png": {
+    "local": "/images/raycast/features/quicklinks-showcase.4179f21c.png",
+    "dest": "/workspace/public/images/raycast/features/quicklinks-showcase.4179f21c.png",
+    "skipped": true
+  },
+  "https://i.ytimg.com/vi/OHuLnaY7Nxs/hqdefault.jpg": {
+    "local": "/images/raycast/youtube/yt-OHuLnaY7Nxs.jpg",
+    "dest": "/workspace/public/images/raycast/youtube/yt-OHuLnaY7Nxs.jpg",
+    "size": 19503
+  },
+  "https://www.raycast.com/favicon-production.png": {
+    "local": "/seo/favicon.png",
+    "dest": "/workspace/public/seo/favicon.png",
+    "size": 18876
+  },
+  "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommunity-background.31147d7b.png&w=1920&q=70": {
+    "local": "/images/raycast/features/community-background.31147d7b.png",
+    "dest": "/workspace/public/images/raycast/features/community-background.31147d7b.png",
+    "size": 290240
+  },
+  "https://www.raycast.com/opengraph-image-pwu6ef.png?7385e23163a01717": {
+    "local": "/seo/og-image.png",
+    "dest": "/workspace/public/seo/og-image.png",
+    "size": 3093516
+  },
+  "https://www.raycast.com/_next/static/media/community-background.31147d7b.png": {
+    "local": "/images/raycast/features/community-background.31147d7b.png",
+    "dest": "/workspace/public/images/raycast/features/community-background.31147d7b.png",
+    "size": 1142409
+  }
+}

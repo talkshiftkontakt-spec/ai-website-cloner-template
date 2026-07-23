@@ -1,0 +1,269 @@
+{
+  "text": "Product\nStore\nPro\nTeams\nPricing\nChangelog\nBrowser Extension\nDevelopers\niOS\nWindows\nRaycast 2.0\nAPI Docs\nManual\nTroubleshooting\nRaycast vs Alfred\nFAQ\nCore Features\nRaycast AI\nRaycast Notes\nRaycast Focus\nClipboard History\nWindow Management\nSnippets\nFile Search\nQuicklinks\nCalculator\nCalendar\nSystem\nEmoji Picker\nTop Extensions\nDesign Tools\nDeveloper Tools\nPomodoro Timer\nProductivity\nProject Management\nTime Management\nTranscript\nTranslation\nWork From Home\nAI\nCompany\nManifesto\nCustomers\nCareers\nTerms of Service\nPrivacy Policy\nAcceptable Use Policy\nDPA\nTrust Center\nPress Kit\nContact\nCommunity\nCommunity Stories\nAmbassadors\nSlack\nX/Twitter\nGitHub\nDribbble\nBy Raycast\nGlaze\nTry Raycast AI\nExplore Snippets\nExplore Quicklinks\nPrompts\nChat Presets\nray.so\nIcon Maker\nMerch\nWallpapers\nSubscribe to our newsletter.\n\nGet product updates and news in your inbox. No spam.\n\nBy submitting your email address, you agree to receive Raycast’s monthly newsletter. For more information, please read our privacy policy. You can always withdraw your consent.",
+  "classes": "Footer_container__6pNfo",
+  "links": [
+    {
+      "text": "Store",
+      "href": "/store"
+    },
+    {
+      "text": "Pro",
+      "href": "/pro"
+    },
+    {
+      "text": "Teams",
+      "href": "/teams"
+    },
+    {
+      "text": "Pricing",
+      "href": "/pricing"
+    },
+    {
+      "text": "Changelog",
+      "href": "/changelog"
+    },
+    {
+      "text": "Browser Extension",
+      "href": "/browser-extension"
+    },
+    {
+      "text": "Developers",
+      "href": "/developers"
+    },
+    {
+      "text": "iOS",
+      "href": "/ios"
+    },
+    {
+      "text": "Windows",
+      "href": "/windows"
+    },
+    {
+      "text": "Raycast 2.0",
+      "href": "/new"
+    },
+    {
+      "text": "API Docs",
+      "href": "https://developers.raycast.com"
+    },
+    {
+      "text": "Manual",
+      "href": "/manual"
+    },
+    {
+      "text": "Troubleshooting",
+      "href": "/troubleshooting"
+    },
+    {
+      "text": "Raycast vs Alfred",
+      "href": "/raycast-vs-alfred"
+    },
+    {
+      "text": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "text": "Raycast AI",
+      "href": "/core-features/ai"
+    },
+    {
+      "text": "Raycast Notes",
+      "href": "/core-features/notes"
+    },
+    {
+      "text": "Raycast Focus",
+      "href": "/core-features/focus"
+    },
+    {
+      "text": "Clipboard History",
+      "href": "/core-features/clipboard-history"
+    },
+    {
+      "text": "Window Management",
+      "href": "/core-features/window-management"
+    },
+    {
+      "text": "Snippets",
+      "href": "/core-features/snippets"
+    },
+    {
+      "text": "File Search",
+      "href": "/core-features/file-search"
+    },
+    {
+      "text": "Quicklinks",
+      "href": "/core-features/quicklinks"
+    },
+    {
+      "text": "Calculator",
+      "href": "/core-features/calculator"
+    },
+    {
+      "text": "Calendar",
+      "href": "/core-features/calendar"
+    },
+    {
+      "text": "System",
+      "href": "/core-features/system"
+    },
+    {
+      "text": "Emoji Picker",
+      "href": "/core-features/emoji-picker"
+    },
+    {
+      "text": "Design Tools",
+      "href": "/store/category/design-tools"
+    },
+    {
+      "text": "Developer Tools",
+      "href": "/store/category/developer-tools"
+    },
+    {
+      "text": "Pomodoro Timer",
+      "href": "/store/category/pomodoro-timer"
+    },
+    {
+      "text": "Productivity",
+      "href": "/store/category/productivity"
+    },
+    {
+      "text": "Project Management",
+      "href": "/store/category/project-management"
+    },
+    {
+      "text": "Time Management",
+      "href": "/store/category/time-management"
+    },
+    {
+      "text": "Transcript",
+      "href": "/store/category/transcript"
+    },
+    {
+      "text": "Translation",
+      "href": "/store/category/translation"
+    },
+    {
+      "text": "Work From Home",
+      "href": "/store/category/work-from-home"
+    },
+    {
+      "text": "AI",
+      "href": "/store/category/ai"
+    },
+    {
+      "text": "Manifesto",
+      "href": "/why"
+    },
+    {
+      "text": "Customers",
+      "href": "/customers"
+    },
+    {
+      "text": "Careers",
+      "href": "/careers"
+    },
+    {
+      "text": "Terms of Service",
+      "href": "/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "text": "Acceptable Use Policy",
+      "href": "/aup"
+    },
+    {
+      "text": "DPA",
+      "href": "/dpa"
+    },
+    {
+      "text": "Trust Center",
+      "href": "https://trust.raycast.com"
+    },
+    {
+      "text": "Press Kit",
+      "href": "/press"
+    },
+    {
+      "text": "Contact",
+      "href": "/feedback"
+    },
+    {
+      "text": "Community Stories",
+      "href": "/community-stories"
+    },
+    {
+      "text": "Ambassadors",
+      "href": "/ambassadors"
+    },
+    {
+      "text": "Slack",
+      "href": "/community"
+    },
+    {
+      "text": "X/Twitter",
+      "href": "https://twitter.com/raycast"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/raycast"
+    },
+    {
+      "text": "Dribbble",
+      "href": "https://www.dribbble.com/raycastapp"
+    },
+    {
+      "text": "Glaze",
+      "href": "https://glaze.app"
+    },
+    {
+      "text": "Try Raycast AI",
+      "href": "https://www.raycast.ai"
+    },
+    {
+      "text": "Explore Snippets",
+      "href": "https://ray.so/snippets"
+    },
+    {
+      "text": "Explore Quicklinks",
+      "href": "https://ray.so/quicklinks"
+    },
+    {
+      "text": "Prompts",
+      "href": "https://ray.so/prompts"
+    },
+    {
+      "text": "Chat Presets",
+      "href": "https://ray.so/presets"
+    },
+    {
+      "text": "ray.so",
+      "href": "https://www.ray.so"
+    },
+    {
+      "text": "Icon Maker",
+      "href": "https://ray.so/icon"
+    },
+    {
+      "text": "Merch",
+      "href": "https://merch.raycast.com"
+    },
+    {
+      "text": "Wallpapers",
+      "href": "/wallpapers"
+    },
+    {
+      "text": "privacy policy",
+      "href": "/privacy"
+    }
+  ],
+  "styles": {
+    "padding": "200px 0px 0px",
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "display": "block",
+    "gap": "normal"
+  }
+}

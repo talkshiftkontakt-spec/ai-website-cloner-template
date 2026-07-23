@@ -1,0 +1,1648 @@
+{
+  "meta": {
+    "title": "Raycast - Your shortcut to everything",
+    "description": "A collection of powerful productivity tools all within an extendable launcher.",
+    "ogImage": "https://www.raycast.com/opengraph-image-pwu6ef.png?7385e23163a01717"
+  },
+  "fonts": [
+    "Inter, \"Inter Fallback\", sans-serif",
+    "GeistMono, ui-monospace, SFMono-Regular, \"Roboto Mono\", Menlo, Monaco, \"Liberation Mono\", \"DejaVu Sans Mono\", \"Courier New\", monospace",
+    "\"SF Pro\""
+  ],
+  "fontLinks": [],
+  "favicons": [
+    {
+      "href": "https://www.raycast.com/favicon-production.png",
+      "rel": "icon",
+      "sizes": ""
+    }
+  ],
+  "colors": {
+    "bodyBg": "rgb(7, 8, 10)",
+    "bodyColor": "rgb(255, 255, 255)",
+    "htmlBg": "rgba(0, 0, 0, 0)"
+  },
+  "colorList": [
+    "rgb(255, 255, 255)",
+    "rgb(7, 8, 10)",
+    "rgb(156, 156, 157)",
+    "rgb(47, 48, 49)",
+    "rgb(230, 230, 230)",
+    "rgb(19, 13, 14)",
+    "rgb(106, 107, 108)",
+    "rgb(17, 18, 20)",
+    "rgba(255, 255, 255, 0.06)",
+    "rgba(255, 255, 255, 0.06) rgba(255, 255, 255, 0.06) rgb(106, 107, 108)",
+    "rgba(255, 255, 255, 0.06) rgba(255, 255, 255, 0.06) rgb(255, 255, 255)",
+    "rgba(255, 255, 255, 0.1)",
+    "rgb(67, 67, 69)"
+  ],
+  "sections": [
+    {
+      "i": 0,
+      "tag": "div",
+      "id": "",
+      "classes": "page_sectionContainer__86OJv",
+      "text": "Take shortcuts, not detours. One interface, everything you need. Type to filter entries... All Types Today Image (1200 x 1000) #FF6363 #59D499 #56C2FF #FFC531 https://raycast.com",
+      "top": 1164,
+      "height": 1375,
+      "width": 1440
+    },
+    {
+      "i": 1,
+      "tag": "div",
+      "id": "",
+      "classes": "SectionTitle_container__qvIRZ Features_sectionTitle__3tVmK SectionTitle_center__tGgzU",
+      "text": "Take shortcuts, not detours. One interface, everything you need.",
+      "top": 1388,
+      "height": 48,
+      "width": 352
+    },
+    {
+      "i": 18,
+      "tag": "div",
+      "id": "",
+      "classes": "page_sectionContainer__86OJv",
+      "text": "AI Your Mac just got smarter. AI where it’s most useful - on your OS. Search for apps and commands... Ask Anything, Anytime, Anywhere. Quick AI combines the power of AI with the ",
+      "top": 4516,
+      "height": 1446,
+      "width": 1440
+    },
+    {
+      "i": 19,
+      "tag": "div",
+      "id": "",
+      "classes": "SectionTitle_container__qvIRZ AIShowCase_sectionTitle__Hk3KB SectionTitle_center__tGgzU",
+      "text": "Your Mac just got smarter. AI where it’s most useful - on your OS.",
+      "top": 4834,
+      "height": 48,
+      "width": 370
+    },
+    {
+      "i": 20,
+      "tag": "div",
+      "id": "",
+      "classes": "page_sectionContainer__86OJv",
+      "text": "Built for professionals like you. Used by seriously productive people. Guillermo Rauch @rauchg CEO, Vercel Marques Brownlee @MKBHD Creator, MKBHD Koen Bok @koenbok Founder, Frame",
+      "top": 5963,
+      "height": 1124,
+      "width": 1440
+    },
+    {
+      "i": 21,
+      "tag": "div",
+      "id": "",
+      "classes": "SectionTitle_container__qvIRZ Testimonials_sectionTitle__P8Ywz SectionTitle_center__tGgzU",
+      "text": "Built for professionals like you. Used by seriously productive people.",
+      "top": 6187,
+      "height": 48,
+      "width": 400
+    },
+    {
+      "i": 22,
+      "tag": "div",
+      "id": "",
+      "classes": "page_sectionContainer__86OJv",
+      "text": "Don't repeat yourself. Automate the things you do all the time. Snippets Tired of typing the same thing? Create a snippet and insert it by simply typing its keyword. Sure, here",
+      "top": 7087,
+      "height": 1144,
+      "width": 1440
+    },
+    {
+      "i": 23,
+      "tag": "div",
+      "id": "",
+      "classes": "SectionTitle_container__qvIRZ Automation_sectionTitle__n4J1x SectionTitle_center__tGgzU",
+      "text": "Don't repeat yourself. Automate the things you do all the time.",
+      "top": 7311,
+      "height": 48,
+      "width": 383
+    },
+    {
+      "i": 24,
+      "tag": "div",
+      "id": "",
+      "classes": "page_sectionContainer__86OJv",
+      "text": "What else can Raycast do? It can take notes. Track your flights. Convert anything. Search files. Run scripts. Manage your windows. Plan your day. Remind you of stuff. Translate int",
+      "top": 8230,
+      "height": 986,
+      "width": 1440
+    },
+    {
+      "i": 25,
+      "tag": "div",
+      "id": "",
+      "classes": "SectionTitle_container__qvIRZ CommunitySection_sectionTitle__3RaZP SectionTitle_center__tGgzU",
+      "text": "Stay in the loop. Join the community and learn how other people get the most out of Raycast.",
+      "top": 9217,
+      "height": 72,
+      "width": 486
+    },
+    {
+      "i": 26,
+      "tag": "div",
+      "id": "",
+      "classes": "page_sectionContainer__86OJv",
+      "text": "Build the perfect tools. Our extension API is designed to allow anyone with web development skills to unleash the power of Raycast. Read the docs FIG_0 FIG_0 React to macOS Buil",
+      "top": 10034,
+      "height": 3182,
+      "width": 1440
+    }
+  ],
+  "children": [
+    {
+      "i": 0,
+      "tag": "div",
+      "id": "",
+      "classes": "",
+      "textPreview": "",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 1,
+      "tag": "div",
+      "id": "root",
+      "classes": "",
+      "textPreview": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download Your shortcut to everything. A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable. Download for Mac Download for Windows (",
+      "top": 0,
+      "height": 15673
+    },
+    {
+      "i": 2,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "(self.__next_s=self.__next_s||[]).push([0,{\"children\":\"(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');\",\"id\":\"rewardful-queue\"}])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 3,
+      "tag": "script",
+      "id": "_R_",
+      "classes": "",
+      "textPreview": "",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 4,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "(self.__next_f=self.__next_f||[]).push([0])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 5,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[50486,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"6589\\\",\\\"static/chunks/6589-c9",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 6,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"6589\\\",\\\"static/chunks/6589-c9a65d32a770e099.js\\\",\\\"6512\\\",\\\"static/chunks/6512-a29da5d12d4a5d30.js\\\",\\\"2469\\",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 7,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"ysUsRfz_xaj9R1hAXoSb2\\\",\\\"p\\\":\\\"\\\",\\\"c\\\":[\\\"\\\",\\\"index\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"(marketing)\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[\\\"\\\",[\\\"$\\\",\\\"$1\\\"",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 8,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"14:I[24431,[],\\\"MetadataBoundary\\\"]\\n15:\\\"$Sreact.suspense\\\"\\n12:[\\\"$\\\",\\\"$L14\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$15\\\",null,{\\\"fallback\\\":null,\\\"children\\\":\\\"$L16\\\"}]}]}]\\n\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 9,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"11:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\nd:null\\n\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 10,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"17:I[80622,[],\\\"IconMark\\\"]\\n\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 11,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"f:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Raycast - Your shortcut to everything\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"A collection of powerful productivity tools all within an extendabl",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 12,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"16:\\\"$f:metadata\\\"\\n\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 13,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"18:I[73403,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 14,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"19:I[76974,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 15,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1a:I[45862,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"8",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 16,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1b:I[89556,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 17,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1c:I[52619,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"8",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 18,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1d:I[48867,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 19,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1e:I[86272,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 20,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"1f:I[31612,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 21,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"20:I[60869,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 22,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"21:I[47675,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 23,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"b:[[\\\"$\\\",\\\"$15\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L18\\\",null,{}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"page_hero__Dwaih\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"page_heroText___VRvH page_fadeInUp__yDeSr\\\",\\\"children\\\"",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 24,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"29:I[88162,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 25,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"2a:I[25328,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 26,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"2b:I[30281,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 27,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"2c:I[65998,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 28,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"2d:I[52355,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 29,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"2e:I[57720,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 30,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"22:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"page_sectionContainer__86OJv\\\",\\\"children\\\":[\\\"$\\\",\\\"$L29\\\",null,{}]}]\\n23:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"page_sectionContainer__86OJv\\\",\\\"children\\\":[\\\"$\\\",\\\"$L2a\\\",null,{}]}]\\n24:",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 31,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"28:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommandYourTime_container__S_HJo\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L2e\\\",null,{}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommandYourTime_action__EYknz\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"classNa",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 32,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"2f:I[81356,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"8",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 33,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"26:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommunitySection_container__8ZibF\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L2f\\\",null,{\\\"src\\\":{\\\"src\\\":\\\"/_next/static/media/community-background.31147d7b.png\\\",\\\"height\\\":1286,\\\"width\\\":1601,\\\"blurDat",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 34,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"33:I[59163,[\\\"1260\\\",\\\"static/chunks/871a25da-162d9da675948614.js\\\",\\\"2619\\\",\\\"static/chunks/2619-fbcf761cc3a52550.js\\\",\\\"1356\\\",\\\"static/chunks/1356-cf1f9b93e29dd652.js\\\",\\\"4431\\\",\\\"static/chunks/4431-6ad047bbaf855729.js\\\",\\\"6",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 35,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"30:[\\\"$\\\",\\\"$L1c\\\",null,{\\\"href\\\":\\\"https://twitter.com/raycast\\\",\\\"target\\\":\\\"_blank\\\",\\\"className\\\":\\\"CommunitySection_socialCard__Grpqk\\\",\\\"prefetch\\\":false,\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommunitySection",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 36,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"34:Td6d,\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 37,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"A non-comprehensive list of all the ways Raycast can help you stay in the flow.\\n\\n1. Launch Applications\\n2. Search Files\\n3. Browse Your Clipboard History\\n4. Append entries to your clipboard\\n5. Edit your clipboard\\n6. Do Si",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 38,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"35:T446,\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 39,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"Kitze paid a visit to Pedro's studio in Barcelona and showed off his Raycast productivity setup. He's got some spicy comments about what we could do better as well.\\n\\n🚨 A bug in versions 1.69 and 1.70 broke Raycast's auto-upd",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 40,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"31:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommunitySection_youtube__ZcogR\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommunitySection_ticker__ggQJX\\\",\\\"children\\\":[\\\"$\\\",\\\"$L33\\\",null,{\\\"youtubePlaylistItems\\\":[{\\\"kind\\\"",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 41,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"36:T11c1,\"])",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 42,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"M102.928 7.12062C104.084 7.12062 104.956 7.33744 105.567 7.74958C106.178 8.16192 106.614 8.81261 106.876 9.70227C107.137 10.5917 107.246 11.8064 107.246 13.3685V15.9069H101.641V16.6877L101.729 18.8355C101.794 19.3128 101.903 19",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 43,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"32:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"CommunitySection_footer__9b00k\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":\\\"Check out our YouTube channel to learn about features you didn’t even know existed.\\\"}],[\\\"$\\\",\\\"$L1c\\\",nu",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 44,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "self.__next_f.push([1,\"37:[\\\"$\\\",\\\"defs\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"clipPath\\\",null,{\\\"id\\\":\\\"clip0_955_24108\\\",\\\"children\\\":[\\\"$\\\",\\\"rect\\\",null,{\\\"width\\\":\\\"106.5\\\",\\\"height\\\":\\\"24\\\",\\\"fill\\\":\\\"white\\\",\\\"transform\\\":\\\"translate(0.75 0.243164)\\\"}]",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 45,
+      "tag": "script",
+      "id": "profitwell-js",
+      "classes": "",
+      "textPreview": "(function(i,s,o,g,r,a,m){i[o]=i[o]||function(){(i[o].q=i[o].q||[]).push(arguments)}; a=s.createElement(g);m=s.getElementsByTagName(g)[0];a.async=1;a.src=r+'?auth='+ s.getElementById(o+'-js').getAttribute('data-pw-auth');m.parentNode.insertBefore(",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 46,
+      "tag": "script",
+      "id": "",
+      "classes": "",
+      "textPreview": "",
+      "top": 0,
+      "height": 0
+    },
+    {
+      "i": 47,
+      "tag": "next-route-announcer",
+      "id": "",
+      "classes": "",
+      "textPreview": "",
+      "top": 15673,
+      "height": 0
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FfeatureBackground.7492bde9.png&w=3840&q=100",
+      "alt": "Frame Background Image",
+      "width": 1793,
+      "height": 1011,
+      "parentClasses": "Features_frameInner__2Z6Vc",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwallpaper.f51cbd64.png&w=48&q=70",
+      "alt": "mini version of desktop wallpaper image that is in the clipboard history",
+      "width": 32,
+      "height": 14,
+      "parentClasses": "RaycastWindow_icon__LIGo9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmangos.6b2d28e6.jpeg&w=48&q=70",
+      "alt": "mini version of picture of two mangos",
+      "width": 32,
+      "height": 21,
+      "parentClasses": "RaycastWindow_icon__LIGo9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic.1bc3e3ac.jpeg&w=48&q=70",
+      "alt": "mini version of a magician with a magic stick and a hat",
+      "width": 32,
+      "height": 18,
+      "parentClasses": "RaycastWindow_icon__LIGo9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmagic-at-your-fingertips.10b9ee35.png&w=48&q=70",
+      "alt": "mini version of magic at your fingertips screenshot",
+      "width": 32,
+      "height": 16,
+      "parentClasses": "RaycastWindow_icon__LIGo9",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=48&q=70",
+      "alt": "Clipboard History Command Icon",
+      "width": 32,
+      "height": 32,
+      "parentClasses": "RaycastWindow_commandName__TONNr",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-package-bg.84229341.png&w=48&q=70",
+      "alt": "Store Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=48&q=70",
+      "alt": "Store Icon",
+      "width": 32,
+      "height": 32,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70",
+      "alt": "Search Files Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70",
+      "alt": "Calendar Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70",
+      "alt": "Dictionary Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-calculator-history.a26c44ed.png&w=48&q=70",
+      "alt": "Dictionary Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalendar-extension-dark.4117f5df.png&w=48&q=70",
+      "alt": "Calendar Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-clipboard-history.fa06c2bb.png&w=48&q=70",
+      "alt": "Store Icon",
+      "width": 32,
+      "height": 32,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommand-file-search-16.51137efe.png&w=48&q=70",
+      "alt": "Search Files Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdictionary-extension-16.a768f3b0.png&w=48&q=70",
+      "alt": "Dictionary Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-google.4d4566ad.png&w=48&q=70",
+      "alt": "Google Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fweb-duckduckgo.163fb12f.png&w=48&q=70",
+      "alt": "Duck Duck Go Icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CalculatorTimeShowcase_icon__2_II2",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Flinear-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-translate-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fspotify-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fspotify-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Farc-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Farc-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftiny-png-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftiny-png-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2F1password-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2F1password-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fjira-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fjira-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fslack-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fslack-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fzoom-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fzoom-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftimers-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftimers-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fpomodoro-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fpomodoro-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fnotion-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fnotion-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftodoist-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Ftodoist-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-search-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-search-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fobsidian-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fobsidian-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-chrome-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fgoogle-chrome-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fcleanshotx-icon.png&w=128&q=70",
+      "alt": "",
+      "width": 64,
+      "height": 64,
+      "parentClasses": "ExtensionCard_header__Mx3up",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=https%3A%2F%2Fmisc-assets.raycast.com%2Fextension-cards%2Fcleanshotx-web.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 384,
+      "parentClasses": "ExtensionCard_card__g21uG",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmore-extensions.8dc6c008.png&w=750&q=70",
+      "alt": "",
+      "width": 384,
+      "height": 441,
+      "parentClasses": "ExtensionHighlight_browseMore__7PHBV",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1920&q=70",
+      "alt": "",
+      "width": 1080,
+      "height": 1080,
+      "parentClasses": "AIShowCase_imageWrapper__UiSyR",
+      "position": "absolute",
+      "zIndex": "-1"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1920&q=70",
+      "alt": "",
+      "width": 1080,
+      "height": 1080,
+      "parentClasses": "AIShowCase_desktop__kNfH_",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquick-ai-mobile.a1c4047f.png&w=3840&q=70",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "AIShowCase_mobile__AJ3wN",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fguillermo.1ede87e2.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b Testimonials_active__t",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmkbhd.3978890d.jpg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b is-in-view",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkoen.6d1f621a.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b is-in-view",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favstorm.501925b2.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadamwathan.7d406127.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwesbos.9d09a8a6.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fridd.33ab2cf2.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmxstbr.500c6710.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fzachholman.4b5fe06c.png&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjustansub.9b20ee4a.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthekitze.bf1fb689.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflornkm.80084690.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpugson.7221ae03.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freece_dev.c2c210ab.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmrncst.57e56abb.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUltraLinx.9e713da6.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fupinthezone.41e5fa80.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsulco.a1f04db6.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fiamneubert.db5589d6.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwebjac.fc227ab7.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgavmn.0d1ce528.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fisabelsoasa.c147d05d.jpg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsteventey.cf42b43e.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAdamWhitcroft.8b7c60bb.jpeg&w=96&q=70",
+      "alt": "Avatar",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_embla__slide__fUmrA Testimonials_card__QDr9b is-in-view",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnotion.13382e38.png&w=256&q=70",
+      "alt": "iMessage 2FA Raycast Extension command icon",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Testimonials_icon__SZLwH",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsnippets-blue-glass.3f8eb367.png&w=1920&q=90",
+      "alt": "Blue glass-effect visual backdrop",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Automation_top__n4uSt",
+      "position": "absolute",
+      "zIndex": "0"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquicklinks-showcase.4179f21c.png&w=1200&q=70",
+      "alt": "Screenshot of Raycast showcasing the Figma Scratchad Quick Link",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Automation_left__huWQf Automation_card__7Lygc",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fraycast-notes.d46cb687.png&w=3840&q=90",
+      "alt": "Raycast Notes",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "relative",
+      "zIndex": "1"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fflight-tracker.41d98c94.png&w=3840&q=90",
+      "alt": "Flight Tracker",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalculator.d0b6fc01.png&w=3840&q=90",
+      "alt": "Calculator",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffile-search.cc18c68b.png&w=3840&q=90",
+      "alt": "File Search",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscript-commands.9e5497a7.png&w=3840&q=90",
+      "alt": "Script Commands",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwindow-management.42db743b.png&w=3840&q=90",
+      "alt": "Window Management",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fschedule.ff46670c.png&w=3840&q=90",
+      "alt": "My Schedule",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freminders.68fbffbc.png&w=3840&q=90",
+      "alt": "Apple Reminders",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftranslator.5ac0ae60.png&w=3840&q=90",
+      "alt": "Translation",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffocus.4af7b56f.png&w=3840&q=90",
+      "alt": "Raycast Focus",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fscreenshot-search.bf4d4d93.png&w=3840&q=90",
+      "alt": "Search Screenshots",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femoji-picker.fd3ad392.png&w=3840&q=90",
+      "alt": "Search Emojis and Symbols",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "FeatureWall_desktop__y7X6D",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcommunity-background.31147d7b.png&w=1920&q=70",
+      "alt": "Background image",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "CommunitySection_container__8ZibF",
+      "position": "absolute",
+      "zIndex": "-1"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/NZwqx_dS-k0/hqdefault.jpg",
+      "alt": "Introducing Raycast Focus",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/W9FPWzorLyI/hqdefault.jpg",
+      "alt": "Mastering Quicklinks in Raycast",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/6knS3y39f7k/hqdefault.jpg",
+      "alt": "Raycast Notes is Finally Out",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/A4bewhG4724/hqdefault.jpg",
+      "alt": "We Tested Apple's New Window Management Against Raycast",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/yR2hnn7Ghko/hqdefault.jpg",
+      "alt": "You MUST change these Raycast settings ⚙️",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/NuIpZoQwuVY/hqdefault.jpg",
+      "alt": "101 Things You Can Do With Raycast",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/qobDloop1bg/hqdefault.jpg",
+      "alt": "7 more Raycast tricks to level up your productivity",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/HDQIvbLCF7Y/hqdefault.jpg",
+      "alt": "Kitze shows Pedro his Raycast setup in Barcelona",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/_DxukQdW1yg/hqdefault.jpg",
+      "alt": "12 months of Raycast Pro 🎉",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/m5MDv9qwhU8/hqdefault.jpg",
+      "alt": "Max Stoiber Owns His Workflow with Raycast",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/4Hi21ZpdrOc/hqdefault.jpg",
+      "alt": "Introducing Raycast AI Presets",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/_P1b00n12PU/hqdefault.jpg",
+      "alt": "All About Raycast Snippets: Stop Repeating Yourself!",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/RFwumqHLc8Y/hqdefault.jpg",
+      "alt": "Introducing a revamped AI Chat",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/OHuLnaY7Nxs/hqdefault.jpg",
+      "alt": "He's a Raycast newbie. What can he do?",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/Xc262WTsZoU/hqdefault.jpg",
+      "alt": "How we built the best emoji picker 🤖",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/UUPStiOLKlU/hqdefault.jpg",
+      "alt": "What's in Wes Bos's Raycast",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/9KvmDCy23g0/hqdefault.jpg",
+      "alt": "9 hidden Raycast tricks to up your game",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/oy8jtxl7c2I/hqdefault.jpg",
+      "alt": "Our Extension Picks for UI Developers",
+      "width": 480,
+      "height": 360,
+      "parentClasses": "YoutubeCarousel_placeholder__lKCI7",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FisolatedCube.0cfa31f6.png&w=1920&q=70",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "parentClasses": "Footer_container__6pNfo",
+      "position": "absolute",
+      "zIndex": "auto"
+    }
+  ],
+  "videos": [],
+  "bgImages": [],
+  "svgCount": 156,
+  "lenis": false,
+  "sticky": [
+    {
+      "tag": "DIV",
+      "classes": "FlashMessage_flashContainer__PeEjm",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "200",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "Navbar_container__x_wnu",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "2",
+      "text": "Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download"
+    }
+  ],
+  "bodyClass": "",
+  "htmlClass": "__variable_f367f3 __variable_3c557b __variable_f910ec",
+  "scrollHeight": 15673
+}

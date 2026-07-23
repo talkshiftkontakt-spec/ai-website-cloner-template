@@ -1,0 +1,142 @@
+{
+  "classes": "page_hero__Dwaih",
+  "bounds": {
+    "h": 940,
+    "w": 1440,
+    "top": 0
+  },
+  "containerStyles": {
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "18.4px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+    "margin": "0px 0px 224px",
+    "padding": "0px",
+    "textAlign": "start",
+    "maxWidth": "none",
+    "width": "1440px",
+    "display": "flex",
+    "gap": "normal",
+    "flexDirection": "column",
+    "alignItems": "center",
+    "justifyContent": "center",
+    "background": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "border": "0px none rgb(255, 255, 255)",
+    "height": "940.016px"
+  },
+  "paras": [
+    {
+      "tag": "H1",
+      "text": "Your shortcut to everything.",
+      "styles": {
+        "fontSize": "64px",
+        "fontWeight": "600",
+        "lineHeight": "70.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "margin": "0px",
+        "padding": "0px",
+        "textAlign": "center",
+        "maxWidth": "540px",
+        "width": "540px",
+        "display": "block",
+        "gap": "normal",
+        "flexDirection": "row",
+        "alignItems": "normal",
+        "justifyContent": "normal",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "height": "140.812px"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.",
+      "styles": {
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "0.2px",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "margin": "0px",
+        "padding": "0px",
+        "textAlign": "center",
+        "maxWidth": "none",
+        "width": "786px",
+        "display": "block",
+        "gap": "normal",
+        "flexDirection": "row",
+        "alignItems": "normal",
+        "justifyContent": "normal",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "border": "0px none rgb(255, 255, 255)",
+        "height": "42px"
+      }
+    }
+  ],
+  "btns": [
+    {
+      "text": "Download for Mac",
+      "href": null,
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "0.2px",
+        "color": "rgb(47, 48, 49)",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "margin": "0px",
+        "padding": "8px 12px",
+        "textAlign": "start",
+        "maxWidth": "none",
+        "width": "180.203px",
+        "display": "flex",
+        "gap": "8px",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "background": "rgb(230, 230, 230)",
+        "borderRadius": "8px",
+        "border": "0px none rgb(47, 48, 49)",
+        "height": "36px"
+      },
+      "classes": "Button_button__JJiqJ Button_light__KdYEB"
+    },
+    {
+      "text": "Download for Windows (beta)",
+      "href": "https://ray.so/download-windows",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "16px",
+        "letterSpacing": "0.2px",
+        "color": "rgb(47, 48, 49)",
+        "fontFamily": "Inter, \"Inter Fallback\", sans-serif",
+        "margin": "0px",
+        "padding": "8px 12px",
+        "textAlign": "start",
+        "maxWidth": "none",
+        "width": "263.406px",
+        "display": "flex",
+        "gap": "8px",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "background": "rgb(230, 230, 230)",
+        "borderRadius": "8px",
+        "border": "0px none rgb(47, 48, 49)",
+        "height": "36px"
+      },
+      "classes": "Button_button__JJiqJ Button_light__KdYEB"
+    }
+  ],
+  "imgs": [],
+  "fullText": "Your shortcut to everything.\n\nA collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable.\n\nDownload for Mac\nDownload for Windows (beta)\nInstall via homebrew or winget\nTry the new Raycast beta\nMeet Glaze\nLearn more"
+}
