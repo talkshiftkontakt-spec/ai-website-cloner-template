@@ -1,32 +1,37 @@
 "use client";
 
 import { Cookie } from "lucide-react";
-import { useState } from "react";
+import { useCallback, useState, useSyncExternalStore } from "react";
 
 const STORAGE_KEY = "snipeit-cookie-consent";
 
-function readInitialVisible(): boolean {
-  if (typeof window === "undefined") return false;
+function subscribe(onStoreChange: () => void) {
+  window.addEventListener("storage", onStoreChange);
+  return () => window.removeEventListener("storage", onStoreChange);
+}
+
+function getConsentSnapshot() {
   try {
-    return !sessionStorage.getItem(STORAGE_KEY);
+    return sessionStorage.getItem(STORAGE_KEY);
   } catch {
-    return true;
+    return null;
   }
 }
 
 export function CookieBanner() {
-  const [visible, setVisible] = useState(readInitialVisible);
+  const stored = useSyncExternalStore(subscribe, getConsentSnapshot, () => "ssr");
+  const [dismissed, setDismissed] = useState(false);
 
-  function dismiss(value: string) {
+  const dismiss = useCallback((value: string) => {
     try {
       sessionStorage.setItem(STORAGE_KEY, value);
     } catch {
       // ignore storage errors
     }
-    setVisible(false);
-  }
+    setDismissed(true);
+  }, []);
 
-  if (!visible) return null;
+  if (dismissed || stored === "ssr" || stored) return null;
 
   return (
     <div
