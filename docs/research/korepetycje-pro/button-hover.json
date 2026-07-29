@@ -1,0 +1,15 @@
+{
+  "before": {
+    "bg": "rgba(240, 245, 250, 0)",
+    "color": "rgb(66, 66, 66)",
+    "transform": "none",
+    "border": "1px solid rgb(131, 172, 134)"
+  },
+  "after": {
+    "bg": "rgb(131, 172, 134)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "border": "1px solid rgb(131, 172, 134)",
+    "transition": "0.3s"
+  }
+}
