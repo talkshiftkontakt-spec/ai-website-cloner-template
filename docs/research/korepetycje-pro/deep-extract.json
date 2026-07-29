@@ -1,0 +1,1825 @@
+{
+  "sectionCount": 3,
+  "sections": [
+    {
+      "i": 0,
+      "id": "",
+      "dataId": "42879a9",
+      "type": "container",
+      "classes": "elementor-element elementor-element-42879a9 e-flex e-con-boxed e-con e-parent elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects ",
+      "top": 0,
+      "h": 36,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "lineHeight": "26.4px",
+        "color": "rgb(51, 65, 85)",
+        "backgroundColor": "rgb(131, 172, 134)",
+        "padding": "0px 10px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px",
+        "width": "1440px",
+        "height": "36.3906px",
+        "maxWidth": "100%",
+        "display": "flex",
+        "flexDirection": "column",
+        "border": "0px none rgb(51, 65, 85)",
+        "borderTop": "0px none rgb(51, 65, 85)",
+        "borderBottom": "0px none rgb(51, 65, 85)",
+        "borderLeft": "0px none rgb(51, 65, 85)",
+        "borderRight": "0px none rgb(51, 65, 85)",
+        "position": "fixed",
+        "opacity": "1",
+        "transition": "background 0.3s, border 0.3s, box-shadow 0.3s, transform 0.4s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "textPreview": "+48 797 103 924 korepetycjepro@outlook.com"
+    },
+    {
+      "i": 1,
+      "id": "",
+      "dataId": "42879a9",
+      "type": "container",
+      "classes": "elementor-element elementor-element-42879a9 e-flex e-con-boxed e-con e-parent elementor-sticky elementor-sticky__spacer",
+      "top": 0,
+      "h": 36,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "lineHeight": "26.4px",
+        "color": "rgb(51, 65, 85)",
+        "backgroundColor": "rgb(131, 172, 134)",
+        "padding": "0px 10px",
+        "paddingLeft": "10px",
+        "paddingRight": "10px",
+        "width": "1440px",
+        "height": "36.3906px",
+        "maxWidth": "100%",
+        "display": "flex",
+        "flexDirection": "column",
+        "border": "0px none rgb(51, 65, 85)",
+        "borderTop": "0px none rgb(51, 65, 85)",
+        "borderBottom": "0px none rgb(51, 65, 85)",
+        "borderLeft": "0px none rgb(51, 65, 85)",
+        "borderRight": "0px none rgb(51, 65, 85)",
+        "position": "relative",
+        "opacity": "1",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "textPreview": ""
+    },
+    {
+      "i": 2,
+      "id": "",
+      "dataId": "291c23c",
+      "type": "container",
+      "classes": "elementor-element elementor-element-291c23c e-flex e-con-boxed e-con e-parent e-lazyloaded",
+      "top": 36,
+      "h": 360,
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+        "lineHeight": "26.4px",
+        "color": "rgb(51, 65, 85)",
+        "backgroundColor": "rgba(2, 1, 1, 0)",
+        "width": "1440px",
+        "height": "360px",
+        "maxWidth": "100%",
+        "display": "flex",
+        "flexDirection": "column",
+        "border": "0px none rgb(51, 65, 85)",
+        "borderTop": "0px none rgb(51, 65, 85)",
+        "borderBottom": "0px none rgb(51, 65, 85)",
+        "borderLeft": "0px none rgb(51, 65, 85)",
+        "borderRight": "0px none rgb(51, 65, 85)",
+        "position": "relative",
+        "opacity": "1",
+        "transition": "background 0.3s, border 0.3s, box-shadow 0.3s, transform 0.4s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      },
+      "textPreview": "Oferta O mnie Jak wyglądają zajęcia? Cennik Opinie Kontakt"
+    }
+  ],
+  "allVars": {
+    "--ast-post-nav-space": "0",
+    "--ast-container-default-xlg-padding": "2.5em",
+    "--ast-container-default-lg-padding": "2.5em",
+    "--ast-container-default-slg-padding": "2em",
+    "--ast-container-default-md-padding": "2.5em",
+    "--ast-container-default-sm-padding": "2.5em",
+    "--ast-container-default-xs-padding": "2.4em",
+    "--ast-container-default-xxs-padding": "1.8em",
+    "--ast-code-block-background": "#ECEFF3",
+    "--ast-comment-inputs-background": "#FFF",
+    "--ast-normal-container-width": "1200px",
+    "--ast-narrow-container-width": "750px",
+    "--ast-blog-title-font-weight": "600",
+    "--ast-blog-meta-weight": "600",
+    "--ast-global-color-primary": "var(--ast-global-color-4)",
+    "--ast-global-color-secondary": "var(--ast-global-color-5)",
+    "--ast-global-color-alternate-background": "var(--ast-global-color-6)",
+    "--ast-global-color-subtle-background": "var(--ast-global-color-7)",
+    "--ast-bg-style-guide": "var( --ast-global-color-secondary,var(--ast-global-color-5) )",
+    "--ast-shadow-style-guide": "0px 0px 4px 0 #00000057",
+    "--ast-global-dark-bg-style": "#fff",
+    "--ast-global-dark-lfs": "#fbfbfb",
+    "--ast-widget-bg-color": "#fafafa",
+    "--ast-wc-container-head-bg-color": "#fbfbfb",
+    "--ast-title-layout-bg": "#eeeeee",
+    "--ast-search-border-color": "#e7e7e7",
+    "--ast-lifter-hover-bg": "#e6e6e6",
+    "--ast-gallery-block-color": "#000",
+    "--srfm-color-input-label": "var(--ast-global-color-2)",
+    "--wp--custom--ast-default-block-top-padding": "3em",
+    "--wp--custom--ast-default-block-right-padding": "3em",
+    "--wp--custom--ast-default-block-bottom-padding": "3em",
+    "--wp--custom--ast-default-block-left-padding": "3em",
+    "--wp--custom--ast-container-width": "1200px",
+    "--wp--custom--ast-content-width-size": "1200px",
+    "--wp--custom--ast-wide-width-size": "calc(1200px + var(--wp--custom--ast-default-block-left-padding) + var(--wp--custom--ast-default-block-right-padding))",
+    "--ast-global-color-0": "#046bd2",
+    "--ast-global-color-1": "#045cb4",
+    "--ast-global-color-2": "#1e293b",
+    "--ast-global-color-3": "#334155",
+    "--ast-global-color-4": "#FFFFFF",
+    "--ast-global-color-5": "#F0F5FA",
+    "--ast-global-color-6": "#111111",
+    "--ast-global-color-7": "#D1D5DB",
+    "--ast-global-color-8": "#111111",
+    "--ast-border-color": "var(--ast-global-color-7)",
+    "--e-global-color-astglobalcolor0": "#046bd2",
+    "--e-global-color-astglobalcolor1": "#045cb4",
+    "--e-global-color-astglobalcolor2": "#1e293b",
+    "--e-global-color-astglobalcolor3": "#334155",
+    "--e-global-color-astglobalcolor4": "#FFFFFF",
+    "--e-global-color-astglobalcolor5": "#F0F5FA",
+    "--e-global-color-astglobalcolor6": "#111111",
+    "--e-global-color-astglobalcolor7": "#D1D5DB",
+    "--e-global-color-astglobalcolor8": "#111111",
+    "--wp--preset--aspect-ratio--square": "1",
+    "--wp--preset--aspect-ratio--4-3": "4/3",
+    "--wp--preset--aspect-ratio--3-4": "3/4",
+    "--wp--preset--aspect-ratio--3-2": "3/2",
+    "--wp--preset--aspect-ratio--2-3": "2/3",
+    "--wp--preset--aspect-ratio--16-9": "16/9",
+    "--wp--preset--aspect-ratio--9-16": "9/16",
+    "--wp--preset--color--black": "#000000",
+    "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+    "--wp--preset--color--white": "#ffffff",
+    "--wp--preset--color--pale-pink": "#f78da7",
+    "--wp--preset--color--vivid-red": "#cf2e2e",
+    "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+    "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+    "--wp--preset--color--light-green-cyan": "#7bdcb5",
+    "--wp--preset--color--vivid-green-cyan": "#00d084",
+    "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+    "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+    "--wp--preset--color--vivid-purple": "#9b51e0",
+    "--wp--preset--color--ast-global-color-0": "var(--ast-global-color-0)",
+    "--wp--preset--color--ast-global-color-1": "var(--ast-global-color-1)",
+    "--wp--preset--color--ast-global-color-2": "var(--ast-global-color-2)",
+    "--wp--preset--color--ast-global-color-3": "var(--ast-global-color-3)",
+    "--wp--preset--color--ast-global-color-4": "var(--ast-global-color-4)",
+    "--wp--preset--color--ast-global-color-5": "var(--ast-global-color-5)",
+    "--wp--preset--color--ast-global-color-6": "var(--ast-global-color-6)",
+    "--wp--preset--color--ast-global-color-7": "var(--ast-global-color-7)",
+    "--wp--preset--color--ast-global-color-8": "var(--ast-global-color-8)",
+    "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+    "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+    "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+    "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+    "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+    "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+    "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+    "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+    "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+    "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+    "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+    "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+    "--wp--preset--font-size--small": "13px",
+    "--wp--preset--font-size--medium": "20px",
+    "--wp--preset--font-size--large": "36px",
+    "--wp--preset--font-size--x-large": "42px",
+    "--wp--preset--spacing--20": "0.44rem",
+    "--wp--preset--spacing--30": "0.67rem",
+    "--wp--preset--spacing--40": "1rem",
+    "--wp--preset--spacing--50": "1.5rem",
+    "--wp--preset--spacing--60": "2.25rem",
+    "--wp--preset--spacing--70": "3.38rem",
+    "--wp--preset--spacing--80": "5.06rem",
+    "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+    "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+    "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+    "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+    "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)",
+    "--wp--style--global--content-size": "var(--wp--custom--ast-content-width-size)",
+    "--wp--style--global--wide-size": "var(--wp--custom--ast-wide-width-size)",
+    "--wp--style--block-gap": "24px",
+    "--direction-multiplier": "1",
+    "--page-title-display": "none",
+    "--e-global-color-primary": "#83AC86",
+    "--e-global-color-secondary": "#424242",
+    "--e-global-color-text": "#424242",
+    "--e-global-color-accent": "#83AC86C7",
+    "--e-global-typography-primary-font-family": "\"Noto Serif\"",
+    "--e-global-typography-primary-font-weight": "600",
+    "--e-global-typography-secondary-font-family": "\"Noto Serif\"",
+    "--e-global-typography-secondary-font-weight": "400",
+    "--e-global-typography-text-font-family": "\"Noto Serif\"",
+    "--e-global-typography-text-font-weight": "400",
+    "--e-global-typography-accent-font-family": "\"Noto Serif\"",
+    "--e-global-typography-accent-font-weight": "500",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--wpforms-field-border-radius": "3px",
+    "--wpforms-field-border-style": "solid",
+    "--wpforms-field-border-size": "1px",
+    "--wpforms-field-background-color": "#ffffff",
+    "--wpforms-field-border-color": "rgba( 0, 0, 0, 0.25 )",
+    "--wpforms-field-border-color-spare": "rgba( 0, 0, 0, 0.25 )",
+    "--wpforms-field-text-color": "rgba( 0, 0, 0, 0.7 )",
+    "--wpforms-field-menu-color": "#ffffff",
+    "--wpforms-label-color": "rgba( 0, 0, 0, 0.85 )",
+    "--wpforms-label-sublabel-color": "rgba( 0, 0, 0, 0.55 )",
+    "--wpforms-label-error-color": "#d63637",
+    "--wpforms-button-border-radius": "3px",
+    "--wpforms-button-border-style": "none",
+    "--wpforms-button-border-size": "1px",
+    "--wpforms-button-background-color": "#066aab",
+    "--wpforms-button-border-color": "#066aab",
+    "--wpforms-button-text-color": "#ffffff",
+    "--wpforms-page-break-color": "#066aab",
+    "--wpforms-background-image": "none",
+    "--wpforms-background-position": "center center",
+    "--wpforms-background-repeat": "no-repeat",
+    "--wpforms-background-size": "cover",
+    "--wpforms-background-width": "100px",
+    "--wpforms-background-height": "100px",
+    "--wpforms-background-color": "rgba( 0, 0, 0, 0 )",
+    "--wpforms-background-url": "none",
+    "--wpforms-container-padding": "0px",
+    "--wpforms-container-border-style": "none",
+    "--wpforms-container-border-width": "1px",
+    "--wpforms-container-border-color": "#000000",
+    "--wpforms-container-border-radius": "3px",
+    "--wpforms-field-size-input-height": "43px",
+    "--wpforms-field-size-input-spacing": "15px",
+    "--wpforms-field-size-font-size": "16px",
+    "--wpforms-field-size-line-height": "19px",
+    "--wpforms-field-size-padding-h": "14px",
+    "--wpforms-field-size-checkbox-size": "16px",
+    "--wpforms-field-size-sublabel-spacing": "5px",
+    "--wpforms-field-size-icon-size": "1",
+    "--wpforms-label-size-font-size": "16px",
+    "--wpforms-label-size-line-height": "19px",
+    "--wpforms-label-size-sublabel-font-size": "14px",
+    "--wpforms-label-size-sublabel-line-height": "17px",
+    "--wpforms-button-size-font-size": "17px",
+    "--wpforms-button-size-height": "41px",
+    "--wpforms-button-size-padding-h": "15px",
+    "--wpforms-button-size-margin-top": "10px",
+    "--wpforms-container-shadow-size-box-shadow": "none"
+  },
+  "buttons": [
+    {
+      "text": "Kontakt",
+      "styles": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(66, 66, 66)",
+        "backgroundColor": "rgba(240, 245, 250, 0)",
+        "padding": "12px 24px",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "width": "210px",
+        "height": "44px",
+        "display": "inline-block",
+        "flexDirection": "row",
+        "borderRadius": "99px",
+        "border": "1px solid rgb(131, 172, 134)",
+        "borderTop": "1px solid rgb(131, 172, 134)",
+        "borderBottom": "1px solid rgb(131, 172, 134)",
+        "borderLeft": "1px solid rgb(131, 172, 134)",
+        "borderRight": "1px solid rgb(131, 172, 134)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.3s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "center"
+      },
+      "href": "#kontakt"
+    },
+    {
+      "text": "Napisz do mnie",
+      "styles": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(131, 172, 134)",
+        "padding": "12px 24px",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "width": "245.062px",
+        "height": "44px",
+        "display": "inline-block",
+        "flexDirection": "row",
+        "borderRadius": "99px",
+        "border": "1px solid rgb(131, 172, 134)",
+        "borderTop": "1px solid rgb(131, 172, 134)",
+        "borderBottom": "1px solid rgb(131, 172, 134)",
+        "borderLeft": "1px solid rgb(131, 172, 134)",
+        "borderRight": "1px solid rgb(131, 172, 134)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.3s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "center"
+      },
+      "href": "#kontakt"
+    },
+    {
+      "text": "Zobacz ofertę",
+      "styles": {
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "18px",
+        "color": "rgb(66, 66, 66)",
+        "backgroundColor": "rgba(240, 245, 250, 0)",
+        "padding": "12px 24px",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "width": "245.078px",
+        "height": "44px",
+        "display": "inline-block",
+        "flexDirection": "row",
+        "borderRadius": "99px",
+        "border": "1px solid rgb(131, 172, 134)",
+        "borderTop": "1px solid rgb(131, 172, 134)",
+        "borderBottom": "1px solid rgb(131, 172, 134)",
+        "borderLeft": "1px solid rgb(131, 172, 134)",
+        "borderRight": "1px solid rgb(131, 172, 134)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.3s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "center"
+      },
+      "href": "#oferta"
+    },
+    {
+      "text": "Kontakt",
+      "styles": {
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "20px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(131, 172, 134)",
+        "padding": "12px 24px",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "width": "126px",
+        "height": "46px",
+        "display": "inline-block",
+        "flexDirection": "row",
+        "borderRadius": "99px",
+        "border": "1px solid rgb(66, 66, 66)",
+        "borderTop": "1px solid rgb(66, 66, 66)",
+        "borderBottom": "1px solid rgb(66, 66, 66)",
+        "borderLeft": "1px solid rgb(66, 66, 66)",
+        "borderRight": "1px solid rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.3s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "center"
+      },
+      "href": "#kontakt"
+    },
+    {
+      "text": "Pierwsze zajęcia BEZPŁATNE",
+      "styles": {
+        "fontSize": "20px",
+        "fontWeight": "500",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "20px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(131, 172, 134)",
+        "padding": "12px 24px",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "width": "329px",
+        "height": "46px",
+        "display": "inline-block",
+        "flexDirection": "row",
+        "borderRadius": "99px",
+        "border": "1px solid rgb(66, 66, 66)",
+        "borderTop": "1px solid rgb(66, 66, 66)",
+        "borderBottom": "1px solid rgb(66, 66, 66)",
+        "borderLeft": "1px solid rgb(66, 66, 66)",
+        "borderRight": "1px solid rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.3s",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "center"
+      },
+      "href": "#kontakt"
+    }
+  ],
+  "counters": [
+    {
+      "text": "0\n zł",
+      "html": "<div class=\"elementor-counter\">\n\t\t\t\t\t\t<div class=\"elementor-counter-number-wrapper\">\n\t\t\t\t<span class=\"elementor-counter-number-prefix\"></span>\n\t\t\t\t<span class=\"elementor-counter-number\" data-duration=\"1000\" data-to-value=\"70\" data-from-value=\"0\" data-delimiter=\",\">0</span>\n\t\t\t\t<span class=\"elementor-counter-number-suffix\"> zł</span>\n\t\t\t</div>\n\t\t</div>",
+      "attrs": [
+        [
+          "class",
+          "elementor-counter"
+        ]
+      ]
+    },
+    {
+      "text": "0",
+      "html": "<span class=\"elementor-counter-number\" data-duration=\"1000\" data-to-value=\"70\" data-from-value=\"0\" data-delimiter=\",\">0</span>",
+      "attrs": [
+        [
+          "class",
+          "elementor-counter-number"
+        ],
+        [
+          "data-duration",
+          "1000"
+        ],
+        [
+          "data-to-value",
+          "70"
+        ],
+        [
+          "data-from-value",
+          "0"
+        ],
+        [
+          "data-delimiter",
+          ","
+        ]
+      ]
+    },
+    {
+      "text": "0\n zł",
+      "html": "<div class=\"elementor-counter\">\n\t\t\t\t\t\t<div class=\"elementor-counter-number-wrapper\">\n\t\t\t\t<span class=\"elementor-counter-number-prefix\"></span>\n\t\t\t\t<span class=\"elementor-counter-number\" data-duration=\"1000\" data-to-value=\"80\" data-from-value=\"0\" data-delimiter=\",\">0</span>\n\t\t\t\t<span class=\"elementor-counter-number-suffix\"> zł</span>\n\t\t\t</div>\n\t\t</div>",
+      "attrs": [
+        [
+          "class",
+          "elementor-counter"
+        ]
+      ]
+    },
+    {
+      "text": "0",
+      "html": "<span class=\"elementor-counter-number\" data-duration=\"1000\" data-to-value=\"80\" data-from-value=\"0\" data-delimiter=\",\">0</span>",
+      "attrs": [
+        [
+          "class",
+          "elementor-counter-number"
+        ],
+        [
+          "data-duration",
+          "1000"
+        ],
+        [
+          "data-to-value",
+          "80"
+        ],
+        [
+          "data-from-value",
+          "0"
+        ],
+        [
+          "data-delimiter",
+          ","
+        ]
+      ]
+    },
+    {
+      "text": "0\n zł",
+      "html": "<div class=\"elementor-counter\">\n\t\t\t\t\t\t<div class=\"elementor-counter-number-wrapper\">\n\t\t\t\t<span class=\"elementor-counter-number-prefix\"></span>\n\t\t\t\t<span class=\"elementor-counter-number\" data-duration=\"1000\" data-to-value=\"100\" data-from-value=\"0\" data-delimiter=\",\">0</span>\n\t\t\t\t<span class=\"elementor-counter-number-suffix\"> zł</span>\n\t\t\t</div>\n\t\t</div>",
+      "attrs": [
+        [
+          "class",
+          "elementor-counter"
+        ]
+      ]
+    },
+    {
+      "text": "0",
+      "html": "<span class=\"elementor-counter-number\" data-duration=\"1000\" data-to-value=\"100\" data-from-value=\"0\" data-delimiter=\",\">0</span>",
+      "attrs": [
+        [
+          "class",
+          "elementor-counter-number"
+        ],
+        [
+          "data-duration",
+          "1000"
+        ],
+        [
+          "data-to-value",
+          "100"
+        ],
+        [
+          "data-from-value",
+          "0"
+        ],
+        [
+          "data-delimiter",
+          ","
+        ]
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "text": "Kacper\n\nUczeń klasy 8\n\n    \n\n\"Dzięki zajęciom lepiej zrozumiałem zadania egzaminacyjne i nauczyłem się szybciej je rozwiązywać. Dużo pracowaliśmy na arkuszach CKE, co bardzo pomogło mi w przygotowaniach. Atmosfera jest luźna, ale na lekcji naprawdę dużo się robi.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/3.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/3.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Kacper</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Uczeń klasy 8</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li"
+    },
+    {
+      "text": "Paulina\n\nUczennica liceum\n\n    \n\n\"Bardzo dobrze tłumaczone zadania i dużo cierpliwości. Czasami lekcja kończyła się dokładnie w momencie, gdy chciałam zadać jeszcze jedno pytanie, ale zawsze mogłam wrócić do niego na kolejnym spotkaniu. Poza tym zajęcia są naprawdę pomocne i przyjemne.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/10.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/10.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Paulina</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Uczennica liceum</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i"
+    },
+    {
+      "text": "Marysia\n\nUczennica klasy 8\n\n    \n\n\"Pani Julia prowadzi zajęcia spokojnie i bez stresu. W końcu zaczęłam rozumieć zadania, które wcześniej wydawały mi się bardzo trudne. Dzięki lekcjom poprawiłam wyniki z próbnych egzaminów.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/4.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/4.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Marysia</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Uczennica klasy 8</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i"
+    },
+    {
+      "text": "Anna\n\nMama ucznia klasy 5\n\n    \n\n\"Bardzo dobre podejście do ucznia i dużo cierpliwości. Syn chętniej siada do matematyki i nie boi się już pytać, gdy czegoś nie rozumie. Najbardziej doceniam jasne tłumaczenie i dopasowanie tempa zajęć.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/5.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/5.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Anna</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Mama ucznia klasy 5</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i>"
+    },
+    {
+      "text": "Michał\n\nUczeń liceum\n\n    \n\n\"Na lekcjach wszystko jest tłumaczone krok po kroku. Nawet trudniejsze tematy stają się prostsze, gdy są dobrze rozpisane i pokazane na przykładach. Po kilku spotkaniach o wiele łatwiej rozwiązuję zadania.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/1.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/1.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Michał</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Uczeń liceum</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>"
+    },
+    {
+      "text": "Katarzyna\n\nMama uczennicy klasy 8\n\n    \n\n\"Córka bardzo dobrze ocenia zajęcia i czuje się na nich swobodnie. Termin jednego spotkania trzeba było przełożyć, ale kontakt był szybki i bezproblemowy. Poza tym jesteśmy bardzo zadowolone ze współpracy.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/6-1.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/6-1.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-four\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Katarzyna</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Mama uczennicy klasy 8</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\""
+    },
+    {
+      "text": "Zuzia\n\nuczennica klasy 7\n\n    \n\n\"Bardzo miła atmosfera i żadnego stresu przy popełnianiu błędów. Każde zadanie jest dokładnie omawiane, aż wszystko stanie się jasne. Dzięki tym zajęciom dostałam pierwszą piątkę z matematyki w tym roku.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/7.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/7.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Zuzia</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">uczennica klasy 7</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i><"
+    },
+    {
+      "text": "Tomasz\n\nTata ucznia klasy 5\n\n    \n\n\"Profesjonalne i jednocześnie bardzo przyjazne podejście. Syn szybko nadrobił zaległości i zaczął samodzielnie odrabiać zadania domowe. Dużym plusem jest również możliwość zajęć online.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/2.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/2.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Tomasz</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Tata ucznia klasy 5</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></"
+    },
+    {
+      "text": "Natalia\n\nuczennica liceum\n\n    \n\n\"Zajęcia są konkretne i dobrze przygotowane. Czasami tempo było dla mnie trochę szybkie, ale wystarczyło powiedzieć i wszystko zostało ponownie wyjaśnione. Ogólnie widzę dużą poprawę i zdecydowanie polecam.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/8.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/8.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-four\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Natalia</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">uczennica liceum</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i>"
+    },
+    {
+      "text": "Monika\n\nMama uczennicy klasy 4\n\n    \n\n\"Córka bardzo szybko polubiła te zajęcia. Lekcje są prowadzone w prosty i zrozumiały sposób, bez niepotrzebnego stresu. Po kilku tygodniach zauważyłam większą pewność siebie i lepsze oceny.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/9.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/9.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Monika</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Mama uczennicy klasy 4</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\""
+    },
+    {
+      "text": "Kacper\n\nUczeń klasy 8\n\n    \n\n\"Dzięki zajęciom lepiej zrozumiałem zadania egzaminacyjne i nauczyłem się szybciej je rozwiązywać. Dużo pracowaliśmy na arkuszach CKE, co bardzo pomogło mi w przygotowaniach. Atmosfera jest luźna, ale na lekcji naprawdę dużo się robi.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/3.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/3.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Kacper</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Uczeń klasy 8</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li"
+    },
+    {
+      "text": "Paulina\n\nUczennica liceum\n\n    \n\n\"Bardzo dobrze tłumaczone zadania i dużo cierpliwości. Czasami lekcja kończyła się dokładnie w momencie, gdy chciałam zadać jeszcze jedno pytanie, ale zawsze mogłam wrócić do niego na kolejnym spotkaniu. Poza tym zajęcia są naprawdę pomocne i przyjemne.\"",
+      "img": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/10.png",
+      "html": "\n\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-item-inner clearfix\">\n\t\t\t\t\t\t\t\t\t        <div class=\"eael-testimonial-image\">\n\t\t\t            <figure>\n                <img decoding=\"async\" src=\"http://korepetycje-pro.pl/wp-content/uploads/2026/07/10.png\" alt=\"\">\n            </figure>\n        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content rating-five\" style=\" height: px;\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"eael-testimonial-content\">\n\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"eael-testimonial-user\">Paulina</h3>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"eael-testimonial-user-company\">Uczennica liceum</p>\n\t\t\t\t\t\t\t\t\t\t\t        <ul class=\"testimonial-star-rating\">\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i></li>\n            <li><i class=\"fa fa-star\" aria-hidden=\"true\"></i"
+    }
+  ],
+  "headerInfo": {
+    "styles": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "lineHeight": "26.4px",
+      "color": "rgb(51, 65, 85)",
+      "width": "1440px",
+      "height": "396.391px",
+      "display": "block",
+      "flexDirection": "row",
+      "border": "0px none rgb(51, 65, 85)",
+      "borderTop": "0px none rgb(51, 65, 85)",
+      "borderBottom": "0px none rgb(51, 65, 85)",
+      "borderLeft": "0px none rgb(51, 65, 85)",
+      "borderRight": "0px none rgb(51, 65, 85)",
+      "position": "relative",
+      "opacity": "1",
+      "transition": "all",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "textAlign": "start"
+    },
+    "height": 396,
+    "htmlLen": 8000
+  },
+  "headerHTML": "\n\t\t\t<p class=\"main-title bhf-hidden\" itemprop=\"headline\"><a href=\"https://korepetycje-pro.pl/\" title=\"Korepetycje Online\" rel=\"home\">Korepetycje Online</a></p>\n\t\t\t<style>.elementor-widget-container .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-container .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-125 .elementor-element.elementor-element-42879a9{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-125 .elementor-element.elementor-element-42879a9:not(.elementor-motion-effects-element-type-background), .elementor-125 .elementor-element.elementor-element-42879a9 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-primary );}.elementor-widget-icon-list .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-icon-list .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-125 .elementor-element.elementor-element-431bb9c{margin:-5px 0px calc(var(--kit-widget-spacing, 0px) + -5px) 0px;padding:0px 0px 0px 0px;--e-icon-list-icon-size:15px;--icon-vertical-offset:0px;}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(30px/2);}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(30px/2);}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(30px/2);}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-30px/2);}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-30px/2);}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-icon i{color:#FFFFFF;transition:color 0.3s;}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-icon svg{fill:#FFFFFF;transition:fill 0.3s;}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-item > .elementor-icon-list-text, .elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-item > a{font-family:\"Noto Serif\", Sans-serif;font-weight:400;}.elementor-125 .elementor-element.elementor-element-431bb9c .elementor-icon-list-text{text-shadow:0px 0px 10px #FFFFFF;color:#FFFFFF;transition:color 0.3s;}.elementor-125 .elementor-element.elementor-element-291c23c{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--flex-wrap:wrap;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:5px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-125 .elementor-element.elementor-element-291c23c:not(.elementor-motion-effects-element-type-background), .elementor-125 .elementor-element.elementor-element-291c23c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#02010100;}.elementor-125 .elementor-element.elementor-element-de74556{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-image .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-image .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-125 .elementor-element.elementor-element-948a0d0:hover{--e-transform-scale:1.02;}.elementor-125 .elementor-element.elementor-element-336ee51{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:flex-end;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-navigation-menu .menu-item a.hfe-menu-item.elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-navigation-menu .menu-item a.hfe-menu-item.elementor-button:hover{background-color:var( --e-global-color-accent );}.elementor-widget-navigation-menu .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-navigation-menu .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-navigation-menu a.hfe-menu-item, .elementor-widget-navigation-menu a.hfe-sub-menu-item{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-navigation-menu .menu-item a.hfe-menu-item, .elementor-widget-navigation-menu .sub-menu a.hfe-sub-menu-item{color:var( --e-global-color-text );}.elementor-widget-navigation-menu .menu-item a.hfe-menu-item:hover,\n\t\t\t\t\t\t\t\t.elementor-widget-navigation-menu .sub-menu a.hfe-sub-menu-item:hover,\n\t\t\t\t\t\t\t\t.elementor-widget-navigation-menu .menu-item.current-menu-item a.hfe-menu-item,\n\t\t\t\t\t\t\t\t.elementor-widget-navigation-menu .menu-item a.hfe-menu-item.highlighted,\n\t\t\t\t\t\t\t\t.elementor-widget-navigation-menu .menu-item a.hfe-menu-item:focus{color:var( --e-global-color-accent );}.elementor-widget-navigation-menu .hfe-nav-menu-layout:not(.hfe-pointer__framed) .menu-item.parent a.hfe-menu-item:before,\n\t\t\t\t\t\t\t\t",
+  "iconBoxes": [
+    {
+      "title": "Lekcje 100% online",
+      "desc": "Uczysz się w swoim miejscu, bez dojazdów i instalowania zbędnych programów.",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-laptop\" viewBox=\"0 0 640 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z\"></p"
+    },
+    {
+      "title": "Lekcje 100% online",
+      "desc": "Uczysz się w swoim miejscu, bez dojazdów i instalowania zbędnych programów."
+    },
+    {
+      "title": "Elastyczne terminy",
+      "desc": "Dostosowuję grafik do ucznia - oferuję stałe terminy lub godziny ruchome.",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-calendar-check\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-"
+    },
+    {
+      "title": "Elastyczne terminy",
+      "desc": "Dostosowuję grafik do ucznia - oferuję stałe terminy lub godziny ruchome."
+    },
+    {
+      "title": "Indywidualne podejście",
+      "desc": "Każdy uczeń jest inny, dlatego plan nauki dopasowuję do potrzeb i tempa pracy.",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-user-circle\" viewBox=\"0 0 496 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M248 104c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96zm0 144c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm0-240C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-49.7 0-95.1-18.3-130.1-48.4 14.9-23 40.4-38.6 69.6-3"
+    },
+    {
+      "title": "Indywidualne podejście",
+      "desc": "Każdy uczeń jest inny, dlatego plan nauki dopasowuję do potrzeb i tempa pracy."
+    },
+    {
+      "title": "Swobodna atmosfera",
+      "desc": "Tłumaczę w prosty sposób i zachęcam do zadawania pytań. U mnie nie ma stresu!",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-comment-dots\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M144 208c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2"
+    },
+    {
+      "title": "Swobodna atmosfera",
+      "desc": "Tłumaczę w prosty sposób i zachęcam do zadawania pytań. U mnie nie ma stresu!"
+    },
+    {
+      "title": "Doświadczenie",
+      "desc": "Pracowałam w firmie Tutore - tłumaczę prosto cierpliwie i bez zbędnego stresu.",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-award\" viewBox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45"
+    },
+    {
+      "title": "Doświadczenie",
+      "desc": "Pracowałam w firmie Tutore - tłumaczę prosto cierpliwie i bez zbędnego stresu."
+    },
+    {
+      "title": "Egzaminy",
+      "desc": "Intensywne przygotowania, praca na arkuszach CKE i omawianie \"pewniaków\"",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-file-alt\" viewBox=\"0 0 384 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M288 248v28c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-28c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm-12 72H108c-6.6 0-12 5.4-12 12v28c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-28c0-6.6-5.4-12-12-12zm108-188.1V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V48C0"
+    },
+    {
+      "title": "Egzaminy",
+      "desc": "Intensywne przygotowania, praca na arkuszach CKE i omawianie \"pewniaków\""
+    },
+    {
+      "title": "Bieżąca pomoc",
+      "desc": "Nadrabianie zaległości, pomoc w zadaniach i przygotowanie do klasówek.",
+      "iconClass": "[object SVGAnimatedString]",
+      "iconHTML": "\n\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-heart\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c"
+    },
+    {
+      "title": "Bieżąca pomoc",
+      "desc": "Nadrabianie zaległości, pomoc w zadaniach i przygotowanie do klasówek."
+    }
+  ],
+  "images": [
+    {
+      "src": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/logo-2.2-1536x273.png",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "parent": "948a0d0",
+      "section": "masthead"
+    },
+    {
+      "src": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/1-8-KLASA-1.png",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "parent": "b351fe3",
+      "section": "post-18"
+    },
+    {
+      "src": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/LICEUM.png",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "parent": "8859d5c",
+      "section": "post-18"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/3.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/10.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/4.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/5.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/1.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/6-1.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/7.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/2.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/8.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/9.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/3.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/10.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/4.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/uploads/2026/07/5.png",
+      "alt": "",
+      "w": 1000,
+      "h": 1000,
+      "parent": "dfc984a",
+      "section": "swiper-wrapper-c487102777dc6db62"
+    },
+    {
+      "src": "https://korepetycje-pro.pl/wp-content/plugins/wpforms/assets/images/submit-spin.svg",
+      "alt": "Wczytywanie",
+      "w": 0,
+      "h": 0,
+      "parent": "c738277",
+      "section": "wpforms-form-470"
+    },
+    {
+      "src": "http://korepetycje-pro.pl/wp-content/uploads/2026/07/tlo-2.png",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "parent": "6fbe4c1",
+      "section": "post-18"
+    }
+  ],
+  "anims": [
+    {
+      "id": "42879a9",
+      "settings": {
+        "background_background": "classic",
+        "sticky": "top",
+        "sticky_on": [
+          "desktop",
+          "laptop",
+          "tablet_extra",
+          "tablet",
+          "mobile_extra",
+          "mobile"
+        ],
+        "sticky_offset": 0,
+        "sticky_effects_offset": 0,
+        "sticky_anchor_link_offset": 0
+      }
+    },
+    {
+      "id": "42879a9",
+      "settings": {
+        "background_background": "classic",
+        "sticky": "top",
+        "sticky_on": [
+          "desktop",
+          "laptop",
+          "tablet_extra",
+          "tablet",
+          "mobile_extra",
+          "mobile"
+        ],
+        "sticky_offset": 0,
+        "sticky_effects_offset": 0,
+        "sticky_anchor_link_offset": 0
+      }
+    },
+    {
+      "id": "948a0d0",
+      "settings": {
+        "_transform_scale_effect_hover": {
+          "unit": "px",
+          "size": 1.02,
+          "sizes": []
+        },
+        "_transform_scale_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_scale_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_scale_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_scale_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_scale_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      }
+    },
+    {
+      "id": "b9d45fb",
+      "settings": {
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      }
+    },
+    {
+      "id": "61addea",
+      "settings": {
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      }
+    },
+    {
+      "id": "374d3d0",
+      "settings": {
+        "background_background": "classic",
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      },
+      "heading": "Lekcje 100% online"
+    },
+    {
+      "id": "da0ea19",
+      "settings": {
+        "background_background": "classic",
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      },
+      "heading": "Elastyczne terminy"
+    },
+    {
+      "id": "a9d81d3",
+      "settings": {
+        "background_background": "classic",
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      },
+      "heading": "Indywidualne podejście"
+    },
+    {
+      "id": "1448e87",
+      "settings": {
+        "background_background": "classic",
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      },
+      "heading": "Swobodna atmosfera"
+    },
+    {
+      "id": "30987ae",
+      "settings": {
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      }
+    },
+    {
+      "id": "aa4af41",
+      "settings": {
+        "_transform_translateX_effect_hover": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover": {
+          "unit": "px",
+          "size": -5,
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateX_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_laptop": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_tablet": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile_extra": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        },
+        "_transform_translateY_effect_hover_mobile": {
+          "unit": "px",
+          "size": "",
+          "sizes": []
+        }
+      }
+    }
+  ],
+  "fontSamples": {
+    "h2": {
+      "family": "\"Noto Serif\", sans-serif",
+      "size": "50px",
+      "weight": "500",
+      "color": "rgb(66, 66, 66)",
+      "lineHeight": "65px",
+      "letterSpacing": "normal"
+    },
+    "h3": {
+      "family": "\"Noto Serif\", sans-serif",
+      "size": "22px",
+      "weight": "500",
+      "color": "rgb(66, 66, 66)",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal"
+    },
+    "p": {
+      "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(51, 65, 85)",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal"
+    },
+    "a": {
+      "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(4, 107, 210)",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal"
+    },
+    "body": {
+      "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(51, 65, 85)",
+      "lineHeight": "26.4px",
+      "letterSpacing": "normal"
+    },
+    ".elementor-button": {
+      "family": "\"Noto Serif\", sans-serif",
+      "size": "18px",
+      "weight": "500",
+      "color": "rgb(66, 66, 66)",
+      "lineHeight": "18px",
+      "letterSpacing": "normal"
+    },
+    ".elementor-heading-title": {
+      "family": "\"Noto Serif\", sans-serif",
+      "size": "50px",
+      "weight": "500",
+      "color": "rgb(66, 66, 66)",
+      "lineHeight": "65px",
+      "letterSpacing": "normal"
+    }
+  },
+  "navLinks": [
+    {
+      "text": "Oferta",
+      "href": "#oferta",
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(66, 66, 66)",
+        "padding": "15px",
+        "paddingTop": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": "80px",
+        "height": "46px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "border": "0px none rgb(66, 66, 66)",
+        "borderTop": "0px none rgb(66, 66, 66)",
+        "borderBottom": "0px none rgb(66, 66, 66)",
+        "borderLeft": "0px none rgb(66, 66, 66)",
+        "borderRight": "0px none rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.2s linear",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      }
+    },
+    {
+      "text": "O mnie",
+      "href": "#omnie",
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(66, 66, 66)",
+        "padding": "15px",
+        "paddingTop": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": "87px",
+        "height": "46px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "border": "0px none rgb(66, 66, 66)",
+        "borderTop": "0px none rgb(66, 66, 66)",
+        "borderBottom": "0px none rgb(66, 66, 66)",
+        "borderLeft": "0px none rgb(66, 66, 66)",
+        "borderRight": "0px none rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.2s linear",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      }
+    },
+    {
+      "text": "Jak wyglądają zajęcia?",
+      "href": "#zajecia",
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(66, 66, 66)",
+        "padding": "15px",
+        "paddingTop": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": "203px",
+        "height": "46px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "border": "0px none rgb(66, 66, 66)",
+        "borderTop": "0px none rgb(66, 66, 66)",
+        "borderBottom": "0px none rgb(66, 66, 66)",
+        "borderLeft": "0px none rgb(66, 66, 66)",
+        "borderRight": "0px none rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.2s linear",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      }
+    },
+    {
+      "text": "Cennik",
+      "href": "#cennik",
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(66, 66, 66)",
+        "padding": "15px",
+        "paddingTop": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": "86px",
+        "height": "46px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "border": "0px none rgb(66, 66, 66)",
+        "borderTop": "0px none rgb(66, 66, 66)",
+        "borderBottom": "0px none rgb(66, 66, 66)",
+        "borderLeft": "0px none rgb(66, 66, 66)",
+        "borderRight": "0px none rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.2s linear",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      }
+    },
+    {
+      "text": "Opinie",
+      "href": "#opinie",
+      "styles": {
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "fontFamily": "\"Noto Serif\", sans-serif",
+        "lineHeight": "16px",
+        "color": "rgb(66, 66, 66)",
+        "padding": "15px",
+        "paddingTop": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": "82px",
+        "height": "46px",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "border": "0px none rgb(66, 66, 66)",
+        "borderTop": "0px none rgb(66, 66, 66)",
+        "borderBottom": "0px none rgb(66, 66, 66)",
+        "borderLeft": "0px none rgb(66, 66, 66)",
+        "borderRight": "0px none rgb(66, 66, 66)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "0.2s linear",
+        "objectFit": "fill",
+        "overflow": "visible",
+        "textAlign": "start"
+      }
+    }
+  ],
+  "colorSamples": {
+    "home wp-singular page-template-default p0": {
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(51, 65, 85)",
+      "border": "rgb(51, 65, 85)"
+    },
+    "elementor-button elementor-button-link e1": {
+      "bg": "rgba(240, 245, 250, 0)",
+      "color": "rgb(66, 66, 66)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-button elementor-button-link e2": {
+      "bg": "rgb(131, 172, 134)",
+      "color": "rgb(255, 255, 255)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-button elementor-button-link e3": {
+      "bg": "rgba(240, 245, 250, 0)",
+      "color": "rgb(66, 66, 66)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "[object SVGAnimatedString]4": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 65, 85)",
+      "border": "rgb(51, 65, 85)"
+    },
+    "elementor-icon5": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "[object SVGAnimatedString]6": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-icon7": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-icon8": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-icon9": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-shape elementor-shape-top10": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 65, 85)",
+      "border": "rgb(51, 65, 85)"
+    },
+    "elementor-button elementor-button-link e11": {
+      "bg": "rgb(131, 172, 134)",
+      "color": "rgb(255, 255, 255)",
+      "border": "rgb(66, 66, 66)"
+    },
+    "elementor-icon12": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-icon13": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-icon14": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(131, 172, 134)",
+      "border": "rgb(131, 172, 134)"
+    },
+    "elementor-shape elementor-shape-top15": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 65, 85)",
+      "border": "rgb(51, 65, 85)"
+    }
+  },
+  "footerInfo": {
+    "text": "",
+    "styles": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "lineHeight": "26.4px",
+      "color": "rgb(51, 65, 85)",
+      "width": "1440px",
+      "display": "block",
+      "flexDirection": "row",
+      "border": "0px none rgb(51, 65, 85)",
+      "borderTop": "0px none rgb(51, 65, 85)",
+      "borderBottom": "0px none rgb(51, 65, 85)",
+      "borderLeft": "0px none rgb(51, 65, 85)",
+      "borderRight": "0px none rgb(51, 65, 85)",
+      "position": "static",
+      "opacity": "1",
+      "transition": "all",
+      "objectFit": "fill",
+      "overflow": "visible",
+      "textAlign": "start"
+    },
+    "html": "\n\t\t\t\t"
+  },
+  "pricing": {
+    "text": "",
+    "html": "<div class=\"elementor-menu-anchor\" id=\"cennik\"></div>",
+    "counters": []
+  },
+  "elementorClasses": "elementor elementor-125",
+  "rootsCount": 3,
+  "containerCount": 43
+}

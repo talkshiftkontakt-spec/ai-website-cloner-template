@@ -1,20 +1,31 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Serif } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const notoSerif = Noto_Serif({
+  variable: "--font-noto-serif",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Korepetycje Online - Liceum oraz szkoła podstawowa 4-8",
+  description:
+    "Prowadzę korepetycje online dla uczniów liceum oraz szkoły podstawowej (4-8). Pomagam w przygotowaniach do matury i egzaminu ósmoklasisty.",
+  icons: {
+    icon: [
+      { url: "/seo/cropped-Projekt-bez-nazwy-1-32x32.png", sizes: "32x32" },
+      { url: "/seo/cropped-Projekt-bez-nazwy-1-192x192.png", sizes: "192x192" },
+    ],
+    apple: "/seo/cropped-Projekt-bez-nazwy-1-180x180.png",
+  },
+  openGraph: {
+    title: "Korepetycje Online - Liceum oraz szkoła podstawowa 4-8",
+    description:
+      "Prowadzę korepetycje online dla uczniów liceum oraz szkoły podstawowej (4-8).",
+    images: ["/seo/wizytowka.png"],
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +34,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="pl" className={`${notoSerif.variable} h-full scroll-smooth`}>
+      <body className="min-h-full flex flex-col font-sans antialiased text-[#334155] bg-white">
+        {children}
+      </body>
     </html>
   );
 }

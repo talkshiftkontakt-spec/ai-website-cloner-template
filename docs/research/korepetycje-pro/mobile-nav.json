@@ -1,0 +1,7 @@
+[
+  {
+    "cls": "hfe-nav-menu__toggle elementor-clickable",
+    "visible": true,
+    "html": "<div role=\"button\" class=\"hfe-nav-menu__toggle elementor-clickable\" tabindex=\"0\" aria-label=\"Przełącznik menu\" aria-haspopup=\"true\" aria-expanded=\"false\">\n\t\t\t\t\t<span class=\"screen-reader-text\">Menu</span>\n\t\t\t\t\t<div class=\"hfe-nav-menu-icon\">\n\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas"
+  }
+]

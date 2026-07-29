@@ -1,0 +1,162 @@
+{
+  "tag": "body",
+  "classes": [
+    "ehf-header",
+    "ast-hfb-header",
+    "elementor-default",
+    "elementor-kit-5",
+    "elementor-page",
+    "elementor-page-18",
+    "ast-header-loaded"
+  ],
+  "children": [
+    {
+      "tag": "script",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "a",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "id": "page",
+      "classes": [],
+      "children": [
+        {
+          "tag": "header",
+          "id": "masthead",
+          "classes": [],
+          "children": []
+        },
+        {
+          "tag": "div",
+          "id": "content",
+          "classes": [],
+          "children": []
+        },
+        {
+          "tag": "footer",
+          "id": "colophon",
+          "classes": [
+            "site-footer"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "script",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "id": "ast-scroll-top",
+      "classes": [],
+      "children": [
+        {
+          "tag": "span",
+          "classes": [],
+          "children": []
+        },
+        {
+          "tag": "span",
+          "classes": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "tag": "script",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "link",
+      "id": "e-sticky-css",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "link",
+      "id": "wpforms-entry-preview-css",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "link",
+      "id": "wpforms-smart-phone-field-css",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "astra-theme-js-js-extra",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "astra-theme-js-js",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "eael-general-js-extra",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "eael-general-js",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "eael-18-js",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "elementor-webpack-runtime-js",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "elementor-frontend-modules-js",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "jquery-ui-core-js",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "elementor-frontend-js-extra",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "elementor-frontend-js-before",
+      "classes": [],
+      "children": []
+    },
+    {
+      "tag": "script",
+      "id": "elementor-frontend-js",
+      "classes": [],
+      "children": []
+    }
+  ]
+}

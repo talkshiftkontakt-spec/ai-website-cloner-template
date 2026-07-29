@@ -1,0 +1,18 @@
+{
+  "headerAt0": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "boxShadow": "none",
+    "height": "6646.02px",
+    "position": "relative",
+    "opacity": "1",
+    "classes": "home wp-singular page-template-default page page-id-18 wp-embed-responsive wp-theme-astra ehf-header ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-"
+  },
+  "headerAt400": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "boxShadow": "none",
+    "height": "6646.02px",
+    "position": "relative",
+    "opacity": "1",
+    "classes": "home wp-singular page-template-default page page-id-18 wp-embed-responsive wp-theme-astra ehf-header ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-"
+  }
+}

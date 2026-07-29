@@ -1,0 +1,74 @@
+[
+  {
+    "before": {
+      "color": "rgb(66, 66, 66)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(66, 66, 66)",
+      "transform": "none",
+      "boxShadow": "none",
+      "transition": "0.2s linear",
+      "text": "Oferta",
+      "classes": "hfe-menu-item"
+    }
+  },
+  {
+    "before": {
+      "color": "rgb(66, 66, 66)",
+      "backgroundColor": "rgba(240, 245, 250, 0)",
+      "border": "1px solid rgb(131, 172, 134)",
+      "transform": "none",
+      "boxShadow": "none",
+      "transition": "0.3s",
+      "text": "Kontakt",
+      "classes": "elementor-button elementor-button-link elementor-size-sm"
+    }
+  },
+  {
+    "before": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(131, 172, 134)",
+      "border": "1px solid rgb(131, 172, 134)",
+      "transform": "none",
+      "boxShadow": "none",
+      "transition": "0.3s",
+      "text": "Napisz do mnie",
+      "classes": "elementor-button elementor-button-link elementor-size-sm"
+    }
+  },
+  {
+    "before": {
+      "color": "rgb(66, 66, 66)",
+      "backgroundColor": "rgba(240, 245, 250, 0)",
+      "border": "1px solid rgb(131, 172, 134)",
+      "transform": "none",
+      "boxShadow": "none",
+      "transition": "0.3s",
+      "text": "Zobacz ofertę",
+      "classes": "elementor-button elementor-button-link elementor-size-sm"
+    }
+  },
+  {
+    "before": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(131, 172, 134)",
+      "border": "1px solid rgb(66, 66, 66)",
+      "transform": "none",
+      "boxShadow": "none",
+      "transition": "0.3s",
+      "text": "Kontakt",
+      "classes": "elementor-button elementor-button-link elementor-size-sm"
+    }
+  },
+  {
+    "before": {
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(131, 172, 134)",
+      "border": "1px solid rgb(66, 66, 66)",
+      "transform": "none",
+      "boxShadow": "none",
+      "transition": "0.3s",
+      "text": "Pierwsze zajęcia BEZPŁATNE",
+      "classes": "elementor-button elementor-button-link elementor-size-sm"
+    }
+  }
+]
